@@ -1,0 +1,593 @@
+[
+  {
+    "Id":110001, "Name":"スタミナドリンク", "Description":"栄養満点のドリンク。スタミナを30回復する。", "DisplayOrder":110001, "MaxStock":99999, "Category":11, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":110002, "Name":"高級スタミナドリンク", "Description":"美容にも欠かせない一級品のドリンク。スタミナを100回復する。", "DisplayOrder":110002, "MaxStock":99999, "Category":11, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":110003, "Name":"最高級スタミナドリンク", "Description":"飲むと若返ると言われる最高級のドリンク。スタミナを200回復する。", "DisplayOrder":110003, "MaxStock":99999, "Category":11, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":120001, "Name":"練習台本【初級】", "Description":"新人の登竜門とされる演目が描かれた台本。アクターEXPが10上昇する。公演など様々な場所で入手できる。", "DisplayOrder":120001, "MaxStock":99999999, "Category":12, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":120002, "Name":"練習台本【中級】", "Description":"人気劇団でよく演じられる演目の台本。アクターEXPが100上昇する。公演など様々な場所で入手できる。", "DisplayOrder":120002, "MaxStock":99999999, "Category":12, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":120003, "Name":"練習台本【上級】", "Description":"限られた役者にしか演じられない演目が描かれた台本。アクターEXPが1000上昇する。オーディションなどで入手できる。", "DisplayOrder":120003, "MaxStock":99999999, "Category":12, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130001, "Name":"歌劇目録", "Description":"劇団からの歌劇への招待状。ストーリーやミッションなどで入手できる。", "DisplayOrder":130001, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":130002, "Name":"メッセージシール", "Description":"星型のデザインがほどこされた可愛いシール。特別公演で使用する。", "DisplayOrder":130002, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":130011, "Name":"蒼玉のメダル", "Description":"実力が認められた者に送られるメダル。ショップで様々なアイテムと交換できる。オーディションや演劇リーグなどで入手できる。", "DisplayOrder":130011, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":130012, "Name":"紅玉のメダル", "Description":"特に輝きを放った者に送られるメダル。ショップで様々なアイテムと交換できる。オーディションなどで入手できる。", "DisplayOrder":130012, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":130013, "Name":"翠玉のメダル", "Description":"記念品として作られた珍しいメダル。ショップで様々なアイテムと交換できる。", "DisplayOrder":130013, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":130021, "Name":"愛憐のかけら", "Description":"淡く光る赤色の石のかけら。憐属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130021, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130022, "Name":"蒼凛のかけら", "Description":"淡く光る青色の石のかけら。凛属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130022, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130023, "Name":"翠彩のかけら", "Description":"淡く光る緑色の石のかけら。彩属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130023, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130024, "Name":"陽光のかけら", "Description":"淡く光る黄色の石のかけら。陽属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130024, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130025, "Name":"夢幻のかけら", "Description":"淡く光る白色の石のかけら。フォトの強化に使われる。マーケットで入手できる。", "DisplayOrder":130025, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130031, "Name":"愛憐の結晶", "Description":"透き通った赤色の結晶。憐属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130031, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130032, "Name":"蒼凛の結晶", "Description":"透き通った青色の結晶。凛属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130032, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130033, "Name":"翠彩の結晶", "Description":"透き通った緑色の結晶。彩属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130033, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130034, "Name":"陽光の結晶", "Description":"透き通った黄色の結晶。陽属性アクターの強化に使われる。公演など様々な場所で入手できる。", "DisplayOrder":130034, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130035, "Name":"夢幻の結晶", "Description":"透き通った白色の結晶。フォトの強化に使われる。マーケットで入手できる。", "DisplayOrder":130035, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130041, "Name":"役者名鑑", "Description":"期待の若手役者たちが綴られた本。アクターのセンス強化に使われる。協力公演など様々な場所で入手できる。", "DisplayOrder":130041, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130042, "Name":"花形名鑑", "Description":"今をときめく花形役者たちが綴られた本。アクターのセンス強化に使われる。協力公演など様々な場所で入手できる。", "DisplayOrder":130042, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130043, "Name":"スター名鑑", "Description":"世界的なスターが綴られた本。アクターのセンス強化に使われる。演劇リーグなどで入手できる。", "DisplayOrder":130043, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130051, "Name":"スターの煌き", "Description":"スターのカリスマをイメージして作られたクリスタル。アクターの覚醒強化に使われる。イベントやマーケットなどで入手できる。", "DisplayOrder":130051, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":130061, "Name":"銅の額縁", "Description":"広く劇場で愛用されているポスター用の額縁。ポスターの強化に使われる。協力公演など様々な場所で入手できる。", "DisplayOrder":130061, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130062, "Name":"銀の額縁", "Description":"有名劇場でよく見るポスター用の額縁。ポスターの強化に使われる。協力公演など様々な場所で入手できる。", "DisplayOrder":130062, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130063, "Name":"金の額縁", "Description":"限られた劇団の演目のみに使用されるポスター用の額縁。ポスターの強化に使われる。協力公演など様々な場所で入手できる。", "DisplayOrder":130063, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130064, "Name":"明星の額縁", "Description":"ワールドダイスターを有する劇団のみに許された幻の額縁。ポスターの強化に使われる。イベントなどで入手できる。", "DisplayOrder":130064, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130065, "Name":"星のトロフィー", "Description":"有名な役者が放つセンスをかたどった星のトロフィー。一部ポスターの強化に使われる。メダル交換所で交換できる。", "DisplayOrder":130065, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130071, "Name":"導きのかけら", "Description":"持つものに勇気と導きをもたらすかけら。ポスターの上限解放に使われる。イベントなどで入手できる。", "DisplayOrder":130071, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130072, "Name":"星のしずく", "Description":"星の流した涙をイメージした石。一部ポスターの上限解放に使われる。イベントなどで入手できる。", "DisplayOrder":130072, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130081, "Name":"かたい木材", "Description":"舞台の小道具の材料として人気の木材。アクセサリー強化に使われる。協力公演などで入手できる。", "DisplayOrder":130081, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":1
+  },
+  {
+    "Id":130082, "Name":"カラーストーン", "Description":"舞台の小道具にあしらわれる大人気の装飾。アクセサリー強化に使われる。協力公演などで入手できる。", "DisplayOrder":130082, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":130091, "Name":"星の砂", "Description":"まばゆい星の光を放つ砂。フォトの強化に使われる。稽古やイベントなどで入手できる。", "DisplayOrder":130091, "MaxStock":99999999, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":139001, "Name":"劇団電姫のおまもり", "Description":"人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーが入手しやすくなる。", "DisplayOrder":139001, "DisplayEndDate":"2023-08-08 22:00:00", "MaxStock":1, "Category":13, "Consumable":false, "JumpType":0, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":140000, "Name":"ジュゴン像", "Description":"ジュゴンをかたどった像。アクターの才能開花に使われる。イベントやミッションなどで入手できる。", "DisplayOrder":140000, "MaxStock":9999999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":2, "Rarity":3
+  },
+  {
+    "Id":141001, "Name":"【シリウス】鳳ここなのピース", "Description":"【シリウス】鳳ここなの才能開花に使用できるアイテム。", "DisplayOrder":141001, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141002, "Name":"【シリウス】静香のピース", "Description":"【シリウス】静香の才能開花に使用できるアイテム。", "DisplayOrder":141002, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141003, "Name":"【シリウス】カトリナ・グリーベルのピース", "Description":"【シリウス】カトリナ・グリーベルの才能開花に使用できるアイテム。", "DisplayOrder":141003, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141004, "Name":"【シリウス】新妻八恵のピース", "Description":"【シリウス】新妻八恵の才能開花に使用できるアイテム。", "DisplayOrder":141004, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141005, "Name":"【シリウス】柳場ぱんだのピース", "Description":"【シリウス】柳場ぱんだの才能開花に使用できるアイテム。", "DisplayOrder":141005, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141006, "Name":"【シリウス】流石知冴のピース", "Description":"【シリウス】流石知冴の才能開花に使用できるアイテム。", "DisplayOrder":141006, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141007, "Name":"【Eden】連尺野初魅のピース", "Description":"【Eden】連尺野初魅の才能開花に使用できるアイテム。", "DisplayOrder":141007, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141008, "Name":"【Eden】烏森大黒のピース", "Description":"【Eden】烏森大黒の才能開花に使用できるアイテム。", "DisplayOrder":141008, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141009, "Name":"【Eden】舎人仁花子のピース", "Description":"【Eden】舎人仁花子の才能開花に使用できるアイテム。", "DisplayOrder":141009, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141010, "Name":"【Eden】萬容のピース", "Description":"【Eden】萬容の才能開花に使用できるアイテム。", "DisplayOrder":141010, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141011, "Name":"【Eden】筆島しぐれのピース", "Description":"【Eden】筆島しぐれの才能開花に使用できるアイテム。", "DisplayOrder":141011, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141012, "Name":"【銀河座】千寿暦のピース", "Description":"【銀河座】千寿暦の才能開花に使用できるアイテム。", "DisplayOrder":141012, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141013, "Name":"【銀河座】ラモーナ・ウォルフのピース", "Description":"【銀河座】ラモーナ・ウォルフの才能開花に使用できるアイテム。", "DisplayOrder":141013, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141014, "Name":"【銀河座】王雪のピース", "Description":"【銀河座】王雪の才能開花に使用できるアイテム。", "DisplayOrder":141014, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141015, "Name":"【銀河座】リリヤ・クルトベイのピース", "Description":"【銀河座】リリヤ・クルトベイの才能開花に使用できるアイテム。", "DisplayOrder":141015, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141016, "Name":"【銀河座】与那国緋花里のピース", "Description":"【銀河座】与那国緋花里の才能開花に使用できるアイテム。", "DisplayOrder":141016, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141017, "Name":"【劇団電姫】千寿いろはのピース", "Description":"【劇団電姫】千寿いろはの才能開花に使用できるアイテム。", "DisplayOrder":141017, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141018, "Name":"【劇団電姫】白丸美兎のピース", "Description":"【劇団電姫】白丸美兎の才能開花に使用できるアイテム。", "DisplayOrder":141018, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141019, "Name":"【劇団電姫】阿岐留カミラのピース", "Description":"【劇団電姫】阿岐留カミラの才能開花に使用できるアイテム。", "DisplayOrder":141019, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141020, "Name":"【劇団電姫】猫足蕾のピース", "Description":"【劇団電姫】猫足蕾の才能開花に使用できるアイテム。", "DisplayOrder":141020, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":141021, "Name":"【劇団電姫】本巣叶羽のピース", "Description":"【劇団電姫】本巣叶羽の才能開花に使用できるアイテム。", "DisplayOrder":141021, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142001, "Name":"【夢見る少女】鳳ここなのピース", "Description":"【夢見る少女】鳳ここなの才能開花に使用できるアイテム。", "DisplayOrder":142001, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142002, "Name":"【シリウスのツッコミ】静香のピース", "Description":"【シリウスのツッコミ】静香の才能開花に使用できるアイテム。", "DisplayOrder":142002, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142003, "Name":"【ワールドダイスターの愛娘】カトリナ・グリーベルのピース", "Description":"【ワールドダイスターの愛娘】カトリナ・グリーベルの才能開花に使用できるアイテム。", "DisplayOrder":142003, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142004, "Name":"【天使系小学生】新妻八恵のピース", "Description":"【天使系小学生】新妻八恵の才能開花に使用できるアイテム。", "DisplayOrder":142004, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142005, "Name":"【腹黒計算ガール】柳場ぱんだのピース", "Description":"【腹黒計算ガール】柳場ぱんだの才能開花に使用できるアイテム。", "DisplayOrder":142005, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142006, "Name":"【シリウスの秘密兵器】流石知冴のピース", "Description":"【シリウスの秘密兵器】流石知冴の才能開花に使用できるアイテム。", "DisplayOrder":142006, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142007, "Name":"【覇道の天才】連尺野初魅のピース", "Description":"【覇道の天才】連尺野初魅の才能開花に使用できるアイテム。", "DisplayOrder":142007, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142008, "Name":"【愛憎まみれる乙女】烏森大黒のピース", "Description":"【愛憎まみれる乙女】烏森大黒の才能開花に使用できるアイテム。", "DisplayOrder":142008, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142009, "Name":"【純真無垢な少女】舎人仁花子のピース", "Description":"【純真無垢な少女】舎人仁花子の才能開花に使用できるアイテム。", "DisplayOrder":142009, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142010, "Name":"【下町のアイドル】萬容のピース", "Description":"【下町のアイドル】萬容の才能開花に使用できるアイテム。", "DisplayOrder":142010, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142011, "Name":"【小悪魔系小学生】筆島しぐれのピース", "Description":"【小悪魔系小学生】筆島しぐれの才能開花に使用できるアイテム。", "DisplayOrder":142011, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142012, "Name":"【名家の姉】千寿暦のピース", "Description":"【名家の姉】千寿暦の才能開花に使用できるアイテム。", "DisplayOrder":142012, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142013, "Name":"【世話好き優等生】ラモーナ・ウォルフのピース", "Description":"【世話好き優等生】ラモーナ・ウォルフの才能開花に使用できるアイテム。", "DisplayOrder":142013, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142014, "Name":"【勝気な倹約家】王雪のピース", "Description":"【勝気な倹約家】王雪の才能開花に使用できるアイテム。", "DisplayOrder":142014, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142015, "Name":"【白銀の美少女】リリヤ・クルトベイのピース", "Description":"【白銀の美少女】リリヤ・クルトベイの才能開花に使用できるアイテム。", "DisplayOrder":142015, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142016, "Name":"【元気いっぱいダンサー】与那国緋花里のピース", "Description":"【元気いっぱいダンサー】与那国緋花里の才能開花に使用できるアイテム。", "DisplayOrder":142016, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142017, "Name":"【オタクでお嬢様】千寿いろはのピース", "Description":"【オタクでお嬢様】千寿いろはの才能開花に使用できるアイテム。", "DisplayOrder":142017, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142018, "Name":"【内気な孝行娘】白丸美兎のピース", "Description":"【内気な孝行娘】白丸美兎の才能開花に使用できるアイテム。", "DisplayOrder":142018, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142019, "Name":"【悟り系ギャル】阿岐留カミラのピース", "Description":"【悟り系ギャル】阿岐留カミラの才能開花に使用できるアイテム。", "DisplayOrder":142019, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142020, "Name":"【電姫の占い師】猫足蕾のピース", "Description":"【電姫の占い師】猫足蕾の才能開花に使用できるアイテム。", "DisplayOrder":142020, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":142021, "Name":"【ぐーたら好きの天才子役】本巣叶羽のピース", "Description":"【ぐーたら好きの天才子役】本巣叶羽の才能開花に使用できるアイテム。", "DisplayOrder":142021, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143001, "Name":"【役者としての成長】鳳ここなのピース", "Description":"【役者としての成長】鳳ここなの才能開花に使用できるアイテム。", "DisplayOrder":143001, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143002, "Name":"【一番風呂のために】静香のピース", "Description":"【一番風呂のために】静香の才能開花に使用できるアイテム。", "DisplayOrder":143002, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143003, "Name":"【砕けたガラスは……】カトリナ・グリーベルのピース", "Description":"【砕けたガラスは……】カトリナ・グリーベルの才能開花に使用できるアイテム。", "DisplayOrder":143003, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143004, "Name":"【思い出に花を咲かせて】新妻八恵のピース", "Description":"【思い出に花を咲かせて】新妻八恵の才能開花に使用できるアイテム。", "DisplayOrder":143004, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143005, "Name":"【トレンドは生活風景】柳場ぱんだのピース", "Description":"【トレンドは生活風景】柳場ぱんだの才能開花に使用できるアイテム。", "DisplayOrder":143005, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143006, "Name":"【見てしまった……】流石知冴のピース", "Description":"【見てしまった……】流石知冴の才能開花に使用できるアイテム。", "DisplayOrder":143006, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143007, "Name":"【新たな日常】連尺野初魅のピース", "Description":"【新たな日常】連尺野初魅の才能開花に使用できるアイテム。", "DisplayOrder":143007, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143008, "Name":"【恨みをつづって】烏森大黒のピース", "Description":"【恨みをつづって】烏森大黒の才能開花に使用できるアイテム。", "DisplayOrder":143008, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143009, "Name":"【都会ってすごい！】舎人仁花子のピース", "Description":"【都会ってすごい！】舎人仁花子の才能開花に使用できるアイテム。", "DisplayOrder":143009, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143010, "Name":"【ここいらでひとつ、大勝負】萬容のピース", "Description":"【ここいらでひとつ、大勝負】萬容の才能開花に使用できるアイテム。", "DisplayOrder":143010, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143011, "Name":"【体育なんて滅びちゃえ！】筆島しぐれのピース", "Description":"【体育なんて滅びちゃえ！】筆島しぐれの才能開花に使用できるアイテム。", "DisplayOrder":143011, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143012, "Name":"【お嬢様のオフタイム】千寿暦のピース", "Description":"【お嬢様のオフタイム】千寿暦の才能開花に使用できるアイテム。", "DisplayOrder":143012, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143013, "Name":"【世話焼きは果てしなく】ラモーナ・ウォルフのピース", "Description":"【世話焼きは果てしなく】ラモーナ・ウォルフの才能開花に使用できるアイテム。", "DisplayOrder":143013, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143014, "Name":"【あるのは勝ちだけ】王雪のピース", "Description":"【あるのは勝ちだけ】王雪の才能開花に使用できるアイテム。", "DisplayOrder":143014, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143015, "Name":"【自然な一日】リリヤ・クルトベイのピース", "Description":"【自然な一日】リリヤ・クルトベイの才能開花に使用できるアイテム。", "DisplayOrder":143015, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143016, "Name":"【踊ればなんくるない！】与那国緋花里のピース", "Description":"【踊ればなんくるない！】与那国緋花里の才能開花に使用できるアイテム。", "DisplayOrder":143016, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143017, "Name":"【来ちゃいました！】千寿いろはのピース", "Description":"【来ちゃいました！】千寿いろはの才能開花に使用できるアイテム。", "DisplayOrder":143017, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143018, "Name":"【まさかのお客様】白丸美兎のピース", "Description":"【まさかのお客様】白丸美兎の才能開花に使用できるアイテム。", "DisplayOrder":143018, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143019, "Name":"【新作お菓子レビュー】阿岐留カミラのピース", "Description":"【新作お菓子レビュー】阿岐留カミラの才能開花に使用できるアイテム。", "DisplayOrder":143019, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143020, "Name":"【悪鬼退散っ！】猫足蕾のピース", "Description":"【悪鬼退散っ！】猫足蕾の才能開花に使用できるアイテム。", "DisplayOrder":143020, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143021, "Name":"【先輩の本気】本巣叶羽のピース", "Description":"【先輩の本気】本巣叶羽の才能開花に使用できるアイテム。", "DisplayOrder":143021, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":143022, "Name":"【頼れる先輩】萬容のピース", "Description":"【頼れる先輩】萬容の才能開花に使用できるアイテム。", "DisplayOrder":143022, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144001, "Name":"【悲哀と恋慕の旋律】鳳ここなのピース", "Description":"【悲哀と恋慕の旋律】鳳ここなの才能開花に使用できるアイテム。", "DisplayOrder":144001, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144002, "Name":"【大切で大好きな劇団】新妻八恵のピース", "Description":"【大切で大好きな劇団】新妻八恵の才能開花に使用できるアイテム。", "DisplayOrder":144002, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144003, "Name":"【あなたをお待ちしておりました】柳場ぱんだのピース", "Description":"【あなたをお待ちしておりました】柳場ぱんだの才能開花に使用できるアイテム。", "DisplayOrder":144003, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144004, "Name":"【君を求めていた】流石知冴のピース", "Description":"【君を求めていた】流石知冴の才能開花に使用できるアイテム。", "DisplayOrder":144004, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144005, "Name":"【純真無垢な笑顔】舎人仁花子のピース", "Description":"【純真無垢な笑顔】舎人仁花子の才能開花に使用できるアイテム。", "DisplayOrder":144005, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144006, "Name":"【満たされない心】萬容のピース", "Description":"【満たされない心】萬容の才能開花に使用できるアイテム。", "DisplayOrder":144006, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144007, "Name":"【吸血しちゃうぞっ♪】筆島しぐれのピース", "Description":"【吸血しちゃうぞっ♪】筆島しぐれの才能開花に使用できるアイテム。", "DisplayOrder":144007, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144008, "Name":"【幼き日の情景】千寿暦のピース", "Description":"【幼き日の情景】千寿暦の才能開花に使用できるアイテム。", "DisplayOrder":144008, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144009, "Name":"【かつての友との別れ】ラモーナ・ウォルフのピース", "Description":"【かつての友との別れ】ラモーナ・ウォルフの才能開花に使用できるアイテム。", "DisplayOrder":144009, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144010, "Name":"【オーロラの精霊】リリヤ・クルトベイのピース", "Description":"【オーロラの精霊】リリヤ・クルトベイの才能開花に使用できるアイテム。", "DisplayOrder":144010, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144011, "Name":"【私を見守る大切な蝶】千寿いろはのピース", "Description":"【私を見守る大切な蝶】千寿いろはの才能開花に使用できるアイテム。", "DisplayOrder":144011, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144012, "Name":"【世界が色づくその瞬間】白丸美兎のピース", "Description":"【世界が色づくその瞬間】白丸美兎の才能開花に使用できるアイテム。", "DisplayOrder":144012, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144013, "Name":"【月下の神秘】本巣叶羽のピース", "Description":"【月下の神秘】本巣叶羽の才能開花に使用できるアイテム。", "DisplayOrder":144013, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144014, "Name":"【憧れに思いを馳せて】カトリナ・グリーベルのピース", "Description":"【憧れに思いを馳せて】カトリナ・グリーベルの才能開花に使用できるアイテム。", "DisplayOrder":144014, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144015, "Name":"【狂気の果ての虚無】烏森大黒のピース", "Description":"【狂気の果ての虚無】烏森大黒の才能開花に使用できるアイテム。", "DisplayOrder":144015, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":144016, "Name":"【悪意に満ちた観察者】連尺野初魅のピース", "Description":"【悪意に満ちた観察者】連尺野初魅の才能開花に使用できるアイテム。", "DisplayOrder":144016, "MaxStock":99999, "Category":14, "Consumable":false, "JumpType":0, "TabCategory":4, "Rarity":3
+  },
+  {
+    "Id":210001, "Name":"アクターガチャチケット", "Description":"アクターガチャを引くことができるチケット。", "DisplayOrder":210001, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":210002, "Name":"アクターガチャ10連チケット", "Description":"アクターガチャを10回引くことができるチケット。", "DisplayOrder":210002, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":210101, "Name":"★3以上確定アクターガチャチケット", "Description":"★3以上確定アクターガチャを引くことができるチケット。", "DisplayOrder":210101, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":210201, "Name":"★4確定アクターガチャチケット", "Description":"★4確定アクターガチャを引くことができるチケット。", "DisplayOrder":210201, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":3
+  },
+  {
+    "Id":210202, "Name":"★4一人以上確定アクターガチャ10連チケット", "Description":"★4一人以上確定アクターガチャを引くことができるチケット。", "DisplayOrder":210202, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":3
+  },
+  {
+    "Id":211001, "Name":"ポスターガチャチケット", "Description":"ポスターガチャを引くことができるチケット。", "DisplayOrder":211001, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":211002, "Name":"ポスターガチャ10連チケット", "Description":"ポスターガチャを10回引くことができるチケット。", "DisplayOrder":211002, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":211101, "Name":"SR以上確定ポスターガチャチケット", "Description":"SR以上確定ポスターガチャを引くことができるチケット。", "DisplayOrder":211101, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":211201, "Name":"SSR確定ポスターガチャチケット", "Description":"SSR確定ポスターガチャを引くことができるチケット。", "DisplayOrder":211201, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":3
+  },
+  {
+    "Id":211202, "Name":"SSR1枚以上確定ポスターガチャ10連チケット", "Description":"SSR1枚以上確定ポスターガチャを引くことができるチケット。", "DisplayOrder":211202, "MaxStock":99999, "Category":21, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":3
+  },
+  {
+    "Id":220001, "Name":"アクター交換スペシャルチケット", "Description":"ショップでアクターと交換できるチケット。", "DisplayOrder":220001, "MaxStock":99999, "Category":22, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":3
+  },
+  {
+    "Id":220101, "Name":"★3アクター交換チケット", "Description":"ショップで★3アクターと交換できるチケット。", "DisplayOrder":220101, "MaxStock":99999, "Category":22, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":221001, "Name":"ポスター交換スペシャルチケット", "Description":"ショップでポスターと交換できるチケット。", "DisplayOrder":221001, "MaxStock":99999, "Category":22, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":3
+  },
+  {
+    "Id":221101, "Name":"SRポスター交換チケット", "Description":"ショップでSRポスターと交換できるチケット。", "DisplayOrder":221101, "MaxStock":99999, "Category":22, "Consumable":false, "JumpType":0, "TabCategory":3, "Rarity":1
+  },
+  {
+    "Id":411001, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411001, "DisplayEndDate":"2023-07-31 17:00:00", "MaxStock":99999, "Category":41, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":411002, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411002, "DisplayEndDate":"2023-08-10 17:00:00", "MaxStock":99999, "Category":41, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":411003, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411003, "DisplayEndDate":"2023-08-10 17:00:00", "MaxStock":99999, "Category":41, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":412001, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412001, "DisplayEndDate":"2023-07-31 17:00:00", "MaxStock":99999, "Category":41, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":412002, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412002, "DisplayEndDate":"2023-08-10 17:00:00", "MaxStock":99999, "Category":41, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":412003, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412003, "DisplayEndDate":"2023-08-10 17:00:00", "MaxStock":99999, "Category":41, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":420001, "Name":"イベントポイント", "Description":"イベントの交換所から様々なアイテムと交換できる。", "DisplayOrder":420001, "MaxStock":1999999999, "Category":42, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":432308, "Name":"ミッションパスポイント【2023年8月】", "Description":"公演ミッションの報酬獲得に必要なポイント", "DisplayOrder":432308, "MaxStock":9999999, "Category":43, "Consumable":false, "JumpType":0, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":510001, "Name":"撮影フィルム【雪】", "Description":"★1以上のフォトが現像できるフィルム。稽古やマーケットなどで入手できる。", "DisplayOrder":510001, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":510002, "Name":"撮影フィルム【月】", "Description":"★2以上のフォトが現像できるフィルム。稽古やマーケットなどで入手できる。", "DisplayOrder":510002, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":510003, "Name":"撮影フィルム【風】", "Description":"★3以上のフォトが現像できるフィルム。稽古やマーケットなどで入手できる。", "DisplayOrder":510003, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":1
+  },
+  {
+    "Id":510004, "Name":"撮影フィルム【花】", "Description":"★4以上のフォトが現像できるフィルム。一番の見せ場をおさめる時に使用される高級品。イベントなどで入手できる。", "DisplayOrder":510004, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":510005, "Name":"撮影フィルム【星】", "Description":"★5のフォトが必ず現像できるフィルム。演劇愛好家の中でもめったにお目にかかれない逸品。イベントなどで入手できる。", "DisplayOrder":510005, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":510006, "Name":"撮影フィルム【★】", "Description":"★5のフォトが必ず現像できるフィルム。サインは付かない代わりに、フォトに特別なアビリティ効果が付与される。", "DisplayOrder":510006, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511101, "Name":"SP撮影フィルム【鳳 ここな】", "Description":"鳳ここなのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511101, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511102, "Name":"SP撮影フィルム【静香】", "Description":"静香のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511102, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511103, "Name":"SP撮影フィルム【カトリナ・グリーベル】", "Description":"カトリナ・グリーベルのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511103, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511104, "Name":"SP撮影フィルム【新妻 八恵】", "Description":"新妻八恵のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511104, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511105, "Name":"SP撮影フィルム【柳場 ぱんだ】", "Description":"柳場ぱんだのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511105, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511106, "Name":"SP撮影フィルム【流石 知冴】", "Description":"流石知冴のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511106, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511201, "Name":"SP撮影フィルム【連尺野 初魅】", "Description":"連尺野初魅のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511201, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511202, "Name":"SP撮影フィルム【烏森 大黒】", "Description":"烏森大黒のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511202, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511203, "Name":"SP撮影フィルム【舎人 仁花子】", "Description":"舎人仁花子のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511203, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511204, "Name":"SP撮影フィルム【萬 容】", "Description":"萬容のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511204, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511205, "Name":"SP撮影フィルム【筆島 しぐれ】", "Description":"筆島しぐれのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511205, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511301, "Name":"SP撮影フィルム【千寿 暦】", "Description":"千寿暦のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511301, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511302, "Name":"SP撮影フィルム【ラモーナ・ウォルフ】", "Description":"ラモーナ・ウォルフのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511302, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511303, "Name":"SP撮影フィルム【王 雪】", "Description":"王雪のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511303, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511304, "Name":"SP撮影フィルム【リリヤ・クルトベイ】", "Description":"リリヤ・クルトベイのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511304, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511305, "Name":"SP撮影フィルム【与那国 緋花里】", "Description":"与那国緋花里のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511305, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511401, "Name":"SP撮影フィルム【千寿 いろは】", "Description":"千寿いろはのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511401, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511402, "Name":"SP撮影フィルム【白丸 美兎】", "Description":"白丸美兎のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511402, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511403, "Name":"SP撮影フィルム【阿岐留 カミラ】", "Description":"阿岐留カミラのサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511403, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511404, "Name":"SP撮影フィルム【猫足 蕾】", "Description":"猫足蕾のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511404, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":511405, "Name":"SP撮影フィルム【本巣 叶羽】", "Description":"本巣叶羽のサイン入りフォトを必ず入手できる特別なフィルム。", "DisplayOrder":511405, "MaxStock":99999, "Category":51, "Consumable":false, "TabCategory":1, "Rarity":3
+  },
+  {
+    "Id":610001, "Name":"プレイヤーランク上限UP", "Description":"プレイヤーランクの上限が1上昇する。", "DisplayOrder":610001, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610101, "Name":"演技力ボーナス　上限5%", "Description":"スターランクの演技力ボーナスの上限が5%に上昇する。", "DisplayOrder":610101, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610102, "Name":"演技力ボーナス　上限7.5%", "Description":"スターランクの演技力ボーナスの上限が7.5%に上昇する。", "DisplayOrder":610102, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610103, "Name":"演技力ボーナス　上限10%", "Description":"スターランクの演技力ボーナスの上限が10%に上昇する。", "DisplayOrder":610103, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610104, "Name":"演技力ボーナス　上限12.5%", "Description":"スターランクの演技力ボーナスの上限が12.5%に上昇する。", "DisplayOrder":610104, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610105, "Name":"演技力ボーナス　上限15%", "Description":"スターランクの演技力ボーナスの上限が15%に上昇する。", "DisplayOrder":610105, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610106, "Name":"演技力ボーナス　上限17.5%", "Description":"スターランクの演技力ボーナスの上限が17.5%に上昇する。", "DisplayOrder":610106, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610107, "Name":"演技力ボーナス　上限20%", "Description":"スターランクの演技力ボーナスの上限が20%に上昇する。", "DisplayOrder":610107, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610108, "Name":"演技力ボーナス　上限22.5%", "Description":"スターランクの演技力ボーナスの上限が22.5%に上昇する。", "DisplayOrder":610108, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":610109, "Name":"演技力ボーナス　上限25%", "Description":"スターランクの演技力ボーナスの上限が25%に上昇する。", "DisplayOrder":610109, "MaxStock":99999, "Category":61, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620101, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620101, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620102, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620102, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620103, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620103, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620104, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620104, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620105, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620105, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620106, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620106, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620201, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620201, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620202, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620202, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620203, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620203, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620204, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620204, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620205, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620205, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620301, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620301, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620302, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620302, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620303, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620303, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620304, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620304, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620305, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620305, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620401, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620401, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620402, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620402, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620403, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620403, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620404, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620404, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  },
+  {
+    "Id":620405, "Name":"稽古編成数+1", "Description":"", "DisplayOrder":620405, "MaxStock":4, "Category":62, "Consumable":false, "TabCategory":0, "Rarity":1
+  }
+]

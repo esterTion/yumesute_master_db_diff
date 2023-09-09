@@ -2840,5 +2840,49 @@
         ]
       }
     ]
+  },
+  {
+    "Id":100000, "MissionCategory":4, "MissionViewOrder":100000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":6, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":100001, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-08-26 05:00:00", "Rewards":[
+          {
+            "ThingId":130014, "ThingType":1, "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":100100, "MissionCategory":4, "MissionViewOrder":100100, "Title":"", "Description":"フォトを[:param]枚現像しよう", "JumpType":0, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":100101, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-08-26 05:00:00", "Rewards":[
+          {
+            "ThingId":130014, "ThingType":1, "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":100200, "MissionCategory":4, "MissionViewOrder":100200, "Title":"", "Description":"稽古を[:param]回行おう", "JumpType":6, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":100201, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-08-26 05:00:00", "Rewards":[
+          {
+            "ThingId":130014, "ThingType":1, "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":100300, "MissionCategory":4, "MissionViewOrder":100300, "Title":"", "Description":"全てのデイリーミッションをクリアしよう", "JumpType":0, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":100301, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-08-26 05:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":13, "ThingQuantity":50
+          }
+        ]
+      }
+    ]
   }
 ]

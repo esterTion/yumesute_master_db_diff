@@ -1599,6 +1599,45 @@
     "BranchConditionType1":0, "BranchConditionType2":0
   },
   {
+    "Id":220210, "Name":"脚光が照らすこれから", "Description":"<color=#ff679d>憐属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":220210, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022001
+          }
+        ],
+        "Id":22021001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":220211, "Name":"演技力アップ＋", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備", "PosterMasterId":220210, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10011001
+          }
+        ],
+        "Id":22021101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":220212, "Name":"初期ライフ上昇＋", "Description":"公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備", "PosterMasterId":220210, "Type":2, "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11311001
+          }
+        ],
+        "Id":22021201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -2769,6 +2808,45 @@
           }
         ],
         "Id":23017301
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230190, "Name":"誇り高く生きてみせる", "Description":"<color=#ff679d>憐属性</color>アクターの演技力が[:param11]%上昇", "PosterMasterId":230190, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052001
+          }
+        ],
+        "Id":23019001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230191, "Name":"集中力アップⅢ＋", "Description":"自身の集中力が[:param11]%上昇", "PosterMasterId":230190, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10331000
+          }
+        ],
+        "Id":23019101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230192, "Name":"スコアブースト・集中力Ⅲ", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：憐属性のアクターが装備", "PosterMasterId":230190, "Type":2, "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11130001
+          }
+        ],
+        "Id":23019201
       }
     ],
     "BranchConditionType1":0, "BranchConditionType2":0

@@ -527,6 +527,20 @@
     "AcquirableGauge":90, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60
   },
   {
+    "Id":130260, "Name":"水晶玉に映る未来", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":4, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1302601
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":1, "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -733,5 +747,24 @@
     "Id":140220, "Name":"妖艶に誘われて", "Description":"[:score]倍のスコアを獲得", "Type":2, "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35
+  },
+  {
+    "Id":140240, "Name":"光さす世界に", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":3, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1402401
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50
+  },
+  {
+    "Id":140250, "Name":"なし", "Description":"効果無し（所持している「光」は維持される）", "Type":9, "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0
   }
 ]

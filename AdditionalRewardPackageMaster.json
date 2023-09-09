@@ -10,6 +10,9 @@
   {
     "Id":104, "Description":"スタミナを消費 + スコア10,000以上", "LiveSettingMasterId":1, "Rewards":[
       {
+        "ThingId":130041, "ThingType":1, "ThingQuantity":0
+      },
+      {
         "ThingId":120001, "ThingType":1, "ThingQuantity":0
       }
     ],
@@ -17,6 +20,9 @@
   },
   {
     "Id":105, "Description":"スタミナを消費 + スコア30,000以上", "LiveSettingMasterId":1, "Rewards":[
+      {
+        "ThingId":130042, "ThingType":1, "ThingQuantity":0
+      },
       {
         "ThingId":130031, "ThingType":1, "ThingQuantity":0
       },
@@ -28,6 +34,45 @@
       },
       {
         "ThingId":130034, "ThingType":1, "ThingQuantity":0
+      }
+    ],
+    "Etcetera":false
+  },
+  {
+    "Id":106, "Description":"スタミナを消費 + スコア100,000以上", "LiveSettingMasterId":1, "Rewards":[
+      {
+        "ThingId":130081, "ThingType":1, "ThingQuantity":0
+      },
+      {
+        "ThingId":130082, "ThingType":1, "ThingQuantity":0
+      }
+    ],
+    "Etcetera":false
+  },
+  {
+    "Id":107, "Description":"スタミナを消費 + スコア100,000以上/n(確率で獲得)", "LiveSettingMasterId":1, "Rewards":[
+      {
+        "ThingId":331010, "ThingType":4, "ThingQuantity":0
+      },
+      {
+        "ThingId":331020, "ThingType":4, "ThingQuantity":0
+      },
+      {
+        "ThingId":331030, "ThingType":4, "ThingQuantity":0
+      },
+      {
+        "ThingId":331040, "ThingType":4, "ThingQuantity":0
+      }
+    ],
+    "Etcetera":true
+  },
+  {
+    "Id":108, "Description":"スタミナを消費 + スコア200,000以上", "LiveSettingMasterId":1, "Rewards":[
+      {
+        "ThingId":130061, "ThingType":1, "ThingQuantity":0
+      },
+      {
+        "ThingId":130062, "ThingType":1, "ThingQuantity":0
       }
     ],
     "Etcetera":false
@@ -255,10 +300,10 @@
   {
     "Id":1409, "Description":"スタミナを消費 + スコア3,000,000以上/n(確率で獲得)", "LiveSettingMasterId":14, "Rewards":[
       {
-        "ThingId":331010, "ThingType":4, "ThingQuantity":0
+        "ThingId":331060, "ThingType":4, "ThingQuantity":0
       },
       {
-        "ThingId":331020, "ThingType":4, "ThingQuantity":0
+        "ThingId":331070, "ThingType":4, "ThingQuantity":0
       },
       {
         "ThingId":331050, "ThingType":4, "ThingQuantity":0

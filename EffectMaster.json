@@ -1725,34 +1725,34 @@
   {
     "Id":80004, "Type":11, "Range":2, "CalculationType":1, "Details":[
       {
-        "Level":1, "Value":500
+        "Level":1, "Value":1000
       },
       {
-        "Level":2, "Value":1000
+        "Level":2, "Value":2000
       },
       {
-        "Level":3, "Value":1500
+        "Level":3, "Value":3000
       },
       {
-        "Level":4, "Value":2000
+        "Level":4, "Value":4000
       },
       {
-        "Level":5, "Value":2500
+        "Level":5, "Value":5000
       },
       {
-        "Level":6, "Value":3000
+        "Level":6, "Value":6000
       },
       {
-        "Level":7, "Value":3500
+        "Level":7, "Value":7000
       },
       {
-        "Level":8, "Value":4000
+        "Level":8, "Value":8000
       },
       {
-        "Level":9, "Value":4500
+        "Level":9, "Value":9000
       },
       {
-        "Level":10, "Value":5000
+        "Level":10, "Value":10000
       }
     ],
     "Conditions":[],
@@ -1918,6 +1918,179 @@
     "Conditions":[
       {
         "Condition":1, "Value":403
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":4
+  },
+  {
+    "Id":80009, "Type":7, "Range":2, "CalculationType":1, "Details":[
+      {
+        "Level":1, "Value":500
+      },
+      {
+        "Level":2, "Value":1000
+      },
+      {
+        "Level":3, "Value":1500
+      },
+      {
+        "Level":4, "Value":2000
+      },
+      {
+        "Level":5, "Value":2500
+      },
+      {
+        "Level":6, "Value":3000
+      },
+      {
+        "Level":7, "Value":3500
+      },
+      {
+        "Level":8, "Value":4000
+      },
+      {
+        "Level":9, "Value":4500
+      },
+      {
+        "Level":10, "Value":5000
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":3, "Value":1
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":4
+  },
+  {
+    "Id":80010, "Type":45, "Range":1, "CalculationType":3, "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":2
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":2, "Value":4
+      },
+      {
+        "Condition":3, "Value":1
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":4
+  },
+  {
+    "Id":80011, "Type":18, "Range":1, "CalculationType":3, "Details":[
+      {
+        "Level":1, "Value":0
+      },
+      {
+        "Level":2, "Value":0
+      },
+      {
+        "Level":3, "Value":0
+      },
+      {
+        "Level":4, "Value":0
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":2
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":3, "Value":1
+      },
+      {
+        "Condition":4, "Value":2
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":4
+  },
+  {
+    "Id":80012, "Type":14, "Range":1, "CalculationType":3, "Details":[
+      {
+        "Level":1, "Value":0
+      },
+      {
+        "Level":2, "Value":0
+      },
+      {
+        "Level":3, "Value":0
+      },
+      {
+        "Level":4, "Value":0
+      },
+      {
+        "Level":5, "Value":0
+      },
+      {
+        "Level":6, "Value":0
+      },
+      {
+        "Level":7, "Value":0
+      },
+      {
+        "Level":8, "Value":0
+      },
+      {
+        "Level":9, "Value":0
+      },
+      {
+        "Level":10, "Value":1
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":3, "Value":1
+      },
+      {
+        "Condition":4, "Value":3
       }
     ],
     "DurationSecond":0, "Triggers":[],
@@ -24075,6 +24248,59 @@
     "FireTimingType":4
   },
   {
+    "Id":10111001, "Type":5, "Range":1, "CalculationType":1, "Details":[
+      {
+        "Level":1, "Value":1200
+      },
+      {
+        "Level":2, "Value":1500
+      },
+      {
+        "Level":3, "Value":1800
+      },
+      {
+        "Level":4, "Value":2100
+      },
+      {
+        "Level":5, "Value":2400
+      },
+      {
+        "Level":6, "Value":2700
+      },
+      {
+        "Level":7, "Value":3000
+      },
+      {
+        "Level":8, "Value":3300
+      },
+      {
+        "Level":9, "Value":3600
+      },
+      {
+        "Level":10, "Value":3900
+      },
+      {
+        "Level":11, "Value":4200
+      },
+      {
+        "Level":12, "Value":4500
+      },
+      {
+        "Level":13, "Value":4800
+      },
+      {
+        "Level":14, "Value":5100
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":5, "Value":1
+      }
+    ],
+    "FireTimingType":4
+  },
+  {
     "Id":10120000, "Type":5, "Range":1, "CalculationType":1, "Details":[
       {
         "Level":1, "Value":2700
@@ -24585,6 +24811,112 @@
     "FireTimingType":4
   },
   {
+    "Id":10320001, "Type":7, "Range":1, "CalculationType":1, "Details":[
+      {
+        "Level":1, "Value":2700
+      },
+      {
+        "Level":2, "Value":3000
+      },
+      {
+        "Level":3, "Value":3300
+      },
+      {
+        "Level":4, "Value":3600
+      },
+      {
+        "Level":5, "Value":3900
+      },
+      {
+        "Level":6, "Value":4200
+      },
+      {
+        "Level":7, "Value":4500
+      },
+      {
+        "Level":8, "Value":4800
+      },
+      {
+        "Level":9, "Value":5100
+      },
+      {
+        "Level":10, "Value":5400
+      },
+      {
+        "Level":11, "Value":5700
+      },
+      {
+        "Level":12, "Value":6000
+      },
+      {
+        "Level":13, "Value":6300
+      },
+      {
+        "Level":14, "Value":6600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":5, "Value":1
+      }
+    ],
+    "FireTimingType":4
+  },
+  {
+    "Id":10320400, "Type":7, "Range":1, "CalculationType":1, "Details":[
+      {
+        "Level":1, "Value":2700
+      },
+      {
+        "Level":2, "Value":3000
+      },
+      {
+        "Level":3, "Value":3300
+      },
+      {
+        "Level":4, "Value":3600
+      },
+      {
+        "Level":5, "Value":3900
+      },
+      {
+        "Level":6, "Value":4200
+      },
+      {
+        "Level":7, "Value":4500
+      },
+      {
+        "Level":8, "Value":4800
+      },
+      {
+        "Level":9, "Value":5100
+      },
+      {
+        "Level":10, "Value":5400
+      },
+      {
+        "Level":11, "Value":5700
+      },
+      {
+        "Level":12, "Value":6000
+      },
+      {
+        "Level":13, "Value":6300
+      },
+      {
+        "Level":14, "Value":6600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":4, "Value":4
+      }
+    ],
+    "FireTimingType":4
+  },
+  {
     "Id":10331000, "Type":7, "Range":1, "CalculationType":1, "Details":[
       {
         "Level":1, "Value":3500
@@ -24631,6 +24963,59 @@
     ],
     "Conditions":[],
     "DurationSecond":0, "Triggers":[],
+    "FireTimingType":4
+  },
+  {
+    "Id":10331001, "Type":7, "Range":1, "CalculationType":1, "Details":[
+      {
+        "Level":1, "Value":3500
+      },
+      {
+        "Level":2, "Value":4200
+      },
+      {
+        "Level":3, "Value":4900
+      },
+      {
+        "Level":4, "Value":5600
+      },
+      {
+        "Level":5, "Value":6300
+      },
+      {
+        "Level":6, "Value":7000
+      },
+      {
+        "Level":7, "Value":7700
+      },
+      {
+        "Level":8, "Value":8400
+      },
+      {
+        "Level":9, "Value":9100
+      },
+      {
+        "Level":10, "Value":9800
+      },
+      {
+        "Level":11, "Value":10500
+      },
+      {
+        "Level":12, "Value":11200
+      },
+      {
+        "Level":13, "Value":11900
+      },
+      {
+        "Level":14, "Value":12600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":5, "Value":1
+      }
+    ],
     "FireTimingType":4
   },
   {
@@ -26155,6 +26540,59 @@
     "FireTimingType":2
   },
   {
+    "Id":11120400, "Type":36, "Range":0, "CalculationType":2, "Details":[
+      {
+        "Level":1, "Value":540
+      },
+      {
+        "Level":2, "Value":600
+      },
+      {
+        "Level":3, "Value":660
+      },
+      {
+        "Level":4, "Value":720
+      },
+      {
+        "Level":5, "Value":780
+      },
+      {
+        "Level":6, "Value":840
+      },
+      {
+        "Level":7, "Value":900
+      },
+      {
+        "Level":8, "Value":960
+      },
+      {
+        "Level":9, "Value":1020
+      },
+      {
+        "Level":10, "Value":1080
+      },
+      {
+        "Level":11, "Value":1140
+      },
+      {
+        "Level":12, "Value":1200
+      },
+      {
+        "Level":13, "Value":1260
+      },
+      {
+        "Level":14, "Value":1320
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":4, "Value":4
+      }
+    ],
+    "FireTimingType":2
+  },
+  {
     "Id":11121100, "Type":36, "Range":0, "CalculationType":2, "Details":[
       {
         "Level":1, "Value":540
@@ -26203,6 +26641,108 @@
     "DurationSecond":0, "Triggers":[
       {
         "Trigger":4, "Value":1
+      }
+    ],
+    "FireTimingType":2
+  },
+  {
+    "Id":11130000, "Type":36, "Range":0, "CalculationType":2, "Details":[
+      {
+        "Level":1, "Value":700
+      },
+      {
+        "Level":2, "Value":800
+      },
+      {
+        "Level":3, "Value":900
+      },
+      {
+        "Level":4, "Value":1000
+      },
+      {
+        "Level":5, "Value":1100
+      },
+      {
+        "Level":6, "Value":1200
+      },
+      {
+        "Level":7, "Value":1300
+      },
+      {
+        "Level":8, "Value":1400
+      },
+      {
+        "Level":9, "Value":1500
+      },
+      {
+        "Level":10, "Value":1600
+      },
+      {
+        "Level":11, "Value":1700
+      },
+      {
+        "Level":12, "Value":1800
+      },
+      {
+        "Level":13, "Value":1900
+      },
+      {
+        "Level":14, "Value":2000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":2
+  },
+  {
+    "Id":11130001, "Type":36, "Range":0, "CalculationType":2, "Details":[
+      {
+        "Level":1, "Value":700
+      },
+      {
+        "Level":2, "Value":800
+      },
+      {
+        "Level":3, "Value":900
+      },
+      {
+        "Level":4, "Value":1000
+      },
+      {
+        "Level":5, "Value":1100
+      },
+      {
+        "Level":6, "Value":1200
+      },
+      {
+        "Level":7, "Value":1300
+      },
+      {
+        "Level":8, "Value":1400
+      },
+      {
+        "Level":9, "Value":1500
+      },
+      {
+        "Level":10, "Value":1600
+      },
+      {
+        "Level":11, "Value":1700
+      },
+      {
+        "Level":12, "Value":1800
+      },
+      {
+        "Level":13, "Value":1900
+      },
+      {
+        "Level":14, "Value":2000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":5, "Value":1
       }
     ],
     "FireTimingType":2
@@ -26397,6 +26937,210 @@
       },
       {
         "Level":14, "Value":380
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":3
+  },
+  {
+    "Id":11311001, "Type":27, "Range":0, "CalculationType":3, "Details":[
+      {
+        "Level":1, "Value":120
+      },
+      {
+        "Level":2, "Value":150
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":210
+      },
+      {
+        "Level":5, "Value":240
+      },
+      {
+        "Level":6, "Value":270
+      },
+      {
+        "Level":7, "Value":300
+      },
+      {
+        "Level":8, "Value":330
+      },
+      {
+        "Level":9, "Value":360
+      },
+      {
+        "Level":10, "Value":390
+      },
+      {
+        "Level":11, "Value":420
+      },
+      {
+        "Level":12, "Value":450
+      },
+      {
+        "Level":13, "Value":480
+      },
+      {
+        "Level":14, "Value":510
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":5, "Value":1
+      }
+    ],
+    "FireTimingType":3
+  },
+  {
+    "Id":11311400, "Type":27, "Range":0, "CalculationType":3, "Details":[
+      {
+        "Level":1, "Value":120
+      },
+      {
+        "Level":2, "Value":150
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":210
+      },
+      {
+        "Level":5, "Value":240
+      },
+      {
+        "Level":6, "Value":270
+      },
+      {
+        "Level":7, "Value":300
+      },
+      {
+        "Level":8, "Value":330
+      },
+      {
+        "Level":9, "Value":360
+      },
+      {
+        "Level":10, "Value":390
+      },
+      {
+        "Level":11, "Value":420
+      },
+      {
+        "Level":12, "Value":450
+      },
+      {
+        "Level":13, "Value":480
+      },
+      {
+        "Level":14, "Value":510
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":4, "Value":4
+      }
+    ],
+    "FireTimingType":3
+  },
+  {
+    "Id":11320000, "Type":27, "Range":0, "CalculationType":3, "Details":[
+      {
+        "Level":1, "Value":270
+      },
+      {
+        "Level":2, "Value":300
+      },
+      {
+        "Level":3, "Value":330
+      },
+      {
+        "Level":4, "Value":360
+      },
+      {
+        "Level":5, "Value":390
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":450
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":510
+      },
+      {
+        "Level":10, "Value":540
+      },
+      {
+        "Level":11, "Value":570
+      },
+      {
+        "Level":12, "Value":600
+      },
+      {
+        "Level":13, "Value":630
+      },
+      {
+        "Level":14, "Value":660
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":3
+  },
+  {
+    "Id":11321000, "Type":27, "Range":0, "CalculationType":3, "Details":[
+      {
+        "Level":1, "Value":270
+      },
+      {
+        "Level":2, "Value":310
+      },
+      {
+        "Level":3, "Value":350
+      },
+      {
+        "Level":4, "Value":390
+      },
+      {
+        "Level":5, "Value":430
+      },
+      {
+        "Level":6, "Value":470
+      },
+      {
+        "Level":7, "Value":510
+      },
+      {
+        "Level":8, "Value":550
+      },
+      {
+        "Level":9, "Value":590
+      },
+      {
+        "Level":10, "Value":630
+      },
+      {
+        "Level":11, "Value":670
+      },
+      {
+        "Level":12, "Value":710
+      },
+      {
+        "Level":13, "Value":750
+      },
+      {
+        "Level":14, "Value":790
       }
     ],
     "Conditions":[],
@@ -28709,6 +29453,59 @@
     "Conditions":[
       {
         "Condition":2, "Value":4
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":4
+  },
+  {
+    "Id":70022001, "Type":11, "Range":2, "CalculationType":1, "Details":[
+      {
+        "Level":1, "Value":1360
+      },
+      {
+        "Level":2, "Value":1600
+      },
+      {
+        "Level":3, "Value":1840
+      },
+      {
+        "Level":4, "Value":2080
+      },
+      {
+        "Level":5, "Value":2320
+      },
+      {
+        "Level":6, "Value":2560
+      },
+      {
+        "Level":7, "Value":2800
+      },
+      {
+        "Level":8, "Value":3040
+      },
+      {
+        "Level":9, "Value":3280
+      },
+      {
+        "Level":10, "Value":3520
+      },
+      {
+        "Level":11, "Value":3760
+      },
+      {
+        "Level":12, "Value":4000
+      },
+      {
+        "Level":13, "Value":4240
+      },
+      {
+        "Level":14, "Value":4480
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":3, "Value":1
       }
     ],
     "DurationSecond":0, "Triggers":[],

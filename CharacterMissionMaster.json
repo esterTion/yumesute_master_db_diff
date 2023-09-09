@@ -696,7 +696,7 @@
     ]
   },
   {
-    "Id":10, "Title":"[:character]のスポットストーリーを[:param]話読もう", "Stages":[
+    "Id":10, "Title":"[:character]のスポットストーリーを[:param]話読もう", "JumpType":13, "Stages":[
       {
         "Id":10504, "CharacterMissionCategoryLevelMasterId":105, "CharacterMissionMasterId":10, "ExclusionNoSenseCharacter":false, "Order":4, "StageOrder":1, "GoalCount":1
       },
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "Id":11, "Title":"[:character]のスタンプを[:param]種類集めよう", "JumpType":2, "JumpValue":2, "Stages":[
+    "Id":11, "Title":"[:character]のスタンプを[:param]種類集めよう(デフォルトを除く)", "JumpType":2, "JumpValue":2, "Stages":[
       {
         "Id":20506, "CharacterMissionCategoryLevelMasterId":205, "CharacterMissionMasterId":11, "ExclusionNoSenseCharacter":false, "Order":6, "StageOrder":1, "GoalCount":2
       },

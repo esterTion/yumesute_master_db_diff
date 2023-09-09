@@ -1482,6 +1482,45 @@
     "BranchConditionType1":0, "BranchConditionType2":0
   },
   {
+    "Id":220180, "Name":"エレクトリック・サマー・バカンス", "Description":"劇団電姫に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":220180, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022400
+          }
+        ],
+        "Id":22018001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":220181, "Name":"集中力アップ", "Description":"自身の集中力が[:param11]%上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":220180, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10310400
+          }
+        ],
+        "Id":22018101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":220182, "Name":"スコアブースト・集中力", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":220180, "Type":2, "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11110400
+          }
+        ],
+        "Id":22018201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -2453,10 +2492,62 @@
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":11010200
+            "Order":1, "EffectMasterId":11020200
           }
         ],
         "Id":23014301
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230150, "Name":"私の隠しごと", "Description":"劇団電姫に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":230150, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70054400
+          }
+        ],
+        "Id":23015001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230151, "Name":"初期P.ゲージ上昇＋", "Description":"公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230150, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11511400
+          }
+        ],
+        "Id":23015101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230152, "Name":"「光」追加（増幅）Ⅱ", "Description":"公演開始時、増幅系の光「<color=#ffd700>*</color>」を[:param11]個付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230150, "Type":2, "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12220400
+          }
+        ],
+        "Id":23015201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230153, "Name":"「光」追加（特殊）Ⅱ", "Description":"公演開始時、特殊系の光「<color=#0000ff>*</color>」を[:param11]個付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230150, "Type":2, "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12320400
+          }
+        ],
+        "Id":23015301
       }
     ],
     "BranchConditionType1":0, "BranchConditionType2":0

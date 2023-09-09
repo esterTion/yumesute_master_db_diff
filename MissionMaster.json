@@ -231,7 +231,7 @@
     ]
   },
   {
-    "Id":22, "MissionCategory":1, "MissionViewOrder":22, "Title":"", "Description":"協力公演でスターアクトを発動しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":22, "MissionCategory":1, "MissionViewOrder":22, "Title":"", "Description":"スターアクトを発動しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":22, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
@@ -242,7 +242,7 @@
     ]
   },
   {
-    "Id":23, "MissionCategory":1, "MissionViewOrder":23, "Title":"", "Description":"スポットストーリーを1回読もう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":23, "MissionCategory":1, "MissionViewOrder":23, "Title":"", "Description":"スポットストーリーを1回読もう", "JumpType":13, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":23, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
@@ -429,9 +429,9 @@
     ]
   },
   {
-    "Id":40, "MissionCategory":1, "MissionViewOrder":40, "Title":"", "Description":"オーディションを20ステージクリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":40, "MissionCategory":1, "MissionViewOrder":40, "Title":"", "Description":"オーディションを10ステージクリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
-        "Id":40, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
+        "Id":40, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
             "ThingId":130091, "ThingType":1, "ThingQuantity":5
           }
@@ -2253,7 +2253,7 @@
     ]
   },
   {
-    "Id":2900, "MissionCategory":2, "MissionViewOrder":2900, "Title":"", "Description":"スポットストーリーを[:param]種類読もう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2900, "MissionCategory":2, "MissionViewOrder":2900, "Title":"", "Description":"スポットストーリーを[:param]種類読もう", "JumpType":13, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2901, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {

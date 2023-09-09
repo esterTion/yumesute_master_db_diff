@@ -4,33 +4,115 @@
       {
         "Id":101, "AccessoryLevelPatternGroupMasterId":1, "Level":1, "RequiredCoin":100, "Items":[
           {
-            "ItemMasterId":130081, "Quantity":5
+            "ItemMasterId":130081, "Quantity":1
           }
         ]
       },
       {
         "Id":102, "AccessoryLevelPatternGroupMasterId":1, "Level":2, "RequiredCoin":300, "Items":[
           {
-            "ItemMasterId":130081, "Quantity":10
+            "ItemMasterId":130081, "Quantity":3
           }
         ]
       },
       {
         "Id":103, "AccessoryLevelPatternGroupMasterId":1, "Level":3, "RequiredCoin":500, "Items":[
           {
-            "ItemMasterId":130081, "Quantity":15
+            "ItemMasterId":130081, "Quantity":5
           }
         ]
       },
       {
         "Id":104, "AccessoryLevelPatternGroupMasterId":1, "Level":4, "RequiredCoin":1000, "Items":[
           {
-            "ItemMasterId":130081, "Quantity":20
+            "ItemMasterId":130081, "Quantity":7
           }
         ]
       },
       {
         "Id":105, "AccessoryLevelPatternGroupMasterId":1, "Level":5, "RequiredCoin":1500, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":10
+          },
+          {
+            "ItemMasterId":130082, "Quantity":1
+          }
+        ]
+      },
+      {
+        "Id":106, "AccessoryLevelPatternGroupMasterId":1, "Level":6, "RequiredCoin":2000, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":15
+          },
+          {
+            "ItemMasterId":130082, "Quantity":3
+          }
+        ]
+      },
+      {
+        "Id":107, "AccessoryLevelPatternGroupMasterId":1, "Level":7, "RequiredCoin":3000, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":20
+          },
+          {
+            "ItemMasterId":130082, "Quantity":5
+          }
+        ]
+      },
+      {
+        "Id":108, "AccessoryLevelPatternGroupMasterId":1, "Level":8, "RequiredCoin":5000, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":25
+          },
+          {
+            "ItemMasterId":130082, "Quantity":7
+          }
+        ]
+      },
+      {
+        "Id":109, "AccessoryLevelPatternGroupMasterId":1, "Level":9, "RequiredCoin":10000, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":30
+          },
+          {
+            "ItemMasterId":130082, "Quantity":10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":2, "Patterns":[
+      {
+        "Id":201, "AccessoryLevelPatternGroupMasterId":2, "Level":1, "RequiredCoin":500, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":5
+          }
+        ]
+      },
+      {
+        "Id":202, "AccessoryLevelPatternGroupMasterId":2, "Level":2, "RequiredCoin":1000, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":10
+          }
+        ]
+      },
+      {
+        "Id":203, "AccessoryLevelPatternGroupMasterId":2, "Level":3, "RequiredCoin":2000, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":15
+          }
+        ]
+      },
+      {
+        "Id":204, "AccessoryLevelPatternGroupMasterId":2, "Level":4, "RequiredCoin":3000, "Items":[
+          {
+            "ItemMasterId":130081, "Quantity":20
+          }
+        ]
+      },
+      {
+        "Id":205, "AccessoryLevelPatternGroupMasterId":2, "Level":5, "RequiredCoin":5000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":25
           },
@@ -40,7 +122,7 @@
         ]
       },
       {
-        "Id":106, "AccessoryLevelPatternGroupMasterId":1, "Level":6, "RequiredCoin":2000, "Items":[
+        "Id":206, "AccessoryLevelPatternGroupMasterId":2, "Level":6, "RequiredCoin":7000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":30
           },
@@ -50,7 +132,7 @@
         ]
       },
       {
-        "Id":107, "AccessoryLevelPatternGroupMasterId":1, "Level":7, "RequiredCoin":3000, "Items":[
+        "Id":207, "AccessoryLevelPatternGroupMasterId":2, "Level":7, "RequiredCoin":10000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":40
           },
@@ -60,7 +142,7 @@
         ]
       },
       {
-        "Id":108, "AccessoryLevelPatternGroupMasterId":1, "Level":8, "RequiredCoin":5000, "Items":[
+        "Id":208, "AccessoryLevelPatternGroupMasterId":2, "Level":8, "RequiredCoin":15000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":50
           },
@@ -70,7 +152,7 @@
         ]
       },
       {
-        "Id":109, "AccessoryLevelPatternGroupMasterId":1, "Level":9, "RequiredCoin":10000, "Items":[
+        "Id":209, "AccessoryLevelPatternGroupMasterId":2, "Level":9, "RequiredCoin":25000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":70
           },
@@ -82,37 +164,49 @@
     ]
   },
   {
-    "Id":2, "Patterns":[
+    "Id":3, "Patterns":[
       {
-        "Id":201, "AccessoryLevelPatternGroupMasterId":2, "Level":1, "RequiredCoin":500, "Items":[
+        "Id":301, "AccessoryLevelPatternGroupMasterId":3, "Level":1, "RequiredCoin":2000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":10
+          },
+          {
+            "ItemMasterId":130082, "Quantity":1
           }
         ]
       },
       {
-        "Id":202, "AccessoryLevelPatternGroupMasterId":2, "Level":2, "RequiredCoin":1000, "Items":[
+        "Id":302, "AccessoryLevelPatternGroupMasterId":3, "Level":2, "RequiredCoin":5000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":20
+          },
+          {
+            "ItemMasterId":130082, "Quantity":2
           }
         ]
       },
       {
-        "Id":203, "AccessoryLevelPatternGroupMasterId":2, "Level":3, "RequiredCoin":2000, "Items":[
+        "Id":303, "AccessoryLevelPatternGroupMasterId":3, "Level":3, "RequiredCoin":10000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":30
+          },
+          {
+            "ItemMasterId":130082, "Quantity":3
           }
         ]
       },
       {
-        "Id":204, "AccessoryLevelPatternGroupMasterId":2, "Level":4, "RequiredCoin":3000, "Items":[
+        "Id":304, "AccessoryLevelPatternGroupMasterId":3, "Level":4, "RequiredCoin":20000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":40
+          },
+          {
+            "ItemMasterId":130082, "Quantity":4
           }
         ]
       },
       {
-        "Id":205, "AccessoryLevelPatternGroupMasterId":2, "Level":5, "RequiredCoin":5000, "Items":[
+        "Id":305, "AccessoryLevelPatternGroupMasterId":3, "Level":5, "RequiredCoin":30000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":50
           },
@@ -122,7 +216,7 @@
         ]
       },
       {
-        "Id":206, "AccessoryLevelPatternGroupMasterId":2, "Level":6, "RequiredCoin":7000, "Items":[
+        "Id":306, "AccessoryLevelPatternGroupMasterId":3, "Level":6, "RequiredCoin":40000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":75
           },
@@ -132,7 +226,7 @@
         ]
       },
       {
-        "Id":207, "AccessoryLevelPatternGroupMasterId":2, "Level":7, "RequiredCoin":10000, "Items":[
+        "Id":307, "AccessoryLevelPatternGroupMasterId":3, "Level":7, "RequiredCoin":50000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":100
           },
@@ -142,73 +236,9 @@
         ]
       },
       {
-        "Id":208, "AccessoryLevelPatternGroupMasterId":2, "Level":8, "RequiredCoin":15000, "Items":[
+        "Id":308, "AccessoryLevelPatternGroupMasterId":3, "Level":8, "RequiredCoin":70000, "Items":[
           {
             "ItemMasterId":130081, "Quantity":125
-          },
-          {
-            "ItemMasterId":130082, "Quantity":40
-          }
-        ]
-      },
-      {
-        "Id":209, "AccessoryLevelPatternGroupMasterId":2, "Level":9, "RequiredCoin":25000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":150
-          },
-          {
-            "ItemMasterId":130082, "Quantity":70
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":3, "Patterns":[
-      {
-        "Id":301, "AccessoryLevelPatternGroupMasterId":3, "Level":1, "RequiredCoin":2000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":15
-          },
-          {
-            "ItemMasterId":130082, "Quantity":5
-          }
-        ]
-      },
-      {
-        "Id":302, "AccessoryLevelPatternGroupMasterId":3, "Level":2, "RequiredCoin":5000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":30
-          },
-          {
-            "ItemMasterId":130082, "Quantity":10
-          }
-        ]
-      },
-      {
-        "Id":303, "AccessoryLevelPatternGroupMasterId":3, "Level":3, "RequiredCoin":10000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":45
-          },
-          {
-            "ItemMasterId":130082, "Quantity":15
-          }
-        ]
-      },
-      {
-        "Id":304, "AccessoryLevelPatternGroupMasterId":3, "Level":4, "RequiredCoin":20000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":60
-          },
-          {
-            "ItemMasterId":130082, "Quantity":20
-          }
-        ]
-      },
-      {
-        "Id":305, "AccessoryLevelPatternGroupMasterId":3, "Level":5, "RequiredCoin":30000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":90
           },
           {
             "ItemMasterId":130082, "Quantity":30
@@ -216,42 +246,12 @@
         ]
       },
       {
-        "Id":306, "AccessoryLevelPatternGroupMasterId":3, "Level":6, "RequiredCoin":40000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":120
-          },
-          {
-            "ItemMasterId":130082, "Quantity":50
-          }
-        ]
-      },
-      {
-        "Id":307, "AccessoryLevelPatternGroupMasterId":3, "Level":7, "RequiredCoin":50000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":180
-          },
-          {
-            "ItemMasterId":130082, "Quantity":70
-          }
-        ]
-      },
-      {
-        "Id":308, "AccessoryLevelPatternGroupMasterId":3, "Level":8, "RequiredCoin":70000, "Items":[
-          {
-            "ItemMasterId":130081, "Quantity":300
-          },
-          {
-            "ItemMasterId":130082, "Quantity":90
-          }
-        ]
-      },
-      {
         "Id":309, "AccessoryLevelPatternGroupMasterId":3, "Level":9, "RequiredCoin":100000, "Items":[
           {
-            "ItemMasterId":130081, "Quantity":500
+            "ItemMasterId":130081, "Quantity":150
           },
           {
-            "ItemMasterId":130082, "Quantity":110
+            "ItemMasterId":130082, "Quantity":45
           }
         ]
       }

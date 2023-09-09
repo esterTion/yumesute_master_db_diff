@@ -46,5 +46,29 @@
   },
   {
     "Id":2000208, "StoryMasterId":20002, "RequiredTotalAcquiredPoint":128000, "Title":"夜、電車、お話", "Order":8, "RequiredReadEpisodeMasterId":2000207
+  },
+  {
+    "Id":2000301, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":0, "Title":"幕が下りたその後で", "Order":1
+  },
+  {
+    "Id":2000302, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":2000, "Title":"ダイスター", "Order":2, "RequiredReadEpisodeMasterId":2000301
+  },
+  {
+    "Id":2000303, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":4000, "Title":"対等コミュニケーション", "Order":3, "RequiredReadEpisodeMasterId":2000302
+  },
+  {
+    "Id":2000304, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":8000, "Title":"笑いのセンスが通じない！", "Order":4, "RequiredReadEpisodeMasterId":2000303
+  },
+  {
+    "Id":2000305, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":16000, "Title":"からまわり", "Order":5, "RequiredReadEpisodeMasterId":2000304
+  },
+  {
+    "Id":2000306, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":32000, "Title":"先輩からのアドバイス", "Order":6, "RequiredReadEpisodeMasterId":2000305
+  },
+  {
+    "Id":2000307, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":64000, "Title":"配役は妹", "Order":7, "RequiredReadEpisodeMasterId":2000306
+  },
+  {
+    "Id":2000308, "StoryMasterId":20003, "RequiredTotalAcquiredPoint":128000, "Title":"残された課題……！", "Order":8, "RequiredReadEpisodeMasterId":2000307
   }
 ]

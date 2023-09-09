@@ -517,6 +517,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0
   },
   {
+    "Id":130240, "Name":"流石の釣り名人", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":4, "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":1, "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -681,5 +686,28 @@
       }
     ],
     "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40
+  },
+  {
+    "Id":140190, "Name":"お口に合いますように♪", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":2, "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":120, "AcquirableScorePercent":190, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60
+  },
+  {
+    "Id":140200, "Name":"なし", "Description":"ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP", "Type":10, "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":20024
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20001
+          }
+        ],
+        "Id":1402001
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0
   }
 ]

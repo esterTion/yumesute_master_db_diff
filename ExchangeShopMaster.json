@@ -411,6 +411,25 @@
     ]
   },
   {
+    "Id":1005, "IsDisplayRequiredHavingItem":false, "Category":4, "Name":"隠し味はひとさじのユーモアガチャ(アクター)", "DisplayThingType":1, "DisplayItemMasterId":411005, "BannerPath":"1005", "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "LastRefreshedAt":"0001-01-01 00:00:00", "Lineup":[
+      {
+        "Id":1005001, "ThingId":140190, "ThingType":2, "ThingQuantity":1, "Order":1005001, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":411005, "RequiredQuantity":200
+      },
+      {
+        "Id":1005002, "ThingId":140200, "ThingType":2, "ThingQuantity":1, "Order":1005002, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":411005, "RequiredQuantity":200
+      },
+      {
+        "Id":1005003, "ThingId":144019, "ThingType":1, "ThingQuantity":400, "ExchangeLimit":5, "Order":1005003, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":411005, "RequiredQuantity":40
+      },
+      {
+        "Id":1005004, "ThingId":144020, "ThingType":1, "ThingQuantity":400, "ExchangeLimit":5, "Order":1005004, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":411005, "RequiredQuantity":40
+      },
+      {
+        "Id":1005005, "ThingId":130011, "ThingType":1, "ThingQuantity":1, "Order":1005005, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":411005, "RequiredQuantity":1
+      }
+    ]
+  },
+  {
     "Id":2001, "IsDisplayRequiredHavingItem":false, "Category":4, "Name":"リリース記念ガチャ(ポスター)", "DisplayThingType":1, "DisplayItemMasterId":412001, "BannerPath":"2001", "StartDate":"2023-01-01 00:00:00", "EndDate":"2023-08-07 17:00:00", "LastRefreshedAt":"0001-01-01 00:00:00", "Lineup":[
       {
         "Id":2001001, "ThingId":230010, "ThingType":3, "ThingQuantity":1, "Order":2001001, "IsDisplayLocked":false, "StartDate":"2023-01-01 00:00:00", "EndDate":"2023-08-07 17:00:00", "RequiredItemMasterId":412001, "RequiredQuantity":200
@@ -477,6 +496,19 @@
       },
       {
         "Id":2004003, "ThingId":130011, "ThingType":1, "ThingQuantity":1, "Order":2004003, "IsDisplayLocked":false, "StartDate":"2023-08-10 17:00:00", "EndDate":"2023-08-27 17:00:00", "RequiredItemMasterId":412004, "RequiredQuantity":1
+      }
+    ]
+  },
+  {
+    "Id":2005, "IsDisplayRequiredHavingItem":false, "Category":4, "Name":"Little Womenガチャ(ポスター)", "DisplayThingType":1, "DisplayItemMasterId":412005, "BannerPath":"2005", "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "LastRefreshedAt":"0001-01-01 00:00:00", "Lineup":[
+      {
+        "Id":2005001, "ThingId":230160, "ThingType":3, "ThingQuantity":1, "Order":2005001, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":412005, "RequiredQuantity":200
+      },
+      {
+        "Id":2005002, "ThingId":130071, "ThingType":1, "ThingQuantity":1, "ExchangeLimit":2, "Order":2005002, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":412005, "RequiredQuantity":50
+      },
+      {
+        "Id":2005003, "ThingId":130011, "ThingType":1, "ThingQuantity":1, "Order":2005003, "IsDisplayLocked":false, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-07 17:00:00", "RequiredItemMasterId":412005, "RequiredQuantity":1
       }
     ]
   },
@@ -585,7 +617,7 @@
         "Id":20001034, "ThingId":140000, "ThingType":1, "ThingQuantity":1, "ExchangeLimit":100, "Order":20001027, "IsDisplayLocked":false, "UnlockType":10, "UnlockValue":20001033, "StartDate":"2023-07-31 17:00:00", "EndDate":"2023-08-15 22:00:00", "RequiredItemMasterId":420001, "RequiredQuantity":2500
       },
       {
-        "Id":20001035, "ThingId":20206, "ThingType":7, "ThingQuantity":1, "ExchangeLimit":1, "Order":20001035, "IsDisplayLocked":false, "RequiredItemMasterId":420001, "RequiredQuantity":10
+        "Id":20001035, "ThingId":20206, "ThingType":7, "ThingQuantity":1, "ExchangeLimit":1, "Order":20001035, "IsDisplayLocked":false, "StartDate":"2023-07-31 17:00:00", "EndDate":"2023-08-15 22:00:00", "RequiredItemMasterId":420001, "RequiredQuantity":10
       }
     ]
   },
@@ -700,5 +732,8 @@
         "Id":20002036, "ThingId":0, "ThingType":12, "ThingQuantity":10, "Order":20002036, "IsDisplayLocked":false, "StartDate":"2023-08-10 17:00:00", "EndDate":"2023-08-25 22:00:00", "RequiredItemMasterId":420002, "RequiredQuantity":10
       }
     ]
+  },
+  {
+    "Id":20003, "IsDisplayRequiredHavingItem":false, "Category":3, "Name":"イベントポイントショップ", "DisplayThingType":1, "DisplayItemMasterId":420003, "BannerPath":"20003", "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-09-04 22:00:00", "LastRefreshedAt":"0001-01-01 00:00:00", "Lineup":[]
   }
 ]

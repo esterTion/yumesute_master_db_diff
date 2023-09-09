@@ -302,9 +302,23 @@
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2023-08-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00"
   },
   {
+    "Id":220190, "Name":"隠し味はひとさじのユーモア", "Rarity":2, "LevelPatternGroupMasterId":2, "SubTitlePositionX1":230, "SubTitlePositionY1":1520, "SubTitlePositionX2":0, "SubTitlePositionY2":0, "ReleaseItemGroupId":2, "PronounceName":"かくしあじはひとさじのゆーもあ", "Costumes":[],
+    "AppearanceCharacterBaseMasterIds":[
+      104
+    ],
+    "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2023-08-20 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00"
+  },
+  {
     "Id":229010, "Name":"【SIRIUS】竹取物語", "Rarity":3, "LevelPatternGroupMasterId":3, "SubTitlePositionX1":170, "SubTitlePositionY1":0, "ReleaseItemGroupId":3, "PronounceName":"たけとりものがたり", "Costumes":[],
     "AppearanceCharacterBaseMasterIds":[],
     "IsRestrictItemBreakThrough":true, "DisplayStartAt":"2023-07-26 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00"
+  },
+  {
+    "Id":229020, "Name":"【SIRIUS】アラビアンナイト", "Rarity":3, "LevelPatternGroupMasterId":3, "SubTitlePositionX1":194, "SubTitlePositionY1":1322, "ReleaseItemGroupId":3, "PronounceName":"あらびあんないと", "Costumes":[],
+    "AppearanceCharacterBaseMasterIds":[
+      101, 104
+    ],
+    "IsRestrictItemBreakThrough":true, "DisplayStartAt":"2023-08-17 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00"
   },
   {
     "Id":230000, "Name":"ワールドダイスター", "Rarity":3, "LevelPatternGroupMasterId":3, "SubTitlePositionX1":0, "SubTitlePositionY1":613, "ReleaseItemGroupId":3, "PronounceName":"わーるどだいすたー", "Costumes":[],
@@ -511,5 +525,25 @@
       405
     ],
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2023-08-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00"
+  },
+  {
+    "Id":230160, "Name":"Little Women", "Rarity":3, "LevelPatternGroupMasterId":3, "SubTitlePositionX1":154, "SubTitlePositionY1":1570, "SubTitlePositionX2":136, "SubTitlePositionY2":274, "SubTitlePositionX3":136, "SubTitlePositionY3":44, "ReleaseItemGroupId":3, "PronounceName":"LittleWoman", "Costumes":[
+      {
+        "Phase":0, "CostumeMasterId":1221
+      },
+      {
+        "Phase":1, "CostumeMasterId":1222
+      },
+      {
+        "Phase":2, "CostumeMasterId":1231
+      },
+      {
+        "Phase":3, "CostumeMasterId":1232
+      }
+    ],
+    "AppearanceCharacterBaseMasterIds":[
+      101, 103
+    ],
+    "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2023-08-20 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00"
   }
 ]

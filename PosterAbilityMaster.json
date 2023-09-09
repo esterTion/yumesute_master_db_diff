@@ -1560,6 +1560,45 @@
     "BranchConditionType1":0, "BranchConditionType2":0
   },
   {
+    "Id":220200, "Name":"泡沫烟花", "Description":"銀河座に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":220200, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022300
+          }
+        ],
+        "Id":22020001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":220201, "Name":"表現力アップ", "Description":"自身の表現力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":220200, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10210300
+          }
+        ],
+        "Id":22020101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":220202, "Name":"スコアブースト・表現力", "Description":"センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":220200, "Type":2, "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11010300
+          }
+        ],
+        "Id":22020201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -2678,6 +2717,58 @@
           }
         ],
         "Id":23016301
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230170, "Name":"百鬼夜行の宴", "Description":"銀河座に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":230170, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052300
+          }
+        ],
+        "Id":23017001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230171, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":230170, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030000
+          }
+        ],
+        "Id":23017101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230172, "Name":"演技力アップ＋", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230170, "Type":2, "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10011300
+          }
+        ],
+        "Id":23017201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230173, "Name":"「光」追加（支配）", "Description":"公演開始時、支配系の光「<color=#ff0000>*</color>」を[:param11]個付与（効果は公演開始時1回のみ発動する）　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230170, "Type":2, "FrameNumber":3, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12110300
+          }
+        ],
+        "Id":23017301
       }
     ],
     "BranchConditionType1":0, "BranchConditionType2":0

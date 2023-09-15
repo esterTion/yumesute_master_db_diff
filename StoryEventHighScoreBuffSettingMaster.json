@@ -78,5 +78,45 @@
     "Id":2000508, "StoryEventHighScoreMasterId":20005, "StoryEventHighScoreBuffMasterId":108, "StoryEventHighScoreBuffMaster":{
       "Id":108, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80012, "EffectName":"ベッド", "EffectDescription":"<color=#ff679d>憐属性</color>かつ増幅系統のアクターがセンス発動時、追加で「SP光」を[:param1]個付与する（レベル10の時に効果発動／SP光はどの系統の光としても扱われる）", "IconImagePath":"108"
     }
+  },
+  {
+    "Id":2000601, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":11, "StoryEventHighScoreBuffMaster":{
+      "Id":11, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80003, "EffectName":"舞台照明", "EffectDescription":"アクターの集中力が[:param1]上昇する", "IconImagePath":"11"
+    }
+  },
+  {
+    "Id":2000602, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":12, "StoryEventHighScoreBuffMaster":{
+      "Id":12, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80002, "EffectName":"舞台スピーカー", "EffectDescription":"アクターの表現力が[:param1]上昇する", "IconImagePath":"12"
+    }
+  },
+  {
+    "Id":2000603, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":13, "StoryEventHighScoreBuffMaster":{
+      "Id":13, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80001, "EffectName":"舞台マイク", "EffectDescription":"アクターの歌唱力が[:param1]上昇する", "IconImagePath":"13"
+    }
+  },
+  {
+    "Id":2000604, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":14, "StoryEventHighScoreBuffMaster":{
+      "Id":14, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80004, "EffectName":"舞台カーテン", "EffectDescription":"アクターの演技力が[:param1]％上昇する", "IconImagePath":"14"
+    }
+  },
+  {
+    "Id":2000605, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":109, "StoryEventHighScoreBuffMaster":{
+      "Id":109, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80013, "EffectName":"ポンポン", "EffectDescription":"アクターの表現力が[:param1]％上昇する　※<color=#7AC940>彩属性</color>のアクターのみ対象", "IconImagePath":"111"
+    }
+  },
+  {
+    "Id":2000606, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":110, "StoryEventHighScoreBuffMaster":{
+      "Id":110, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80014, "EffectName":"リレーバトン", "EffectDescription":"アクターの演技力上限値が[:param1]％上昇する　※<color=#7AC940>彩属性</color>のアクターのみ対象", "IconImagePath":"112"
+    }
+  },
+  {
+    "Id":2000607, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":111, "StoryEventHighScoreBuffMaster":{
+      "Id":111, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80015, "EffectName":"ハチマキ", "EffectDescription":"センスCTが[:param1]秒短縮する　※<color=#7AC940>彩属性</color>の舎人 仁花子のみ対象", "IconImagePath":"109"
+    }
+  },
+  {
+    "Id":2000608, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":112, "StoryEventHighScoreBuffMaster":{
+      "Id":112, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80016, "EffectName":"応援旗", "EffectDescription":"センス発動時、追加で「SP光」を[:param1]個付与する　※<color=#7AC940>彩属性</color>の舎人 仁花子のみ対象", "IconImagePath":"110"
+    }
   }
 ]

@@ -118,5 +118,29 @@
   },
   {
     "Id":2000508, "StoryMasterId":20005, "RequiredTotalAcquiredPoint":128000, "Title":"白丸美兎のこれから", "Order":8, "RequiredReadEpisodeMasterId":2000507
+  },
+  {
+    "Id":2000601, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":0, "Title":"気合入れてこー！", "Order":1
+  },
+  {
+    "Id":2000602, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":2000, "Title":"開会宣言！", "Order":2, "RequiredReadEpisodeMasterId":2000601
+  },
+  {
+    "Id":2000603, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":4000, "Title":"本気の勝負！", "Order":3, "RequiredReadEpisodeMasterId":2000602
+  },
+  {
+    "Id":2000604, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":8000, "Title":"つかの間の休息！", "Order":4, "RequiredReadEpisodeMasterId":2000603
+  },
+  {
+    "Id":2000605, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":16000, "Title":"応援合戦！", "Order":5, "RequiredReadEpisodeMasterId":2000604
+  },
+  {
+    "Id":2000606, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":32000, "Title":"負けられない！", "Order":6, "RequiredReadEpisodeMasterId":2000605
+  },
+  {
+    "Id":2000607, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":64000, "Title":"勝ちたい！！", "Order":7, "RequiredReadEpisodeMasterId":2000606
+  },
+  {
+    "Id":2000608, "StoryMasterId":20006, "RequiredTotalAcquiredPoint":128000, "Title":"閉会宣言！", "Order":8, "RequiredReadEpisodeMasterId":2000607
   }
 ]

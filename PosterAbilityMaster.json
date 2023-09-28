@@ -1677,6 +1677,19 @@
     "BranchConditionType1":0, "BranchConditionType2":0
   },
   {
+    "Id":220230, "Name":"FAIR IS FOUL, AND FOUL IS FAIR", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":220230, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022004
+          }
+        ],
+        "Id":22023001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -2964,6 +2977,164 @@
           }
         ],
         "Id":23020201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230210, "Name":"魔女が告げる波乱の運命", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":230210, "Type":1, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":23021001
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":230211, "Name":"マクベスの葛藤", "Description":"銀河座に所属しているアクターのみで編成している場合、追加で全アクターの集中力が[:param11]％上昇", "PosterMasterId":230210, "Type":1, "FrameNumber":2, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":73052300
+          }
+        ],
+        "JudgeType1":1, "Parameter1":5, "Id":23021101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":99999999
+          },
+          {
+            "Order":2, "EffectMasterId":99999999
+          },
+          {
+            "Order":3, "EffectMasterId":99999999
+          }
+        ],
+        "JudgeType1":3, "Parameter1":4, "Id":23021102
+      }
+    ],
+    "BranchConditionType1":3, "ConditionValue1":3, "BranchConditionType2":0
+  },
+  {
+    "Id":230212, "Name":"マクベス夫人の狂気", "Description":"Edenに所属しているアクターのみで編成している場合、追加で全アクターの表現力が[:param11]％上昇", "PosterMasterId":230210, "Type":1, "FrameNumber":3, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":72052200
+          }
+        ],
+        "JudgeType1":1, "Parameter1":5, "Id":23021201
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":99999999
+          },
+          {
+            "Order":2, "EffectMasterId":99999999
+          },
+          {
+            "Order":3, "EffectMasterId":99999999
+          }
+        ],
+        "JudgeType1":3, "Parameter1":4, "Id":23021202
+      }
+    ],
+    "BranchConditionType1":3, "ConditionValue1":2, "BranchConditionType2":0
+  },
+  {
+    "Id":2202301, "Name":"演技力アップ＋", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":220230, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10011004
+          }
+        ],
+        "Id":220230101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":2202302, "Name":"初期ライフ上昇＋", "Description":"公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":220230, "Type":2, "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11311004
+          }
+        ],
+        "Id":220230201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":2302101, "Name":"演技力アップⅡ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230210, "Type":2, "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10021000
+          }
+        ],
+        "Id":230210101
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":2302102, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230210, "Type":2, "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810300
+          }
+        ],
+        "Id":230210201
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":2302103, "Name":"「光」追加（特殊）", "Description":"公演開始時、特殊系の光「<color=#0000ff>*</color>」を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：暦が装備", "PosterMasterId":230210, "Type":2, "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12310301
+          }
+        ],
+        "Id":230210301
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":2302104, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230210, "Type":2, "FrameNumber":4, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810200
+          }
+        ],
+        "Id":230210401
+      }
+    ],
+    "BranchConditionType1":0, "BranchConditionType2":0
+  },
+  {
+    "Id":2302105, "Name":"「光」追加（支援）", "Description":"公演開始時、支援系の光「<color=#228b22>*</color>」を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：初魅が装備", "PosterMasterId":230210, "Type":2, "FrameNumber":5, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12010201
+          }
+        ],
+        "Id":230210501
       }
     ],
     "BranchConditionType1":0, "BranchConditionType2":0

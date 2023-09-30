@@ -1,2992 +1,2992 @@
 [
   {
-    "Id":1, "MissionCategory":1, "MissionViewOrder":1, "Title":"", "Description":"メインストーリーを1話読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1, "MissionCategory":"Beginner", "MissionViewOrder":1, "Title":"", "Description":"メインストーリーを1話読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":120002, "ThingType":1, "ThingQuantity":200
+            "ThingId":120002, "ThingType":"Item", "ThingQuantity":200
           }
         ]
       }
     ]
   },
   {
-    "Id":2, "MissionCategory":1, "MissionViewOrder":2, "Title":"", "Description":"稽古を1回プレイしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2, "MissionCategory":"Beginner", "MissionViewOrder":2, "Title":"", "Description":"稽古を1回プレイしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130021, "ThingType":1, "ThingQuantity":500
+            "ThingId":130021, "ThingType":"Item", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":3, "MissionCategory":1, "MissionViewOrder":3, "Title":"", "Description":"公演を5回クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3, "MissionCategory":"Beginner", "MissionViewOrder":3, "Title":"", "Description":"公演を5回クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130022, "ThingType":1, "ThingQuantity":500
+            "ThingId":130022, "ThingType":"Item", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":4, "MissionCategory":1, "MissionViewOrder":4, "Title":"", "Description":"オーディションを1ステージクリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":4, "MissionCategory":"Beginner", "MissionViewOrder":4, "Title":"", "Description":"オーディションを1ステージクリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":4, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130023, "ThingType":1, "ThingQuantity":500
+            "ThingId":130023, "ThingType":"Item", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":5, "MissionCategory":1, "MissionViewOrder":5, "Title":"", "Description":"スタミナを500消費しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":5, "MissionCategory":"Beginner", "MissionViewOrder":5, "Title":"", "Description":"スタミナを500消費しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":5, "MissionStageOrder":1, "StageGoalValue":500, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130024, "ThingType":1, "ThingQuantity":500
+            "ThingId":130024, "ThingType":"Item", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":6, "MissionCategory":1, "MissionViewOrder":6, "Title":"", "Description":"全ての「初心者ミッション 1日目」をクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":6, "MissionCategory":"Beginner", "MissionViewOrder":6, "Title":"", "Description":"全ての「初心者ミッション 1日目」をクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":6, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":140010, "ThingType":2, "ThingQuantity":1
+            "ThingId":140010, "ThingType":"Character", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":7, "MissionCategory":1, "MissionViewOrder":7, "Title":"", "Description":"プレイヤーランクを15にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":7, "MissionCategory":"Beginner", "MissionViewOrder":7, "Title":"", "Description":"プレイヤーランクを15にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":7, "MissionStageOrder":1, "StageGoalValue":15, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":110001, "ThingType":1, "ThingQuantity":1
+            "ThingId":110001, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":8, "MissionCategory":1, "MissionViewOrder":8, "Title":"", "Description":"いずれかのアクターのレベルを10にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":8, "MissionCategory":"Beginner", "MissionViewOrder":8, "Title":"", "Description":"いずれかのアクターのレベルを10にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":8, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":510002, "ThingType":1, "ThingQuantity":2
+            "ThingId":510002, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       }
     ]
   },
   {
-    "Id":9, "MissionCategory":1, "MissionViewOrder":9, "Title":"", "Description":"マーケットでアイテムを購入しよう", "JumpType":2, "JumpTargetId":1, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":9, "MissionCategory":"Beginner", "MissionViewOrder":9, "Title":"", "Description":"マーケットでアイテムを購入しよう", "JumpType":"Shop", "JumpTargetId":1, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":9, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130001, "ThingType":1, "ThingQuantity":10
+            "ThingId":130001, "ThingType":"Item", "ThingQuantity":10
           }
         ]
       }
     ]
   },
   {
-    "Id":10, "MissionCategory":1, "MissionViewOrder":10, "Title":"", "Description":"撮影でフォトを獲得しよう", "JumpType":8, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":10, "MissionCategory":"Beginner", "MissionViewOrder":10, "Title":"", "Description":"撮影でフォトを獲得しよう", "JumpType":"Photo", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":10, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130041, "ThingType":1, "ThingQuantity":100
+            "ThingId":130041, "ThingType":"Item", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":11, "MissionCategory":1, "MissionViewOrder":11, "Title":"", "Description":"アルバムにフォトを設定しよう", "JumpType":8, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":11, "MissionCategory":"Beginner", "MissionViewOrder":11, "Title":"", "Description":"アルバムにフォトを設定しよう", "JumpType":"Photo", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":11, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130061, "ThingType":1, "ThingQuantity":100
+            "ThingId":130061, "ThingType":"Item", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":12, "MissionCategory":1, "MissionViewOrder":12, "Title":"", "Description":"全ての「初心者ミッション 2日目」をクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":12, "MissionCategory":"Beginner", "MissionViewOrder":12, "Title":"", "Description":"全ての「初心者ミッション 2日目」をクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":12, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":500
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":13, "MissionCategory":1, "MissionViewOrder":13, "Title":"", "Description":"プレイヤーランクを18にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":13, "MissionCategory":"Beginner", "MissionViewOrder":13, "Title":"", "Description":"プレイヤーランクを18にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":13, "MissionStageOrder":1, "StageGoalValue":18, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":120002, "ThingType":1, "ThingQuantity":200
+            "ThingId":120002, "ThingType":"Item", "ThingQuantity":200
           }
         ]
       }
     ]
   },
   {
-    "Id":14, "MissionCategory":1, "MissionViewOrder":14, "Title":"", "Description":"いずれかのアクターのセンスレベルを2にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":14, "MissionCategory":"Beginner", "MissionViewOrder":14, "Title":"", "Description":"いずれかのアクターのセンスレベルを2にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":14, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130042, "ThingType":1, "ThingQuantity":100
+            "ThingId":130042, "ThingType":"Item", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":15, "MissionCategory":1, "MissionViewOrder":15, "Title":"", "Description":"いずれかのポスターのレベルを2にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":15, "MissionCategory":"Beginner", "MissionViewOrder":15, "Title":"", "Description":"いずれかのポスターのレベルを2にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":15, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130062, "ThingType":1, "ThingQuantity":100
+            "ThingId":130062, "ThingType":"Item", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":16, "MissionCategory":1, "MissionViewOrder":16, "Title":"", "Description":"ポスターストーリーを1回読もう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":16, "MissionCategory":"Beginner", "MissionViewOrder":16, "Title":"", "Description":"ポスターストーリーを1回読もう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":16, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130025, "ThingType":1, "ThingQuantity":100
+            "ThingId":130025, "ThingType":"Item", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":17, "MissionCategory":1, "MissionViewOrder":17, "Title":"", "Description":"楽曲ショップで楽曲を獲得しよう", "JumpType":12, "JumpTargetId":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":17, "MissionCategory":"Beginner", "MissionViewOrder":17, "Title":"", "Description":"楽曲ショップで楽曲を獲得しよう", "JumpType":"MusicShop", "JumpTargetId":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":17, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130001, "ThingType":1, "ThingQuantity":10
+            "ThingId":130001, "ThingType":"Item", "ThingQuantity":10
           }
         ]
       }
     ]
   },
   {
-    "Id":18, "MissionCategory":1, "MissionViewOrder":18, "Title":"", "Description":"全ての「初心者ミッション 3日目」をクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":18, "MissionCategory":"Beginner", "MissionViewOrder":18, "Title":"", "Description":"全ての「初心者ミッション 3日目」をクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":18, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":211101, "ThingType":1, "ThingQuantity":1
+            "ThingId":211101, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":19, "MissionCategory":1, "MissionViewOrder":19, "Title":"", "Description":"プレイヤーランクを21にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":19, "MissionCategory":"Beginner", "MissionViewOrder":19, "Title":"", "Description":"プレイヤーランクを21にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":19, "MissionStageOrder":1, "StageGoalValue":21, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":110001, "ThingType":1, "ThingQuantity":1
+            "ThingId":110001, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":20, "MissionCategory":1, "MissionViewOrder":20, "Title":"", "Description":"異なる楽曲を10回クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":20, "MissionCategory":"Beginner", "MissionViewOrder":20, "Title":"", "Description":"異なる楽曲を10回クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":20, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130031, "ThingType":1, "ThingQuantity":300
+            "ThingId":130031, "ThingType":"Item", "ThingQuantity":300
           }
         ]
       }
     ]
   },
   {
-    "Id":21, "MissionCategory":1, "MissionViewOrder":21, "Title":"", "Description":"スタンプをお気に入り設定しよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":21, "MissionCategory":"Beginner", "MissionViewOrder":21, "Title":"", "Description":"スタンプをお気に入り設定しよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":21, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130032, "ThingType":1, "ThingQuantity":300
+            "ThingId":130032, "ThingType":"Item", "ThingQuantity":300
           }
         ]
       }
     ]
   },
   {
-    "Id":22, "MissionCategory":1, "MissionViewOrder":22, "Title":"", "Description":"スターアクトを発動しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":22, "MissionCategory":"Beginner", "MissionViewOrder":22, "Title":"", "Description":"スターアクトを発動しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":22, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130033, "ThingType":1, "ThingQuantity":300
+            "ThingId":130033, "ThingType":"Item", "ThingQuantity":300
           }
         ]
       }
     ]
   },
   {
-    "Id":23, "MissionCategory":1, "MissionViewOrder":23, "Title":"", "Description":"スポットストーリーを1回読もう", "JumpType":13, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":23, "MissionCategory":"Beginner", "MissionViewOrder":23, "Title":"", "Description":"スポットストーリーを1回読もう", "JumpType":"Spot", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":23, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130034, "ThingType":1, "ThingQuantity":300
+            "ThingId":130034, "ThingType":"Item", "ThingQuantity":300
           }
         ]
       }
     ]
   },
   {
-    "Id":24, "MissionCategory":1, "MissionViewOrder":24, "Title":"", "Description":"全ての「初心者ミッション 4日目」をクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":24, "MissionCategory":"Beginner", "MissionViewOrder":24, "Title":"", "Description":"全ての「初心者ミッション 4日目」をクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":24, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":500
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":25, "MissionCategory":1, "MissionViewOrder":25, "Title":"", "Description":"プレイヤーランクを24にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":25, "MissionCategory":"Beginner", "MissionViewOrder":25, "Title":"", "Description":"プレイヤーランクを24にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":25, "MissionStageOrder":1, "StageGoalValue":24, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":120002, "ThingType":1, "ThingQuantity":200
+            "ThingId":120002, "ThingType":"Item", "ThingQuantity":200
           }
         ]
       }
     ]
   },
   {
-    "Id":26, "MissionCategory":1, "MissionViewOrder":26, "Title":"", "Description":"いずれかのフォトのレベルを2にしよう", "JumpType":8, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":26, "MissionCategory":"Beginner", "MissionViewOrder":26, "Title":"", "Description":"いずれかのフォトのレベルを2にしよう", "JumpType":"Photo", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":26, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130035, "ThingType":1, "ThingQuantity":50
+            "ThingId":130035, "ThingType":"Item", "ThingQuantity":50
           }
         ]
       }
     ]
   },
   {
-    "Id":27, "MissionCategory":1, "MissionViewOrder":27, "Title":"", "Description":"プロフィールで称号を設定しよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":27, "MissionCategory":"Beginner", "MissionViewOrder":27, "Title":"", "Description":"プロフィールで称号を設定しよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":27, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":140000, "ThingType":1, "ThingQuantity":50
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":50
           }
         ]
       }
     ]
   },
   {
-    "Id":28, "MissionCategory":1, "MissionViewOrder":28, "Title":"", "Description":"プロフィールでコメントを編集しよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":28, "MissionCategory":"Beginner", "MissionViewOrder":28, "Title":"", "Description":"プロフィールでコメントを編集しよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":28, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130051, "ThingType":1, "ThingQuantity":10
+            "ThingId":130051, "ThingType":"Item", "ThingQuantity":10
           }
         ]
       }
     ]
   },
   {
-    "Id":29, "MissionCategory":1, "MissionViewOrder":29, "Title":"", "Description":"レートを200以上にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":29, "MissionCategory":"Beginner", "MissionViewOrder":29, "Title":"", "Description":"レートを200以上にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":29, "MissionStageOrder":1, "StageGoalValue":200, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130001, "ThingType":1, "ThingQuantity":10
+            "ThingId":130001, "ThingType":"Item", "ThingQuantity":10
           }
         ]
       }
     ]
   },
   {
-    "Id":30, "MissionCategory":1, "MissionViewOrder":30, "Title":"", "Description":"全ての「初心者ミッション 5日目」をクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":30, "MissionCategory":"Beginner", "MissionViewOrder":30, "Title":"", "Description":"全ての「初心者ミッション 5日目」をクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":30, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":210101, "ThingType":1, "ThingQuantity":1
+            "ThingId":210101, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":31, "MissionCategory":1, "MissionViewOrder":31, "Title":"", "Description":"プレイヤーランクを27にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":31, "MissionCategory":"Beginner", "MissionViewOrder":31, "Title":"", "Description":"プレイヤーランクを27にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":31, "MissionStageOrder":1, "StageGoalValue":27, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":110001, "ThingType":1, "ThingQuantity":1
+            "ThingId":110001, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":32, "MissionCategory":1, "MissionViewOrder":32, "Title":"", "Description":"演劇リーグを1回プレイしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":32, "MissionCategory":"Beginner", "MissionViewOrder":32, "Title":"", "Description":"演劇リーグを1回プレイしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":32, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130035, "ThingType":1, "ThingQuantity":50
+            "ThingId":130035, "ThingType":"Item", "ThingQuantity":50
           }
         ]
       }
     ]
   },
   {
-    "Id":33, "MissionCategory":1, "MissionViewOrder":33, "Title":"", "Description":"アクターを1人覚醒しよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":33, "MissionCategory":"Beginner", "MissionViewOrder":33, "Title":"", "Description":"アクターを1人覚醒しよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":33, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130063, "ThingType":1, "ThingQuantity":100
+            "ThingId":130063, "ThingType":"Item", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":34, "MissionCategory":1, "MissionViewOrder":34, "Title":"", "Description":"アクターを1人才能開花しよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":34, "MissionCategory":"Beginner", "MissionViewOrder":34, "Title":"", "Description":"アクターを1人才能開花しよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":34, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":144001, "ThingType":1, "ThingQuantity":500
+            "ThingId":144001, "ThingType":"Item", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":35, "MissionCategory":1, "MissionViewOrder":35, "Title":"", "Description":"難易度EXTRAの譜面を1回クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":35, "MissionCategory":"Beginner", "MissionViewOrder":35, "Title":"", "Description":"難易度EXTRAの譜面を1回クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":35, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":510003, "ThingType":1, "ThingQuantity":1
+            "ThingId":510003, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":36, "MissionCategory":1, "MissionViewOrder":36, "Title":"", "Description":"全ての「初心者ミッション 6日目」をクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":36, "MissionCategory":"Beginner", "MissionViewOrder":36, "Title":"", "Description":"全ての「初心者ミッション 6日目」をクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":36, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":500
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":500
           }
         ]
       }
     ]
   },
   {
-    "Id":37, "MissionCategory":1, "MissionViewOrder":37, "Title":"", "Description":"プレイヤーランクを30にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":37, "MissionCategory":"Beginner", "MissionViewOrder":37, "Title":"", "Description":"プレイヤーランクを30にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":37, "MissionStageOrder":1, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":110002, "ThingType":1, "ThingQuantity":1
+            "ThingId":110002, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":38, "MissionCategory":1, "MissionViewOrder":38, "Title":"", "Description":"サークルに入ろう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":38, "MissionCategory":"Beginner", "MissionViewOrder":38, "Title":"", "Description":"サークルに入ろう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":38, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130043, "ThingType":1, "ThingQuantity":50
+            "ThingId":130043, "ThingType":"Item", "ThingQuantity":50
           }
         ]
       }
     ]
   },
   {
-    "Id":39, "MissionCategory":1, "MissionViewOrder":39, "Title":"", "Description":"スタミナを10000消費しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":39, "MissionCategory":"Beginner", "MissionViewOrder":39, "Title":"", "Description":"スタミナを10000消費しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":39, "MissionStageOrder":1, "StageGoalValue":10000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130064, "ThingType":1, "ThingQuantity":50
+            "ThingId":130064, "ThingType":"Item", "ThingQuantity":50
           }
         ]
       }
     ]
   },
   {
-    "Id":40, "MissionCategory":1, "MissionViewOrder":40, "Title":"", "Description":"オーディションを10ステージクリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":40, "MissionCategory":"Beginner", "MissionViewOrder":40, "Title":"", "Description":"オーディションを10ステージクリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":40, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130091, "ThingType":1, "ThingQuantity":5
+            "ThingId":130091, "ThingType":"Item", "ThingQuantity":5
           }
         ]
       }
     ]
   },
   {
-    "Id":41, "MissionCategory":1, "MissionViewOrder":41, "Title":"", "Description":"フルコンボを1回達成しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":41, "MissionCategory":"Beginner", "MissionViewOrder":41, "Title":"", "Description":"フルコンボを1回達成しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":41, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":510004, "ThingType":1, "ThingQuantity":1
+            "ThingId":510004, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":42, "MissionCategory":1, "MissionViewOrder":42, "Title":"", "Description":"全ての「初心者ミッション」をクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":42, "MissionCategory":"Beginner", "MissionViewOrder":42, "Title":"", "Description":"全ての「初心者ミッション」をクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":42, "MissionStageOrder":1, "StageGoalValue":41, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":211201, "ThingType":1, "ThingQuantity":1
+            "ThingId":211201, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":110, "MissionCategory":11, "MissionViewOrder":110, "Title":"", "Description":"シリウスのメインストーリー/n第1章を全て読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":110, "MissionCategory":"TheaterSirius", "MissionViewOrder":110, "Title":"", "Description":"シリウスのメインストーリー/n第1章を全て読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":111, "MissionStageOrder":1, "StageGoalValue":23, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":10103, "ThingType":7, "ThingQuantity":1
+            "ThingId":10103, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":120, "MissionCategory":11, "MissionViewOrder":120, "Title":"", "Description":"シリウスに所属するアクターの/n合計レベルを1000にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":120, "MissionCategory":"TheaterSirius", "MissionViewOrder":120, "Title":"", "Description":"シリウスに所属するアクターの/n合計レベルを1000にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":121, "MissionStageOrder":1, "StageGoalValue":1000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":10303, "ThingType":7, "ThingQuantity":1
+            "ThingId":10303, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":130, "MissionCategory":11, "MissionViewOrder":130, "Title":"", "Description":"シリウスに所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":2, "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":130, "MissionCategory":"TheaterSirius", "MissionViewOrder":130, "Title":"", "Description":"シリウスに所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":"Shop", "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":131, "MissionStageOrder":1, "StageGoalValue":15, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":10403, "ThingType":7, "ThingQuantity":1
+            "ThingId":10403, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":140, "MissionCategory":11, "MissionViewOrder":140, "Title":"", "Description":"シリウスに所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":140, "MissionCategory":"TheaterSirius", "MissionViewOrder":140, "Title":"", "Description":"シリウスに所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":141, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":10503, "ThingType":7, "ThingQuantity":1
+            "ThingId":10503, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":150, "MissionCategory":11, "MissionViewOrder":150, "Title":"", "Description":"「シリウスの輝きのように」のいずれか/nの難易度をフルコンボしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":150, "MissionCategory":"TheaterSirius", "MissionViewOrder":150, "Title":"", "Description":"「シリウスの輝きのように」のいずれか/nの難易度をフルコンボしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":151, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":10603, "ThingType":7, "ThingQuantity":1
+            "ThingId":10603, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":160, "MissionCategory":11, "MissionViewOrder":160, "Title":"", "Description":"シリウスの劇団ミッションを/n全てクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":160, "MissionCategory":"TheaterSirius", "MissionViewOrder":160, "Title":"", "Description":"シリウスの劇団ミッションを/n全てクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":161, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":230090, "ThingType":3, "ThingQuantity":1
+            "ThingId":230090, "ThingType":"Poster", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":210, "MissionCategory":12, "MissionViewOrder":210, "Title":"", "Description":"Edenのメインストーリー/n第1章を全て読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":210, "MissionCategory":"TheaterEden", "MissionViewOrder":210, "Title":"", "Description":"Edenのメインストーリー/n第1章を全て読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":211, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":20103, "ThingType":7, "ThingQuantity":1
+            "ThingId":20103, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":220, "MissionCategory":12, "MissionViewOrder":220, "Title":"", "Description":"Edenに所属するアクターの/n合計レベルを1000にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":220, "MissionCategory":"TheaterEden", "MissionViewOrder":220, "Title":"", "Description":"Edenに所属するアクターの/n合計レベルを1000にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":221, "MissionStageOrder":1, "StageGoalValue":1000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":20203, "ThingType":7, "ThingQuantity":1
+            "ThingId":20203, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":230, "MissionCategory":12, "MissionViewOrder":230, "Title":"", "Description":"Edenに所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":2, "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":230, "MissionCategory":"TheaterEden", "MissionViewOrder":230, "Title":"", "Description":"Edenに所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":"Shop", "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":231, "MissionStageOrder":1, "StageGoalValue":15, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":20303, "ThingType":7, "ThingQuantity":1
+            "ThingId":20303, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":240, "MissionCategory":12, "MissionViewOrder":240, "Title":"", "Description":"Edenに所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":240, "MissionCategory":"TheaterEden", "MissionViewOrder":240, "Title":"", "Description":"Edenに所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":241, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":20403, "ThingType":7, "ThingQuantity":1
+            "ThingId":20403, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":250, "MissionCategory":12, "MissionViewOrder":250, "Title":"", "Description":"「Faith in Expression」のいずれか/nの難易度をフルコンボしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":250, "MissionCategory":"TheaterEden", "MissionViewOrder":250, "Title":"", "Description":"「Faith in Expression」のいずれか/nの難易度をフルコンボしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":251, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":20503, "ThingType":7, "ThingQuantity":1
+            "ThingId":20503, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":260, "MissionCategory":12, "MissionViewOrder":260, "Title":"", "Description":"Edenの劇団ミッションを/n全てクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":260, "MissionCategory":"TheaterEden", "MissionViewOrder":260, "Title":"", "Description":"Edenの劇団ミッションを/n全てクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":261, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":230100, "ThingType":3, "ThingQuantity":1
+            "ThingId":230100, "ThingType":"Poster", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":310, "MissionCategory":13, "MissionViewOrder":310, "Title":"", "Description":"銀河座のメインストーリー/n第1章を全て読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":310, "MissionCategory":"TheaterGingaza", "MissionViewOrder":310, "Title":"", "Description":"銀河座のメインストーリー/n第1章を全て読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":311, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":30103, "ThingType":7, "ThingQuantity":1
+            "ThingId":30103, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":320, "MissionCategory":13, "MissionViewOrder":320, "Title":"", "Description":"銀河座に所属するアクターの/n合計レベルを1000にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":320, "MissionCategory":"TheaterGingaza", "MissionViewOrder":320, "Title":"", "Description":"銀河座に所属するアクターの/n合計レベルを1000にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":321, "MissionStageOrder":1, "StageGoalValue":1000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":30203, "ThingType":7, "ThingQuantity":1
+            "ThingId":30203, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":330, "MissionCategory":13, "MissionViewOrder":330, "Title":"", "Description":"銀河座に所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":2, "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":330, "MissionCategory":"TheaterGingaza", "MissionViewOrder":330, "Title":"", "Description":"銀河座に所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":"Shop", "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":331, "MissionStageOrder":1, "StageGoalValue":15, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":30303, "ThingType":7, "ThingQuantity":1
+            "ThingId":30303, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":340, "MissionCategory":13, "MissionViewOrder":340, "Title":"", "Description":"銀河座に所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":340, "MissionCategory":"TheaterGingaza", "MissionViewOrder":340, "Title":"", "Description":"銀河座に所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":341, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":30403, "ThingType":7, "ThingQuantity":1
+            "ThingId":30403, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":350, "MissionCategory":13, "MissionViewOrder":350, "Title":"", "Description":"「プラネタリウム・レヴュー」のいずれか/nの難易度をフルコンボしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":350, "MissionCategory":"TheaterGingaza", "MissionViewOrder":350, "Title":"", "Description":"「プラネタリウム・レヴュー」のいずれか/nの難易度をフルコンボしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":351, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":30503, "ThingType":7, "ThingQuantity":1
+            "ThingId":30503, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":360, "MissionCategory":13, "MissionViewOrder":360, "Title":"", "Description":"銀河座の劇団ミッションを/n全てクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":360, "MissionCategory":"TheaterGingaza", "MissionViewOrder":360, "Title":"", "Description":"銀河座の劇団ミッションを/n全てクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":361, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":230110, "ThingType":3, "ThingQuantity":1
+            "ThingId":230110, "ThingType":"Poster", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":410, "MissionCategory":14, "MissionViewOrder":410, "Title":"", "Description":"劇団電姫のメインストーリー/n第1章を全て読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":410, "MissionCategory":"TheaterDenki", "MissionViewOrder":410, "Title":"", "Description":"劇団電姫のメインストーリー/n第1章を全て読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":411, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":40103, "ThingType":7, "ThingQuantity":1
+            "ThingId":40103, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":420, "MissionCategory":14, "MissionViewOrder":420, "Title":"", "Description":"劇団電姫に所属するアクターの/n合計レベルを1000にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":420, "MissionCategory":"TheaterDenki", "MissionViewOrder":420, "Title":"", "Description":"劇団電姫に所属するアクターの/n合計レベルを1000にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":421, "MissionStageOrder":1, "StageGoalValue":1000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":40203, "ThingType":7, "ThingQuantity":1
+            "ThingId":40203, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":430, "MissionCategory":14, "MissionViewOrder":430, "Title":"", "Description":"劇団電姫に所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":2, "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":430, "MissionCategory":"TheaterDenki", "MissionViewOrder":430, "Title":"", "Description":"劇団電姫に所属するアクターのスタンプを/n15種類獲得しよう(デフォルトを除く)", "JumpType":"Shop", "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":431, "MissionStageOrder":1, "StageGoalValue":15, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":40303, "ThingType":7, "ThingQuantity":1
+            "ThingId":40303, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":440, "MissionCategory":14, "MissionViewOrder":440, "Title":"", "Description":"劇団電姫に所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":440, "MissionCategory":"TheaterDenki", "MissionViewOrder":440, "Title":"", "Description":"劇団電姫に所属するアクターのみが歌唱する/n楽曲のEXTRAを3譜面クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":441, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":40403, "ThingType":7, "ThingQuantity":1
+            "ThingId":40403, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":450, "MissionCategory":14, "MissionViewOrder":450, "Title":"", "Description":"「デアエ・エクス・マキナ！」のいずれか/nの難易度をフルコンボしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":450, "MissionCategory":"TheaterDenki", "MissionViewOrder":450, "Title":"", "Description":"「デアエ・エクス・マキナ！」のいずれか/nの難易度をフルコンボしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":451, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":40503, "ThingType":7, "ThingQuantity":1
+            "ThingId":40503, "ThingType":"Stamp", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":460, "MissionCategory":14, "MissionViewOrder":460, "Title":"", "Description":"劇団電姫の劇団ミッションを/n全てクリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":460, "MissionCategory":"TheaterDenki", "MissionViewOrder":460, "Title":"", "Description":"劇団電姫の劇団ミッションを/n全てクリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":461, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":230120, "ThingType":3, "ThingQuantity":1
+            "ThingId":230120, "ThingType":"Poster", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":1000, "MissionCategory":2, "MissionViewOrder":1000, "Title":"", "Description":"プレイヤーランクを[:param]にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1000, "MissionCategory":"Normal", "MissionViewOrder":1000, "Title":"", "Description":"プレイヤーランクを[:param]にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1001, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1002, "MissionStageOrder":2, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1003, "MissionStageOrder":3, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1004, "MissionStageOrder":4, "StageGoalValue":40, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1005, "MissionStageOrder":5, "StageGoalValue":50, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1006, "MissionStageOrder":6, "StageGoalValue":60, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1007, "MissionStageOrder":7, "StageGoalValue":70, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1008, "MissionStageOrder":8, "StageGoalValue":80, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1009, "MissionStageOrder":9, "StageGoalValue":90, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1010, "MissionStageOrder":10, "StageGoalValue":100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1011, "MissionStageOrder":11, "StageGoalValue":110, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1012, "MissionStageOrder":12, "StageGoalValue":120, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1013, "MissionStageOrder":13, "StageGoalValue":130, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1014, "MissionStageOrder":14, "StageGoalValue":140, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1015, "MissionStageOrder":15, "StageGoalValue":150, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1016, "MissionStageOrder":16, "StageGoalValue":160, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1017, "MissionStageOrder":17, "StageGoalValue":170, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1018, "MissionStageOrder":18, "StageGoalValue":180, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1019, "MissionStageOrder":19, "StageGoalValue":190, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1020, "MissionStageOrder":20, "StageGoalValue":200, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":1100, "MissionCategory":2, "MissionViewOrder":1100, "Title":"", "Description":"プレイヤーランクを[:param]にしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1100, "MissionCategory":"Normal", "MissionViewOrder":1100, "Title":"", "Description":"プレイヤーランクを[:param]にしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1100, "MissionStageOrder":1, "StageGoalValue":25, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200201, "ThingType":6, "ThingQuantity":1
+            "ThingId":200201, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1101, "MissionStageOrder":2, "StageGoalValue":50, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200202, "ThingType":6, "ThingQuantity":1
+            "ThingId":200202, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1102, "MissionStageOrder":3, "StageGoalValue":60, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200203, "ThingType":6, "ThingQuantity":1
+            "ThingId":200203, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1103, "MissionStageOrder":4, "StageGoalValue":70, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200204, "ThingType":6, "ThingQuantity":1
+            "ThingId":200204, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1104, "MissionStageOrder":5, "StageGoalValue":80, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200205, "ThingType":6, "ThingQuantity":1
+            "ThingId":200205, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1105, "MissionStageOrder":6, "StageGoalValue":90, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200206, "ThingType":6, "ThingQuantity":1
+            "ThingId":200206, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1106, "MissionStageOrder":7, "StageGoalValue":100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200207, "ThingType":6, "ThingQuantity":1
+            "ThingId":200207, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1107, "MissionStageOrder":8, "StageGoalValue":110, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200208, "ThingType":6, "ThingQuantity":1
+            "ThingId":200208, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1108, "MissionStageOrder":9, "StageGoalValue":120, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200209, "ThingType":6, "ThingQuantity":1
+            "ThingId":200209, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1109, "MissionStageOrder":10, "StageGoalValue":130, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200210, "ThingType":6, "ThingQuantity":1
+            "ThingId":200210, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1110, "MissionStageOrder":11, "StageGoalValue":140, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200211, "ThingType":6, "ThingQuantity":1
+            "ThingId":200211, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1111, "MissionStageOrder":12, "StageGoalValue":150, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200212, "ThingType":6, "ThingQuantity":1
+            "ThingId":200212, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":1200, "MissionCategory":2, "MissionViewOrder":1200, "Title":"", "Description":"アクターの合計レベルを[:param]以上にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1200, "MissionCategory":"Normal", "MissionViewOrder":1200, "Title":"", "Description":"アクターの合計レベルを[:param]以上にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1201, "MissionStageOrder":1, "StageGoalValue":2000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1202, "MissionStageOrder":2, "StageGoalValue":3000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1203, "MissionStageOrder":3, "StageGoalValue":4000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1204, "MissionStageOrder":4, "StageGoalValue":5000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1205, "MissionStageOrder":5, "StageGoalValue":6000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1206, "MissionStageOrder":6, "StageGoalValue":7000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1207, "MissionStageOrder":7, "StageGoalValue":8000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1208, "MissionStageOrder":8, "StageGoalValue":9000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1209, "MissionStageOrder":9, "StageGoalValue":10000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1210, "MissionStageOrder":10, "StageGoalValue":11000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1211, "MissionStageOrder":11, "StageGoalValue":12000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1212, "MissionStageOrder":12, "StageGoalValue":13000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1213, "MissionStageOrder":13, "StageGoalValue":14000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1214, "MissionStageOrder":14, "StageGoalValue":15000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1215, "MissionStageOrder":15, "StageGoalValue":16000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1216, "MissionStageOrder":16, "StageGoalValue":17000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1217, "MissionStageOrder":17, "StageGoalValue":18000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1218, "MissionStageOrder":18, "StageGoalValue":19000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1219, "MissionStageOrder":19, "StageGoalValue":20000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       }
     ]
   },
   {
-    "Id":1300, "MissionCategory":2, "MissionViewOrder":1300, "Title":"", "Description":"ポスターの合計レベルを[:param]以上にしよう", "JumpType":7, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1300, "MissionCategory":"Normal", "MissionViewOrder":1300, "Title":"", "Description":"ポスターの合計レベルを[:param]以上にしよう", "JumpType":"Member", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1301, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":1
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1302, "MissionStageOrder":2, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1303, "MissionStageOrder":3, "StageGoalValue":60, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1304, "MissionStageOrder":4, "StageGoalValue":100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1305, "MissionStageOrder":5, "StageGoalValue":150, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1306, "MissionStageOrder":6, "StageGoalValue":200, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1307, "MissionStageOrder":7, "StageGoalValue":250, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1308, "MissionStageOrder":8, "StageGoalValue":300, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1309, "MissionStageOrder":9, "StageGoalValue":350, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1310, "MissionStageOrder":10, "StageGoalValue":400, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1311, "MissionStageOrder":11, "StageGoalValue":450, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1312, "MissionStageOrder":12, "StageGoalValue":500, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1313, "MissionStageOrder":13, "StageGoalValue":550, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1314, "MissionStageOrder":14, "StageGoalValue":600, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1315, "MissionStageOrder":15, "StageGoalValue":650, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1316, "MissionStageOrder":16, "StageGoalValue":700, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1317, "MissionStageOrder":17, "StageGoalValue":750, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1318, "MissionStageOrder":18, "StageGoalValue":800, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1319, "MissionStageOrder":19, "StageGoalValue":850, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1320, "MissionStageOrder":20, "StageGoalValue":900, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       },
       {
         "Id":1321, "MissionStageOrder":21, "StageGoalValue":950, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":130071, "ThingType":1, "ThingQuantity":2
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
           }
         ]
       },
       {
         "Id":1322, "MissionStageOrder":22, "StageGoalValue":1000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":100
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
           }
         ]
       }
     ]
   },
   {
-    "Id":1600, "MissionCategory":2, "MissionViewOrder":1600, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1600, "MissionCategory":"Normal", "MissionViewOrder":1600, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1601, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1602, "MissionStageOrder":2, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1603, "MissionStageOrder":3, "StageGoalValue":60, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1604, "MissionStageOrder":4, "StageGoalValue":100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1605, "MissionStageOrder":5, "StageGoalValue":150, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1606, "MissionStageOrder":6, "StageGoalValue":210, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1607, "MissionStageOrder":7, "StageGoalValue":280, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1608, "MissionStageOrder":8, "StageGoalValue":360, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1609, "MissionStageOrder":9, "StageGoalValue":450, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1610, "MissionStageOrder":10, "StageGoalValue":550, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1611, "MissionStageOrder":11, "StageGoalValue":660, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1612, "MissionStageOrder":12, "StageGoalValue":780, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1613, "MissionStageOrder":13, "StageGoalValue":910, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1614, "MissionStageOrder":14, "StageGoalValue":1050, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1615, "MissionStageOrder":15, "StageGoalValue":1200, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1616, "MissionStageOrder":16, "StageGoalValue":1360, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1617, "MissionStageOrder":17, "StageGoalValue":1530, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1618, "MissionStageOrder":18, "StageGoalValue":1710, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1619, "MissionStageOrder":19, "StageGoalValue":1900, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1620, "MissionStageOrder":20, "StageGoalValue":2100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1621, "MissionStageOrder":21, "StageGoalValue":2310, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1622, "MissionStageOrder":22, "StageGoalValue":2530, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1623, "MissionStageOrder":23, "StageGoalValue":2760, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1624, "MissionStageOrder":24, "StageGoalValue":3000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1625, "MissionStageOrder":25, "StageGoalValue":3250, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1626, "MissionStageOrder":26, "StageGoalValue":3510, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1627, "MissionStageOrder":27, "StageGoalValue":3780, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1628, "MissionStageOrder":28, "StageGoalValue":4060, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1629, "MissionStageOrder":29, "StageGoalValue":4350, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1630, "MissionStageOrder":30, "StageGoalValue":4650, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1631, "MissionStageOrder":31, "StageGoalValue":4960, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1632, "MissionStageOrder":32, "StageGoalValue":5280, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1633, "MissionStageOrder":33, "StageGoalValue":5610, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1634, "MissionStageOrder":34, "StageGoalValue":5950, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1635, "MissionStageOrder":35, "StageGoalValue":6300, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1636, "MissionStageOrder":36, "StageGoalValue":6660, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1637, "MissionStageOrder":37, "StageGoalValue":7030, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1638, "MissionStageOrder":38, "StageGoalValue":7410, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1639, "MissionStageOrder":39, "StageGoalValue":7800, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1640, "MissionStageOrder":40, "StageGoalValue":8200, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1641, "MissionStageOrder":41, "StageGoalValue":8610, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1642, "MissionStageOrder":42, "StageGoalValue":9030, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1643, "MissionStageOrder":43, "StageGoalValue":9460, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1644, "MissionStageOrder":44, "StageGoalValue":9900, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1645, "MissionStageOrder":45, "StageGoalValue":10350, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1646, "MissionStageOrder":46, "StageGoalValue":10810, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1647, "MissionStageOrder":47, "StageGoalValue":11280, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1648, "MissionStageOrder":48, "StageGoalValue":11760, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1649, "MissionStageOrder":49, "StageGoalValue":12250, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1650, "MissionStageOrder":50, "StageGoalValue":12750, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1651, "MissionStageOrder":51, "StageGoalValue":13260, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1652, "MissionStageOrder":52, "StageGoalValue":13780, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1653, "MissionStageOrder":53, "StageGoalValue":14310, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1654, "MissionStageOrder":54, "StageGoalValue":14850, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1655, "MissionStageOrder":55, "StageGoalValue":15400, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1656, "MissionStageOrder":56, "StageGoalValue":15960, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1657, "MissionStageOrder":57, "StageGoalValue":16530, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1658, "MissionStageOrder":58, "StageGoalValue":17110, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1659, "MissionStageOrder":59, "StageGoalValue":17700, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1660, "MissionStageOrder":60, "StageGoalValue":18300, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1661, "MissionStageOrder":61, "StageGoalValue":18910, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1662, "MissionStageOrder":62, "StageGoalValue":19530, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1663, "MissionStageOrder":63, "StageGoalValue":20160, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1664, "MissionStageOrder":64, "StageGoalValue":20800, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1665, "MissionStageOrder":65, "StageGoalValue":21450, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1666, "MissionStageOrder":66, "StageGoalValue":22110, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1667, "MissionStageOrder":67, "StageGoalValue":22780, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1668, "MissionStageOrder":68, "StageGoalValue":23460, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1669, "MissionStageOrder":69, "StageGoalValue":24150, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1670, "MissionStageOrder":70, "StageGoalValue":24850, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1671, "MissionStageOrder":71, "StageGoalValue":25560, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1672, "MissionStageOrder":72, "StageGoalValue":26280, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1673, "MissionStageOrder":73, "StageGoalValue":27010, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1674, "MissionStageOrder":74, "StageGoalValue":27750, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1675, "MissionStageOrder":75, "StageGoalValue":28500, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1676, "MissionStageOrder":76, "StageGoalValue":29260, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1677, "MissionStageOrder":77, "StageGoalValue":30030, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1678, "MissionStageOrder":78, "StageGoalValue":30810, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1679, "MissionStageOrder":79, "StageGoalValue":31600, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1680, "MissionStageOrder":80, "StageGoalValue":32400, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1681, "MissionStageOrder":81, "StageGoalValue":33210, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1682, "MissionStageOrder":82, "StageGoalValue":34030, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1683, "MissionStageOrder":83, "StageGoalValue":34860, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1684, "MissionStageOrder":84, "StageGoalValue":35700, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1685, "MissionStageOrder":85, "StageGoalValue":36550, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1686, "MissionStageOrder":86, "StageGoalValue":37410, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1687, "MissionStageOrder":87, "StageGoalValue":38280, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1688, "MissionStageOrder":88, "StageGoalValue":39160, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1689, "MissionStageOrder":89, "StageGoalValue":40050, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1690, "MissionStageOrder":90, "StageGoalValue":40950, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1691, "MissionStageOrder":91, "StageGoalValue":41860, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1692, "MissionStageOrder":92, "StageGoalValue":42780, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1693, "MissionStageOrder":93, "StageGoalValue":43710, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1694, "MissionStageOrder":94, "StageGoalValue":44650, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1695, "MissionStageOrder":95, "StageGoalValue":45600, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1696, "MissionStageOrder":96, "StageGoalValue":46560, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1697, "MissionStageOrder":97, "StageGoalValue":47530, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1698, "MissionStageOrder":98, "StageGoalValue":48510, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1699, "MissionStageOrder":99, "StageGoalValue":49500, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       },
       {
         "Id":1700, "MissionStageOrder":100, "StageGoalValue":50500, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       }
     ]
   },
   {
-    "Id":1800, "MissionCategory":2, "MissionViewOrder":1800, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1800, "MissionCategory":"Normal", "MissionViewOrder":1800, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1801, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200401, "ThingType":6, "ThingQuantity":1
+            "ThingId":200401, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1802, "MissionStageOrder":2, "StageGoalValue":500, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200402, "ThingType":6, "ThingQuantity":1
+            "ThingId":200402, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1803, "MissionStageOrder":3, "StageGoalValue":1000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200403, "ThingType":6, "ThingQuantity":1
+            "ThingId":200403, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1804, "MissionStageOrder":4, "StageGoalValue":3000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200404, "ThingType":6, "ThingQuantity":1
+            "ThingId":200404, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1805, "MissionStageOrder":5, "StageGoalValue":5000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200405, "ThingType":6, "ThingQuantity":1
+            "ThingId":200405, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1806, "MissionStageOrder":6, "StageGoalValue":10000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200406, "ThingType":6, "ThingQuantity":1
+            "ThingId":200406, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1807, "MissionStageOrder":7, "StageGoalValue":20000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200407, "ThingType":6, "ThingQuantity":1
+            "ThingId":200407, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1808, "MissionStageOrder":8, "StageGoalValue":30000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200408, "ThingType":6, "ThingQuantity":1
+            "ThingId":200408, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1809, "MissionStageOrder":9, "StageGoalValue":40000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200409, "ThingType":6, "ThingQuantity":1
+            "ThingId":200409, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":1810, "MissionStageOrder":10, "StageGoalValue":50000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200410, "ThingType":6, "ThingQuantity":1
+            "ThingId":200410, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":1900, "MissionCategory":2, "MissionViewOrder":1900, "Title":"", "Description":"累計で[:param]日以上ログインしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":1900, "MissionCategory":"Normal", "MissionViewOrder":1900, "Title":"", "Description":"累計で[:param]日以上ログインしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":1901, "MissionStageOrder":1, "StageGoalValue":100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200501, "ThingType":6, "ThingQuantity":1
+            "ThingId":200501, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2000, "MissionCategory":2, "MissionViewOrder":2000, "Title":"", "Description":"難易度STELLAで[:param]曲FULL COMBOを達成しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2000, "MissionCategory":"Normal", "MissionViewOrder":2000, "Title":"", "Description":"難易度STELLAで[:param]曲FULL COMBOを達成しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2001, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200601, "ThingType":6, "ThingQuantity":1
+            "ThingId":200601, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2002, "MissionStageOrder":2, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200602, "ThingType":6, "ThingQuantity":1
+            "ThingId":200602, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2003, "MissionStageOrder":3, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200603, "ThingType":6, "ThingQuantity":1
+            "ThingId":200603, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2004, "MissionStageOrder":4, "StageGoalValue":40, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200604, "ThingType":6, "ThingQuantity":1
+            "ThingId":200604, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2005, "MissionStageOrder":5, "StageGoalValue":50, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200605, "ThingType":6, "ThingQuantity":1
+            "ThingId":200605, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2100, "MissionCategory":2, "MissionViewOrder":2100, "Title":"", "Description":"難易度OLIVIERで[:param]曲FULL COMBOを達成しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2100, "MissionCategory":"Normal", "MissionViewOrder":2100, "Title":"", "Description":"難易度OLIVIERで[:param]曲FULL COMBOを達成しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2101, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200701, "ThingType":6, "ThingQuantity":1
+            "ThingId":200701, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2102, "MissionStageOrder":2, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200702, "ThingType":6, "ThingQuantity":1
+            "ThingId":200702, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2103, "MissionStageOrder":3, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200703, "ThingType":6, "ThingQuantity":1
+            "ThingId":200703, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2104, "MissionStageOrder":4, "StageGoalValue":40, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200704, "ThingType":6, "ThingQuantity":1
+            "ThingId":200704, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2105, "MissionStageOrder":5, "StageGoalValue":50, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200705, "ThingType":6, "ThingQuantity":1
+            "ThingId":200705, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2200, "MissionCategory":2, "MissionViewOrder":2200, "Title":"", "Description":"難易度STELLAで[:param]曲ALL PERFECTを達成しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2200, "MissionCategory":"Normal", "MissionViewOrder":2200, "Title":"", "Description":"難易度STELLAで[:param]曲ALL PERFECTを達成しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2201, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200801, "ThingType":6, "ThingQuantity":1
+            "ThingId":200801, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2202, "MissionStageOrder":2, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200802, "ThingType":6, "ThingQuantity":1
+            "ThingId":200802, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2203, "MissionStageOrder":3, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200803, "ThingType":6, "ThingQuantity":1
+            "ThingId":200803, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2204, "MissionStageOrder":4, "StageGoalValue":40, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200804, "ThingType":6, "ThingQuantity":1
+            "ThingId":200804, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2205, "MissionStageOrder":5, "StageGoalValue":50, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200805, "ThingType":6, "ThingQuantity":1
+            "ThingId":200805, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2300, "MissionCategory":2, "MissionViewOrder":2300, "Title":"", "Description":"難易度OLIVIERで[:param]曲ALL PERFECTを達成しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2300, "MissionCategory":"Normal", "MissionViewOrder":2300, "Title":"", "Description":"難易度OLIVIERで[:param]曲ALL PERFECTを達成しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2301, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200901, "ThingType":6, "ThingQuantity":1
+            "ThingId":200901, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2302, "MissionStageOrder":2, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200902, "ThingType":6, "ThingQuantity":1
+            "ThingId":200902, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2303, "MissionStageOrder":3, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200903, "ThingType":6, "ThingQuantity":1
+            "ThingId":200903, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2304, "MissionStageOrder":4, "StageGoalValue":40, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200904, "ThingType":6, "ThingQuantity":1
+            "ThingId":200904, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":2305, "MissionStageOrder":5, "StageGoalValue":50, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":200905, "ThingType":6, "ThingQuantity":1
+            "ThingId":200905, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2400, "MissionCategory":2, "MissionViewOrder":2400, "Title":"", "Description":"シリウスのメインストーリー第2章を全て読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2400, "MissionCategory":"Normal", "MissionViewOrder":2400, "Title":"", "Description":"シリウスのメインストーリー第2章を全て読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2401, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":201001, "ThingType":6, "ThingQuantity":1
+            "ThingId":201001, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2500, "MissionCategory":2, "MissionViewOrder":2500, "Title":"", "Description":"Edenのメインストーリー第1章を全て読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2500, "MissionCategory":"Normal", "MissionViewOrder":2500, "Title":"", "Description":"Edenのメインストーリー第1章を全て読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2501, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201101, "ThingType":6, "ThingQuantity":1
+            "ThingId":201101, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2600, "MissionCategory":2, "MissionViewOrder":2600, "Title":"", "Description":"銀河座のメインストーリー第1章を全て読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2600, "MissionCategory":"Normal", "MissionViewOrder":2600, "Title":"", "Description":"銀河座のメインストーリー第1章を全て読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2601, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201201, "ThingType":6, "ThingQuantity":1
+            "ThingId":201201, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2700, "MissionCategory":2, "MissionViewOrder":2700, "Title":"", "Description":"劇団電姫のメインストーリー第1章を全て読もう", "JumpType":9, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2700, "MissionCategory":"Normal", "MissionViewOrder":2700, "Title":"", "Description":"劇団電姫のメインストーリー第1章を全て読もう", "JumpType":"Story", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2701, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201301, "ThingType":6, "ThingQuantity":1
+            "ThingId":201301, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2800, "MissionCategory":2, "MissionViewOrder":2800, "Title":"", "Description":"コインを[:param]枚獲得しよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2800, "MissionCategory":"Normal", "MissionViewOrder":2800, "Title":"", "Description":"コインを[:param]枚獲得しよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2801, "MissionStageOrder":1, "StageGoalValue":100000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201401, "ThingType":6, "ThingQuantity":1
+            "ThingId":201401, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":2900, "MissionCategory":2, "MissionViewOrder":2900, "Title":"", "Description":"スポットストーリーを[:param]種類読もう", "JumpType":13, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":2900, "MissionCategory":"Normal", "MissionViewOrder":2900, "Title":"", "Description":"スポットストーリーを[:param]種類読もう", "JumpType":"Spot", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":2901, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201501, "ThingType":6, "ThingQuantity":1
+            "ThingId":201501, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3000, "MissionCategory":2, "MissionViewOrder":3000, "Title":"", "Description":"サークルに加入しよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3000, "MissionCategory":"Normal", "MissionViewOrder":3000, "Title":"", "Description":"サークルに加入しよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3001, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":300
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":300
           }
         ]
       }
     ]
   },
   {
-    "Id":3100, "MissionCategory":2, "MissionViewOrder":3100, "Title":"", "Description":"サークルメンバー4人で協力公演を[:param]回クリアしよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3100, "MissionCategory":"Normal", "MissionViewOrder":3100, "Title":"", "Description":"サークルメンバー4人で協力公演を[:param]回クリアしよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3101, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201601, "ThingType":6, "ThingQuantity":1
+            "ThingId":201601, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3200, "MissionCategory":2, "MissionViewOrder":3200, "Title":"", "Description":"スタミナを累計[:param]消費しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3200, "MissionCategory":"Normal", "MissionViewOrder":3200, "Title":"", "Description":"スタミナを累計[:param]消費しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3201, "MissionStageOrder":1, "StageGoalValue":10000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201701, "ThingType":6, "ThingQuantity":1
+            "ThingId":201701, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3202, "MissionStageOrder":2, "StageGoalValue":30000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201702, "ThingType":6, "ThingQuantity":1
+            "ThingId":201702, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3203, "MissionStageOrder":3, "StageGoalValue":60000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201703, "ThingType":6, "ThingQuantity":1
+            "ThingId":201703, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3204, "MissionStageOrder":4, "StageGoalValue":100000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201704, "ThingType":6, "ThingQuantity":1
+            "ThingId":201704, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3205, "MissionStageOrder":5, "StageGoalValue":200000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201705, "ThingType":6, "ThingQuantity":1
+            "ThingId":201705, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3206, "MissionStageOrder":6, "StageGoalValue":500000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201706, "ThingType":6, "ThingQuantity":1
+            "ThingId":201706, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3207, "MissionStageOrder":7, "StageGoalValue":1000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201707, "ThingType":6, "ThingQuantity":1
+            "ThingId":201707, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3208, "MissionStageOrder":8, "StageGoalValue":2500000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201708, "ThingType":6, "ThingQuantity":1
+            "ThingId":201708, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3209, "MissionStageOrder":9, "StageGoalValue":5000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201709, "ThingType":6, "ThingQuantity":1
+            "ThingId":201709, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3210, "MissionStageOrder":10, "StageGoalValue":10000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201710, "ThingType":6, "ThingQuantity":1
+            "ThingId":201710, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3300, "MissionCategory":2, "MissionViewOrder":3300, "Title":"", "Description":"ライフ5000以上で公演をクリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3300, "MissionCategory":"Normal", "MissionViewOrder":3300, "Title":"", "Description":"ライフ5000以上で公演をクリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3301, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201801, "ThingType":6, "ThingQuantity":1
+            "ThingId":201801, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3400, "MissionCategory":2, "MissionViewOrder":3400, "Title":"", "Description":"スターアクトを累計[:param]回発動しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3400, "MissionCategory":"Normal", "MissionViewOrder":3400, "Title":"", "Description":"スターアクトを累計[:param]回発動しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3401, "MissionStageOrder":1, "StageGoalValue":100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":201901, "ThingType":6, "ThingQuantity":1
+            "ThingId":201901, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3500, "MissionCategory":2, "MissionViewOrder":3500, "Title":"", "Description":"スコアの下3桁が「777」の状態で公演をクリアしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3500, "MissionCategory":"Normal", "MissionViewOrder":3500, "Title":"", "Description":"スコアの下3桁が「777」の状態で公演をクリアしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3501, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202001, "ThingType":6, "ThingQuantity":1
+            "ThingId":202001, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3600, "MissionCategory":2, "MissionViewOrder":3600, "Title":"", "Description":"ノーツを累計[:param]回タップしよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3600, "MissionCategory":"Normal", "MissionViewOrder":3600, "Title":"", "Description":"ノーツを累計[:param]回タップしよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3601, "MissionStageOrder":1, "StageGoalValue":30000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202101, "ThingType":6, "ThingQuantity":1
+            "ThingId":202101, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3602, "MissionStageOrder":2, "StageGoalValue":100000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202102, "ThingType":6, "ThingQuantity":1
+            "ThingId":202102, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3603, "MissionStageOrder":3, "StageGoalValue":500000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202103, "ThingType":6, "ThingQuantity":1
+            "ThingId":202103, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3604, "MissionStageOrder":4, "StageGoalValue":1000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202104, "ThingType":6, "ThingQuantity":1
+            "ThingId":202104, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3605, "MissionStageOrder":5, "StageGoalValue":5000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202105, "ThingType":6, "ThingQuantity":1
+            "ThingId":202105, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3606, "MissionStageOrder":6, "StageGoalValue":10000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202106, "ThingType":6, "ThingQuantity":1
+            "ThingId":202106, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3607, "MissionStageOrder":7, "StageGoalValue":20000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202107, "ThingType":6, "ThingQuantity":1
+            "ThingId":202107, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3608, "MissionStageOrder":8, "StageGoalValue":30000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202108, "ThingType":6, "ThingQuantity":1
+            "ThingId":202108, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3609, "MissionStageOrder":9, "StageGoalValue":40000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202109, "ThingType":6, "ThingQuantity":1
+            "ThingId":202109, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3610, "MissionStageOrder":10, "StageGoalValue":50000000, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202110, "ThingType":6, "ThingQuantity":1
+            "ThingId":202110, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3700, "MissionCategory":2, "MissionViewOrder":3700, "Title":"", "Description":"協力公演で4人全員FULL COMBOを達成しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3700, "MissionCategory":"Normal", "MissionViewOrder":3700, "Title":"", "Description":"協力公演で4人全員FULL COMBOを達成しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3701, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202201, "ThingType":6, "ThingQuantity":1
+            "ThingId":202201, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3800, "MissionCategory":2, "MissionViewOrder":3800, "Title":"", "Description":"協力公演で4人全員ALL PERFECTを達成しよう", "JumpType":6, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3800, "MissionCategory":"Normal", "MissionViewOrder":3800, "Title":"", "Description":"協力公演で4人全員ALL PERFECTを達成しよう", "JumpType":"Live", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3801, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202301, "ThingType":6, "ThingQuantity":1
+            "ThingId":202301, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":3900, "MissionCategory":2, "MissionViewOrder":3900, "Title":"", "Description":"オーディションで★★★クリアを[:param]ステージで達成しよう", "JumpType":6, "StartDate":"2023-08-09 17:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":3900, "MissionCategory":"Normal", "MissionViewOrder":3900, "Title":"", "Description":"オーディションで★★★クリアを[:param]ステージで達成しよう", "JumpType":"Live", "StartDate":"2023-08-09 17:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":3901, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-08-09 17:00:00", "Rewards":[
           {
-            "ThingId":202401, "ThingType":6, "ThingQuantity":1
+            "ThingId":202401, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3902, "MissionStageOrder":2, "StageGoalValue":3, "StartDate":"2023-08-09 17:00:00", "Rewards":[
           {
-            "ThingId":202402, "ThingType":6, "ThingQuantity":1
+            "ThingId":202402, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3903, "MissionStageOrder":3, "StageGoalValue":6, "StartDate":"2023-08-09 17:00:00", "Rewards":[
           {
-            "ThingId":202403, "ThingType":6, "ThingQuantity":1
+            "ThingId":202403, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3904, "MissionStageOrder":4, "StageGoalValue":10, "StartDate":"2023-08-09 17:00:00", "Rewards":[
           {
-            "ThingId":202404, "ThingType":6, "ThingQuantity":1
+            "ThingId":202404, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":3905, "MissionStageOrder":5, "StageGoalValue":20, "StartDate":"2023-08-09 17:00:00", "Rewards":[
           {
-            "ThingId":202405, "ThingType":6, "ThingQuantity":1
+            "ThingId":202405, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":4000, "MissionCategory":2, "MissionViewOrder":4000, "Title":"", "Description":"アクセサリーを[:param]種類獲得しよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":4000, "MissionCategory":"Normal", "MissionViewOrder":4000, "Title":"", "Description":"アクセサリーを[:param]種類獲得しよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":4001, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202501, "ThingType":6, "ThingQuantity":1
+            "ThingId":202501, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":4100, "MissionCategory":2, "MissionViewOrder":4100, "Title":"", "Description":"シークレットアクセサリーを[:param]種類獲得しよう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":4100, "MissionCategory":"Normal", "MissionViewOrder":4100, "Title":"", "Description":"シークレットアクセサリーを[:param]種類獲得しよう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":4101, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":203001, "ThingType":6, "ThingQuantity":1
+            "ThingId":203001, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4102, "MissionStageOrder":2, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":203002, "ThingType":6, "ThingQuantity":1
+            "ThingId":203002, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4103, "MissionStageOrder":3, "StageGoalValue":15, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":203003, "ThingType":6, "ThingQuantity":1
+            "ThingId":203003, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4104, "MissionStageOrder":4, "StageGoalValue":20, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":203004, "ThingType":6, "ThingQuantity":1
+            "ThingId":203004, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4105, "MissionStageOrder":5, "StageGoalValue":25, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":203005, "ThingType":6, "ThingQuantity":1
+            "ThingId":203005, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":4200, "MissionCategory":2, "MissionViewOrder":4200, "Title":"", "Description":"衣装を[:param]種類獲得しよう(デフォルトを除く)", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":4200, "MissionCategory":"Normal", "MissionViewOrder":4200, "Title":"", "Description":"衣装を[:param]種類獲得しよう(デフォルトを除く)", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":4201, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202601, "ThingType":6, "ThingQuantity":1
+            "ThingId":202601, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":4300, "MissionCategory":2, "MissionViewOrder":4300, "Title":"", "Description":"スタンプを[:param]種類獲得しよう(デフォルトを除く)", "JumpType":2, "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":4300, "MissionCategory":"Normal", "MissionViewOrder":4300, "Title":"", "Description":"スタンプを[:param]種類獲得しよう(デフォルトを除く)", "JumpType":"Shop", "JumpTargetId":2, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":4301, "MissionStageOrder":1, "StageGoalValue":30, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202701, "ThingType":6, "ThingQuantity":1
+            "ThingId":202701, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":4500, "MissionCategory":2, "MissionViewOrder":4500, "Title":"", "Description":"[:param]人とフレンドになろう", "JumpType":0, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":4500, "MissionCategory":"Normal", "MissionViewOrder":4500, "Title":"", "Description":"[:param]人とフレンドになろう", "JumpType":"None", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":4501, "MissionStageOrder":1, "StageGoalValue":100, "StartDate":"2023-01-01 00:00:00", "Rewards":[
           {
-            "ThingId":202901, "ThingType":6, "ThingQuantity":1
+            "ThingId":202901, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":4600, "MissionCategory":2, "MissionViewOrder":4600, "Title":"", "Description":"ジュゴンの勲章を[:param]個獲得しよう", "JumpType":0, "StartDate":"2023-09-10 17:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
+    "Id":4600, "MissionCategory":"Normal", "MissionViewOrder":4600, "Title":"", "Description":"ジュゴンの勲章を[:param]個獲得しよう", "JumpType":"None", "StartDate":"2023-09-10 17:00:00", "EndDate":"2100-01-01 00:00:00", "Stages":[
       {
         "Id":4601, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204001, "ThingType":6, "ThingQuantity":1
+            "ThingId":204001, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4602, "MissionStageOrder":2, "StageGoalValue":40, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204002, "ThingType":6, "ThingQuantity":1
+            "ThingId":204002, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4603, "MissionStageOrder":3, "StageGoalValue":60, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204003, "ThingType":6, "ThingQuantity":1
+            "ThingId":204003, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4604, "MissionStageOrder":4, "StageGoalValue":80, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204004, "ThingType":6, "ThingQuantity":1
+            "ThingId":204004, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4605, "MissionStageOrder":5, "StageGoalValue":100, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204005, "ThingType":6, "ThingQuantity":1
+            "ThingId":204005, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4606, "MissionStageOrder":6, "StageGoalValue":125, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204006, "ThingType":6, "ThingQuantity":1
+            "ThingId":204006, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4607, "MissionStageOrder":7, "StageGoalValue":150, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204007, "ThingType":6, "ThingQuantity":1
+            "ThingId":204007, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4608, "MissionStageOrder":8, "StageGoalValue":175, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204008, "ThingType":6, "ThingQuantity":1
+            "ThingId":204008, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4609, "MissionStageOrder":9, "StageGoalValue":200, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204009, "ThingType":6, "ThingQuantity":1
+            "ThingId":204009, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       },
       {
         "Id":4610, "MissionStageOrder":10, "StageGoalValue":250, "StartDate":"2023-09-10 17:00:00", "Rewards":[
           {
-            "ThingId":204010, "ThingType":6, "ThingQuantity":1
+            "ThingId":204010, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":10100, "MissionCategory":3, "MissionViewOrder":10100, "Title":"", "Description":"メインストーリー シリウス第2章を1話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10100, "MissionCategory":"Limit", "MissionViewOrder":10100, "Title":"", "Description":"メインストーリー シリウス第2章を1話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10101, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130041, "ThingType":1, "ThingQuantity":1000
+            "ThingId":130041, "ThingType":"Item", "ThingQuantity":1000
           }
         ]
       }
     ]
   },
   {
-    "Id":10200, "MissionCategory":3, "MissionViewOrder":10200, "Title":"", "Description":"メインストーリー シリウス第2章を2話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10200, "MissionCategory":"Limit", "MissionViewOrder":10200, "Title":"", "Description":"メインストーリー シリウス第2章を2話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10201, "MissionStageOrder":1, "StageGoalValue":2, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130061, "ThingType":1, "ThingQuantity":300
+            "ThingId":130061, "ThingType":"Item", "ThingQuantity":300
           }
         ]
       }
     ]
   },
   {
-    "Id":10300, "MissionCategory":3, "MissionViewOrder":10300, "Title":"", "Description":"メインストーリー シリウス第2章を3話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10300, "MissionCategory":"Limit", "MissionViewOrder":10300, "Title":"", "Description":"メインストーリー シリウス第2章を3話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10301, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":510001, "ThingType":1, "ThingQuantity":3
+            "ThingId":510001, "ThingType":"Item", "ThingQuantity":3
           }
         ]
       }
     ]
   },
   {
-    "Id":10400, "MissionCategory":3, "MissionViewOrder":10400, "Title":"", "Description":"メインストーリー シリウス第2章を4話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10400, "MissionCategory":"Limit", "MissionViewOrder":10400, "Title":"", "Description":"メインストーリー シリウス第2章を4話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10401, "MissionStageOrder":1, "StageGoalValue":4, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130091, "ThingType":1, "ThingQuantity":15
+            "ThingId":130091, "ThingType":"Item", "ThingQuantity":15
           }
         ]
       }
     ]
   },
   {
-    "Id":10500, "MissionCategory":3, "MissionViewOrder":10500, "Title":"", "Description":"メインストーリー シリウス第2章を5話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10500, "MissionCategory":"Limit", "MissionViewOrder":10500, "Title":"", "Description":"メインストーリー シリウス第2章を5話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10501, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":211001, "ThingType":1, "ThingQuantity":5
+            "ThingId":211001, "ThingType":"Item", "ThingQuantity":5
           }
         ]
       }
     ]
   },
   {
-    "Id":10600, "MissionCategory":3, "MissionViewOrder":10600, "Title":"", "Description":"メインストーリー シリウス第2章を6話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10600, "MissionCategory":"Limit", "MissionViewOrder":10600, "Title":"", "Description":"メインストーリー シリウス第2章を6話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10601, "MissionStageOrder":1, "StageGoalValue":6, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130042, "ThingType":1, "ThingQuantity":150
+            "ThingId":130042, "ThingType":"Item", "ThingQuantity":150
           }
         ]
       }
     ]
   },
   {
-    "Id":10700, "MissionCategory":3, "MissionViewOrder":10700, "Title":"", "Description":"メインストーリー シリウス第2章を7話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10700, "MissionCategory":"Limit", "MissionViewOrder":10700, "Title":"", "Description":"メインストーリー シリウス第2章を7話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10701, "MissionStageOrder":1, "StageGoalValue":7, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130062, "ThingType":1, "ThingQuantity":200
+            "ThingId":130062, "ThingType":"Item", "ThingQuantity":200
           }
         ]
       }
     ]
   },
   {
-    "Id":10800, "MissionCategory":3, "MissionViewOrder":10800, "Title":"", "Description":"メインストーリー シリウス第2章を8話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10800, "MissionCategory":"Limit", "MissionViewOrder":10800, "Title":"", "Description":"メインストーリー シリウス第2章を8話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10801, "MissionStageOrder":1, "StageGoalValue":8, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":510002, "ThingType":1, "ThingQuantity":3
+            "ThingId":510002, "ThingType":"Item", "ThingQuantity":3
           }
         ]
       }
     ]
   },
   {
-    "Id":10900, "MissionCategory":3, "MissionViewOrder":10900, "Title":"", "Description":"メインストーリー シリウス第2章を9話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":10900, "MissionCategory":"Limit", "MissionViewOrder":10900, "Title":"", "Description":"メインストーリー シリウス第2章を9話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":10901, "MissionStageOrder":1, "StageGoalValue":9, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130091, "ThingType":1, "ThingQuantity":15
+            "ThingId":130091, "ThingType":"Item", "ThingQuantity":15
           }
         ]
       }
     ]
   },
   {
-    "Id":11000, "MissionCategory":3, "MissionViewOrder":11000, "Title":"", "Description":"メインストーリー シリウス第2章を10話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11000, "MissionCategory":"Limit", "MissionViewOrder":11000, "Title":"", "Description":"メインストーリー シリウス第2章を10話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11001, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":1000
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":1000
           }
         ]
       }
     ]
   },
   {
-    "Id":11100, "MissionCategory":3, "MissionViewOrder":11100, "Title":"", "Description":"メインストーリー シリウス第2章を11話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11100, "MissionCategory":"Limit", "MissionViewOrder":11100, "Title":"", "Description":"メインストーリー シリウス第2章を11話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11101, "MissionStageOrder":1, "StageGoalValue":11, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130042, "ThingType":1, "ThingQuantity":150
+            "ThingId":130042, "ThingType":"Item", "ThingQuantity":150
           }
         ]
       }
     ]
   },
   {
-    "Id":11200, "MissionCategory":3, "MissionViewOrder":11200, "Title":"", "Description":"メインストーリー シリウス第2章を12話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11200, "MissionCategory":"Limit", "MissionViewOrder":11200, "Title":"", "Description":"メインストーリー シリウス第2章を12話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11201, "MissionStageOrder":1, "StageGoalValue":12, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130063, "ThingType":1, "ThingQuantity":200
+            "ThingId":130063, "ThingType":"Item", "ThingQuantity":200
           }
         ]
       }
     ]
   },
   {
-    "Id":11300, "MissionCategory":3, "MissionViewOrder":11300, "Title":"", "Description":"メインストーリー シリウス第2章を13話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11300, "MissionCategory":"Limit", "MissionViewOrder":11300, "Title":"", "Description":"メインストーリー シリウス第2章を13話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11301, "MissionStageOrder":1, "StageGoalValue":13, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":510003, "ThingType":1, "ThingQuantity":3
+            "ThingId":510003, "ThingType":"Item", "ThingQuantity":3
           }
         ]
       }
     ]
   },
   {
-    "Id":11400, "MissionCategory":3, "MissionViewOrder":11400, "Title":"", "Description":"メインストーリー シリウス第2章を14話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11400, "MissionCategory":"Limit", "MissionViewOrder":11400, "Title":"", "Description":"メインストーリー シリウス第2章を14話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11401, "MissionStageOrder":1, "StageGoalValue":14, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130091, "ThingType":1, "ThingQuantity":15
+            "ThingId":130091, "ThingType":"Item", "ThingQuantity":15
           }
         ]
       }
     ]
   },
   {
-    "Id":11500, "MissionCategory":3, "MissionViewOrder":11500, "Title":"", "Description":"メインストーリー シリウス第2章を15話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11500, "MissionCategory":"Limit", "MissionViewOrder":11500, "Title":"", "Description":"メインストーリー シリウス第2章を15話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11501, "MissionStageOrder":1, "StageGoalValue":15, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":211001, "ThingType":1, "ThingQuantity":5
+            "ThingId":211001, "ThingType":"Item", "ThingQuantity":5
           }
         ]
       }
     ]
   },
   {
-    "Id":11600, "MissionCategory":3, "MissionViewOrder":11600, "Title":"", "Description":"メインストーリー シリウス第2章を16話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11600, "MissionCategory":"Limit", "MissionViewOrder":11600, "Title":"", "Description":"メインストーリー シリウス第2章を16話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11601, "MissionStageOrder":1, "StageGoalValue":16, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130043, "ThingType":1, "ThingQuantity":150
+            "ThingId":130043, "ThingType":"Item", "ThingQuantity":150
           }
         ]
       }
     ]
   },
   {
-    "Id":11700, "MissionCategory":3, "MissionViewOrder":11700, "Title":"", "Description":"メインストーリー シリウス第2章を17話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11700, "MissionCategory":"Limit", "MissionViewOrder":11700, "Title":"", "Description":"メインストーリー シリウス第2章を17話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11701, "MissionStageOrder":1, "StageGoalValue":17, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":140000, "ThingType":1, "ThingQuantity":300
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":300
           }
         ]
       }
     ]
   },
   {
-    "Id":11800, "MissionCategory":3, "MissionViewOrder":11800, "Title":"", "Description":"メインストーリー シリウス第2章を18話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11800, "MissionCategory":"Limit", "MissionViewOrder":11800, "Title":"", "Description":"メインストーリー シリウス第2章を18話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11801, "MissionStageOrder":1, "StageGoalValue":18, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":510004, "ThingType":1, "ThingQuantity":3
+            "ThingId":510004, "ThingType":"Item", "ThingQuantity":3
           }
         ]
       }
     ]
   },
   {
-    "Id":11900, "MissionCategory":3, "MissionViewOrder":11900, "Title":"", "Description":"メインストーリー シリウス第2章を19話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":11900, "MissionCategory":"Limit", "MissionViewOrder":11900, "Title":"", "Description":"メインストーリー シリウス第2章を19話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":11901, "MissionStageOrder":1, "StageGoalValue":19, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":130091, "ThingType":1, "ThingQuantity":15
+            "ThingId":130091, "ThingType":"Item", "ThingQuantity":15
           }
         ]
       }
     ]
   },
   {
-    "Id":12000, "MissionCategory":3, "MissionViewOrder":12000, "Title":"", "Description":"メインストーリー シリウス第2章を20話まで読もう", "JumpType":9, "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
+    "Id":12000, "MissionCategory":"Limit", "MissionViewOrder":12000, "Title":"", "Description":"メインストーリー シリウス第2章を20話まで読もう", "JumpType":"Story", "StartDate":"2023-07-29 17:00:00", "EndDate":"2023-09-01 05:00:00", "Stages":[
       {
         "Id":12001, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-07-29 17:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":2000
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":2000
           }
         ]
       }
     ]
   },
   {
-    "Id":12100, "MissionCategory":3, "MissionViewOrder":12100, "Title":"", "Description":"「てぃだんちゅ MEETS てぃんがーら！」を[:param]回クリアしよう", "JumpType":6, "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-08-30 00:00:00", "Stages":[
+    "Id":12100, "MissionCategory":"Limit", "MissionViewOrder":12100, "Title":"", "Description":"「てぃだんちゅ MEETS てぃんがーら！」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2023-08-20 17:00:00", "EndDate":"2023-08-30 00:00:00", "Stages":[
       {
         "Id":12101, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-08-20 17:00:00", "Rewards":[
           {
-            "ThingId":130571, "ThingType":6, "ThingQuantity":1
+            "ThingId":130571, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":12200, "MissionCategory":3, "MissionViewOrder":12200, "Title":"", "Description":"「Pandastic Stage!」を[:param]回クリアしよう", "JumpType":6, "StartDate":"2023-09-13 17:00:00", "EndDate":"2023-09-23 00:00:00", "Stages":[
+    "Id":12200, "MissionCategory":"Limit", "MissionViewOrder":12200, "Title":"", "Description":"「Pandastic Stage!」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2023-09-13 17:00:00", "EndDate":"2023-09-23 00:00:00", "Stages":[
       {
         "Id":12201, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-09-13 17:00:00", "Rewards":[
           {
-            "ThingId":110571, "ThingType":6, "ThingQuantity":1
+            "ThingId":110571, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":12300, "MissionCategory":3, "MissionViewOrder":12300, "Title":"", "Description":"「Black Diary」を[:param]回クリアしよう", "JumpType":6, "StartDate":"2023-09-13 17:00:00", "EndDate":"2023-09-23 00:00:00", "Stages":[
+    "Id":12300, "MissionCategory":"Limit", "MissionViewOrder":12300, "Title":"", "Description":"「Black Diary」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2023-09-13 17:00:00", "EndDate":"2023-09-23 00:00:00", "Stages":[
       {
         "Id":12301, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-09-13 17:00:00", "Rewards":[
           {
-            "ThingId":120271, "ThingType":6, "ThingQuantity":1
+            "ThingId":120271, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":12400, "MissionCategory":3, "MissionViewOrder":12400, "Title":"", "Description":"「巡る暦の花のように」を[:param]回クリアしよう", "JumpType":6, "StartDate":"2023-10-03 17:00:00", "EndDate":"2023-10-13 00:00:00", "Stages":[
+    "Id":12400, "MissionCategory":"Limit", "MissionViewOrder":12400, "Title":"", "Description":"「巡る暦の花のように」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2023-10-03 17:00:00", "EndDate":"2023-10-13 00:00:00", "Stages":[
       {
         "Id":12401, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-10-03 17:00:00", "Rewards":[
           {
-            "ThingId":130171, "ThingType":6, "ThingQuantity":1
+            "ThingId":130171, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":100000, "MissionCategory":4, "MissionViewOrder":100000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":6, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+    "Id":100000, "MissionCategory":"Daily", "MissionViewOrder":100000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100001, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-08-26 05:00:00", "Rewards":[
           {
-            "ThingId":130014, "ThingType":1, "ThingQuantity":1
+            "ThingId":130014, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":100100, "MissionCategory":4, "MissionViewOrder":100100, "Title":"", "Description":"フォトを[:param]枚現像しよう", "JumpType":8, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+    "Id":100100, "MissionCategory":"Daily", "MissionViewOrder":100100, "Title":"", "Description":"フォトを[:param]枚現像しよう", "JumpType":"Photo", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100101, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-08-26 05:00:00", "Rewards":[
           {
-            "ThingId":130014, "ThingType":1, "ThingQuantity":1
+            "ThingId":130014, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":100200, "MissionCategory":4, "MissionViewOrder":100200, "Title":"", "Description":"稽古を[:param]回行おう", "JumpType":6, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+    "Id":100200, "MissionCategory":"Daily", "MissionViewOrder":100200, "Title":"", "Description":"稽古を[:param]回行おう", "JumpType":"Live", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100201, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-08-26 05:00:00", "Rewards":[
           {
-            "ThingId":130014, "ThingType":1, "ThingQuantity":1
+            "ThingId":130014, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }
     ]
   },
   {
-    "Id":100300, "MissionCategory":4, "MissionViewOrder":100300, "Title":"", "Description":"全てのデイリーミッションをクリアしよう", "JumpType":0, "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+    "Id":100300, "MissionCategory":"Daily", "MissionViewOrder":100300, "Title":"", "Description":"全てのデイリーミッションをクリアしよう", "JumpType":"None", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100301, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-08-26 05:00:00", "Rewards":[
           {
-            "ThingId":0, "ThingType":13, "ThingQuantity":50
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
           }
         ]
       }

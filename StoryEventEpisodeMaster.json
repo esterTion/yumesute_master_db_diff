@@ -166,5 +166,29 @@
   },
   {
     "Id":2000708, "StoryMasterId":20007, "RequiredTotalAcquiredPoint":128000, "Title":"互いのいるべき場所で", "Order":8, "RequiredReadEpisodeMasterId":2000707
+  },
+  {
+    "Id":2000801, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":0, "Title":"決めてみた", "Order":1
+  },
+  {
+    "Id":2000802, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":2000, "Title":"行ってみた", "Order":2, "RequiredReadEpisodeMasterId":2000801
+  },
+  {
+    "Id":2000803, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":4000, "Title":"聞いてみた", "Order":3, "RequiredReadEpisodeMasterId":2000802
+  },
+  {
+    "Id":2000804, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":8000, "Title":"撮ってみた", "Order":4, "RequiredReadEpisodeMasterId":2000803
+  },
+  {
+    "Id":2000805, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":16000, "Title":"調べてみた", "Order":5, "RequiredReadEpisodeMasterId":2000804
+  },
+  {
+    "Id":2000806, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":32000, "Title":"迷っちゃった", "Order":6, "RequiredReadEpisodeMasterId":2000805
+  },
+  {
+    "Id":2000807, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":64000, "Title":"編集してみた", "Order":7, "RequiredReadEpisodeMasterId":2000806
+  },
+  {
+    "Id":2000808, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":128000, "Title":"想像、してみた", "Order":8, "RequiredReadEpisodeMasterId":2000807
   }
 ]

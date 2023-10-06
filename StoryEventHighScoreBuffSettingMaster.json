@@ -118,5 +118,45 @@
     "Id":2000608, "StoryEventHighScoreMasterId":20006, "StoryEventHighScoreBuffMasterId":112, "StoryEventHighScoreBuffMaster":{
       "Id":112, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80016, "EffectName":"応援旗", "EffectDescription":"センス発動時、追加で「SP光」を[:param1]個付与する（SP光はどの系統の光としても扱われる）　※<color=#7AC940>彩属性</color>の舎人 仁花子のみ対象", "IconImagePath":"110"
     }
+  },
+  {
+    "Id":2000801, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":11, "StoryEventHighScoreBuffMaster":{
+      "Id":11, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80003, "EffectName":"舞台照明", "EffectDescription":"アクターの集中力が[:param1]上昇する", "IconImagePath":"11"
+    }
+  },
+  {
+    "Id":2000802, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":12, "StoryEventHighScoreBuffMaster":{
+      "Id":12, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80002, "EffectName":"舞台スピーカー", "EffectDescription":"アクターの表現力が[:param1]上昇する", "IconImagePath":"12"
+    }
+  },
+  {
+    "Id":2000803, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":13, "StoryEventHighScoreBuffMaster":{
+      "Id":13, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80001, "EffectName":"舞台マイク", "EffectDescription":"アクターの歌唱力が[:param1]上昇する", "IconImagePath":"13"
+    }
+  },
+  {
+    "Id":2000804, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":14, "StoryEventHighScoreBuffMaster":{
+      "Id":14, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80004, "EffectName":"舞台カーテン", "EffectDescription":"アクターの演技力が[:param1]％上昇する", "IconImagePath":"14"
+    }
+  },
+  {
+    "Id":2000805, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":113, "StoryEventHighScoreBuffMaster":{
+      "Id":113, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80017, "EffectName":"パソコン", "EffectDescription":"アクターの演技力上限値が[:param1]％上昇する　※<color=#33B4DF>凛属性</color>のアクターのみ対象", "IconImagePath":"113"
+    }
+  },
+  {
+    "Id":2000806, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":114, "StoryEventHighScoreBuffMaster":{
+      "Id":114, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80018, "EffectName":"手持ちカメラ", "EffectDescription":"<color=#33B4DF>凛属性</color>のアクター1体につき、公演開始時にプリンシパルゲージが[:param1]上昇する", "IconImagePath":"114"
+    }
+  },
+  {
+    "Id":2000807, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":115, "StoryEventHighScoreBuffMaster":{
+      "Id":115, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80019, "EffectName":"紅葉の木", "EffectDescription":"<color=#33B4DF>凛属性</color>のアクター1体につき、プリンシパルゲージの上限値が[:param1]上昇する", "IconImagePath":"115"
+    }
+  },
+  {
+    "Id":2000808, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":116, "StoryEventHighScoreBuffMaster":{
+      "Id":116, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80020, "EffectName":"鳥居", "EffectDescription":"<color=#33B4DF>凛属性</color>かつ増幅系統のアクターがセンス発動時、追加で「SP光」を[:param1]個付与する（レベル5以降の時に効果発動／SP光はどの系統の光としても扱われる）", "IconImagePath":"116"
+    }
   }
 ]

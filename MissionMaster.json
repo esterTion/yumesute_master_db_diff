@@ -2960,7 +2960,7 @@
     ]
   },
   {
-    "Id":100100, "MissionCategory":"Daily", "MissionViewOrder":100100, "Title":"", "Description":"フォトを[:param]枚現像しよう", "JumpType":"Photo", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+    "Id":100100, "MissionCategory":"Daily", "MissionViewOrder":100100, "Title":"", "Description":"フォトを[:param]枚現像しよう", "JumpType":"Photo", "StartDate":"2023-08-26 05:00:00", "EndDate":"2023-10-11 05:00:00", "Stages":[
       {
         "Id":100101, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-08-26 05:00:00", "Rewards":[
           {
@@ -2987,6 +2987,94 @@
         "Id":100301, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-08-26 05:00:00", "Rewards":[
           {
             "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":100400, "MissionCategory":"Daily", "MissionViewOrder":100100, "Title":"", "Description":"ジュエルショップの「毎日無料パック」を受け取ろう", "JumpType":"JewelShop", "JumpTargetId":4, "StartDate":"2023-10-11 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":100401, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-10-11 05:00:00", "Rewards":[
+          {
+            "ThingId":130014, "ThingType":"Item", "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200000, "MissionCategory":"Weekly", "MissionViewOrder":200000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2023-10-16 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":200001, "MissionStageOrder":1, "StageGoalValue":3000, "StartDate":"2023-10-16 05:00:00", "Rewards":[
+          {
+            "ThingId":110002, "ThingType":"Item", "ThingQuantity":2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200100, "MissionCategory":"Weekly", "MissionViewOrder":200100, "Title":"", "Description":"演劇リーグを[:param]回プレイしよう", "JumpType":"Live", "StartDate":"2023-10-16 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":200101, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2023-10-16 05:00:00", "Rewards":[
+          {
+            "ThingId":130011, "ThingType":"Item", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200200, "MissionCategory":"Weekly", "MissionViewOrder":200200, "Title":"", "Description":"スターアクトを[:param]回発動しよう", "JumpType":"Live", "StartDate":"2023-10-16 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":200201, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-10-16 05:00:00", "Rewards":[
+          {
+            "ThingId":120002, "ThingType":"Item", "ThingQuantity":200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200300, "MissionCategory":"Weekly", "MissionViewOrder":200300, "Title":"", "Description":"フォトを[:param]枚現像しよう", "JumpType":"Photo", "StartDate":"2023-10-16 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":200301, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-10-16 05:00:00", "Rewards":[
+          {
+            "ThingId":130025, "ThingType":"Item", "ThingQuantity":300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200400, "MissionCategory":"Weekly", "MissionViewOrder":200400, "Title":"", "Description":"フォトのレベルを合計[:param]上げよう", "JumpType":"Photo", "StartDate":"2023-10-16 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":200401, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-10-16 05:00:00", "Rewards":[
+          {
+            "ThingId":130035, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200500, "MissionCategory":"Weekly", "MissionViewOrder":200500, "Title":"", "Description":"マーケットでアイテムを[:param]回交換しよう", "JumpType":"None", "StartDate":"2023-10-16 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":200501, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2023-10-16 05:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200600, "MissionCategory":"Weekly", "MissionViewOrder":200600, "Title":"", "Description":"「全てのデイリーミッションをクリアしよう」を[:param]回達成しよう", "JumpType":"None", "StartDate":"2023-10-16 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
+      {
+        "Id":200601, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-10-16 05:00:00", "Rewards":[
+          {
+            "ThingId":130013, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }

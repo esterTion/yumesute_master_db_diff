@@ -1,6 +1,6 @@
 [
   {
-    "Id":1, "Title":"[:character]を編成して公演を[:param]回クリアしよう", "JumpType":6, "Stages":[
+    "Id":1, "Title":"[:character]を編成して公演を[:param]回クリアしよう", "JumpType":"Live", "Stages":[
       {
         "Id":10101, "CharacterMissionCategoryLevelMasterId":101, "CharacterMissionMasterId":1, "ExclusionNoSenseCharacter":false, "Order":1, "StageOrder":1, "GoalCount":1
       },
@@ -82,7 +82,7 @@
     ]
   },
   {
-    "Id":2, "Title":"[:character]のスターアクトを[:param]回発動しよう", "JumpType":6, "Stages":[
+    "Id":2, "Title":"[:character]のスターアクトを[:param]回発動しよう", "JumpType":"Live", "Stages":[
       {
         "Id":10105, "CharacterMissionCategoryLevelMasterId":101, "CharacterMissionMasterId":2, "ExclusionNoSenseCharacter":false, "Order":5, "StageOrder":1, "GoalCount":1
       },
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "Id":3, "Title":"[:character]の合計レベルを[:param]にしよう", "JumpType":7, "Stages":[
+    "Id":3, "Title":"[:character]の合計レベルを[:param]にしよう", "JumpType":"Member", "Stages":[
       {
         "Id":10201, "CharacterMissionCategoryLevelMasterId":102, "CharacterMissionMasterId":3, "ExclusionNoSenseCharacter":false, "Order":1, "StageOrder":1, "GoalCount":3
       },
@@ -282,7 +282,7 @@
     ]
   },
   {
-    "Id":4, "Title":"[:character]のサイドストーリーを[:param]話読もう", "JumpType":9, "Stages":[
+    "Id":4, "Title":"[:character]のサイドストーリーを[:param]話読もう", "JumpType":"Story", "Stages":[
       {
         "Id":10204, "CharacterMissionCategoryLevelMasterId":102, "CharacterMissionMasterId":4, "ExclusionNoSenseCharacter":false, "Order":4, "StageOrder":1, "GoalCount":1
       },
@@ -316,7 +316,7 @@
     ]
   },
   {
-    "Id":5, "Title":"[:character]のセンスの合計レベルを[:param]にしよう", "JumpType":7, "Stages":[
+    "Id":5, "Title":"[:character]のセンスの合計レベルを[:param]にしよう", "JumpType":"Member", "Stages":[
       {
         "Id":10205, "CharacterMissionCategoryLevelMasterId":102, "CharacterMissionMasterId":5, "ExclusionNoSenseCharacter":true, "Order":5, "StageOrder":1, "GoalCount":2
       },
@@ -380,7 +380,7 @@
     ]
   },
   {
-    "Id":6, "Title":"[:character]を[:param]回才能開花しよう", "JumpType":7, "Stages":[
+    "Id":6, "Title":"[:character]を[:param]回才能開花しよう", "JumpType":"Member", "Stages":[
       {
         "Id":10301, "CharacterMissionCategoryLevelMasterId":103, "CharacterMissionMasterId":6, "ExclusionNoSenseCharacter":false, "Order":1, "StageOrder":1, "GoalCount":1
       },
@@ -508,7 +508,7 @@
     ]
   },
   {
-    "Id":8, "Title":"[:character]が描かれたポスターのポスターストーリーを[:param]話解放しよう", "JumpType":7, "Stages":[
+    "Id":8, "Title":"[:character]が描かれたポスターのポスターストーリーを[:param]話解放しよう", "JumpType":"Member", "Stages":[
       {
         "Id":10402, "CharacterMissionCategoryLevelMasterId":104, "CharacterMissionMasterId":8, "ExclusionNoSenseCharacter":false, "Order":2, "StageOrder":1, "GoalCount":1
       },
@@ -602,7 +602,7 @@
     ]
   },
   {
-    "Id":9, "Title":"[:character]がメインで写ったフォトを[:param]回現像しよう", "JumpType":8, "Stages":[
+    "Id":9, "Title":"[:character]がメインで写ったフォトを[:param]回現像しよう", "JumpType":"Photo", "Stages":[
       {
         "Id":10501, "CharacterMissionCategoryLevelMasterId":105, "CharacterMissionMasterId":9, "ExclusionNoSenseCharacter":false, "Order":1, "StageOrder":1, "GoalCount":1
       },
@@ -696,7 +696,7 @@
     ]
   },
   {
-    "Id":10, "Title":"[:character]のスポットストーリーを[:param]話読もう", "JumpType":13, "Stages":[
+    "Id":10, "Title":"[:character]のスポットストーリーを[:param]話読もう", "JumpType":"Spot", "Stages":[
       {
         "Id":10504, "CharacterMissionCategoryLevelMasterId":105, "CharacterMissionMasterId":10, "ExclusionNoSenseCharacter":false, "Order":4, "StageOrder":1, "GoalCount":1
       },
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "Id":11, "Title":"[:character]のスタンプを[:param]種類集めよう(デフォルトを除く)", "JumpType":2, "JumpValue":2, "Stages":[
+    "Id":11, "Title":"[:character]のスタンプを[:param]種類集めよう(デフォルトを除く)", "JumpType":"Shop", "JumpValue":2, "Stages":[
       {
         "Id":20506, "CharacterMissionCategoryLevelMasterId":205, "CharacterMissionMasterId":11, "ExclusionNoSenseCharacter":false, "Order":6, "StageOrder":1, "GoalCount":2
       },

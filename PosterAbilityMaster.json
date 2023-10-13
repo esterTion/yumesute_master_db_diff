@@ -2334,7 +2334,7 @@
             "Order":1, "EffectMasterId":10511100
           }
         ],
-        "JudgeType1":3, "Parameter1":1, "Id":23009301
+        "JudgeType1":"LessThan", "Parameter1":1, "Id":23009301
       },
       {
         "Order":2, "BranchEffects":[
@@ -2342,7 +2342,7 @@
             "Order":1, "EffectMasterId":10512100
           }
         ],
-        "JudgeType1":1, "Parameter1":2, "Id":23009302
+        "JudgeType1":"Equal", "Parameter1":2, "Id":23009302
       },
       {
         "Order":3, "BranchEffects":[
@@ -2350,7 +2350,7 @@
             "Order":1, "EffectMasterId":10513100
           }
         ],
-        "JudgeType1":1, "Parameter1":3, "Id":23009303
+        "JudgeType1":"Equal", "Parameter1":3, "Id":23009303
       },
       {
         "Order":4, "BranchEffects":[
@@ -2358,7 +2358,7 @@
             "Order":1, "EffectMasterId":10514100
           }
         ],
-        "JudgeType1":2, "Parameter1":4, "Id":23009304
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":23009304
       }
     ],
     "BranchConditionType1":"AttributeCount", "BranchConditionType2":"None"
@@ -2423,7 +2423,7 @@
             "Order":1, "EffectMasterId":10611200
           }
         ],
-        "JudgeType1":3, "Parameter1":1, "Id":23010301
+        "JudgeType1":"LessThan", "Parameter1":1, "Id":23010301
       },
       {
         "Order":2, "BranchEffects":[
@@ -2431,7 +2431,7 @@
             "Order":1, "EffectMasterId":10612200
           }
         ],
-        "JudgeType1":1, "Parameter1":2, "Id":23010302
+        "JudgeType1":"Equal", "Parameter1":2, "Id":23010302
       },
       {
         "Order":3, "BranchEffects":[
@@ -2439,7 +2439,7 @@
             "Order":1, "EffectMasterId":10613200
           }
         ],
-        "JudgeType1":1, "Parameter1":3, "Id":23010303
+        "JudgeType1":"Equal", "Parameter1":3, "Id":23010303
       },
       {
         "Order":4, "BranchEffects":[
@@ -2447,7 +2447,7 @@
             "Order":1, "EffectMasterId":10614200
           }
         ],
-        "JudgeType1":2, "Parameter1":4, "Id":23010304
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":23010304
       }
     ],
     "BranchConditionType1":"AttributeCount", "BranchConditionType2":"None"
@@ -2525,7 +2525,7 @@
             "Order":1, "EffectMasterId":10711300
           }
         ],
-        "JudgeType1":3, "Parameter1":1, "Id":23011301
+        "JudgeType1":"LessThan", "Parameter1":1, "Id":23011301
       },
       {
         "Order":2, "BranchEffects":[
@@ -2533,7 +2533,7 @@
             "Order":1, "EffectMasterId":10712300
           }
         ],
-        "JudgeType1":1, "Parameter1":2, "Id":23011302
+        "JudgeType1":"Equal", "Parameter1":2, "Id":23011302
       },
       {
         "Order":3, "BranchEffects":[
@@ -2541,7 +2541,7 @@
             "Order":1, "EffectMasterId":10713300
           }
         ],
-        "JudgeType1":1, "Parameter1":3, "Id":23011303
+        "JudgeType1":"Equal", "Parameter1":3, "Id":23011303
       },
       {
         "Order":4, "BranchEffects":[
@@ -2549,7 +2549,7 @@
             "Order":1, "EffectMasterId":10714300
           }
         ],
-        "JudgeType1":2, "Parameter1":4, "Id":23011304
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":23011304
       }
     ],
     "BranchConditionType1":"AttributeCount", "BranchConditionType2":"None"
@@ -2614,7 +2614,7 @@
             "Order":1, "EffectMasterId":10411400
           }
         ],
-        "JudgeType1":3, "Parameter1":1, "Id":23012301
+        "JudgeType1":"LessThan", "Parameter1":1, "Id":23012301
       },
       {
         "Order":2, "BranchEffects":[
@@ -2622,7 +2622,7 @@
             "Order":1, "EffectMasterId":10412400
           }
         ],
-        "JudgeType1":1, "Parameter1":2, "Id":23012302
+        "JudgeType1":"Equal", "Parameter1":2, "Id":23012302
       },
       {
         "Order":3, "BranchEffects":[
@@ -2630,7 +2630,7 @@
             "Order":1, "EffectMasterId":10413400
           }
         ],
-        "JudgeType1":1, "Parameter1":3, "Id":23012303
+        "JudgeType1":"Equal", "Parameter1":3, "Id":23012303
       },
       {
         "Order":4, "BranchEffects":[
@@ -2638,7 +2638,7 @@
             "Order":1, "EffectMasterId":10414400
           }
         ],
-        "JudgeType1":2, "Parameter1":4, "Id":23012304
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":23012304
       }
     ],
     "BranchConditionType1":"AttributeCount", "BranchConditionType2":"None"
@@ -3015,7 +3015,7 @@
             "Order":1, "EffectMasterId":73052300
           }
         ],
-        "JudgeType1":1, "Parameter1":5, "Id":23021101
+        "JudgeType1":"Equal", "Parameter1":5, "Id":23021101
       },
       {
         "Order":2, "BranchEffects":[
@@ -3029,7 +3029,7 @@
             "Order":3, "EffectMasterId":99999999
           }
         ],
-        "JudgeType1":3, "Parameter1":4, "Id":23021102
+        "JudgeType1":"LessThan", "Parameter1":4, "Id":23021102
       }
     ],
     "BranchConditionType1":"CompanyMemberCount", "ConditionValue1":3, "BranchConditionType2":"None"
@@ -3042,7 +3042,7 @@
             "Order":1, "EffectMasterId":72052200
           }
         ],
-        "JudgeType1":1, "Parameter1":5, "Id":23021201
+        "JudgeType1":"Equal", "Parameter1":5, "Id":23021201
       },
       {
         "Order":2, "BranchEffects":[
@@ -3056,7 +3056,7 @@
             "Order":3, "EffectMasterId":99999999
           }
         ],
-        "JudgeType1":3, "Parameter1":4, "Id":23021202
+        "JudgeType1":"LessThan", "Parameter1":4, "Id":23021202
       }
     ],
     "BranchConditionType1":"CompanyMemberCount", "ConditionValue1":2, "BranchConditionType2":"None"

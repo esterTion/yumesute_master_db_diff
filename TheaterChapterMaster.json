@@ -4077,5 +4077,537 @@
     "RequiredReadEpisodeMasterId":1040119, "TheaterStoryMasterIds":[
       101201, 101202, 101203, 101204, 101205, 101206, 101207, 101208, 101209
     ]
+  },
+  {
+    "Id":1021, "Name":"オペラ座の怪人", "CompanyMasterId":1, "DisplayStartAt":"2023-10-22 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Stories":[
+      {
+        "Id":102101, "Name":"ファントムの噂", "Order":1, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-10-22 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+          {
+            "RoleName":"クリスティーヌ", "CharacterBaseMasterId":104, "CostumeMasterId":12141, "Order":1
+          },
+          {
+            "RoleName":"ソレリ", "CharacterBaseMasterId":106, "CostumeMasterId":12181, "Order":2
+          },
+          {
+            "RoleName":"カルロッタ", "CharacterBaseMasterId":105, "CostumeMasterId":12161, "Order":3
+          }
+        ],
+        "Details":[
+          {
+            "Id":102101001, "Speaker":"ソレリ", "Phrase":"19世紀パリ、ここオペラ座では奇妙な噂が流れていました。/nそれはまことしやかに語られる『ファントム』の噂。", "VoiceAssetId":"1021010010"
+          },
+          {
+            "Id":102101002, "Speaker":"ソレリ", "Phrase":"あるバレリーナは客席に燕尾服を着た骸骨の姿を見たといい、/nある大道具係は奈落の底から悲痛なレクイエムが聞こえてきたといい。", "VoiceAssetId":"1021010020"
+          },
+          {
+            "Id":102101003, "Speaker":"ソレリ", "Phrase":"ある照明係はキャットウォークを飛び交う黒い人影を見たといいます。", "VoiceAssetId":"1021010030"
+          },
+          {
+            "Id":102101004, "Speaker":"ソレリ", "Phrase":"オペラ座にいる人なら誰もが知っている『ファントム』。/nけれど、その姿をまだ誰も見たことがないのです。", "VoiceAssetId":"1021010040"
+          },
+          {
+            "Id":102101005, "Speaker":"ソレリ", "Phrase":"さあ、耳を澄ませてください。聞こえてきませんか？/n 『ファントム』の悲しくも美しい歌声が……。", "VoiceAssetId":"1021010050"
+          },
+          {
+            "Id":102101006, "Speaker":"バレリーナ", "Phrase":"ソレリ、アップを始めるわよ。", "VoiceAssetId":"1021010060"
+          },
+          {
+            "Id":102101007, "Speaker":"ソレリ", "Phrase":"はい！", "VoiceAssetId":"1021010070"
+          },
+          {
+            "Id":102101008, "Speaker":"カルロッタ", "Phrase":"何度言わせたらわかるのよ？　今夜は喉の調子がよくないの。", "VoiceAssetId":"1021010080"
+          },
+          {
+            "Id":102101009, "Speaker":"モンシャルマン", "Phrase":"そうはいっても今夜は政府の高官たちが来る大事なコンサートなんだ。/nゴーストシンガーに歌わせるわけにはいかないだろう。", "VoiceAssetId":"1021010090"
+          },
+          {
+            "Id":102101010, "Speaker":"カルロッタ", "Phrase":"バカな役人には歌の良し悪しなんてわからないわよ。", "VoiceAssetId":"1021010100"
+          },
+          {
+            "Id":102101011, "Speaker":"リシャール", "Phrase":"観客は君の歌声が聴きたいんだ。", "VoiceAssetId":"1021010110"
+          },
+          {
+            "Id":102101012, "Speaker":"カルロッタ", "Phrase":"クリスティーヌ！　クリスティーヌ！", "VoiceAssetId":"1021010120"
+          },
+          {
+            "Id":102101013, "Speaker":"クリスティーヌ", "Phrase":"は、はい！", "VoiceAssetId":"1021010130"
+          },
+          {
+            "Id":102101014, "Speaker":"カルロッタ", "Phrase":"今夜のコンサートもよろしく頼むわね。", "VoiceAssetId":"1021010140"
+          },
+          {
+            "Id":102101015, "Speaker":"クリスティーヌ", "Phrase":"あ、あの……私でいいんでしょうか？", "VoiceAssetId":"1021010150"
+          },
+          {
+            "Id":102101016, "Speaker":"カルロッタ", "Phrase":"あなただからお願いしてるの。/n私のゴーストはあなたにしか務まらないわ。", "VoiceAssetId":"1021010160"
+          },
+          {
+            "Id":102101017, "Speaker":"クリスティーヌ", "Phrase":"はい！　心を込めて精一杯歌います！", "VoiceAssetId":"1021010170"
+          },
+          {
+            "Id":102101018, "Speaker":"カルロッタ", "Phrase":"さ、幕の向こうへ。", "VoiceAssetId":"1021010180"
+          },
+          {
+            "Id":102101019, "Speaker":"モンシャルマン", "Phrase":"カルロッタ……君ってやつは……。", "VoiceAssetId":"1021010190"
+          },
+          {
+            "Id":102101020, "Speaker":"カルロッタ", "Phrase":"あの子、演技は不味いけれど、歌はなかなかのものよ。/n当分の間は利用させてもらいましょ。", "VoiceAssetId":"1021010200"
+          },
+          {
+            "Id":102101021, "Speaker":"カルロッタ", "Phrase":"さあ皆！　今夜は政府のお偉いさんたちが来る大事なコンサートよ！ /n素晴らしい夜にしましょう！", "VoiceAssetId":"1021010210"
+          },
+          {
+            "Id":102101022, "Speaker":"一同", "Phrase":"はい！", "VoiceAssetId":"1021010220"
+          }
+        ]
+      },
+      {
+        "Id":102102, "Name":"音楽の天使", "Order":2, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-10-29 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+          {
+            "RoleName":"クリスティーヌ", "CharacterBaseMasterId":104, "CostumeMasterId":12131, "Order":1
+          },
+          {
+            "RoleName":"ファントム", "CharacterBaseMasterId":101, "CostumeMasterId":12111, "Order":2
+          },
+          {
+            "RoleName":"ソレリ", "CharacterBaseMasterId":106, "CostumeMasterId":12171, "Order":3
+          }
+        ],
+        "Details":[
+          {
+            "Id":102102001, "Speaker":"ソレリ", "Phrase":"お邪魔してもいいかしら？", "VoiceAssetId":"1021020010"
+          },
+          {
+            "Id":102102002, "Speaker":"クリスティーヌ", "Phrase":"ソレリ！", "VoiceAssetId":"1021020020"
+          },
+          {
+            "Id":102102003, "Speaker":"ソレリ", "Phrase":"クリスティーヌ、素敵な歌だったわ。", "VoiceAssetId":"1021020030"
+          },
+          {
+            "Id":102102004, "Speaker":"クリスティーヌ", "Phrase":"ありがとう。", "VoiceAssetId":"1021020040"
+          },
+          {
+            "Id":102102005, "Speaker":"ソレリ", "Phrase":"舞台袖で思わず涙ぐんでしまったもの。/nでも、一つだけ残念なことがあるわ。", "VoiceAssetId":"1021020050"
+          },
+          {
+            "Id":102102006, "Speaker":"クリスティーヌ", "Phrase":"え？", "VoiceAssetId":"1021020060"
+          },
+          {
+            "Id":102102007, "Speaker":"ソレリ", "Phrase":"あなたの歌があの性悪女のお手柄になること。/nカルロッタはさも自分が歌いあげたみたいに自慢話をしているわ。", "VoiceAssetId":"1021020070"
+          },
+          {
+            "Id":102102008, "Speaker":"クリスティーヌ", "Phrase":"いいのよ、それで。", "VoiceAssetId":"1021020080"
+          },
+          {
+            "Id":102102009, "Speaker":"ソレリ", "Phrase":"どうして？", "VoiceAssetId":"1021020090"
+          },
+          {
+            "Id":102102010, "Speaker":"クリスティーヌ", "Phrase":"お客さんのお目当てはカルロッタ。/n私が舞台に出て歌っても、たぶん見向きもされないわ。", "VoiceAssetId":"1021020100"
+          },
+          {
+            "Id":102102011, "Speaker":"ソレリ", "Phrase":"……。", "VoiceAssetId":"1021020110"
+          },
+          {
+            "Id":102102012, "Speaker":"クリスティーヌ", "Phrase":"そんな顔しないで。私はね、このオペラ座で歌えるだけで幸せなの。", "VoiceAssetId":"1021020120"
+          },
+          {
+            "Id":102102013, "Speaker":"クリスティーヌ", "Phrase":"ここで……彼に見守られながら……。", "VoiceAssetId":"1021020130"
+          },
+          {
+            "Id":102102014, "Speaker":"ソレリ", "Phrase":"彼？", "VoiceAssetId":"1021020140"
+          },
+          {
+            "Id":102102015, "Speaker":"クリスティーヌ", "Phrase":"昔、パパが話してくれたの。偉大な音楽家や偉大な作曲家のもとには/n一生に一度、音楽の天使がやってくるんですって。", "VoiceAssetId":"1021020150"
+          },
+          {
+            "Id":102102016, "Speaker":"クリスティーヌ", "Phrase":"それは赤ん坊のときにやってくることもあれば、/nずっと年を取ってから現れることもあるの。", "VoiceAssetId":"1021020160"
+          },
+          {
+            "Id":102102017, "Speaker":"クリスティーヌ", "Phrase":"天使は決して姿を見せないけれど、/n選ばれた人間にはその声が聞こえる……。", "VoiceAssetId":"1021020170"
+          },
+          {
+            "Id":102102018, "Speaker":"ソレリ", "Phrase":"その彼っていうのが……。", "VoiceAssetId":"1021020180"
+          },
+          {
+            "Id":102102019, "Speaker":"クリスティーヌ", "Phrase":"そう。音楽の天使。", "VoiceAssetId":"1021020190"
+          },
+          {
+            "Id":102102020, "Speaker":"ソレリ", "Phrase":"……。", "VoiceAssetId":"1021020200"
+          },
+          {
+            "Id":102102021, "Speaker":"クリスティーヌ", "Phrase":"冗談かと思うかもしれないけれど、/n私は本当に天使に会ったことがあるのよ。", "VoiceAssetId":"1021020210"
+          },
+          {
+            "Id":102102022, "Speaker":"ソレリ", "Phrase":"見たの？", "VoiceAssetId":"1021020220"
+          },
+          {
+            "Id":102102023, "Speaker":"クリスティーヌ", "Phrase":"いいえ。見たことはないわ。声が聞こえるだけ。", "VoiceAssetId":"1021020230"
+          },
+          {
+            "Id":102102024, "Speaker":"コーチ", "Phrase":"ソレリ！　練習を始めるわよ！", "VoiceAssetId":"1021020240"
+          },
+          {
+            "Id":102102025, "Speaker":"ソレリ", "Phrase":"はい！　すぐに！", "VoiceAssetId":"1021020250"
+          },
+          {
+            "Id":102102026, "Speaker":"ソレリ", "Phrase":"クリスティーヌ。くれぐれも、その彼とは慎重にね。", "VoiceAssetId":"1021020260"
+          },
+          {
+            "Id":102102027, "Speaker":"クリスティーヌ", "Phrase":"慎重？　ええ。機嫌を損ねないようにするわ。", "VoiceAssetId":"1021020270"
+          },
+          {
+            "Id":102102028, "Speaker":"ソレリ", "Phrase":"またゆっくり話しましょう。", "VoiceAssetId":"1021020280"
+          },
+          {
+            "Id":102102029, "Speaker":"クリスティーヌ", "Phrase":"天使様……今夜のコンサートは聴いてくださったかしら？", "VoiceAssetId":"1021020290"
+          },
+          {
+            "Id":102102030, "Speaker":"ファントム", "Phrase":"素晴らしかったよ、クリスティーヌ。/nあの鳴りやまない拍手は君に送られるべきだった。", "VoiceAssetId":"1021020300"
+          },
+          {
+            "Id":102102031, "Speaker":"クリスティーヌ", "Phrase":"やっぱり見守ってくれてたのね！　私、あなたのために歌ったの！", "VoiceAssetId":"1021020310"
+          },
+          {
+            "Id":102102032, "Speaker":"ファントム", "Phrase":"君に感謝するよ。こんな素晴らしい贈り物は/nどこの国の皇帝も受け取ったことはないだろう。", "VoiceAssetId":"1021020320"
+          },
+          {
+            "Id":102102033, "Speaker":"クリスティーヌ", "Phrase":"天使様、姿を見せてくれないかしら？ /nあなたに直接お礼を言いたいの。", "VoiceAssetId":"1021020330"
+          },
+          {
+            "Id":102102034, "Speaker":"ファントム", "Phrase":"それはできない。", "VoiceAssetId":"1021020340"
+          },
+          {
+            "Id":102102035, "Speaker":"クリスティーヌ", "Phrase":"どうして？", "VoiceAssetId":"1021020350"
+          },
+          {
+            "Id":102102036, "Speaker":"ファントム", "Phrase":"私のことなど知らないほうがいい。", "VoiceAssetId":"1021020360"
+          },
+          {
+            "Id":102102037, "Speaker":"クリスティーヌ", "Phrase":"お願い。せめて一目だけでも。", "VoiceAssetId":"1021020370"
+          },
+          {
+            "Id":102102038, "Speaker":"ファントム", "Phrase":"クリスティーヌ。姿を見せるべきは君の方だ。", "VoiceAssetId":"1021020380"
+          },
+          {
+            "Id":102102039, "Speaker":"クリスティーヌ", "Phrase":"え……？", "VoiceAssetId":"1021020390"
+          },
+          {
+            "Id":102102040, "Speaker":"ファントム", "Phrase":"君には天から授かり、私が引き出した音楽の才能がある。/nいつまで偽りの歌姫のゴーストでいるつもりだい？", "VoiceAssetId":"1021020400"
+          },
+          {
+            "Id":102102041, "Speaker":"クリスティーヌ", "Phrase":"……。", "VoiceAssetId":"1021020410"
+          }
+        ]
+      },
+      {
+        "Id":102103, "Name":"歌姫の嫉妬", "Order":3, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-11-05 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102104, "Name":"ラウルとの再会", "Order":4, "HasSynopsis":true, "Synopsis":"オペラ座ではカルロッタを主演にオペラ『ファウスト』が上演されている。カルロッタの熱演とクリスティーヌの歌により大盛況のまま幕を閉じようとしていたが──。", "DisplayStartAt":"2023-11-12 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102105, "Name":"父との約束", "Order":5, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-11-19 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102106, "Name":"ファントムの素顔", "Order":6, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-11-26 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102107, "Name":"歌姫の競演", "Order":7, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-03 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102108, "Name":"光と闇", "Order":8, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102109, "Name":"二人の受難劇", "Order":9, "HasSynopsis":true, "Synopsis":"音楽の喜びを与えてくれたファントムと、初恋の相手ラウル。二人の間で揺れ動くクリスティーヌ。どちらも選ぶことができないまま、ついに、カルロッタとクリスティーヌが共演するオペラ『ドンファン』が開演する。", "DisplayStartAt":"2023-12-17 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102110, "Name":"迷宮", "Order":10, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-24 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102111, "Name":"ファントムの孤独", "Order":11, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102112, "Name":"ファントム・オブ・ジ・オペラ", "Order":12, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2024-01-14 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      }
+    ],
+    "RequiredReadEpisodeMasterId":0, "TheaterStoryMasterIds":[
+      102101, 102102, 102103, 102104, 102105, 102106, 102107, 102108, 102109, 102110, 102111, 102112
+    ]
+  },
+  {
+    "Id":1022, "Name":"オペラ座の怪人", "CompanyMasterId":2, "DisplayStartAt":"2023-10-22 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Stories":[
+      {
+        "Id":102201, "Name":"ファントムの噂", "Order":1, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-10-22 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+          {
+            "RoleName":"クリスティーヌ", "CharacterBaseMasterId":205, "CostumeMasterId":12241, "Order":1
+          },
+          {
+            "RoleName":"ソレリ", "CharacterBaseMasterId":204, "CostumeMasterId":12281, "Order":2
+          },
+          {
+            "RoleName":"カルロッタ", "CharacterBaseMasterId":202, "CostumeMasterId":12261, "Order":3
+          }
+        ],
+        "Details":[
+          {
+            "Id":102201001, "Speaker":"ソレリ", "Phrase":"19世紀パリ、ここオペラ座では奇妙な噂が流れていました。/nそれはまことしやかに語られる『ファントム』の噂。", "VoiceAssetId":"1022010010"
+          },
+          {
+            "Id":102201002, "Speaker":"ソレリ", "Phrase":"あるバレリーナは客席に燕尾服を着た骸骨の姿を見たといい、/nある大道具係は奈落の底から悲痛なレクイエムが聞こえてきたといい。", "VoiceAssetId":"1022010020"
+          },
+          {
+            "Id":102201003, "Speaker":"ソレリ", "Phrase":"ある照明係はキャットウォークを飛び交う黒い人影を見たといいます。", "VoiceAssetId":"1022010030"
+          },
+          {
+            "Id":102201004, "Speaker":"ソレリ", "Phrase":"オペラ座にいる人なら誰もが知っている『ファントム』。/nけれど、その姿をまだ誰も見たことがないのです。", "VoiceAssetId":"1022010040"
+          },
+          {
+            "Id":102201005, "Speaker":"ソレリ", "Phrase":"さあ、耳を澄ませてください。聞こえてきませんか？/n 『ファントム』の悲しくも美しい歌声が……。", "VoiceAssetId":"1022010050"
+          },
+          {
+            "Id":102201006, "Speaker":"バレリーナ", "Phrase":"ソレリ、アップを始めるわよ。", "VoiceAssetId":"1022010060"
+          },
+          {
+            "Id":102201007, "Speaker":"ソレリ", "Phrase":"はい！", "VoiceAssetId":"1022010070"
+          },
+          {
+            "Id":102201008, "Speaker":"カルロッタ", "Phrase":"何度言わせたらわかるのよ？　今夜は喉の調子がよくないの。", "VoiceAssetId":"1022010080"
+          },
+          {
+            "Id":102201009, "Speaker":"モンシャルマン", "Phrase":"そうはいっても今夜は政府の高官たちが来る大事なコンサートなんだ。/nゴーストシンガーに歌わせるわけにはいかないだろう。", "VoiceAssetId":"1022010090"
+          },
+          {
+            "Id":102201010, "Speaker":"カルロッタ", "Phrase":"バカな役人には歌の良し悪しなんてわからないわよ。", "VoiceAssetId":"1022010100"
+          },
+          {
+            "Id":102201011, "Speaker":"リシャール", "Phrase":"観客は君の歌声が聴きたいんだ。", "VoiceAssetId":"1022010110"
+          },
+          {
+            "Id":102201012, "Speaker":"カルロッタ", "Phrase":"クリスティーヌ！　クリスティーヌ！", "VoiceAssetId":"1022010120"
+          },
+          {
+            "Id":102201013, "Speaker":"クリスティーヌ", "Phrase":"は、はい！", "VoiceAssetId":"1022010130"
+          },
+          {
+            "Id":102201014, "Speaker":"カルロッタ", "Phrase":"今夜のコンサートもよろしく頼むわね。", "VoiceAssetId":"1022010140"
+          },
+          {
+            "Id":102201015, "Speaker":"クリスティーヌ", "Phrase":"あ、あの……私でいいんでしょうか？", "VoiceAssetId":"1022010150"
+          },
+          {
+            "Id":102201016, "Speaker":"カルロッタ", "Phrase":"あなただからお願いしてるの。/n私のゴーストはあなたにしか務まらないわ。", "VoiceAssetId":"1022010160"
+          },
+          {
+            "Id":102201017, "Speaker":"クリスティーヌ", "Phrase":"はい！　心を込めて精一杯歌います！", "VoiceAssetId":"1022010170"
+          },
+          {
+            "Id":102201018, "Speaker":"カルロッタ", "Phrase":"さ、幕の向こうへ。", "VoiceAssetId":"1022010180"
+          },
+          {
+            "Id":102201019, "Speaker":"モンシャルマン", "Phrase":"カルロッタ……君ってやつは……。", "VoiceAssetId":"1022010190"
+          },
+          {
+            "Id":102201020, "Speaker":"カルロッタ", "Phrase":"あの子、演技は不味いけれど、歌はなかなかのものよ。/n当分の間は利用させてもらいましょ。", "VoiceAssetId":"1022010200"
+          },
+          {
+            "Id":102201021, "Speaker":"カルロッタ", "Phrase":"さあ皆！　今夜は政府のお偉いさんたちが来る大事なコンサートよ！ /n素晴らしい夜にしましょう！", "VoiceAssetId":"1022010210"
+          },
+          {
+            "Id":102201022, "Speaker":"一同", "Phrase":"はい！", "VoiceAssetId":"1022010220"
+          }
+        ]
+      },
+      {
+        "Id":102202, "Name":"音楽の天使", "Order":2, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-10-29 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+          {
+            "RoleName":"クリスティーヌ", "CharacterBaseMasterId":205, "CostumeMasterId":12231, "Order":1
+          },
+          {
+            "RoleName":"ファントム", "CharacterBaseMasterId":201, "CostumeMasterId":12211, "Order":2
+          },
+          {
+            "RoleName":"ソレリ", "CharacterBaseMasterId":204, "CostumeMasterId":12271, "Order":3
+          }
+        ],
+        "Details":[
+          {
+            "Id":102202001, "Speaker":"ソレリ", "Phrase":"お邪魔してもいいかしら？", "VoiceAssetId":"1022020010"
+          },
+          {
+            "Id":102202002, "Speaker":"クリスティーヌ", "Phrase":"ソレリ！", "VoiceAssetId":"1022020020"
+          },
+          {
+            "Id":102202003, "Speaker":"ソレリ", "Phrase":"クリスティーヌ、素敵な歌だったわ。", "VoiceAssetId":"1022020030"
+          },
+          {
+            "Id":102202004, "Speaker":"クリスティーヌ", "Phrase":"ありがとう。", "VoiceAssetId":"1022020040"
+          },
+          {
+            "Id":102202005, "Speaker":"ソレリ", "Phrase":"舞台袖で思わず涙ぐんでしまったもの。/nでも、一つだけ残念なことがあるわ。", "VoiceAssetId":"1022020050"
+          },
+          {
+            "Id":102202006, "Speaker":"クリスティーヌ", "Phrase":"え？", "VoiceAssetId":"1022020060"
+          },
+          {
+            "Id":102202007, "Speaker":"ソレリ", "Phrase":"あなたの歌があの性悪女のお手柄になること。/nカルロッタはさも自分が歌いあげたみたいに自慢話をしているわ。", "VoiceAssetId":"1022020070"
+          },
+          {
+            "Id":102202008, "Speaker":"クリスティーヌ", "Phrase":"いいのよ、それで。", "VoiceAssetId":"1022020080"
+          },
+          {
+            "Id":102202009, "Speaker":"ソレリ", "Phrase":"どうして？", "VoiceAssetId":"1022020090"
+          },
+          {
+            "Id":102202010, "Speaker":"クリスティーヌ", "Phrase":"お客さんのお目当てはカルロッタ。/n私が舞台に出て歌っても、たぶん見向きもされないわ。", "VoiceAssetId":"1022020100"
+          },
+          {
+            "Id":102202011, "Speaker":"ソレリ", "Phrase":"……。", "VoiceAssetId":"1022020110"
+          },
+          {
+            "Id":102202012, "Speaker":"クリスティーヌ", "Phrase":"そんな顔しないで。私はね、このオペラ座で歌えるだけで幸せなの。", "VoiceAssetId":"1022020120"
+          },
+          {
+            "Id":102202013, "Speaker":"クリスティーヌ", "Phrase":"ここで……彼に見守られながら……。", "VoiceAssetId":"1022020130"
+          },
+          {
+            "Id":102202014, "Speaker":"ソレリ", "Phrase":"彼？", "VoiceAssetId":"1022020140"
+          },
+          {
+            "Id":102202015, "Speaker":"クリスティーヌ", "Phrase":"昔、パパが話してくれたの。偉大な音楽家や偉大な作曲家のもとには/n一生に一度、音楽の天使がやってくるんですって。", "VoiceAssetId":"1022020150"
+          },
+          {
+            "Id":102202016, "Speaker":"クリスティーヌ", "Phrase":"それは赤ん坊のときにやってくることもあれば、/nずっと年を取ってから現れることもあるの。", "VoiceAssetId":"1022020160"
+          },
+          {
+            "Id":102202017, "Speaker":"クリスティーヌ", "Phrase":"天使は決して姿を見せないけれど、/n選ばれた人間にはその声が聞こえる……。", "VoiceAssetId":"1022020170"
+          },
+          {
+            "Id":102202018, "Speaker":"ソレリ", "Phrase":"その彼っていうのが……。", "VoiceAssetId":"1022020180"
+          },
+          {
+            "Id":102202019, "Speaker":"クリスティーヌ", "Phrase":"そう。音楽の天使。", "VoiceAssetId":"1022020190"
+          },
+          {
+            "Id":102202020, "Speaker":"ソレリ", "Phrase":"……。", "VoiceAssetId":"1022020200"
+          },
+          {
+            "Id":102202021, "Speaker":"クリスティーヌ", "Phrase":"冗談かと思うかもしれないけれど、/n私は本当に天使に会ったことがあるのよ。", "VoiceAssetId":"1022020210"
+          },
+          {
+            "Id":102202022, "Speaker":"ソレリ", "Phrase":"見たの？", "VoiceAssetId":"1022020220"
+          },
+          {
+            "Id":102202023, "Speaker":"クリスティーヌ", "Phrase":"いいえ。見たことはないわ。声が聞こえるだけ。", "VoiceAssetId":"1022020230"
+          },
+          {
+            "Id":102202024, "Speaker":"コーチ", "Phrase":"ソレリ！　練習を始めるわよ！", "VoiceAssetId":"1022020240"
+          },
+          {
+            "Id":102202025, "Speaker":"ソレリ", "Phrase":"はい！　すぐに！", "VoiceAssetId":"1022020250"
+          },
+          {
+            "Id":102202026, "Speaker":"ソレリ", "Phrase":"クリスティーヌ。くれぐれも、その彼とは慎重にね。", "VoiceAssetId":"1022020260"
+          },
+          {
+            "Id":102202027, "Speaker":"クリスティーヌ", "Phrase":"慎重？　ええ。機嫌を損ねないようにするわ。", "VoiceAssetId":"1022020270"
+          },
+          {
+            "Id":102202028, "Speaker":"ソレリ", "Phrase":"またゆっくり話しましょう。", "VoiceAssetId":"1022020280"
+          },
+          {
+            "Id":102202029, "Speaker":"クリスティーヌ", "Phrase":"天使様……今夜のコンサートは聴いてくださったかしら？", "VoiceAssetId":"1022020290"
+          },
+          {
+            "Id":102202030, "Speaker":"ファントム", "Phrase":"素晴らしかったよ、クリスティーヌ。/nあの鳴りやまない拍手は君に送られるべきだった。", "VoiceAssetId":"1022020300"
+          },
+          {
+            "Id":102202031, "Speaker":"クリスティーヌ", "Phrase":"やっぱり見守ってくれてたのね！　私、あなたのために歌ったの！", "VoiceAssetId":"1022020310"
+          },
+          {
+            "Id":102202032, "Speaker":"ファントム", "Phrase":"君に感謝するよ。こんな素晴らしい贈り物は/nどこの国の皇帝も受け取ったことはないだろう。", "VoiceAssetId":"1022020320"
+          },
+          {
+            "Id":102202033, "Speaker":"クリスティーヌ", "Phrase":"天使様、姿を見せてくれないかしら？ /nあなたに直接お礼を言いたいの。", "VoiceAssetId":"1022020330"
+          },
+          {
+            "Id":102202034, "Speaker":"ファントム", "Phrase":"それはできない。", "VoiceAssetId":"1022020340"
+          },
+          {
+            "Id":102202035, "Speaker":"クリスティーヌ", "Phrase":"どうして？", "VoiceAssetId":"1022020350"
+          },
+          {
+            "Id":102202036, "Speaker":"ファントム", "Phrase":"私のことなど知らないほうがいい。", "VoiceAssetId":"1022020360"
+          },
+          {
+            "Id":102202037, "Speaker":"クリスティーヌ", "Phrase":"お願い。せめて一目だけでも。", "VoiceAssetId":"1022020370"
+          },
+          {
+            "Id":102202038, "Speaker":"ファントム", "Phrase":"クリスティーヌ。姿を見せるべきは君の方だ。", "VoiceAssetId":"1022020380"
+          },
+          {
+            "Id":102202039, "Speaker":"クリスティーヌ", "Phrase":"え……？", "VoiceAssetId":"1022020390"
+          },
+          {
+            "Id":102202040, "Speaker":"ファントム", "Phrase":"君には天から授かり、私が引き出した音楽の才能がある。/nいつまで偽りの歌姫のゴーストでいるつもりだい？", "VoiceAssetId":"1022020400"
+          },
+          {
+            "Id":102202041, "Speaker":"クリスティーヌ", "Phrase":"……。", "VoiceAssetId":"1022020410"
+          }
+        ]
+      },
+      {
+        "Id":102203, "Name":"歌姫の嫉妬", "Order":3, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-11-05 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102204, "Name":"ラウルとの再会", "Order":4, "HasSynopsis":true, "Synopsis":"オペラ座ではカルロッタを主演にオペラ『ファウスト』が上演されている。カルロッタの熱演とクリスティーヌの歌により大盛況のまま幕を閉じようとしていたが──。", "DisplayStartAt":"2023-11-12 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102205, "Name":"父との約束", "Order":5, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-11-19 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102206, "Name":"ファントムの素顔", "Order":6, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-11-26 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102207, "Name":"歌姫の競演", "Order":7, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-03 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102208, "Name":"光と闇", "Order":8, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102209, "Name":"二人の受難劇", "Order":9, "HasSynopsis":true, "Synopsis":"音楽の喜びを与えてくれたファントムと、初恋の相手ラウル。二人の間で揺れ動くクリスティーヌ。どちらも選ぶことができないまま、ついに、カルロッタとクリスティーヌが共演するオペラ『ドンファン』が開演する。", "DisplayStartAt":"2023-12-17 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102210, "Name":"迷宮", "Order":10, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-24 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102211, "Name":"仮面の真実", "Order":11, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2024-01-07 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      },
+      {
+        "Id":102212, "Name":"どこかできっと", "Order":12, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2024-01-21 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+        "Details":[]
+      }
+    ],
+    "RequiredReadEpisodeMasterId":0, "TheaterStoryMasterIds":[
+      102201, 102202, 102203, 102204, 102205, 102206, 102207, 102208, 102209, 102210, 102211, 102212
+    ]
   }
 ]

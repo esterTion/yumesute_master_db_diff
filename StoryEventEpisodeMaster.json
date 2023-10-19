@@ -190,5 +190,29 @@
   },
   {
     "Id":2000808, "StoryMasterId":20008, "RequiredTotalAcquiredPoint":128000, "Title":"想像、してみた", "Order":8, "RequiredReadEpisodeMasterId":2000807
+  },
+  {
+    "Id":2001001, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":0, "Title":"特別なイベント", "Order":1
+  },
+  {
+    "Id":2001002, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":2000, "Title":"このメンバーで", "Order":2, "RequiredReadEpisodeMasterId":2001001
+  },
+  {
+    "Id":2001003, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":4000, "Title":"ヒートアップ", "Order":3, "RequiredReadEpisodeMasterId":2001002
+  },
+  {
+    "Id":2001004, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":8000, "Title":"５人じゃないと", "Order":4, "RequiredReadEpisodeMasterId":2001003
+  },
+  {
+    "Id":2001005, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":16000, "Title":"熱くなる理由", "Order":5, "RequiredReadEpisodeMasterId":2001004
+  },
+  {
+    "Id":2001006, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":32000, "Title":"コンテスト当日", "Order":6, "RequiredReadEpisodeMasterId":2001005
+  },
+  {
+    "Id":2001007, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":64000, "Title":"全力で", "Order":7, "RequiredReadEpisodeMasterId":2001006
+  },
+  {
+    "Id":2001008, "StoryMasterId":20010, "RequiredTotalAcquiredPoint":128000, "Title":"みんながいたから", "Order":8, "RequiredReadEpisodeMasterId":2001007
   }
 ]

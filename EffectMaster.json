@@ -526,6 +526,32 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":20055, "Type":"SenseScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":7100
+      },
+      {
+        "Level":2, "Value":7800
+      },
+      {
+        "Level":3, "Value":8500
+      },
+      {
+        "Level":4, "Value":10000
+      },
+      {
+        "Level":5, "Value":11400
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"Company", "Value":3
+      }
+    ],
+    "DurationSecond":35, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":20061, "Type":"SenseScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":600
@@ -21381,6 +21407,59 @@
     "FireTimingType":"Passive"
   },
   {
+    "Id":10010003, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":600
+      },
+      {
+        "Level":2, "Value":700
+      },
+      {
+        "Level":3, "Value":800
+      },
+      {
+        "Level":4, "Value":900
+      },
+      {
+        "Level":5, "Value":1000
+      },
+      {
+        "Level":6, "Value":1100
+      },
+      {
+        "Level":7, "Value":1200
+      },
+      {
+        "Level":8, "Value":1300
+      },
+      {
+        "Level":9, "Value":1400
+      },
+      {
+        "Level":10, "Value":1500
+      },
+      {
+        "Level":11, "Value":1600
+      },
+      {
+        "Level":12, "Value":1700
+      },
+      {
+        "Level":13, "Value":1800
+      },
+      {
+        "Level":14, "Value":1900
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":3
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":10010100, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":600
@@ -25124,6 +25203,59 @@
     "FireTimingType":"Passive"
   },
   {
+    "Id":10120400, "Type":"VocalUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":2700
+      },
+      {
+        "Level":2, "Value":3000
+      },
+      {
+        "Level":3, "Value":3300
+      },
+      {
+        "Level":4, "Value":3600
+      },
+      {
+        "Level":5, "Value":3900
+      },
+      {
+        "Level":6, "Value":4200
+      },
+      {
+        "Level":7, "Value":4500
+      },
+      {
+        "Level":8, "Value":4800
+      },
+      {
+        "Level":9, "Value":5100
+      },
+      {
+        "Level":10, "Value":5400
+      },
+      {
+        "Level":11, "Value":5700
+      },
+      {
+        "Level":12, "Value":6000
+      },
+      {
+        "Level":13, "Value":6300
+      },
+      {
+        "Level":14, "Value":6600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":4
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":10131000, "Type":"VocalUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":3500
@@ -27097,6 +27229,59 @@
     "DurationSecond":0, "Triggers":[
       {
         "Trigger":"Company", "Value":1
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":10920400, "Type":"ScoreGainOnVocal", "Range":"None", "CalculationType":"Multiplication", "Details":[
+      {
+        "Level":1, "Value":540
+      },
+      {
+        "Level":2, "Value":600
+      },
+      {
+        "Level":3, "Value":660
+      },
+      {
+        "Level":4, "Value":720
+      },
+      {
+        "Level":5, "Value":780
+      },
+      {
+        "Level":6, "Value":840
+      },
+      {
+        "Level":7, "Value":900
+      },
+      {
+        "Level":8, "Value":960
+      },
+      {
+        "Level":9, "Value":1020
+      },
+      {
+        "Level":10, "Value":1080
+      },
+      {
+        "Level":11, "Value":1140
+      },
+      {
+        "Level":12, "Value":1200
+      },
+      {
+        "Level":13, "Value":1260
+      },
+      {
+        "Level":14, "Value":1320
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":4
       }
     ],
     "FireTimingType":"Sense"

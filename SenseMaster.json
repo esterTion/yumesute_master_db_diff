@@ -556,6 +556,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":520, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60
   },
   {
+    "Id":130300, "Name":"ぱんだ with パンダ！", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":520, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60
+  },
+  {
     "Id":130310, "Name":"仲間のために", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Control", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50
@@ -853,6 +858,25 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":320, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":65
+  },
+  {
+    "Id":140340, "Name":"ステキな物語はいかがですか？", "Description":"[:score]倍のスコアを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50
+  },
+  {
+    "Id":140350, "Name":"おとぎの国の食事会", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1403501
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50
   },
   {
     "Id":140360, "Name":"なし", "Description":"効果無し（所持している「光」は維持される）", "Type":"None", "PreEffects":[],

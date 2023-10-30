@@ -2038,6 +2038,20 @@
             "ThingId":200501, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
+      },
+      {
+        "Id":1902, "MissionStageOrder":2, "StageGoalValue":200, "StartDate":"2023-01-01 00:00:00", "Rewards":[
+          {
+            "ThingId":200502, "ThingType":"Trophy", "ThingQuantity":1
+          }
+        ]
+      },
+      {
+        "Id":1903, "MissionStageOrder":3, "StageGoalValue":300, "StartDate":"2023-01-01 00:00:00", "Rewards":[
+          {
+            "ThingId":200503, "ThingType":"Trophy", "ThingQuantity":1
+          }
+        ]
       }
     ]
   },
@@ -3163,6 +3177,17 @@
         "Id":14400, "MissionStageOrder":1, "StageGoalValue":20, "StartDate":"2023-10-25 17:00:00", "Rewards":[
           {
             "ThingId":0, "ThingType":"Jewel", "ThingQuantity":2000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":14500, "MissionCategory":"Limit", "MissionViewOrder":14500, "Title":"", "Description":"「Forbidden Fruit Addiction」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2023-11-06 17:00:00", "EndDate":"2023-11-16 00:00:00", "Stages":[
+      {
+        "Id":14500, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2023-11-06 17:00:00", "Rewards":[
+          {
+            "ThingId":120571, "ThingType":"Trophy", "ThingQuantity":1
           }
         ]
       }

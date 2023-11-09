@@ -3849,5 +3849,55 @@
       }
     ],
     "ComebackCampaignMasterId":1
+  },
+  {
+    "Id":400000, "MissionCategory":"Limit", "MissionViewOrder":400000, "Title":"", "Description":"合同音楽公演のステージ[:param]をクリアしよう", "JumpType":"None", "StartDate":"2023-11-12 20:00:00", "EndDate":"2023-11-30 17:00:00", "Stages":[
+      {
+        "Id":400000, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2023-11-12 20:00:00", "Rewards":[
+          {
+            "ThingId":230270, "ThingType":"Poster", "ThingQuantity":1
+          }
+        ]
+      },
+      {
+        "Id":400001, "MissionStageOrder":2, "StageGoalValue":6, "StartDate":"2023-11-12 20:00:00", "Rewards":[
+          {
+            "ThingId":230270, "ThingType":"Poster", "ThingQuantity":1
+          }
+        ]
+      },
+      {
+        "Id":400002, "MissionStageOrder":3, "StageGoalValue":9, "StartDate":"2023-11-12 20:00:00", "Rewards":[
+          {
+            "ThingId":230270, "ThingType":"Poster", "ThingQuantity":1
+          }
+        ]
+      },
+      {
+        "Id":400003, "MissionStageOrder":4, "StageGoalValue":12, "StartDate":"2023-11-12 20:00:00", "Rewards":[
+          {
+            "ThingId":230270, "ThingType":"Poster", "ThingQuantity":1
+          }
+        ]
+      },
+      {
+        "Id":400004, "MissionStageOrder":5, "StageGoalValue":15, "StartDate":"2023-11-12 20:00:00", "Rewards":[
+          {
+            "ThingId":230270, "ThingType":"Poster", "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400010, "MissionCategory":"Limit", "MissionViewOrder":400010, "Title":"", "Description":"合同音楽公演を全ステージクリアしよう", "JumpType":"None", "StartDate":"2023-11-12 20:00:00", "EndDate":"2023-11-30 17:00:00", "Stages":[
+      {
+        "Id":400010, "MissionStageOrder":1, "StageGoalValue":18, "StartDate":"2023-11-12 20:00:00", "Rewards":[
+          {
+            "ThingId":400001, "ThingType":"Trophy", "ThingQuantity":1
+          }
+        ]
+      }
+    ]
   }
 ]

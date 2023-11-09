@@ -566,6 +566,20 @@
     "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50
   },
   {
+    "Id":130330, "Name":"いっしょに遊びませんか？", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1303301
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -887,5 +901,15 @@
     "Id":140370, "Name":"戦い続ける魔法少女", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":120, "AcquirableScorePercent":190, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60
+  },
+  {
+    "Id":140400, "Name":"夕暮れ時には甘えてみて", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30
+  },
+  {
+    "Id":140410, "Name":"巡り合わせの落葉", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40
   }
 ]

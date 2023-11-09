@@ -158,5 +158,45 @@
     "Id":2000808, "StoryEventHighScoreMasterId":20008, "StoryEventHighScoreBuffMasterId":116, "StoryEventHighScoreBuffMaster":{
       "Id":116, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80020, "EffectName":"鳥居", "EffectDescription":"<color=#33B4DF>凛属性</color>かつ増幅系統のアクターがセンス発動時、追加で「SP光」を[:param1]個付与する（レベル5以降の時に効果発動／SP光はどの系統の光としても扱われる）", "IconImagePath":"116"
     }
+  },
+  {
+    "Id":2001201, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":11, "StoryEventHighScoreBuffMaster":{
+      "Id":11, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80003, "EffectName":"舞台照明", "EffectDescription":"アクターの集中力が[:param1]上昇する", "IconImagePath":"11"
+    }
+  },
+  {
+    "Id":2001202, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":12, "StoryEventHighScoreBuffMaster":{
+      "Id":12, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80002, "EffectName":"舞台スピーカー", "EffectDescription":"アクターの表現力が[:param1]上昇する", "IconImagePath":"12"
+    }
+  },
+  {
+    "Id":2001203, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":13, "StoryEventHighScoreBuffMaster":{
+      "Id":13, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80001, "EffectName":"舞台マイク", "EffectDescription":"アクターの歌唱力が[:param1]上昇する", "IconImagePath":"13"
+    }
+  },
+  {
+    "Id":2001204, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":14, "StoryEventHighScoreBuffMaster":{
+      "Id":14, "StoryEventHighScoreBuffPatternGroupId":1, "EffectMasterId":80004, "EffectName":"舞台カーテン", "EffectDescription":"アクターの演技力が[:param1]％上昇する", "IconImagePath":"14"
+    }
+  },
+  {
+    "Id":2001205, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":117, "StoryEventHighScoreBuffMaster":{
+      "Id":117, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80021, "EffectName":"ランドセル", "EffectDescription":"アクターの歌唱力が[:param1]％上昇する　※<color=#FF9314>陽属性</color>のアクターのみ対象", "IconImagePath":"117"
+    }
+  },
+  {
+    "Id":2001206, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":118, "StoryEventHighScoreBuffMaster":{
+      "Id":118, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80022, "EffectName":"ドッジボール", "EffectDescription":"アクターの演技力上限値が[:param1]％上昇する　※<color=#FF9314>陽属性</color>のアクターのみ対象", "IconImagePath":"118"
+    }
+  },
+  {
+    "Id":2001207, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":119, "StoryEventHighScoreBuffMaster":{
+      "Id":119, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80023, "EffectName":"宿題の山", "EffectDescription":"スターアクト発動に必要な支配の光<color=#ff0000>*</color>が[:param1]個減少する（必要な光の数は1個未満にならない）　※<color=#FF9314>陽属性</color>かつ支配系統のアクターのみ対象", "IconImagePath":"119"
+    }
+  },
+  {
+    "Id":2001208, "StoryEventHighScoreMasterId":20012, "StoryEventHighScoreBuffMasterId":120, "StoryEventHighScoreBuffMaster":{
+      "Id":120, "StoryEventHighScoreBuffPatternGroupId":2, "EffectMasterId":80024, "EffectName":"体操着", "EffectDescription":"<color=#FF9314>陽属性</color>のアクターがセンス発動時、追加で「SP光」を[:param1]個付与する（レベル10の時に効果発動／SP光はどの系統の光としても扱われる）", "IconImagePath":"120"
+    }
   }
 ]

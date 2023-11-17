@@ -566,6 +566,11 @@
     "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50
   },
   {
+    "Id":130320, "Name":"ん～っ！　デリシャス！", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40
+  },
+  {
     "Id":130330, "Name":"いっしょに遊びませんか？", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Control", "PreEffects":[],
     "Branches":[
       {
@@ -901,6 +906,25 @@
     "Id":140370, "Name":"戦い続ける魔法少女", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":120, "AcquirableScorePercent":190, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60
+  },
+  {
+    "Id":140380, "Name":"名探偵の悲哀", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1403801
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50
+  },
+  {
+    "Id":140390, "Name":"本当のギムレット", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40
   },
   {
     "Id":140400, "Name":"夕暮れ時には甘えてみて", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],

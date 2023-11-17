@@ -3128,6 +3128,256 @@
     "HasMovie":true, "StoryEventMasterId":20012, "AttentionGachaTextTemplateMasterId":11004, "IsForceDisplay":false, "IsHideEndDate":false
   },
   {
+    "Id":1017, "Name":"ギムレットにお別れをガチャ", "CardType":"Character", "GachaType":"Pickup", "GachaTextTemplateMasterId":1017, "StartDate":"2023-11-20 17:00:00", "EndDate":"2023-11-30 17:00:00", "BonusThings":[
+      {
+        "Id":101701, "ThingId":411017, "ThingType":"Item", "ThingQuantity":1
+      }
+    ],
+    "GachaDetails":[
+      {
+        "Id":101700, "PaidJewelAmount":50, "IsFree":false, "DailyRollLimit":1, "PrizeCount":1, "FixedPrizeCount":0, "ButtonType":"PaidJewelSingle", "DetailBonusThings":[
+          {
+            "Id":101700, "ThingId":130013, "ThingType":"Item", "ThingQuantity":1
+          }
+        ]
+      },
+      {
+        "Id":101701, "FreeJewelAmount":300, "IsFree":false, "PrizeCount":1, "FixedPrizeCount":0, "ButtonType":"FreeJewelSingle", "DetailBonusThings":[]
+      },
+      {
+        "Id":101702, "FreeJewelAmount":3000, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"FreeJewelTenSeries", "DetailBonusThings":[]
+      },
+      {
+        "Id":101703, "RequiredTicketMItemId":210001, "RequiredTicketQuantity":1, "IsFree":false, "PrizeCount":1, "FixedPrizeCount":0, "ButtonType":"SingleTicket", "DetailBonusThings":[]
+      },
+      {
+        "Id":101704, "RequiredTicketMItemId":210001, "RequiredTicketQuantity":10, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"SingleTicketTenSeries", "DetailBonusThings":[]
+      },
+      {
+        "Id":101705, "RequiredTicketMItemId":210002, "RequiredTicketQuantity":1, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"TenSeriesTicket", "DetailBonusThings":[]
+      },
+      {
+        "Id":101706, "PaidJewelAmount":1500, "IsFree":false, "OverallRollLimit":1, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"PaidJewelTenSeries", "DetailBonusThings":[]
+      }
+    ],
+    "Things":[
+      {
+        "Id":1017120010, "ThingId":120010, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120020, "ThingId":120020, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120030, "ThingId":120030, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120040, "ThingId":120040, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120050, "ThingId":120050, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120060, "ThingId":120060, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120070, "ThingId":120070, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120080, "ThingId":120080, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120090, "ThingId":120090, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120100, "ThingId":120100, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120110, "ThingId":120110, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120120, "ThingId":120120, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120130, "ThingId":120130, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120140, "ThingId":120140, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120150, "ThingId":120150, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120160, "ThingId":120160, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120170, "ThingId":120170, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120180, "ThingId":120180, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120190, "ThingId":120190, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120200, "ThingId":120200, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017120210, "ThingId":120210, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130010, "ThingId":130010, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130020, "ThingId":130020, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130030, "ThingId":130030, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130040, "ThingId":130040, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130050, "ThingId":130050, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130060, "ThingId":130060, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130070, "ThingId":130070, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130080, "ThingId":130080, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130090, "ThingId":130090, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130100, "ThingId":130100, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130110, "ThingId":130110, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130120, "ThingId":130120, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130130, "ThingId":130130, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130140, "ThingId":130140, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130150, "ThingId":130150, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130160, "ThingId":130160, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130170, "ThingId":130170, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130180, "ThingId":130180, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130190, "ThingId":130190, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130200, "ThingId":130200, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017130210, "ThingId":130210, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140020, "ThingId":140020, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140030, "ThingId":140030, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140040, "ThingId":140040, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140050, "ThingId":140050, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140060, "ThingId":140060, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140070, "ThingId":140070, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140080, "ThingId":140080, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140090, "ThingId":140090, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140100, "ThingId":140100, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140110, "ThingId":140110, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140120, "ThingId":140120, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140130, "ThingId":140130, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140140, "ThingId":140140, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140150, "ThingId":140150, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140160, "ThingId":140160, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140190, "ThingId":140190, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140200, "ThingId":140200, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140240, "ThingId":140240, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140250, "ThingId":140250, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140260, "ThingId":140260, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140270, "ThingId":140270, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140300, "ThingId":140300, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140310, "ThingId":140310, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140360, "ThingId":140360, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140370, "ThingId":140370, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140380, "ThingId":140380, "ThingType":"Character", "ThingQuantity":1, "PickupOrder":1
+      },
+      {
+        "Id":1017140390, "ThingId":140390, "ThingType":"Character", "ThingQuantity":1, "PickupOrder":2
+      },
+      {
+        "Id":1017140400, "ThingId":140400, "ThingType":"Character", "ThingQuantity":1
+      },
+      {
+        "Id":1017140410, "ThingId":140410, "ThingType":"Character", "ThingQuantity":1
+      }
+    ],
+    "HasMovie":true, "StoryEventMasterId":20011, "AttentionGachaTextTemplateMasterId":11004, "IsForceDisplay":false, "IsHideEndDate":false
+  },
+  {
     "Id":1800, "Name":"銀河座ピックアップガチャ", "CardType":"Character", "GachaType":"Pickup", "GachaTextTemplateMasterId":1800, "StartDate":"2023-10-25 17:00:00", "EndDate":"2023-10-30 17:00:00", "BonusThings":[
       {
         "Id":180001, "ThingId":411800, "ThingType":"Item", "ThingQuantity":1
@@ -6510,6 +6760,205 @@
       }
     ],
     "HasMovie":true, "StoryEventMasterId":20012, "AttentionGachaTextTemplateMasterId":12001, "IsForceDisplay":false, "IsHideEndDate":false
+  },
+  {
+    "Id":2016, "Name":"The Long Goodbyeガチャ", "CardType":"Poster", "GachaType":"Pickup", "GachaTextTemplateMasterId":2016, "StartDate":"2023-11-20 17:00:00", "EndDate":"2023-11-30 17:00:00", "BonusThings":[
+      {
+        "Id":201601, "ThingId":412016, "ThingType":"Item", "ThingQuantity":1
+      }
+    ],
+    "GachaDetails":[
+      {
+        "Id":201600, "PaidJewelAmount":50, "IsFree":false, "DailyRollLimit":1, "PrizeCount":1, "FixedPrizeCount":0, "ButtonType":"PaidJewelSingle", "DetailBonusThings":[
+          {
+            "Id":201600, "ThingId":130013, "ThingType":"Item", "ThingQuantity":1
+          }
+        ]
+      },
+      {
+        "Id":201601, "FreeJewelAmount":300, "IsFree":false, "PrizeCount":1, "FixedPrizeCount":0, "ButtonType":"FreeJewelSingle", "DetailBonusThings":[]
+      },
+      {
+        "Id":201602, "FreeJewelAmount":3000, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"FreeJewelTenSeries", "DetailBonusThings":[]
+      },
+      {
+        "Id":201603, "RequiredTicketMItemId":211001, "RequiredTicketQuantity":1, "IsFree":false, "PrizeCount":1, "FixedPrizeCount":0, "ButtonType":"SingleTicket", "DetailBonusThings":[]
+      },
+      {
+        "Id":201604, "RequiredTicketMItemId":211001, "RequiredTicketQuantity":10, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"SingleTicketTenSeries", "DetailBonusThings":[]
+      },
+      {
+        "Id":201605, "RequiredTicketMItemId":211002, "RequiredTicketQuantity":1, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"TenSeriesTicket", "DetailBonusThings":[]
+      },
+      {
+        "Id":201606, "PaidJewelAmount":1500, "IsFree":false, "OverallRollLimit":1, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"PaidJewelTenSeries", "DetailBonusThings":[]
+      }
+    ],
+    "Things":[
+      {
+        "Id":2016210010, "ThingId":210010, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210020, "ThingId":210020, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210030, "ThingId":210030, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210040, "ThingId":210040, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210050, "ThingId":210050, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210060, "ThingId":210060, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210070, "ThingId":210070, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210080, "ThingId":210080, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210090, "ThingId":210090, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210100, "ThingId":210100, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210110, "ThingId":210110, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210120, "ThingId":210120, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210130, "ThingId":210130, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210140, "ThingId":210140, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210150, "ThingId":210150, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210160, "ThingId":210160, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210170, "ThingId":210170, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210180, "ThingId":210180, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210190, "ThingId":210190, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210200, "ThingId":210200, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016210210, "ThingId":210210, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220010, "ThingId":220010, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220020, "ThingId":220020, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220030, "ThingId":220030, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220040, "ThingId":220040, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220050, "ThingId":220050, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220060, "ThingId":220060, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220070, "ThingId":220070, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220080, "ThingId":220080, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220090, "ThingId":220090, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220100, "ThingId":220100, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220110, "ThingId":220110, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220120, "ThingId":220120, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220130, "ThingId":220130, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220140, "ThingId":220140, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220150, "ThingId":220150, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016220160, "ThingId":220160, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230010, "ThingId":230010, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230020, "ThingId":230020, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230030, "ThingId":230030, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230040, "ThingId":230040, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230050, "ThingId":230050, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230060, "ThingId":230060, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230070, "ThingId":230070, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230080, "ThingId":230080, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230130, "ThingId":230130, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230140, "ThingId":230140, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230160, "ThingId":230160, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230190, "ThingId":230190, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230200, "ThingId":230200, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230220, "ThingId":230220, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230250, "ThingId":230250, "ThingType":"Poster", "ThingQuantity":1
+      },
+      {
+        "Id":2016230260, "ThingId":230260, "ThingType":"Poster", "ThingQuantity":1, "PickupOrder":1
+      },
+      {
+        "Id":2016230280, "ThingId":230280, "ThingType":"Poster", "ThingQuantity":1
+      }
+    ],
+    "HasMovie":true, "StoryEventMasterId":20011, "AttentionGachaTextTemplateMasterId":12001, "IsForceDisplay":false, "IsHideEndDate":false
   },
   {
     "Id":2900, "Name":"SR以上確定ガチャ", "CardType":"Poster", "GachaType":"SpecialTicket", "GachaTextTemplateMasterId":2900, "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "BonusThings":[],

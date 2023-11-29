@@ -585,6 +585,20 @@
     "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60
   },
   {
+    "Id":130340, "Name":"その目をよく見せてくれ", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1303401
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -935,5 +949,24 @@
     "Id":140410, "Name":"巡り合わせの落葉", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40
+  },
+  {
+    "Id":140420, "Name":"囚われてなお渇望するもの", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20082
+          }
+        ],
+        "Id":1404201
+      }
+    ],
+    "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40
+  },
+  {
+    "Id":140430, "Name":"縛めを解いてくれた人と共に", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50
   }
 ]

@@ -4996,13 +4996,13 @@
         "Id":102107031, "Speaker":"カルロッタ", "Phrase":"な～んだ。つまんない。", "VoiceAssetId":"1021070310"
       },
       {
-        "Id":102107058, "Speaker":"カルロッタ", "Phrase":"私……歌うわ！", "VoiceAssetId":"1021070580"
-      },
-      {
         "Id":102107056, "Speaker":"モンシャルマン", "Phrase":"あなたの美声で私たちを包んでくれ！", "VoiceAssetId":"1021070560"
       },
       {
         "Id":102107057, "Speaker":"モンシャルマン・リシャール", "Phrase":"プリマドンナ、カルロッタ！", "VoiceAssetId":"1021070570"
+      },
+      {
+        "Id":102107058, "Speaker":"カルロッタ", "Phrase":"私……歌うわ！", "VoiceAssetId":"1021070580"
       },
       {
         "Id":102107059, "Speaker":"リシャール・モンシャルマン", "Phrase":"……ふっ。", "VoiceAssetId":"1021070581"
@@ -5082,15 +5082,239 @@
     ]
   },
   {
-    "Id":102108, "Name":"光と闇", "Order":8, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
-    "Details":[]
+    "Id":102108, "Name":"光と闇", "Order":8, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":104, "CostumeMasterId":12131, "Order":1
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":101, "CostumeMasterId":12111, "Order":2
+      },
+      {
+        "RoleName":"ラウル", "CharacterBaseMasterId":103, "CostumeMasterId":12121, "Order":3
+      }
+    ],
+    "Details":[
+      {
+        "Id":102108001, "Speaker":"ラウル", "Phrase":"オペラ座の屋上か……どうしてここに？", "VoiceAssetId":"1021080010"
+      },
+      {
+        "Id":102108002, "Speaker":"クリスティーヌ", "Phrase":"身体中に日の光を浴びたいの！", "VoiceAssetId":"1021080020"
+      },
+      {
+        "Id":102108003, "Speaker":"ラウル", "Phrase":"一体何があったんだい？", "VoiceAssetId":"1021080030"
+      },
+      {
+        "Id":102108004, "Speaker":"クリスティーヌ", "Phrase":"……私の話を信じてくれる？", "VoiceAssetId":"1021080040"
+      },
+      {
+        "Id":102108005, "Speaker":"ラウル", "Phrase":"信じるさ！　だから話してほしい。", "VoiceAssetId":"1021080050"
+      },
+      {
+        "Id":102108006, "Speaker":"クリスティーヌ", "Phrase":"この２週間ずっと、日の光が届かないオペラ座の地下で、/n彼と過ごしていたの。", "VoiceAssetId":"1021080060"
+      },
+      {
+        "Id":102108007, "Speaker":"ラウル", "Phrase":"彼？", "VoiceAssetId":"1021080070"
+      },
+      {
+        "Id":102108008, "Speaker":"クリスティーヌ", "Phrase":"音楽の天使。", "VoiceAssetId":"1021080080"
+      },
+      {
+        "Id":102108009, "Speaker":"ラウル", "Phrase":"そうか！　そいつが君を監禁してたんだな！/n僕にもそいつから手紙が来たんだ！　君に関わるなって！", "VoiceAssetId":"1021080090"
+      },
+      {
+        "Id":102108010, "Speaker":"クリスティーヌ", "Phrase":"まるで地獄のような天国のような時間だったわ。/n地下に閉じ込められて、舞台にも出られずにひどい目にあったけれど……。", "VoiceAssetId":"1021080100"
+      },
+      {
+        "Id":102108011, "Speaker":"クリスティーヌ", "Phrase":"彼の音楽を聴いていると、不思議と彼のことを許せてしまうの。", "VoiceAssetId":"1021080110"
+      },
+      {
+        "Id":102108012, "Speaker":"ラウル", "Phrase":"君を監禁したんだぞ！", "VoiceAssetId":"1021080120"
+      },
+      {
+        "Id":102108013, "Speaker":"クリスティーヌ", "Phrase":"ラウル。音楽には、ただそれだけがあれば他には何もいらないと/n思わせる力があるの。ずっと彼の音楽に触れていたいと感じていたのも事実なのよ。", "VoiceAssetId":"1021080130"
+      },
+      {
+        "Id":102108014, "Speaker":"ラウル", "Phrase":"でも君はそいつを恐れてる！", "VoiceAssetId":"1021080140"
+      },
+      {
+        "Id":102108015, "Speaker":"クリスティーヌ", "Phrase":"ええ。彼、ときどき自暴自棄になって悪魔みたいに笑うの。その顔が怖くて……/nそれにひどく嫉妬深いから。戻るのが怖くなってしまったの。", "VoiceAssetId":"1021080150"
+      },
+      {
+        "Id":102108016, "Speaker":"ラウル", "Phrase":"戻らなければいいじゃないか。", "VoiceAssetId":"1021080160"
+      },
+      {
+        "Id":102108017, "Speaker":"クリスティーヌ", "Phrase":"戻らなければきっと大変なことが起きるわ！/n私だけじゃなくて他のみんなにも！", "VoiceAssetId":"1021080170"
+      },
+      {
+        "Id":102108018, "Speaker":"ラウル", "Phrase":"僕が君を守る。君をその悪魔から解放する。", "VoiceAssetId":"1021080180"
+      },
+      {
+        "Id":102108019, "Speaker":"クリスティーヌ", "Phrase":"放してラウル。こんなところを彼に見られたら。", "VoiceAssetId":"1021080190"
+      },
+      {
+        "Id":102108020, "Speaker":"ラウル", "Phrase":"構わない。", "VoiceAssetId":"1021080200"
+      },
+      {
+        "Id":102108024, "Speaker":"ファントム", "Phrase":"許さない……絶対に許さない。私を裏切った奴らに天罰を！", "VoiceAssetId":"1021080240"
+      },
+      {
+        "Id":102108021, "Speaker":"ラウル", "Phrase":"また昔みたいに一緒に過ごそう。朝から夜まで、ずっと二人で。", "VoiceAssetId":"1021080210"
+      },
+      {
+        "Id":102108022, "Speaker":"ラウル", "Phrase":"僕が君の光になる。", "VoiceAssetId":"1021080220"
+      },
+      {
+        "Id":102108023, "Speaker":"ファントム", "Phrase":"私がお前に音楽を与えた……私がお前の情熱に再び火をつけた……/nこれがその報いなのか？", "VoiceAssetId":"1021080230"
+      }
+    ]
   },
   {
-    "Id":102109, "Name":"二人の受難劇", "Order":9, "HasSynopsis":true, "Synopsis":"音楽の喜びを与えてくれたファントムと、初恋の相手ラウル。二人の間で揺れ動くクリスティーヌ。どちらも選ぶことができないまま、ついに、カルロッタとクリスティーヌが共演するオペラ『ドンファン』が開演する。", "DisplayStartAt":"2023-12-17 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
-    "Details":[]
+    "Id":102109, "Name":"二人の受難劇", "Order":9, "HasSynopsis":true, "Synopsis":"音楽の喜びを与えてくれたファントムと、初恋の相手ラウル。二人の間で揺れ動くクリスティーヌ。どちらも選ぶことができないまま、ついに、カルロッタとクリスティーヌが共演するオペラ『ドンファン』が開演する。", "DisplayStartAt":"2023-12-17 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":104, "CostumeMasterId":12131, "Order":1
+      },
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":104, "CostumeMasterId":12141, "Order":2
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":101, "CostumeMasterId":12021, "Order":3
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":101, "CostumeMasterId":12111, "Order":4
+      },
+      {
+        "RoleName":"ソレリ", "CharacterBaseMasterId":106, "CostumeMasterId":12171, "Order":5
+      },
+      {
+        "RoleName":"ソレリ", "CharacterBaseMasterId":106, "CostumeMasterId":12181, "Order":6
+      },
+      {
+        "RoleName":"ラウル", "CharacterBaseMasterId":103, "CostumeMasterId":12121, "Order":7
+      }
+    ],
+    "Details":[
+      {
+        "Id":102109033, "Speaker":"ソレリ", "Phrase":"ここから先はファントムの領域よ！　誰も足を踏み入れられないの！", "VoiceAssetId":"1021090320"
+      },
+      {
+        "Id":102109034, "Speaker":"ラウル", "Phrase":"ファントム？", "VoiceAssetId":"1021090330"
+      },
+      {
+        "Id":102109035, "Speaker":"ソレリ", "Phrase":"彼女を助けたいなら、私についてきて！", "VoiceAssetId":"1021090340"
+      },
+      {
+        "Id":102109025, "Speaker":"クリスティーヌ", "Phrase":"……どうして？", "VoiceAssetId":"1021090240"
+      },
+      {
+        "Id":102109026, "Speaker":"ファントム", "Phrase":"ドンファンはこの私が演じるべきだ。", "VoiceAssetId":"1021090250"
+      },
+      {
+        "Id":102109027, "Speaker":"クリスティーヌ", "Phrase":"……。", "VoiceAssetId":"1021090260"
+      },
+      {
+        "Id":102109028, "Speaker":"ファントム", "Phrase":"地獄に堕ちよう。", "VoiceAssetId":"1021090270"
+      },
+      {
+        "Id":102109029, "Speaker":"オペラ歌手1", "Phrase":"クリスティーヌが落ちたわ！　誰か助けを呼んで！", "VoiceAssetId":"1021090280"
+      },
+      {
+        "Id":102109030, "Speaker":"ラウル", "Phrase":"クリスティーヌ！　クリスティーヌ！", "VoiceAssetId":"1021090290"
+      },
+      {
+        "Id":102109031, "Speaker":"ソレリ", "Phrase":"やめて！　あなたまで落ちてしまうわ！", "VoiceAssetId":"1021090300"
+      },
+      {
+        "Id":102109032, "Speaker":"ラウル", "Phrase":"クリスティーヌがこの下にいるんだ！　助けないと！", "VoiceAssetId":"1021090310"
+      },
+      {
+        "Id":102109002, "Speaker":"モンシャルマン", "Phrase":"リシャール、どうすればいい？　チケットは完売してるんだ。/n払い戻しなんてことになったら、我々は破産だぞ。", "VoiceAssetId":"1021090020"
+      },
+      {
+        "Id":102109003, "Speaker":"リシャール", "Phrase":"とにかくクリスティーヌに頑張ってもらうしかない。/n観客は彼女を観に来てるんだ。", "VoiceAssetId":"1021090030"
+      },
+      {
+        "Id":102109004, "Speaker":"リシャール", "Phrase":"皆さん！　公演は１０分後に再開いたします！ /nそれまで今しばらくお待ちください！", "VoiceAssetId":"1021090040"
+      },
+      {
+        "Id":102109005, "Speaker":"クリスティーヌ", "Phrase":"私一人でどうすれば……。", "VoiceAssetId":"1021090050"
+      },
+      {
+        "Id":102109006, "Speaker":"ソレリ", "Phrase":"大丈夫。観客はカルロッタじゃなくて、あなたを観に来ているの。/nあなたの美しい歌声があれば、きっと満足させられるわ。", "VoiceAssetId":"1021090060"
+      },
+      {
+        "Id":102109007, "Speaker":"クリスティーヌ", "Phrase":"でも……。", "VoiceAssetId":"1021090070"
+      },
+      {
+        "Id":102109008, "Speaker":"ソレリ", "Phrase":"きっと、彼もそれを望んでる。", "VoiceAssetId":"1021090080"
+      },
+      {
+        "Id":102109001, "Speaker":"モンシャルマン", "Phrase":"紳士淑女の皆様、失礼しました！　当座のプリマドンナの喉の調子が……その……/nあまり芳しくなく……途中で退場するという不測の事態になってしまい……。", "VoiceAssetId":"1021090010"
+      },
+      {
+        "Id":102109009, "Speaker":"クリスティーヌ", "Phrase":"彼が？", "VoiceAssetId":"1021090090"
+      },
+      {
+        "Id":102109010, "Speaker":"ソレリ", "Phrase":"ええ。自信をもって。", "VoiceAssetId":"1021090100"
+      },
+      {
+        "Id":102109011, "Speaker":"クリスティーヌ", "Phrase":"うん。", "VoiceAssetId":"1021090101"
+      },
+      {
+        "Id":102109012, "Speaker":"ファントム", "Phrase":"私が君をここに連れてきた。二人の情熱が溶け合うように。/n君の心は私に支配されている。もう後戻りはできない。", "VoiceAssetId":"1021090110"
+      },
+      {
+        "Id":102109013, "Speaker":"ファントム", "Phrase":"過去を振り返ることもできない。", "VoiceAssetId":"1021090120"
+      },
+      {
+        "Id":102109014, "Speaker":"ファントム", "Phrase":"私にその身を委ねろ。どんな欲望が私たちを燃やし尽くすのか。/nどんな甘い誘惑が私たちを待ち受けているのか。", "VoiceAssetId":"1021090130"
+      },
+      {
+        "Id":102109015, "Speaker":"クリスティーヌ", "Phrase":"あなたが私を導いた。理由もわからないままに。今、私はあなたと共にいる。/nもう引き返すことはできない。ついに始まったのよ。私たちの受難劇が……。", "VoiceAssetId":"1021090140"
+      },
+      {
+        "Id":102109016, "Speaker":"ファントム", "Phrase":"二人を焼き尽くす！", "VoiceAssetId":"1021090150"
+      },
+      {
+        "Id":102109017, "Speaker":"ファントム", "Phrase":"これが最後の舞台！", "VoiceAssetId":"1021090160"
+      },
+      {
+        "Id":102109018, "Speaker":"クリスティーヌ", "Phrase":"幕は上がった！", "VoiceAssetId":"1021090170"
+      },
+      {
+        "Id":102109019, "Speaker":"ファントム", "Phrase":"最後の舞台！", "VoiceAssetId":"1021090180"
+      },
+      {
+        "Id":102109020, "Speaker":"クリスティーヌ", "Phrase":"終演は間近！", "VoiceAssetId":"1021090190"
+      },
+      {
+        "Id":102109021, "Speaker":"ファントム", "Phrase":"もう後戻りはできないんだ！　クリスティーヌ！", "VoiceAssetId":"1021090200"
+      },
+      {
+        "Id":102109022, "Speaker":"クリスティーヌ", "Phrase":"え……？", "VoiceAssetId":"1021090210"
+      },
+      {
+        "Id":102109023, "Speaker":"クリスティーヌ", "Phrase":"ファントム？", "VoiceAssetId":"1021090220"
+      },
+      {
+        "Id":102109024, "Speaker":"ファントム", "Phrase":"君の次のセリフは？", "VoiceAssetId":"1021090230"
+      }
+    ]
   },
   {
-    "Id":102110, "Name":"迷宮", "Order":10, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-24 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+    "Id":102110, "Name":"迷宮", "Order":10, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-24 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":104, "CostumeMasterId":12141, "Order":1
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":101, "CostumeMasterId":12111, "Order":2
+      },
+      {
+        "RoleName":"ソレリ", "CharacterBaseMasterId":106, "CostumeMasterId":12181, "Order":3
+      },
+      {
+        "RoleName":"ラウル", "CharacterBaseMasterId":103, "CostumeMasterId":12121, "Order":4
+      }
+    ],
     "Details":[]
   },
   {
@@ -5199,6 +5423,9 @@
         "Id":102202002, "Speaker":"クリスティーヌ", "Phrase":"ソレリ！", "VoiceAssetId":"1022020020"
       },
       {
+        "Id":102202001, "Speaker":"ソレリ", "Phrase":"お邪魔してもいいかしら？", "VoiceAssetId":"1022020010"
+      },
+      {
         "Id":102202003, "Speaker":"ソレリ", "Phrase":"クリスティーヌ、素敵な歌だったわ。", "VoiceAssetId":"1022020030"
       },
       {
@@ -5239,9 +5466,6 @@
       },
       {
         "Id":102202016, "Speaker":"クリスティーヌ", "Phrase":"それは赤ん坊のときにやってくることもあれば、/nずっと年を取ってから現れることもあるの。", "VoiceAssetId":"1022020160"
-      },
-      {
-        "Id":102202001, "Speaker":"ソレリ", "Phrase":"お邪魔してもいいかしら？", "VoiceAssetId":"1022020010"
       },
       {
         "Id":102202017, "Speaker":"クリスティーヌ", "Phrase":"天使は決して姿を見せないけれど、/n選ばれた人間にはその声が聞こえる……。", "VoiceAssetId":"1022020170"
@@ -5460,10 +5684,10 @@
         "Id":102203041, "Speaker":"オペラ歌手１", "Phrase":"クリスティーヌと話さないほうがいいわよ。/nカルロッタさんに睨まれるから。", "VoiceAssetId":"1022030410"
       },
       {
-        "Id":102203042, "Speaker":"オペラ歌手２", "Phrase":"調子に乗った罰ね。さ、いきましょう。", "VoiceAssetId":"1022030420"
+        "Id":102203043, "Speaker":"クリスティーヌ", "Phrase":"ひどい……音楽の天使が教えてくれた歌が歌えないなんて……。/n私は、これからどうしたらいいの？", "VoiceAssetId":"1022030430"
       },
       {
-        "Id":102203043, "Speaker":"クリスティーヌ", "Phrase":"ひどい……音楽の天使が教えてくれた歌が歌えないなんて……。/n私は、これからどうしたらいいの？", "VoiceAssetId":"1022030430"
+        "Id":102203042, "Speaker":"オペラ歌手２", "Phrase":"調子に乗った罰ね。さ、いきましょう。", "VoiceAssetId":"1022030420"
       }
     ]
   },
@@ -5670,10 +5894,10 @@
         "Id":102204060, "Speaker":"クリスティーヌ", "Phrase":"……ええ。", "VoiceAssetId":"1022040570"
       },
       {
-        "Id":102204061, "Speaker":"ラウル", "Phrase":"あ、ごめん。辛いことを思い出させてしまったかな。", "VoiceAssetId":"1022040580"
+        "Id":102204062, "Speaker":"クリスティーヌ", "Phrase":"ううん。少し散歩しない？　オペラ座を案内してあげる。", "VoiceAssetId":"1022040590"
       },
       {
-        "Id":102204062, "Speaker":"クリスティーヌ", "Phrase":"ううん。少し散歩しない？　オペラ座を案内してあげる。", "VoiceAssetId":"1022040590"
+        "Id":102204061, "Speaker":"ラウル", "Phrase":"あ、ごめん。辛いことを思い出させてしまったかな。", "VoiceAssetId":"1022040580"
       }
     ]
   },
@@ -5967,6 +6191,78 @@
         "Id":102207003, "Speaker":"モンシャルマン", "Phrase":"芸術を理解しない民衆はこれだから困る。", "VoiceAssetId":"1022070030"
       },
       {
+        "Id":102207052, "Speaker":"カルロッタ", "Phrase":"世界が？", "VoiceAssetId":"1022070520"
+      },
+      {
+        "Id":102207053, "Speaker":"リシャール", "Phrase":"そう！　君が歌えば成功は確実だ！", "VoiceAssetId":"1022070530"
+      },
+      {
+        "Id":102207054, "Speaker":"カルロッタ", "Phrase":"そうね、私が歌えば……。", "VoiceAssetId":"1022070540"
+      },
+      {
+        "Id":102207055, "Speaker":"リシャール", "Phrase":"シェイクスピアもモーツァルトだって墓から蘇ってくるはず！", "VoiceAssetId":"1022070550"
+      },
+      {
+        "Id":102207056, "Speaker":"モンシャルマン", "Phrase":"あなたの美声で私たちを包んでくれ！", "VoiceAssetId":"1022070560"
+      },
+      {
+        "Id":102207057, "Speaker":"モンシャルマン・リシャール", "Phrase":"プリマドンナ、カルロッタ！", "VoiceAssetId":"1022070570"
+      },
+      {
+        "Id":102207058, "Speaker":"カルロッタ", "Phrase":"私……歌うわ！", "VoiceAssetId":"1022070580"
+      },
+      {
+        "Id":102207059, "Speaker":"リシャール", "Phrase":"よしっ。", "VoiceAssetId":"1022070581"
+      },
+      {
+        "Id":102207036, "Speaker":"カルロッタ", "Phrase":"あの子、クビにしたら？　２週間も無断で休んだんでしょ？", "VoiceAssetId":"1022070360"
+      },
+      {
+        "Id":102207037, "Speaker":"モンシャルマン", "Phrase":"とはいえ、才能ある歌手を辞めさせるのは……。", "VoiceAssetId":"1022070370"
+      },
+      {
+        "Id":102207038, "Speaker":"カルロッタ", "Phrase":"私がいれば十分じゃない。", "VoiceAssetId":"1022070380"
+      },
+      {
+        "Id":102207039, "Speaker":"リシャール", "Phrase":"それはそうなんだが……クリスティーヌは/n子爵様のお気に入りだからねぇ。", "VoiceAssetId":"1022070390"
+      },
+      {
+        "Id":102207040, "Speaker":"カルロッタ", "Phrase":"あの子がいると、私歌えないわ。", "VoiceAssetId":"1022070400"
+      },
+      {
+        "Id":102207041, "Speaker":"モンシャルマン", "Phrase":"まあまあそう言わずに。", "VoiceAssetId":"1022070410"
+      },
+      {
+        "Id":102207042, "Speaker":"リシャール", "Phrase":"こういうのはどうだろう？/nクリスティーヌをカルロッタの相手役にしてみるというのは？", "VoiceAssetId":"1022070420"
+      },
+      {
+        "Id":102207043, "Speaker":"カルロッタ", "Phrase":"あんな小娘と共演ですって！", "VoiceAssetId":"1022070430"
+      },
+      {
+        "Id":102207044, "Speaker":"リシャール", "Phrase":"君が怒るのも無理はない。/nでも、あんな小娘に恥をかかされたままでいいのかい？", "VoiceAssetId":"1022070440"
+      },
+      {
+        "Id":102207045, "Speaker":"カルロッタ", "Phrase":"……っ。", "VoiceAssetId":"1022070450"
+      },
+      {
+        "Id":102207046, "Speaker":"リシャール", "Phrase":"歌姫カルロッタにはゴーストシンガーがいた……/nタブロイド紙の一面を飾るスキャンダルにもなってる。", "VoiceAssetId":"1022070460"
+      },
+      {
+        "Id":102207047, "Speaker":"リシャール", "Phrase":"このイメージを払拭するには君がクリスティーヌと共演して、/nその圧倒的な歌唱力で君の実力を認めさせるしかないんだ！", "VoiceAssetId":"1022070470"
+      },
+      {
+        "Id":102207048, "Speaker":"カルロッタ", "Phrase":"……。", "VoiceAssetId":"1022070480"
+      },
+      {
+        "Id":102207049, "Speaker":"リシャール", "Phrase":"何を迷うことがある！　パリ、いや、世界中の歌手が君に憧れてるんだ！ /nあのクリスティーヌでさえ君に憧れていた！　君は君らしさを取り戻すだけだ！", "VoiceAssetId":"1022070490"
+      },
+      {
+        "Id":102207050, "Speaker":"リシャール", "Phrase":"２人の共演は金になる。", "VoiceAssetId":"1022070500"
+      },
+      {
+        "Id":102207051, "Speaker":"モンシャルマン", "Phrase":"世界があなたの歌声を待ってる！", "VoiceAssetId":"1022070510"
+      },
+      {
         "Id":102207004, "Speaker":"リシャール", "Phrase":"いいじゃないか。我々は儲かるんだから。スキャンダルは金になる。", "VoiceAssetId":"1022070040"
       },
       {
@@ -6061,91 +6357,243 @@
       },
       {
         "Id":102207035, "Speaker":"ラウル", "Phrase":"顔色がよくないな。少し休んだほうがいい。/nモンシャルマンさん、私たちは失礼する。さ、行こう。", "VoiceAssetId":"1022070350"
-      },
-      {
-        "Id":102207036, "Speaker":"カルロッタ", "Phrase":"あの子、クビにしたら？　２週間も無断で休んだんでしょ？", "VoiceAssetId":"1022070360"
-      },
-      {
-        "Id":102207037, "Speaker":"モンシャルマン", "Phrase":"とはいえ、才能ある歌手を辞めさせるのは……。", "VoiceAssetId":"1022070370"
-      },
-      {
-        "Id":102207038, "Speaker":"カルロッタ", "Phrase":"私がいれば十分じゃない。", "VoiceAssetId":"1022070380"
-      },
-      {
-        "Id":102207039, "Speaker":"リシャール", "Phrase":"それはそうなんだが……クリスティーヌは/n子爵様のお気に入りだからねぇ。", "VoiceAssetId":"1022070390"
-      },
-      {
-        "Id":102207040, "Speaker":"カルロッタ", "Phrase":"あの子がいると、私歌えないわ。", "VoiceAssetId":"1022070400"
-      },
-      {
-        "Id":102207041, "Speaker":"モンシャルマン", "Phrase":"まあまあそう言わずに。", "VoiceAssetId":"1022070410"
-      },
-      {
-        "Id":102207042, "Speaker":"リシャール", "Phrase":"こういうのはどうだろう？/nクリスティーヌをカルロッタの相手役にしてみるというのは？", "VoiceAssetId":"1022070420"
-      },
-      {
-        "Id":102207043, "Speaker":"カルロッタ", "Phrase":"あんな小娘と共演ですって！", "VoiceAssetId":"1022070430"
-      },
-      {
-        "Id":102207044, "Speaker":"リシャール", "Phrase":"君が怒るのも無理はない。/nでも、あんな小娘に恥をかかされたままでいいのかい？", "VoiceAssetId":"1022070440"
-      },
-      {
-        "Id":102207045, "Speaker":"カルロッタ", "Phrase":"……っ。", "VoiceAssetId":"1022070450"
-      },
-      {
-        "Id":102207046, "Speaker":"リシャール", "Phrase":"歌姫カルロッタにはゴーストシンガーがいた……/nタブロイド紙の一面を飾るスキャンダルにもなってる。", "VoiceAssetId":"1022070460"
-      },
-      {
-        "Id":102207047, "Speaker":"リシャール", "Phrase":"このイメージを払拭するには君がクリスティーヌと共演して、/nその圧倒的な歌唱力で君の実力を認めさせるしかないんだ！", "VoiceAssetId":"1022070470"
-      },
-      {
-        "Id":102207048, "Speaker":"カルロッタ", "Phrase":"……。", "VoiceAssetId":"1022070480"
-      },
-      {
-        "Id":102207049, "Speaker":"リシャール", "Phrase":"何を迷うことがある！　パリ、いや、世界中の歌手が君に憧れてるんだ！ /nあのクリスティーヌでさえ君に憧れていた！　君は君らしさを取り戻すだけだ！", "VoiceAssetId":"1022070490"
-      },
-      {
-        "Id":102207050, "Speaker":"リシャール", "Phrase":"２人の共演は金になる。", "VoiceAssetId":"1022070500"
-      },
-      {
-        "Id":102207051, "Speaker":"モンシャルマン", "Phrase":"世界があなたの歌声を待ってる！", "VoiceAssetId":"1022070510"
-      },
-      {
-        "Id":102207052, "Speaker":"カルロッタ", "Phrase":"世界が？", "VoiceAssetId":"1022070520"
-      },
-      {
-        "Id":102207053, "Speaker":"リシャール", "Phrase":"そう！　君が歌えば成功は確実だ！", "VoiceAssetId":"1022070530"
-      },
-      {
-        "Id":102207054, "Speaker":"カルロッタ", "Phrase":"そうね、私が歌えば……。", "VoiceAssetId":"1022070540"
-      },
-      {
-        "Id":102207055, "Speaker":"リシャール", "Phrase":"シェイクスピアもモーツァルトだって墓から蘇ってくるはず！", "VoiceAssetId":"1022070550"
-      },
-      {
-        "Id":102207056, "Speaker":"モンシャルマン", "Phrase":"あなたの美声で私たちを包んでくれ！", "VoiceAssetId":"1022070560"
-      },
-      {
-        "Id":102207057, "Speaker":"モンシャルマン・リシャール", "Phrase":"プリマドンナ、カルロッタ！", "VoiceAssetId":"1022070570"
-      },
-      {
-        "Id":102207058, "Speaker":"カルロッタ", "Phrase":"私……歌うわ！", "VoiceAssetId":"1022070580"
-      },
-      {
-        "Id":102207059, "Speaker":"リシャール", "Phrase":"よしっ。", "VoiceAssetId":"1022070581"
       }
     ]
   },
   {
-    "Id":102208, "Name":"光と闇", "Order":8, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
-    "Details":[]
+    "Id":102208, "Name":"光と闇", "Order":8, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":205, "CostumeMasterId":12231, "Order":1
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":201, "CostumeMasterId":12211, "Order":2
+      },
+      {
+        "RoleName":"ラウル", "CharacterBaseMasterId":203, "CostumeMasterId":12221, "Order":3
+      }
+    ],
+    "Details":[
+      {
+        "Id":102208001, "Speaker":"ラウル", "Phrase":"オペラ座の屋上か……どうしてここに？", "VoiceAssetId":"1022080010"
+      },
+      {
+        "Id":102208002, "Speaker":"クリスティーヌ", "Phrase":"身体中に日の光を浴びたいの！", "VoiceAssetId":"1022080020"
+      },
+      {
+        "Id":102208003, "Speaker":"ラウル", "Phrase":"一体何があったんだい？", "VoiceAssetId":"1022080030"
+      },
+      {
+        "Id":102208004, "Speaker":"クリスティーヌ", "Phrase":"……私の話を信じてくれる？", "VoiceAssetId":"1022080040"
+      },
+      {
+        "Id":102208005, "Speaker":"ラウル", "Phrase":"信じるさ！　だから話してほしい。", "VoiceAssetId":"1022080050"
+      },
+      {
+        "Id":102208006, "Speaker":"クリスティーヌ", "Phrase":"この２週間ずっと、日の光が届かないオペラ座の地下で、/n彼と過ごしていたの。", "VoiceAssetId":"1022080060"
+      },
+      {
+        "Id":102208007, "Speaker":"ラウル", "Phrase":"彼？", "VoiceAssetId":"1022080070"
+      },
+      {
+        "Id":102208008, "Speaker":"クリスティーヌ", "Phrase":"音楽の天使。", "VoiceAssetId":"1022080080"
+      },
+      {
+        "Id":102208009, "Speaker":"ラウル", "Phrase":"そうか！　そいつが君を監禁してたんだな！/n僕にもそいつから手紙が来たんだ！　君に関わるなって！", "VoiceAssetId":"1022080090"
+      },
+      {
+        "Id":102208010, "Speaker":"クリスティーヌ", "Phrase":"まるで地獄のような天国のような時間だったわ。/n地下に閉じ込められて、舞台にも出られずにひどい目にあったけれど……。", "VoiceAssetId":"1022080100"
+      },
+      {
+        "Id":102208011, "Speaker":"クリスティーヌ", "Phrase":"彼の音楽を聴いていると、不思議と彼のことを許せてしまうの。", "VoiceAssetId":"1022080110"
+      },
+      {
+        "Id":102208012, "Speaker":"ラウル", "Phrase":"君を監禁したんだぞ！", "VoiceAssetId":"1022080120"
+      },
+      {
+        "Id":102208013, "Speaker":"クリスティーヌ", "Phrase":"ラウル。音楽には、ただそれだけがあれば他には何もいらないと思わせる/n力があるの。ずっと彼の音楽に触れていたいと感じていたのも事実なのよ。", "VoiceAssetId":"1022080130"
+      },
+      {
+        "Id":102208014, "Speaker":"ラウル", "Phrase":"でも君はそいつを恐れてる！", "VoiceAssetId":"1022080140"
+      },
+      {
+        "Id":102208015, "Speaker":"クリスティーヌ", "Phrase":"ええ。彼、ときどき自暴自棄になって悪魔みたいに笑うの。/nその顔が怖くて……それにひどく嫉妬深いから。戻るのが怖くなってしまったの。", "VoiceAssetId":"1022080150"
+      },
+      {
+        "Id":102208016, "Speaker":"ラウル", "Phrase":"戻らなければいいじゃないか。", "VoiceAssetId":"1022080160"
+      },
+      {
+        "Id":102208017, "Speaker":"クリスティーヌ", "Phrase":"戻らなければきっと大変なことが起きるわ！/n私だけじゃなくて他のみんなにも！", "VoiceAssetId":"1022080170"
+      },
+      {
+        "Id":102208018, "Speaker":"ラウル", "Phrase":"僕が君を守る。君をその悪魔から解放する。", "VoiceAssetId":"1022080180"
+      },
+      {
+        "Id":102208019, "Speaker":"クリスティーヌ", "Phrase":"放してラウル。こんなところを彼に見られたら。", "VoiceAssetId":"1022080190"
+      },
+      {
+        "Id":102208020, "Speaker":"ラウル", "Phrase":"構わない。", "VoiceAssetId":"1022080200"
+      },
+      {
+        "Id":102208024, "Speaker":"ファントム", "Phrase":"許さない……絶対に許さない。私を裏切った奴らに天罰を！", "VoiceAssetId":"1022080240"
+      },
+      {
+        "Id":102208021, "Speaker":"ラウル", "Phrase":"また昔みたいに一緒に過ごそう。朝から夜まで、ずっと二人で。", "VoiceAssetId":"1022080210"
+      },
+      {
+        "Id":102208022, "Speaker":"ラウル", "Phrase":"僕が君の光になる。", "VoiceAssetId":"1022080220"
+      },
+      {
+        "Id":102208023, "Speaker":"ファントム", "Phrase":"私がお前に音楽を与えた……私がお前の情熱に再び火をつけた……/nこれがその報いなのか？", "VoiceAssetId":"1022080230"
+      }
+    ]
   },
   {
-    "Id":102209, "Name":"二人の受難劇", "Order":9, "HasSynopsis":true, "Synopsis":"音楽の喜びを与えてくれたファントムと、初恋の相手ラウル。二人の間で揺れ動くクリスティーヌ。どちらも選ぶことができないまま、ついに、カルロッタとクリスティーヌが共演するオペラ『ドンファン』が開演する。", "DisplayStartAt":"2023-12-17 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
-    "Details":[]
+    "Id":102209, "Name":"二人の受難劇", "Order":9, "HasSynopsis":true, "Synopsis":"音楽の喜びを与えてくれたファントムと、初恋の相手ラウル。二人の間で揺れ動くクリスティーヌ。どちらも選ぶことができないまま、ついに、カルロッタとクリスティーヌが共演するオペラ『ドンファン』が開演する。", "DisplayStartAt":"2023-12-17 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":205, "CostumeMasterId":12231, "Order":1
+      },
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":205, "CostumeMasterId":12241, "Order":2
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":201, "CostumeMasterId":12041, "Order":3
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":201, "CostumeMasterId":12211, "Order":4
+      },
+      {
+        "RoleName":"ソレリ", "CharacterBaseMasterId":204, "CostumeMasterId":12271, "Order":5
+      },
+      {
+        "RoleName":"ソレリ", "CharacterBaseMasterId":204, "CostumeMasterId":12281, "Order":6
+      },
+      {
+        "RoleName":"ラウル", "CharacterBaseMasterId":203, "CostumeMasterId":12221, "Order":7
+      }
+    ],
+    "Details":[
+      {
+        "Id":102209029, "Speaker":"オペラ歌手1", "Phrase":"クリスティーヌが落ちたわ！　誰か助けを呼んで！", "VoiceAssetId":"1022090280"
+      },
+      {
+        "Id":102209030, "Speaker":"ラウル", "Phrase":"クリスティーヌ！　クリスティーヌ！", "VoiceAssetId":"1022090290"
+      },
+      {
+        "Id":102209031, "Speaker":"ソレリ", "Phrase":"やめて！　あなたまで落ちてしまうわ！", "VoiceAssetId":"1022090300"
+      },
+      {
+        "Id":102209032, "Speaker":"ラウル", "Phrase":"クリスティーヌがこの下にいるんだ！　助けないと！", "VoiceAssetId":"1022090310"
+      },
+      {
+        "Id":102209033, "Speaker":"ソレリ", "Phrase":"ここから先はファントムの領域よ！　誰も足を踏み入れられないの！", "VoiceAssetId":"1022090320"
+      },
+      {
+        "Id":102209034, "Speaker":"ラウル", "Phrase":"ファントム？", "VoiceAssetId":"1022090330"
+      },
+      {
+        "Id":102209035, "Speaker":"ソレリ", "Phrase":"彼女を助けたいなら、私についてきて！", "VoiceAssetId":"1022090340"
+      },
+      {
+        "Id":102209002, "Speaker":"モンシャルマン", "Phrase":"リシャール、どうすればいい？　チケットは完売してるんだ。/n払い戻しなんてことになったら、我々は破産だぞ。", "VoiceAssetId":"1022090020"
+      },
+      {
+        "Id":102209003, "Speaker":"リシャール", "Phrase":"とにかくクリスティーヌに頑張ってもらうしかない。/n観客は彼女を観に来ているんだ。", "VoiceAssetId":"1022090030"
+      },
+      {
+        "Id":102209004, "Speaker":"リシャール", "Phrase":"皆さん！　公演は10分後に再開いたします！ /nそれまで今しばらくお待ちください！", "VoiceAssetId":"1022090040"
+      },
+      {
+        "Id":102209001, "Speaker":"モンシャルマン", "Phrase":"紳士淑女の皆様、失礼しました！　当座のプリマドンナの喉の調子が……その……/nあまり芳しくなく……途中で退場するという不測の事態になってしまい……。", "VoiceAssetId":"1022090010"
+      },
+      {
+        "Id":102209005, "Speaker":"クリスティーヌ", "Phrase":"私一人でどうすれば……。", "VoiceAssetId":"1022090050"
+      },
+      {
+        "Id":102209006, "Speaker":"ソレリ", "Phrase":"大丈夫。観客はカルロッタじゃなくて、あなたを観に来ているの。/nあなたの美しい歌声があれば、きっと満足させられるわ。", "VoiceAssetId":"1022090060"
+      },
+      {
+        "Id":102209007, "Speaker":"クリスティーヌ", "Phrase":"でも……。", "VoiceAssetId":"1022090070"
+      },
+      {
+        "Id":102209008, "Speaker":"ソレリ", "Phrase":"きっと、彼もそれを望んでる。", "VoiceAssetId":"1022090080"
+      },
+      {
+        "Id":102209009, "Speaker":"クリスティーヌ", "Phrase":"彼が？", "VoiceAssetId":"1022090090"
+      },
+      {
+        "Id":102209010, "Speaker":"ソレリ", "Phrase":"ええ。自信をもって。", "VoiceAssetId":"1022090100"
+      },
+      {
+        "Id":102209011, "Speaker":"クリスティーヌ", "Phrase":"うん。", "VoiceAssetId":"1022090101"
+      },
+      {
+        "Id":102209012, "Speaker":"ファントム", "Phrase":"私が君をここに連れてきた。二人の情熱が溶け合うように。/n君の心は私に支配されている。もう後戻りはできない。", "VoiceAssetId":"1022090110"
+      },
+      {
+        "Id":102209013, "Speaker":"ファントム", "Phrase":"過去を振り返ることもできない。", "VoiceAssetId":"1022090120"
+      },
+      {
+        "Id":102209014, "Speaker":"ファントム", "Phrase":"私にその身を委ねろ。どんな欲望が私たちを燃やし尽くすのか。/nどんな甘い誘惑が私たちを待ち受けているのか。", "VoiceAssetId":"1022090130"
+      },
+      {
+        "Id":102209015, "Speaker":"クリスティーヌ", "Phrase":"あなたが私を導いた。理由もわからないままに。今、私はあなたと共にいる。/nもう引き返すことはできない。ついに始まったのよ。私たちの受難劇が……。", "VoiceAssetId":"1022090140"
+      },
+      {
+        "Id":102209016, "Speaker":"ファントム", "Phrase":"二人を焼き尽くす！", "VoiceAssetId":"1022090150"
+      },
+      {
+        "Id":102209017, "Speaker":"ファントム", "Phrase":"これが最後の舞台！", "VoiceAssetId":"1022090160"
+      },
+      {
+        "Id":102209018, "Speaker":"クリスティーヌ", "Phrase":"幕は上がった！", "VoiceAssetId":"1022090170"
+      },
+      {
+        "Id":102209019, "Speaker":"ファントム", "Phrase":"最後の舞台！", "VoiceAssetId":"1022090180"
+      },
+      {
+        "Id":102209020, "Speaker":"クリスティーヌ", "Phrase":"終演は間近！", "VoiceAssetId":"1022090190"
+      },
+      {
+        "Id":102209021, "Speaker":"ファントム", "Phrase":"もう後戻りはできないんだ！　クリスティーヌ！", "VoiceAssetId":"1022090200"
+      },
+      {
+        "Id":102209022, "Speaker":"クリスティーヌ", "Phrase":"え……？", "VoiceAssetId":"1022090210"
+      },
+      {
+        "Id":102209023, "Speaker":"クリスティーヌ", "Phrase":"ファントム？", "VoiceAssetId":"1022090220"
+      },
+      {
+        "Id":102209024, "Speaker":"ファントム", "Phrase":"君の次のセリフは？", "VoiceAssetId":"1022090230"
+      },
+      {
+        "Id":102209025, "Speaker":"クリスティーヌ", "Phrase":"……どうして？", "VoiceAssetId":"1022090240"
+      },
+      {
+        "Id":102209026, "Speaker":"ファントム", "Phrase":"ドンファンはこの私が演じるべきだ。", "VoiceAssetId":"1022090250"
+      },
+      {
+        "Id":102209027, "Speaker":"クリスティーヌ", "Phrase":"……。", "VoiceAssetId":"1022090260"
+      },
+      {
+        "Id":102209028, "Speaker":"ファントム", "Phrase":"地獄に堕ちよう。", "VoiceAssetId":"1022090270"
+      }
+    ]
   },
   {
-    "Id":102210, "Name":"迷宮", "Order":10, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-24 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[],
+    "Id":102210, "Name":"迷宮", "Order":10, "HasSynopsis":false, "Synopsis":"", "DisplayStartAt":"2023-12-24 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Roles":[
+      {
+        "RoleName":"クリスティーヌ", "CharacterBaseMasterId":205, "CostumeMasterId":12241, "Order":1
+      },
+      {
+        "RoleName":"ファントム", "CharacterBaseMasterId":201, "CostumeMasterId":12211, "Order":2
+      },
+      {
+        "RoleName":"ソレリ", "CharacterBaseMasterId":204, "CostumeMasterId":12281, "Order":3
+      },
+      {
+        "RoleName":"ラウル", "CharacterBaseMasterId":203, "CostumeMasterId":12221, "Order":4
+      }
+    ],
     "Details":[]
   },
   {

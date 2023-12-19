@@ -604,6 +604,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":520, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130370, "Name":"さあ、どうぞ", "Description":"[:score]倍のスコアを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -983,5 +988,24 @@
     "Id":140470, "Name":"銀世界に冴ゆる心友", "Description":"[:score]倍のスコアを獲得", "Type":"Support", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140480, "Name":"CEOからの特別な……♡", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1404801
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140490, "Name":"あなたにだけのプレゼント", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":120, "AcquirableScorePercent":190, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

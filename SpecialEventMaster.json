@@ -1,0 +1,46 @@
+[
+  {
+    "Id":21001, "EventMaster":{
+      "Id":21001, "EventType":"SpecialEvent", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-10 17:00:00", "ForceEndDate":"2024-01-12 17:00:00"
+    },
+    "EventName":"お正月特別CP", "CategoryType":"TotalPoint", "Layouts":[
+      {
+        "Id":2100101, "UIType":"Bgm", "UIValue":"20017", "AnchorXPercent":0, "AnchorYPercent":0, "PositionX":0, "PositionY":0, "SizeX":476, "SizeY":208, "ScaleX":1, "ScaleY":1, "Layer":1, "ActionType":"None", "JumpType":"None", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100102, "UIType":"ImageButton", "UIValue":"21001_SelectGachaBtn", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":746, "SizeX":232, "SizeY":218, "ScaleX":1, "ScaleY":1, "Layer":2, "ActionType":"JumpType", "ActionValue":"0", "JumpType":"Gacha", "JumpValue":"1802", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-05 16:59:59"
+      },
+      {
+        "Id":2100103, "UIType":"ImageButton", "UIValue":"21001_PackBtn", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":528, "SizeX":232, "SizeY":218, "ScaleX":1, "ScaleY":1, "Layer":3, "ActionType":"JumpType", "ActionValue":"0", "JumpType":"JewelShop", "JumpValue":"6", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-10 16:59:59"
+      },
+      {
+        "Id":2100104, "UIType":"ImageButton", "UIValue":"21001_GachaBtn", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":274, "SizeX":250, "SizeY":252, "ScaleX":1, "ScaleY":1, "Layer":4, "ActionType":"JumpType", "ActionValue":"1", "JumpType":"BoxGacha", "JumpValue":"21001", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100105, "UIType":"SpecialEventLogoWithDate", "UIValue":"21001", "AnchorXPercent":50, "AnchorYPercent":50, "PositionX":-540, "PositionY":143, "SizeX":678, "SizeY":500, "ScaleX":1, "ScaleY":1, "Layer":5, "ActionType":"None", "JumpType":"None", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100106, "UIType":"TotalPointEvent_ScorePanel", "UIValue":"421001", "AnchorXPercent":0, "AnchorYPercent":0, "PositionX":490, "PositionY":141, "SizeX":940, "SizeY":249, "ScaleX":1, "ScaleY":1, "Layer":6, "ActionType":"None", "JumpType":"None", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100107, "UIType":"Image", "UIValue":"21001_Bubble", "AnchorXPercent":0, "AnchorYPercent":0, "PositionX":490, "PositionY":306, "SizeX":706, "SizeY":116, "ScaleX":1, "ScaleY":1, "Layer":7, "ActionType":"None", "JumpType":"None", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100108, "UIType":"TotalPointEvent_RankingButton", "UIValue":"ランキング", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-520, "PositionY":66, "SizeX":320, "SizeY":108, "ScaleX":1, "ScaleY":1, "Layer":8, "ActionType":"JumpType", "ActionValue":"1", "JumpType":"TotalPointEventRanking", "JumpValue":"21001", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100109, "UIType":"RedButton", "UIValue":"公演", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":66, "SizeX":320, "SizeY":108, "ScaleX":1, "ScaleY":1, "Layer":9, "ActionType":"JumpType", "ActionValue":"0", "JumpType":"Live", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100110, "UIType":"ItemCountPanel", "UIValue":"212001", "AnchorXPercent":100, "AnchorYPercent":100, "PositionX":-308, "PositionY":-84, "SizeX":240, "SizeY":68, "ScaleX":1, "ScaleY":1, "Layer":10, "ActionType":"None", "JumpType":"None", "StartDate":"2023-12-31 15:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100111, "UIType":"GrayOutImageButton", "UIValue":"21001_SelectGachaBtn", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":746, "SizeX":232, "SizeY":218, "ScaleX":1, "ScaleY":1, "Layer":2, "ActionType":"Toast", "ActionValue":"開催期間は終了しました。", "JumpType":"None", "StartDate":"2024-01-05 17:00:00", "EndDate":"2024-01-12 17:00:00"
+      },
+      {
+        "Id":2100112, "UIType":"GrayOutImageButton", "UIValue":"21001_PackBtn", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":528, "SizeX":232, "SizeY":218, "ScaleX":1, "ScaleY":1, "Layer":3, "ActionType":"Toast", "ActionValue":"販売期間は終了しました。", "JumpType":"None", "StartDate":"2024-01-10 17:00:00", "EndDate":"2024-01-12 17:00:00"
+      }
+    ],
+    "GameHintPageCount":1
+  }
+]

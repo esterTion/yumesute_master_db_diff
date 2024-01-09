@@ -1807,6 +1807,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220340, "Name":"秒針の安息", "Description":"<color=#33B4DF>凛属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":220340, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022002
+          }
+        ],
+        "Id":22034001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3374,6 +3387,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230340, "Name":"本当は素直になりたくて", "Description":"Edenに所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":230340, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052200
+          }
+        ],
+        "Id":23034001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320050, "Name":"謹賀新年2024", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":320050, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3655,6 +3681,32 @@
           }
         ],
         "Id":220330201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2203401, "Name":"演技力アップ＋", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":220340, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10011002
+          }
+        ],
+        "Id":220340101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2203402, "Name":"ライフブースト", "Description":"センス発動直後、ライフを[:param11]回復　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":220340, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11211002
+          }
+        ],
+        "Id":220340201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -4058,6 +4110,45 @@
           }
         ],
         "Id":230330301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2303401, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230340, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030000
+          }
+        ],
+        "Id":230340101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2303402, "Name":"P.ゲージ獲得量アップ", "Description":"センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230340, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11610200
+          }
+        ],
+        "Id":230340201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2303403, "Name":"初期P.ゲージ上昇＋", "Description":"公演開始時、P.ゲージが[:param11]上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230340, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11511200
+          }
+        ],
+        "Id":230340301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

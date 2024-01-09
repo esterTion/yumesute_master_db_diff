@@ -618,6 +618,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130390, "Name":"しょうがないわね", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -1044,5 +1049,24 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140540, "Name":"悩める迷宮での出会い", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1405401
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140550, "Name":"導きの燐光", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

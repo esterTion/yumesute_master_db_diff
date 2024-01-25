@@ -1056,6 +1056,25 @@
     "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":140520, "Name":"Electric Wonderland", "Description":"[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20083
+          }
+        ],
+        "Id":1405201
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140530, "Name":"なし", "Description":"効果無し（所持している「光」は維持される）", "Type":"None", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140540, "Name":"悩める迷宮での出会い", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Control", "PreEffects":[],
     "Branches":[
       {

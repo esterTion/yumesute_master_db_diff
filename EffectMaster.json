@@ -744,6 +744,28 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":20083, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":70
+      },
+      {
+        "Level":3, "Value":80
+      },
+      {
+        "Level":4, "Value":90
+      },
+      {
+        "Level":5, "Value":110
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":20101, "Type":"StarActScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":1200

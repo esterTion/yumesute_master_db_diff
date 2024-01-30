@@ -3458,6 +3458,17 @@
     ]
   },
   {
+    "Id":17000, "MissionCategory":"Limit", "MissionViewOrder":17000, "Title":"", "Description":"「Crystal Bell」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2024-02-03 17:00:00", "EndDate":"2024-02-13 00:00:00", "Stages":[
+      {
+        "Id":17000, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2024-02-03 17:00:00", "Rewards":[
+          {
+            "ThingId":130471, "ThingType":"Trophy", "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id":100000, "MissionCategory":"Daily", "MissionViewOrder":100000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100001, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-08-26 05:00:00", "Rewards":[

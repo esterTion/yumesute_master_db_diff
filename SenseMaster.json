@@ -599,6 +599,20 @@
     "AcquirableGauge":0, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130350, "Name":"ファントムの面影を宿す天才", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1303501
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130360, "Name":"ど、どどど、どうしよう！", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":520, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -997,6 +1011,42 @@
     "Id":140430, "Name":"縛めを解いてくれた人と共に", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140440, "Name":"なし", "Description":"ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP", "Type":"Alternative", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":20025
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20001
+          }
+        ],
+        "Id":1404401
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140450, "Name":"片割れを見つけた鳥", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋130％）", "Type":"Support", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28005
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1404501
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":140460, "Name":"遠い遠い雪催い", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],

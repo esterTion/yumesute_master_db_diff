@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "Id":1, "LogType":"JoinCircle", "MessageTemplate":"{0}さんがサークルに参加しました"
+  },
+  {
+    "Id":2, "LogType":"LeaveCircle", "MessageTemplate":"{0}さんがサークルから退会しました"
+  },
+  {
+    "Id":3, "LogType":"ChangedPosition", "MessageTemplate":"{0}さんの役職が変更されました"
+  },
+  {
+    "Id":4, "LogType":"GachaAcquiredCharacter", "MessageTemplate":"{0}さんがアクターガチャで {1}「{2}」を獲得しました！"
+  },
+  {
+    "Id":5, "LogType":"GachaAcquiredPoster", "MessageTemplate":"{0}さんがポスターガチャで {1}「{2}」を獲得しました！"
+  },
+  {
+    "Id":6, "LogType":"PlayerRate", "MessageTemplate":"{0}さんが プレイヤーレート {1} を達成しました！"
+  },
+  {
+    "Id":7, "LogType":"FirstClearedAllPerfect", "MessageTemplate":"{0}さんが「{1}」{2} を初めて ALL PERFECT でクリアしました！"
+  },
+  {
+    "Id":8, "LogType":"FirstClearedFullCombo", "MessageTemplate":"{0}さんが「{1}」{2} を初めて FULL COMBO でクリアしました！"
+  }
+]

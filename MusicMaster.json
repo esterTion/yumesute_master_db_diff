@@ -270,6 +270,11 @@
         "Id":2701, "MusicMasterId":27, "VocalVersion":1, "Singer":"千寿暦、ラモーナ・ウォルフ", "Name":"情熱リベレイション", "MusicTimeSecond":112, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
           301, 302
         ]
+      },
+      {
+        "Id":2702, "MusicMasterId":27, "VocalVersion":2, "Singer":"千寿暦、ラモーナ・ウォルフ", "Name":"情熱リベレイション（Long Ver）", "MusicTimeSecond":227, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          301, 302
+        ]
       }
     ],
     "UnlockConditionType":"Default", "MusicVideoType":"None", "MusicCoverType":"Original"
@@ -423,6 +428,11 @@
     "Id":45, "Name":"Blondie Revenge Tragedy", "Description":"", "RewardRuleMasterId":1, "PronounceName":"blondierevengetragedy", "LyricWriter":"松井洋平", "Composer":"山本玲史", "Arranger":"山本玲史", "IsLongVersion":false, "ReleasedAt":"2023-07-31 17:00:00", "StaminaConsumption":28, "MusicTimeSecond":113, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
       {
         "Id":4501, "MusicMasterId":45, "VocalVersion":1, "Singer":"烏森大黒", "Name":"Blondie Revenge Tragedy", "MusicTimeSecond":113, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"RealTimeRendering", "Characters":[
+          202
+        ]
+      },
+      {
+        "Id":4502, "MusicMasterId":45, "VocalVersion":2, "Singer":"烏森大黒", "Name":"Blondie Revenge Tragedy（Long Ver）", "MusicTimeSecond":205, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
           202
         ]
       }
@@ -875,6 +885,16 @@
     "UnlockConditionType":"Default", "MusicVideoType":"None", "MusicCoverType":"Original"
   },
   {
+    "Id":97, "Name":"To B-eat, or not to B-eat!", "Description":"", "RewardRuleMasterId":1, "PronounceName":"tobeatornottobeat", "LyricWriter":"松井洋平", "Composer":"光増ハジメ（FirstCall）", "Arranger":"光増ハジメ（FirstCall）", "IsLongVersion":false, "ReleasedAt":"2024-03-20 17:00:00", "StaminaConsumption":27, "MusicTimeSecond":105, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
+      {
+        "Id":9701, "MusicMasterId":97, "VocalVersion":1, "Singer":"流石知冴", "Name":"To B-eat, or not to B-eat!", "MusicTimeSecond":105, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          106
+        ]
+      }
+    ],
+    "UnlockConditionType":"Default", "MusicVideoType":"None", "MusicCoverType":"Original"
+  },
+  {
     "Id":99, "Name":"深度異症候群-Shindoi Syndrome-", "Description":"", "RewardRuleMasterId":1, "PronounceName":"しんどいしんどろーむ", "LyricWriter":"松井洋平", "Composer":"由良崇将", "Arranger":"由良崇将", "IsLongVersion":false, "ReleasedAt":"2024-02-29 17:00:00", "StaminaConsumption":26, "MusicTimeSecond":101, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
       {
         "Id":9901, "MusicMasterId":99, "VocalVersion":1, "Singer":"烏森大黒", "Name":"深度異症候群-Shindoi Syndrome-", "MusicTimeSecond":101, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
@@ -949,6 +969,36 @@
       {
         "Id":12401, "MusicMasterId":124, "VocalVersion":1, "Singer":"千寿暦", "Name":"エジソン", "MusicTimeSecond":127, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
           301
+        ]
+      }
+    ],
+    "UnlockConditionType":"Buy", "MusicVideoType":"None", "MusicCoverType":"Cover"
+  },
+  {
+    "Id":125, "Name":"強風オールバック", "Description":"", "RewardRuleMasterId":1, "PronounceName":"きょうふうおーるばっく", "LyricWriter":"ゆこぴ", "Composer":"ゆこぴ", "Arranger":"-", "UnlockText":"楽曲ショップで購入", "IsLongVersion":false, "ReleasedAt":"2024-03-19 17:00:00", "StaminaConsumption":33, "MusicTimeSecond":137, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
+      {
+        "Id":12501, "MusicMasterId":125, "VocalVersion":1, "Singer":"本巣叶羽", "Name":"強風オールバック", "MusicTimeSecond":137, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          405
+        ]
+      }
+    ],
+    "UnlockConditionType":"Buy", "MusicVideoType":"None", "MusicCoverType":"Cover"
+  },
+  {
+    "Id":143, "Name":"give it up to you", "Description":"", "RewardRuleMasterId":1, "PronounceName":"giveituptoyou", "LyricWriter":"中土智博", "Composer":"中土智博", "Arranger":"-", "UnlockText":"楽曲ショップで購入", "IsLongVersion":false, "ReleasedAt":"2024-03-12 17:00:00", "StaminaConsumption":31, "MusicTimeSecond":130, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
+      {
+        "Id":14301, "MusicMasterId":143, "VocalVersion":1, "Singer":"舎人仁花子、萬容", "Name":"give it up to you", "MusicTimeSecond":130, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          203, 204
+        ]
+      }
+    ],
+    "UnlockConditionType":"Buy", "MusicVideoType":"None", "MusicCoverType":"Cover"
+  },
+  {
+    "Id":144, "Name":"Y.Y.Y.計画!!!!", "Description":"", "RewardRuleMasterId":1, "PronounceName":"yyyけいかく", "LyricWriter":"烏屋茶房", "Composer":"烏屋茶房", "Arranger":"-", "UnlockText":"楽曲ショップで購入", "IsLongVersion":false, "ReleasedAt":"2024-03-10 17:00:00", "StaminaConsumption":36, "MusicTimeSecond":155, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
+      {
+        "Id":14401, "MusicMasterId":144, "VocalVersion":1, "Singer":"リリヤ・クルトベイ、与那国緋花里、本巣叶羽", "Name":"Y.Y.Y.計画!!!!", "MusicTimeSecond":155, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          304, 305, 405
         ]
       }
     ],

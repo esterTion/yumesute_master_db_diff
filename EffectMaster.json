@@ -3303,6 +3303,179 @@
     "FireTimingType":"Passive"
   },
   {
+    "Id":80037, "Type":"VocalUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1000
+      },
+      {
+        "Level":2, "Value":2000
+      },
+      {
+        "Level":3, "Value":3000
+      },
+      {
+        "Level":4, "Value":4000
+      },
+      {
+        "Level":5, "Value":5000
+      },
+      {
+        "Level":6, "Value":6000
+      },
+      {
+        "Level":7, "Value":7000
+      },
+      {
+        "Level":8, "Value":8000
+      },
+      {
+        "Level":9, "Value":9000
+      },
+      {
+        "Level":10, "Value":10000
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"Company", "Value":1
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":80038, "Type":"DecreaseRequireControlLight", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":0
+      },
+      {
+        "Level":2, "Value":0
+      },
+      {
+        "Level":3, "Value":0
+      },
+      {
+        "Level":4, "Value":0
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":2
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBase", "Value":104
+      },
+      {
+        "Condition":"Attribute", "Value":2
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":80039, "Type":"SenseRecastDown", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":4
+      },
+      {
+        "Level":2, "Value":8
+      },
+      {
+        "Level":3, "Value":12
+      },
+      {
+        "Level":4, "Value":16
+      },
+      {
+        "Level":5, "Value":20
+      },
+      {
+        "Level":6, "Value":24
+      },
+      {
+        "Level":7, "Value":28
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":36
+      },
+      {
+        "Level":10, "Value":40
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBase", "Value":101
+      },
+      {
+        "Condition":"Attribute", "Value":2
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":80040, "Type":"ChangeWrongLightToSpLight", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":0
+      },
+      {
+        "Level":2, "Value":0
+      },
+      {
+        "Level":3, "Value":0
+      },
+      {
+        "Level":4, "Value":0
+      },
+      {
+        "Level":5, "Value":0
+      },
+      {
+        "Level":6, "Value":0
+      },
+      {
+        "Level":7, "Value":0
+      },
+      {
+        "Level":8, "Value":0
+      },
+      {
+        "Level":9, "Value":0
+      },
+      {
+        "Level":10, "Value":1
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBase", "Value":101
+      },
+      {
+        "Condition":"Attribute", "Value":2
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":90101, "Type":"VocalUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":300
@@ -29538,6 +29711,59 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":10810100, "Type":"ScoreGainOnScore", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":70
+      },
+      {
+        "Level":3, "Value":80
+      },
+      {
+        "Level":4, "Value":90
+      },
+      {
+        "Level":5, "Value":100
+      },
+      {
+        "Level":6, "Value":110
+      },
+      {
+        "Level":7, "Value":120
+      },
+      {
+        "Level":8, "Value":130
+      },
+      {
+        "Level":9, "Value":140
+      },
+      {
+        "Level":10, "Value":150
+      },
+      {
+        "Level":11, "Value":160
+      },
+      {
+        "Level":12, "Value":170
+      },
+      {
+        "Level":13, "Value":180
+      },
+      {
+        "Level":14, "Value":190
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":1
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":10810200, "Type":"ScoreGainOnScore", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":60
@@ -29586,6 +29812,59 @@
     "DurationSecond":0, "Triggers":[
       {
         "Trigger":"Company", "Value":2
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":10811002, "Type":"ScoreGainOnScore", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":75
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":105
+      },
+      {
+        "Level":5, "Value":120
+      },
+      {
+        "Level":6, "Value":135
+      },
+      {
+        "Level":7, "Value":150
+      },
+      {
+        "Level":8, "Value":165
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":195
+      },
+      {
+        "Level":11, "Value":210
+      },
+      {
+        "Level":12, "Value":225
+      },
+      {
+        "Level":13, "Value":240
+      },
+      {
+        "Level":14, "Value":255
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
       }
     ],
     "FireTimingType":"Sense"
@@ -31316,6 +31595,59 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":11211100, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":120
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":160
+      },
+      {
+        "Level":4, "Value":180
+      },
+      {
+        "Level":5, "Value":200
+      },
+      {
+        "Level":6, "Value":220
+      },
+      {
+        "Level":7, "Value":240
+      },
+      {
+        "Level":8, "Value":260
+      },
+      {
+        "Level":9, "Value":280
+      },
+      {
+        "Level":10, "Value":300
+      },
+      {
+        "Level":11, "Value":320
+      },
+      {
+        "Level":12, "Value":340
+      },
+      {
+        "Level":13, "Value":360
+      },
+      {
+        "Level":14, "Value":380
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":1
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":11220000, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":270
@@ -31775,6 +32107,59 @@
     "Conditions":[],
     "DurationSecond":0, "Triggers":[],
     "FireTimingType":"StartLive"
+  },
+  {
+    "Id":11410002, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":24
+      },
+      {
+        "Level":2, "Value":28
+      },
+      {
+        "Level":3, "Value":32
+      },
+      {
+        "Level":4, "Value":36
+      },
+      {
+        "Level":5, "Value":40
+      },
+      {
+        "Level":6, "Value":44
+      },
+      {
+        "Level":7, "Value":48
+      },
+      {
+        "Level":8, "Value":52
+      },
+      {
+        "Level":9, "Value":56
+      },
+      {
+        "Level":10, "Value":60
+      },
+      {
+        "Level":11, "Value":64
+      },
+      {
+        "Level":12, "Value":68
+      },
+      {
+        "Level":13, "Value":72
+      },
+      {
+        "Level":14, "Value":76
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"Sense"
   },
   {
     "Id":11510000, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[

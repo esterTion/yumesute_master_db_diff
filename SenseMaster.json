@@ -647,6 +647,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130450, "Name":"言うだけタダですし！", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130460, "Name":"おずおずスクロール", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Control", "PreEffects":[],
     "Branches":[
       {
@@ -1200,6 +1205,25 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140660, "Name":"いちばんたいせつなことは", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにセンススコア[:param11]％UP効果", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20034
+          }
+        ],
+        "Id":1406601
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140670, "Name":"夜空を見れば、思い出す", "Description":"[:score]倍のスコアを獲得", "Type":"Support", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":140680, "Name":"カオティックキュート", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Amplification", "PreEffects":[],

@@ -1898,6 +1898,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220430, "Name":"Bloom Time-Lapse", "Description":"シリウスに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220430, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022100
+          }
+        ],
+        "Id":22043001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4123,6 +4136,32 @@
           }
         ],
         "Id":220410201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2204301, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":220430, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010100
+          }
+        ],
+        "Id":220430101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2204302, "Name":"P.ゲージ獲得量アップ", "Description":"センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":220430, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11610100
+          }
+        ],
+        "Id":220430201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

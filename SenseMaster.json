@@ -671,6 +671,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130480, "Name":"別に心配なんか……", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130560, "Name":"フラワー・テンペスト", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -1267,6 +1272,29 @@
     "Id":140690, "Name":"サイバーガーディアン", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140720, "Name":"絵本から飛び出せば", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28001
+      }
+    ],
+    "Branches":[],
+    "AcquirableGauge":80, "AcquirableScorePercent":150, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140730, "Name":"思い出のカルテリーノ", "Description":"[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得                                        ", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20534
+          }
+        ],
+        "Id":1407301
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":140880, "Name":"春の紫苑も良いでしょう？", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果", "Type":"Support", "PreEffects":[],

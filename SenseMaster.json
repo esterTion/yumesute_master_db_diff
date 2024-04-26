@@ -681,6 +681,20 @@
     "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130490, "Name":"リラックス・ナイト・タイム", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1304901
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130560, "Name":"フラワー・テンペスト", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -1325,6 +1339,34 @@
           }
         ],
         "Id":1407301
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140740, "Name":"舞踏会は波乱と恋の予感？！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20535
+          }
+        ],
+        "Id":1407401
+      }
+    ],
+    "AcquirableGauge":110, "AcquirableScorePercent":210, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":55, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140750, "Name":"冷酷な辺境伯に求婚されてます", "Description":"[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20082
+          }
+        ],
+        "Id":1407501
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"

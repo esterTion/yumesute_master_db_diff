@@ -695,6 +695,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130500, "Name":"勝手なことは許さない", "Description":"[:score]倍のスコアを獲得", "Type":"Support", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130510, "Name":"3分だけだからね！", "Description":"ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP", "Type":"Alternative", "PreEffects":[
       {
         "Order":1, "EffectMasterId":20023
@@ -1402,6 +1407,57 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140760, "Name":"初めての恋は成就したか", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":80, "AcquirableScorePercent":150, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140770, "Name":"正しくあるべき人の道を説く", "Description":"[:score]倍のスコアを獲得／付与されているライフガード1回につきスコア獲得量10％上昇（最大＋50％）", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29101
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1407701
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29102
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1407702
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29103
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1407703
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29104
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1407704
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29105
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1407705
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
   },
   {
     "Id":140780, "Name":"LIVE YOUR STYLE", "Description":"[:score]倍のスコアを獲得", "Type":"Support", "PreEffects":[],

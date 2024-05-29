@@ -1937,6 +1937,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220450, "Name":"bet or fold？", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220450, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022200
+          }
+        ],
+        "Id":22045001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":220460, "Name":"Fashi∞nable！", "Description":"彩属性のアクターの演技力が[:param11]％上昇", "PosterMasterId":220460, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3647,6 +3660,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230460, "Name":"許されざる口づけ", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230460, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052200
+          }
+        ],
+        "Id":23046001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4279,6 +4305,32 @@
           }
         ],
         "Id":220440201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2204501, "Name":"ライフブースト", "Description":"センス発動直後、ライフを[:param11]回復　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":220450, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11211200
+          }
+        ],
+        "Id":220450101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2204502, "Name":"スコアブースト", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":220450, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10810200
+          }
+        ],
+        "Id":220450201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -5072,6 +5124,45 @@
           }
         ],
         "Id":230450301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2304601, "Name":"表現力アップⅡ＋＋", "Description":"自身の表現力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230460, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10222200
+          }
+        ],
+        "Id":230460101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2304602, "Name":"ライフ減少", "Description":"公演開始時、ライフを999減少　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230460, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12800200
+          }
+        ],
+        "Id":230460201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2304603, "Name":"ライフガード", "Description":"公演開始時、ライフガードを[:param11]付与　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230460, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12610200
+          }
+        ],
+        "Id":230460301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

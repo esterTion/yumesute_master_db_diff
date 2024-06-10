@@ -354,7 +354,9 @@
     ]
   },
   {
-    "StoryMasterId":20034, "PreviousStoryMasterIds":[],
+    "StoryMasterId":20034, "PreviousStoryMasterIds":[
+      30001
+    ],
     "NextStoryMasterIds":[],
     "SideStoryCharacterMasterIds":[
       140860, 140870, 130550
@@ -367,6 +369,14 @@
     "SideStoryCharacterMasterIds":[
       140900, 140910, 130570
     ],
+    "RelatedStoryMasterIds":[]
+  },
+  {
+    "StoryMasterId":30001, "PreviousStoryMasterIds":[],
+    "NextStoryMasterIds":[
+      20034
+    ],
+    "SideStoryCharacterMasterIds":[],
     "RelatedStoryMasterIds":[]
   }
 ]

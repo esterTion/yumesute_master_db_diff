@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "Id":1, "Settings":[
+      {
+        "MinRefreshCount":0, "MaxRefreshCount":20, "RequiredCoin":5000
+      },
+      {
+        "MinRefreshCount":21, "MaxRefreshCount":50, "RequiredCoin":10000
+      },
+      {
+        "MinRefreshCount":51, "MaxRefreshCount":100, "RequiredCoin":50000
+      },
+      {
+        "MinRefreshCount":100, "MaxRefreshCount":9999999, "RequiredCoin":100000
+      }
+    ]
+  }
+]

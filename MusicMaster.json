@@ -1045,6 +1045,16 @@
     "UnlockConditionType":"Default", "MusicVideoType":"None", "MusicCoverType":"Original"
   },
   {
+    "Id":111, "Name":"リアルタイム・リプライ！", "Description":"", "RewardRuleMasterId":1, "PronounceName":"りあるたいむりぷらい", "LyricWriter":"松井洋平", "Composer":"光増ハジメ（FirstCall）", "Arranger":"光増ハジメ（FirstCall）", "IsLongVersion":false, "ReleasedAt":"2024-06-30 17:00:00", "StaminaConsumption":27, "MusicTimeSecond":106, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
+      {
+        "Id":11101, "MusicMasterId":111, "VocalVersion":1, "Singer":"柳場ぱんだ", "Name":"リアルタイム・リプライ！", "MusicTimeSecond":106, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          105
+        ]
+      }
+    ],
+    "UnlockConditionType":"Default", "MusicVideoType":"None", "MusicCoverType":"Original"
+  },
+  {
     "Id":112, "Name":"マン・ハン・チュエンシー!!", "Description":"", "RewardRuleMasterId":1, "PronounceName":"まんはんちゅえんしー", "LyricWriter":"松井洋平", "Composer":"LiCu（FirstCall）", "Arranger":"LiCu（FirstCall）", "IsLongVersion":false, "ReleasedAt":"2024-06-19 17:00:00", "StaminaConsumption":26, "MusicTimeSecond":100, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
       {
         "Id":11201, "MusicMasterId":112, "VocalVersion":1, "Singer":"王雪", "Name":"マン・ハン・チュエンシー!!", "MusicTimeSecond":100, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
@@ -1409,6 +1419,26 @@
       {
         "Id":1005101, "MusicMasterId":10051, "VocalVersion":1, "Singer":"王雪、リリヤ・クルトベイ", "Name":"夏の夜空に光る雪（Long Ver.）", "MusicTimeSecond":240, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
           303, 304
+        ]
+      }
+    ],
+    "UnlockConditionType":"Buy", "MusicVideoType":"None", "MusicCoverType":"Original"
+  },
+  {
+    "Id":10070, "Name":"ちいさないのちのさけるばしょ（Long Ver.）", "Description":"", "RewardRuleMasterId":1, "PronounceName":"ちいさないのちのさけるばしょlong", "LyricWriter":"松井洋平", "Composer":"山本玲史", "Arranger":"山本玲史", "UnlockText":"楽曲ショップで購入", "IsLongVersion":true, "ReleasedAt":"2024-07-02 05:00:00", "StaminaConsumption":0, "MusicTimeSecond":255, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
+      {
+        "Id":1007001, "MusicMasterId":10070, "VocalVersion":1, "Singer":"萬容、烏森大黒", "Name":"ちいさないのちのさけるばしょ（Long Ver.）", "MusicTimeSecond":255, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          202, 204
+        ]
+      }
+    ],
+    "UnlockConditionType":"Buy", "MusicVideoType":"None", "MusicCoverType":"Original"
+  },
+  {
+    "Id":10077, "Name":"小さな奇跡の降る夜に（Long Ver.）", "Description":"", "RewardRuleMasterId":1, "PronounceName":"ちいさなきせきのふるよるにlong", "LyricWriter":"松井洋平", "Composer":"松坂康司", "Arranger":"松坂康司", "UnlockText":"楽曲ショップで購入", "IsLongVersion":true, "ReleasedAt":"2024-07-09 05:00:00", "StaminaConsumption":0, "MusicTimeSecond":232, "Invisible":false, "SampleStartSeconds":0, "SampleEndSeconds":0, "DelaySeconds":0, "VocalVersions":[
+      {
+        "Id":1007701, "MusicMasterId":10077, "VocalVersion":1, "Singer":"リリヤ・クルトベイ、ラモーナ・ウォルフ", "Name":"小さな奇跡の降る夜に（Long Ver.）", "MusicTimeSecond":232, "SampleStartSeconds":0, "SampleEndSeconds":0, "MusicVideoType":"None", "Characters":[
+          302, 304
         ]
       }
     ],

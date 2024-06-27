@@ -732,6 +732,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130530, "Name":"食べちゃうぞ～！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":90, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130540, "Name":"友達なのに／だから", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Support", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -1501,6 +1506,24 @@
     "Id":140810, "Name":"心躍る人形劇の裏", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140820, "Name":"がおー！のレッスン", "Description":"[:score]倍のスコアを獲得／ライフが多いほどぱんだのスコア獲得量UP（最大＋100％）", "Type":"Amplification", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28001
+      }
+    ],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140830, "Name":"ペンギン・ア・ゴーゴー！", "Description":"[:score]倍のスコアを獲得／ライフが多いほど八恵のスコア獲得量UP（最大＋100％）", "Type":"Control", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28001
+      }
+    ],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":140840, "Name":"雨上がりには特大スクープ！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],

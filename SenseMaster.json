@@ -1508,12 +1508,21 @@
     "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
-    "Id":140820, "Name":"がおー！のレッスン", "Description":"[:score]倍のスコアを獲得／ライフが多いほどぱんだのスコア獲得量UP（最大＋100％）", "Type":"Amplification", "PreEffects":[
+    "Id":140820, "Name":"がおー！のレッスン", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどぱんだのスコア獲得量UP（最大＋100％）", "Type":"Amplification", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
       }
     ],
-    "Branches":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1408201
+      }
+    ],
     "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {

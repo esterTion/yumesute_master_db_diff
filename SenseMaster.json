@@ -757,6 +757,11 @@
     "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130580, "Name":"私よりふさわしい人", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -1799,5 +1804,33 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
+  },
+  {
+    "Id":140940, "Name":"プレイス・ユア・ベット", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20201
+          }
+        ],
+        "Id":1409401
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":140950, "Name":"オール・オア・ナッシング", "Description":"[:score]倍のスコアを獲得／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20535
+          }
+        ],
+        "Id":1409501
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":2, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

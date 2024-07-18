@@ -512,6 +512,13 @@
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-07-10 19:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベントで入手", "Orientation":"Portrait"
   },
   {
+    "Id":220510, "Name":"シスター", "Rarity":"SR", "LevelPatternGroupMasterId":2, "SubTitlePositionX1":818, "SubTitlePositionY1":1651, "SubTitlePositionX2":10, "SubTitlePositionY2":10, "ReleaseItemGroupId":2, "PronounceName":"しすたー", "Costumes":[],
+    "AppearanceCharacterBaseMasterIds":[
+      301, 401
+    ],
+    "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-07-20 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベントで入手", "Orientation":"Portrait"
+  },
+  {
     "Id":229010, "Name":"【SIRIUS】竹取物語", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":170, "SubTitlePositionY1":0, "ReleaseItemGroupId":3, "PronounceName":"たけとりものがたり", "Costumes":[],
     "AppearanceCharacterBaseMasterIds":[
       101, 103
@@ -791,6 +798,26 @@
       301, 305
     ],
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2023-08-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Orientation":"Portrait"
+  },
+  {
+    "Id":230180, "Name":"I Wanna", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":46, "SubTitlePositionY1":1398, "ReleaseItemGroupId":3, "PronounceName":"I Wanna", "Costumes":[
+      {
+        "Phase":0, "CostumeMasterId":2591
+      },
+      {
+        "Phase":1, "CostumeMasterId":2592
+      },
+      {
+        "Phase":2, "CostumeMasterId":2601
+      },
+      {
+        "Phase":3, "CostumeMasterId":2602
+      }
+    ],
+    "AppearanceCharacterBaseMasterIds":[
+      101, 102
+    ],
+    "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-07-26 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Orientation":"Portrait"
   },
   {
     "Id":230190, "Name":"リトル・プリンセスといじわるお嬢", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":0, "SubTitlePositionY1":1120, "SubTitlePositionX2":1115, "SubTitlePositionY2":0, "SubTitlePositionX3":1109, "SubTitlePositionY3":1719, "ReleaseItemGroupId":3, "PronounceName":"りとるぷりんせすといじわるおじょう", "Costumes":[
@@ -1390,5 +1417,12 @@
       401, 402, 403, 404, 405
     ],
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-06-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(コラボ限定)で入手", "Orientation":"Portrait"
+  },
+  {
+    "Id":330130, "Name":"ハロー！MY FAVORITE!", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":85, "SubTitlePositionY1":0, "SubTitlePositionX2":1096, "SubTitlePositionY2":521, "ReleaseItemGroupId":3, "PronounceName":"はろーMY FAVORITE!", "Costumes":[],
+    "AppearanceCharacterBaseMasterIds":[
+      101, 102
+    ],
+    "IsRestrictItemBreakThrough":true, "DisplayStartAt":"2024-07-26 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"メダル交換で入手", "Orientation":"Portrait"
   }
 ]

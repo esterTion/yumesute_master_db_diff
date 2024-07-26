@@ -1876,12 +1876,21 @@
     "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
-    "Id":140990, "Name":"あなたの声は潮騒に", "Description":"[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）", "Type":"Support", "PreEffects":[
+    "Id":140990, "Name":"あなたの声は潮騒に", "Description":"[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）／センス発動直後、自身の表現力の[:param11]倍のスコアを獲得", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28005
       }
     ],
-    "Branches":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20535
+          }
+        ],
+        "Id":1409901
+      }
+    ],
     "AcquirableGauge":0, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

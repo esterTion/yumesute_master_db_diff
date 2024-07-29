@@ -776,6 +776,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130600, "Name":"本日晴天、プール日和", "Description":"[:score]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":520, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -1892,5 +1897,33 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141000, "Name":"メイク・サム・ノイズ！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇\t\t\t\t\t", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20095
+          }
+        ],
+        "Id":1410001
+      }
+    ],
+    "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141010, "Name":"ミッドナイト・グルーヴ", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20045
+          }
+        ],
+        "Id":1410101
+      }
+    ],
+    "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

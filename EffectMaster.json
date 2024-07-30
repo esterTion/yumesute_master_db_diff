@@ -29718,6 +29718,59 @@
     "FireTimingType":"Passive"
   },
   {
+    "Id":10030103, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1750
+      },
+      {
+        "Level":2, "Value":2000
+      },
+      {
+        "Level":3, "Value":2250
+      },
+      {
+        "Level":4, "Value":2500
+      },
+      {
+        "Level":5, "Value":2750
+      },
+      {
+        "Level":6, "Value":3000
+      },
+      {
+        "Level":7, "Value":3250
+      },
+      {
+        "Level":8, "Value":3500
+      },
+      {
+        "Level":9, "Value":3750
+      },
+      {
+        "Level":10, "Value":4000
+      },
+      {
+        "Level":11, "Value":4250
+      },
+      {
+        "Level":12, "Value":4500
+      },
+      {
+        "Level":13, "Value":4750
+      },
+      {
+        "Level":14, "Value":5000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":103
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":10030200, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":1750
@@ -36357,6 +36410,59 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":11410103, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":24
+      },
+      {
+        "Level":2, "Value":28
+      },
+      {
+        "Level":3, "Value":32
+      },
+      {
+        "Level":4, "Value":36
+      },
+      {
+        "Level":5, "Value":40
+      },
+      {
+        "Level":6, "Value":44
+      },
+      {
+        "Level":7, "Value":48
+      },
+      {
+        "Level":8, "Value":52
+      },
+      {
+        "Level":9, "Value":56
+      },
+      {
+        "Level":10, "Value":60
+      },
+      {
+        "Level":11, "Value":64
+      },
+      {
+        "Level":12, "Value":68
+      },
+      {
+        "Level":13, "Value":72
+      },
+      {
+        "Level":14, "Value":76
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":103
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":11510000, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":24
@@ -38192,6 +38298,59 @@
     "FireTimingType":"StartLive"
   },
   {
+    "Id":11910103, "Type":"AddSenseLightVariable", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":1
+      },
+      {
+        "Level":11, "Value":1
+      },
+      {
+        "Level":12, "Value":1
+      },
+      {
+        "Level":13, "Value":1
+      },
+      {
+        "Level":14, "Value":1
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":103
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
     "Id":11910400, "Type":"AddSenseLightVariable", "Range":"None", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":1
@@ -38243,6 +38402,59 @@
       }
     ],
     "FireTimingType":"StartLive"
+  },
+  {
+    "Id":11911100, "Type":"AddSenseLightVariable", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":1
+      },
+      {
+        "Level":11, "Value":1
+      },
+      {
+        "Level":12, "Value":1
+      },
+      {
+        "Level":13, "Value":1
+      },
+      {
+        "Level":14, "Value":1
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":1
+      }
+    ],
+    "FireTimingType":"Passive"
   },
   {
     "Id":11920102, "Type":"AddSenseLightVariable", "Range":"None", "CalculationType":"FixedAddition", "Details":[
@@ -42295,46 +42507,46 @@
   {
     "Id":72052100, "Type":"VocalUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
-        "Level":1, "Value":3500
+        "Level":1, "Value":1200
       },
       {
-        "Level":2, "Value":4000
+        "Level":2, "Value":1500
       },
       {
-        "Level":3, "Value":4500
+        "Level":3, "Value":1800
       },
       {
-        "Level":4, "Value":5000
+        "Level":4, "Value":2100
       },
       {
-        "Level":5, "Value":5500
+        "Level":5, "Value":2400
       },
       {
-        "Level":6, "Value":6000
+        "Level":6, "Value":2700
       },
       {
-        "Level":7, "Value":6500
+        "Level":7, "Value":3000
       },
       {
-        "Level":8, "Value":7000
+        "Level":8, "Value":3300
       },
       {
-        "Level":9, "Value":7500
+        "Level":9, "Value":3600
       },
       {
-        "Level":10, "Value":8000
+        "Level":10, "Value":3900
       },
       {
-        "Level":11, "Value":8500
+        "Level":11, "Value":4200
       },
       {
-        "Level":12, "Value":9000
+        "Level":12, "Value":4500
       },
       {
-        "Level":13, "Value":9500
+        "Level":13, "Value":4800
       },
       {
-        "Level":14, "Value":10000
+        "Level":14, "Value":5100
       }
     ],
     "Conditions":[

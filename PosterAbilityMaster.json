@@ -3777,17 +3777,17 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":230511, "Name":"歌唱力アップⅢ", "Description":"シリウスに所属しているアクターのみで編成している場合、追加で全アクターの歌唱力が[:param11]％上昇", "PosterMasterId":230510, "Type":"Leader", "FrameNumber":2, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":230511, "Name":"歌唱力アップ＋", "Description":"シリウスに所属しているアクターのみで編成している場合、追加で全アクターの歌唱力が[:param11]％上昇", "PosterMasterId":230510, "Type":"Leader", "FrameNumber":2, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
             "Order":1, "EffectMasterId":72052100
           }
         ],
-        "Id":23051101
+        "JudgeType1":"Equal", "Parameter1":5, "Id":23051101
       }
     ],
-    "BranchConditionType1":"None", "BranchConditionType2":"None"
+    "BranchConditionType1":"CompanyMemberCount", "ConditionValue1":1, "BranchConditionType2":"None"
   },
   {
     "Id":230520, "Name":"推理はショートミックスで", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230520, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
@@ -3967,6 +3967,19 @@
           }
         ],
         "Id":33013001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340030, "Name":"超集中の生み出す緻密な演技", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340030, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34003001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -5610,7 +5623,7 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":2305103, "Name":"歌唱力アップ・混星", "Description":"編成されている属性数が多いほど自身の歌唱力が上昇（1属性：[:param11]％／2属性：[:param21]％／3属性：[:param31]％／4属性：[:param41]％）　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230510, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":9, "Hidden":false, "Branches":[
+    "Id":2305103, "Name":"歌唱力アップ・混星", "Description":"編成されている属性数が多いほど自身の歌唱力が上昇（4属性：[:param11]％／3属性：[:param21]％／2属性：[:param31]％／1属性：[:param41]％）　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230510, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":9, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
@@ -5644,14 +5657,14 @@
         "JudgeType1":"LessThan", "Parameter1":1, "Id":230510304
       }
     ],
-    "BranchConditionType1":"None", "BranchConditionType2":"None"
+    "BranchConditionType1":"AttributeCount", "BranchConditionType2":"None"
   },
   {
     "Id":2305104, "Name":"「光」追加（SP）", "Description":"センス発動時、SP光を追加で付与　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230510, "Type":"Normal", "FrameNumber":4, "ReleaseLevelAt":10, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":11910100
+            "Order":1, "EffectMasterId":11911100
           }
         ],
         "Id":230510401
@@ -5664,7 +5677,7 @@
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":10010002
+            "Order":1, "EffectMasterId":10223200
           }
         ],
         "Id":230520101
@@ -5677,7 +5690,7 @@
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":11010002
+            "Order":1, "EffectMasterId":10020200
           }
         ],
         "Id":230520201
@@ -5690,7 +5703,7 @@
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":10223200
+            "Order":1, "EffectMasterId":11030200
           }
         ],
         "Id":230520301
@@ -6110,6 +6123,45 @@
           }
         ],
         "Id":330130301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400301, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：カトリナが装備", "PosterMasterId":340030, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030103
+          }
+        ],
+        "Id":340030101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400302, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：カトリナが装備", "PosterMasterId":340030, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410103
+          }
+        ],
+        "Id":340030201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400303, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：カトリナが装備", "PosterMasterId":340030, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910103
+          }
+        ],
+        "Id":340030301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

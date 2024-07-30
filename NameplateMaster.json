@@ -118,16 +118,16 @@
   {
     "Id":9001, "Name":"ダイスター【シーズン1】", "Order":6, "Hidden":false, "IsDefault":false, "Details":[
       {
-        "Id":9701, "Name":"ダイスター1【シーズン1】", "ClassType":"None", "EnrollCount":0, "Priority":0
+        "Id":9701, "Name":"ダイスター1【シーズン1】", "ClassType":"None", "EnrollCount":0, "ChangeValue1":0, "Priority":0
       },
       {
-        "Id":9702, "Name":"ダイスター2【シーズン1】", "ClassType":"None", "EnrollCount":4, "Priority":0
+        "Id":9702, "Name":"ダイスター2【シーズン1】", "ClassType":"None", "EnrollCount":4, "ChangeValue1":4, "Priority":4
       },
       {
-        "Id":9703, "Name":"ダイスター3【シーズン1】", "ClassType":"None", "EnrollCount":8, "Priority":0
+        "Id":9703, "Name":"ダイスター3【シーズン1】", "ClassType":"None", "EnrollCount":8, "ChangeValue1":8, "Priority":8
       }
     ],
-    "UnlockText":"演劇リーグ【シーズン1】のCL7「ダイスター」初回到達で獲得できます。", "ChangeType":"None"
+    "UnlockText":"演劇リーグ【シーズン1】のCL7「ダイスター」初回到達で獲得できます。", "ChangeType":"DaiStarEnrollCount", "ChangeValue1":1
   },
   {
     "Id":9010, "Name":"スター【シーズン2】", "Order":7, "Hidden":false, "IsDefault":false, "Details":[],
@@ -136,15 +136,15 @@
   {
     "Id":9011, "Name":"ダイスター【シーズン2】", "Order":8, "Hidden":false, "IsDefault":false, "Details":[
       {
-        "Id":9711, "Name":"ダイスター1【シーズン2】", "ClassType":"None", "EnrollCount":0, "Priority":0
+        "Id":9711, "Name":"ダイスター1【シーズン2】", "ClassType":"None", "EnrollCount":0, "ChangeValue1":0, "Priority":0
       },
       {
-        "Id":9712, "Name":"ダイスター2【シーズン2】", "ClassType":"None", "EnrollCount":4, "Priority":0
+        "Id":9712, "Name":"ダイスター2【シーズン2】", "ClassType":"None", "EnrollCount":4, "ChangeValue1":4, "Priority":4
       },
       {
-        "Id":9713, "Name":"ダイスター3【シーズン2】", "ClassType":"None", "EnrollCount":8, "Priority":0
+        "Id":9713, "Name":"ダイスター3【シーズン2】", "ClassType":"None", "EnrollCount":8, "ChangeValue1":8, "Priority":8
       }
     ],
-    "UnlockText":"演劇リーグ【シーズン2】のCL7「ダイスター」初回到達で獲得できます。", "ChangeType":"None"
+    "UnlockText":"演劇リーグ【シーズン2】のCL7「ダイスター」初回到達で獲得できます。", "ChangeType":"DaiStarEnrollCount", "ChangeValue1":2
   }
 ]

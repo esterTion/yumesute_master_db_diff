@@ -2496,5 +2496,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":161, "Description":"「ヒロイン」カテゴリの演技力30%上昇、「和風」カテゴリの歌唱力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":8008
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":4007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":162, "Description":"「和風」カテゴリの演技力30%上昇、「役者」カテゴリの集中力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":4007
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12015, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      }
+    ]
   }
 ]

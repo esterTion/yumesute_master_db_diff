@@ -781,6 +781,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":520, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130610, "Name":"ゆらゆらリラクゼーション", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130620, "Name":"ひとくちシェアしよう？", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Support", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":90, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -1930,6 +1935,34 @@
       }
     ],
     "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141020, "Name":"スカイブルーにも届くかも", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20536
+          }
+        ],
+        "Id":1410201
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141030, "Name":"マリンブルーも涼やかに", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20044
+          }
+        ],
+        "Id":1410301
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":2, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":141040, "Name":"一夜、自由の翼になるよ", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],

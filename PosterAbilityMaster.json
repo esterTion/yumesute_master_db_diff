@@ -2002,7 +2002,7 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":220500, "Name":"go all out", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220500, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":220500, "Name":"go all out", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220500, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
@@ -2041,7 +2041,20 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":220540, "Name":"夏、いわゆるダイスターの観察", "Description":"シリウスに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220540, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":220530, "Name":"VIBES IN BLUE", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220530, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022200
+          }
+        ],
+        "Id":22053001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":220540, "Name":"夏、いわゆるダイスターの観察", "Description":"シリウスに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220540, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
@@ -3998,6 +4011,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":340160, "Name":"心まで踊りだす笑顔と情熱", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340160, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34016001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":2202301, "Name":"演技力アップ＋", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":220230, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4721,6 +4747,32 @@
           }
         ],
         "Id":220520201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2205301, "Name":"歌唱力アップ", "Description":"自身の歌唱力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":220530, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10110200
+          }
+        ],
+        "Id":220530101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2205302, "Name":"スコアブースト・歌唱力", "Description":"センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":220530, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10910200
+          }
+        ],
+        "Id":220530201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -6201,6 +6253,45 @@
           }
         ],
         "Id":340030301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401601, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：緋花里が装備", "PosterMasterId":340160, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030305
+          }
+        ],
+        "Id":340160101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401602, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：緋花里が装備", "PosterMasterId":340160, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410305
+          }
+        ],
+        "Id":340160201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401603, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：緋花里が装備", "PosterMasterId":340160, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910305
+          }
+        ],
+        "Id":340160301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

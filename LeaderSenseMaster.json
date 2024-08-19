@@ -2532,5 +2532,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":163, "Description":"「高校生」カテゴリの演技力30%上昇、「私服」カテゴリの表現力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":1003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12011, "Conditions":[
+          {
+            "CategoryMasterId1":4002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":164, "Description":"「ファッション」カテゴリの演技力30%上昇、「私服」カテゴリの集中力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":3006
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12015, "Conditions":[
+          {
+            "CategoryMasterId1":4002
+          }
+        ]
+      }
+    ]
   }
 ]

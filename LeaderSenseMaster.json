@@ -2568,5 +2568,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":165, "Description":"「衣装」カテゴリの集中力60%上昇、「銀河座」カテゴリの演技力25％上昇", "Details":[
+      {
+        "EffectMasterId":12018, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12025, "Conditions":[
+          {
+            "CategoryMasterId1":2003
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":166, "Description":"「銀河座」カテゴリの演技力30%上昇、「舞台」カテゴリのCTを5秒短縮する", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":2003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12051, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      }
+    ]
   }
 ]

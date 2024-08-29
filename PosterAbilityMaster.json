@@ -2067,6 +2067,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220550, "Name":"ダイアローグは交わらない", "Description":"銀河座に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":220550, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022300
+          }
+        ],
+        "Id":22055001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3829,6 +3842,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230530, "Name":"最初で最後の自由な日", "Description":"銀河座に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230530, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052300
+          }
+        ],
+        "Id":23053001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4799,6 +4825,32 @@
           }
         ],
         "Id":220540201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2205501, "Name":"集中力アップ", "Description":"自身の集中力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":220550, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10310300
+          }
+        ],
+        "Id":220550101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2205502, "Name":"スコアブースト・集中力", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":220550, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11110300
+          }
+        ],
+        "Id":220550201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -5798,6 +5850,45 @@
           }
         ],
         "Id":230520301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305301, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230530, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030300
+          }
+        ],
+        "Id":230530101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305302, "Name":"P.ゲージ獲得量アップ＋", "Description":"センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230530, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11611300
+          }
+        ],
+        "Id":230530201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305303, "Name":"P.ゲージ上限上昇＋", "Description":"公演開始時、Pゲージの上限が[:param11]上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230530, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11711300
+          }
+        ],
+        "Id":230530301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

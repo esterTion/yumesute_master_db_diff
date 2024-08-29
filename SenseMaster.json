@@ -791,6 +791,11 @@
     "AcquirableGauge":90, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130630, "Name":"合理的なアドバイス", "Description":"[:score]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -1982,5 +1987,24 @@
       }
     ],
     "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141060, "Name":"憂い、門出、晴れなくて", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Support", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141070, "Name":"歌い、踊り、乾杯を", "Description":"[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20534
+          }
+        ],
+        "Id":1410701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

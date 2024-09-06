@@ -796,6 +796,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130640, "Name":"なし", "Description":"効果無し（所持している「光」は維持される）", "Type":"None", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -2006,5 +2011,33 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141080, "Name":"デンキウィズザ……！？", "Description":"[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20081
+          }
+        ],
+        "Id":1410801
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":2, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141090, "Name":"デンキインザムーーーーーン", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20401
+          }
+        ],
+        "Id":1410901
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

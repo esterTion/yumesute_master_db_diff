@@ -88,5 +88,95 @@
         ]
       }
     ]
+  },
+  {
+    "Id":2, "EventMasterId":25002, "FirstClearEventPointQuantity":50000, "ClearEventPointQuantity":10000, "UnlockConditionType":"RouletteEventPoint", "UnlockConditionValue":2002, "Stages":[
+      {
+        "Id":201, "BonusLiveMasterId":2, "Order":1, "MusicMasterId":76, "VocalVersion":1, "SenseNotationMasterId":250021, "RecommendedLevel":10, "ClearScore":35145, "UnlockConditionValue":1000, "StartDate":"2024-09-10 17:00:00", "Rewards":[
+          {
+            "Id":2010101, "ThingType":"Item", "ThingId":132005, "ThingQuantity":10, "IsFirstClear":true
+          },
+          {
+            "Id":2010102, "ThingType":"Item", "ThingId":210001, "ThingQuantity":1, "IsFirstClear":true
+          },
+          {
+            "Id":2010103, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":100, "IsFirstClear":true
+          },
+          {
+            "Id":2010201, "ThingType":"Item", "ThingId":140000, "ThingQuantity":50, "IsFirstClear":false
+          }
+        ]
+      },
+      {
+        "Id":202, "BonusLiveMasterId":2, "Order":2, "MusicMasterId":125, "VocalVersion":1, "SenseNotationMasterId":250022, "RecommendedLevel":10, "ClearScore":49995, "UnlockConditionValue":15000, "StartDate":"2024-09-12 05:00:00", "Rewards":[
+          {
+            "Id":2020101, "ThingType":"Item", "ThingId":132005, "ThingQuantity":10, "IsFirstClear":true
+          },
+          {
+            "Id":2020102, "ThingType":"Item", "ThingId":210001, "ThingQuantity":1, "IsFirstClear":true
+          },
+          {
+            "Id":2020103, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":100, "IsFirstClear":true
+          },
+          {
+            "Id":2020201, "ThingType":"Item", "ThingId":140000, "ThingQuantity":60, "IsFirstClear":false
+          }
+        ]
+      },
+      {
+        "Id":203, "BonusLiveMasterId":2, "Order":3, "MusicMasterId":44, "VocalVersion":1, "SenseNotationMasterId":250023, "RecommendedLevel":20, "ClearScore":122395, "UnlockConditionValue":30000, "StartDate":"2024-09-13 05:00:00", "Rewards":[
+          {
+            "Id":2030101, "ThingType":"Item", "ThingId":130071, "ThingQuantity":3, "IsFirstClear":true
+          },
+          {
+            "Id":2030102, "ThingType":"Item", "ThingId":210001, "ThingQuantity":1, "IsFirstClear":true
+          },
+          {
+            "Id":2030103, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":100, "IsFirstClear":true
+          },
+          {
+            "Id":2030201, "ThingType":"Item", "ThingId":140000, "ThingQuantity":70, "IsFirstClear":false
+          }
+        ]
+      },
+      {
+        "Id":204, "BonusLiveMasterId":2, "Order":4, "MusicMasterId":43, "VocalVersion":1, "SenseNotationMasterId":250024, "RecommendedLevel":20, "ClearScore":162745, "UnlockConditionValue":50000, "StartDate":"2024-09-15 05:00:00", "Rewards":[
+          {
+            "Id":2040101, "ThingType":"Item", "ThingId":132006, "ThingQuantity":5, "IsFirstClear":true
+          },
+          {
+            "Id":2040102, "ThingType":"Item", "ThingId":210001, "ThingQuantity":1, "IsFirstClear":true
+          },
+          {
+            "Id":2040103, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":100, "IsFirstClear":true
+          },
+          {
+            "Id":2040201, "ThingType":"Item", "ThingId":140000, "ThingQuantity":80, "IsFirstClear":false
+          },
+          {
+            "Id":2040202, "ThingType":"Item", "ThingId":132005, "ThingQuantity":5, "IsFirstClear":false
+          }
+        ]
+      },
+      {
+        "Id":205, "BonusLiveMasterId":2, "Order":5, "MusicMasterId":23, "VocalVersion":1, "SenseNotationMasterId":250025, "RecommendedLevel":30, "ClearScore":219035, "UnlockConditionValue":100000, "StartDate":"2024-09-16 05:00:00", "Rewards":[
+          {
+            "Id":2050101, "ThingType":"Item", "ThingId":150000, "ThingQuantity":30, "IsFirstClear":true
+          },
+          {
+            "Id":2050102, "ThingType":"Item", "ThingId":210001, "ThingQuantity":1, "IsFirstClear":true
+          },
+          {
+            "Id":2050103, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":100, "IsFirstClear":true
+          },
+          {
+            "Id":2050201, "ThingType":"Item", "ThingId":140000, "ThingQuantity":100, "IsFirstClear":false
+          },
+          {
+            "Id":2050202, "ThingType":"Item", "ThingId":132006, "ThingQuantity":1, "IsFirstClear":false
+          }
+        ]
+      }
+    ]
   }
 ]

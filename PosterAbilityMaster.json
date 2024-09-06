@@ -2080,6 +2080,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220560, "Name":"観月・オーバーザムーン！", "Description":"劇団電姫に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":220560, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022400
+          }
+        ],
+        "Id":22056001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4037,6 +4050,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":340050, "Name":"あなたの心が求めるときめき", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340050, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34005001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340080, "Name":"私の心の奥底にある激情", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340080, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34008001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":340160, "Name":"心まで踊りだす笑顔と情熱", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340160, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4851,6 +4890,32 @@
           }
         ],
         "Id":220550201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2205601, "Name":"表現力アップ", "Description":"自身の表現力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":220560, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10210400
+          }
+        ],
+        "Id":220560101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2205602, "Name":"スコアブースト・表現力", "Description":"センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":220560, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11010400
+          }
+        ],
+        "Id":220560201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -6344,6 +6409,84 @@
           }
         ],
         "Id":340030301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400501, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：ぱんだが装備", "PosterMasterId":340050, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030105
+          }
+        ],
+        "Id":340050101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400502, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：ぱんだが装備", "PosterMasterId":340050, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410105
+          }
+        ],
+        "Id":340050201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400503, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：ぱんだが装備", "PosterMasterId":340050, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910105
+          }
+        ],
+        "Id":340050301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400801, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：大黒が装備", "PosterMasterId":340080, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030202
+          }
+        ],
+        "Id":340080101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400802, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：大黒が装備", "PosterMasterId":340080, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410202
+          }
+        ],
+        "Id":340080201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400803, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：大黒が装備", "PosterMasterId":340080, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910202
+          }
+        ],
+        "Id":340080301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

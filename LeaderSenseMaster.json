@@ -2604,5 +2604,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":167, "Description":"「音楽」カテゴリの演技力40%上昇、「役者」カテゴリの集中力が35%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":4001
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12021, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":168, "Description":"「音楽」カテゴリの演技力40%上昇、「高校生」カテゴリの歌唱力が35%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":4001
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12019, "Conditions":[
+          {
+            "CategoryMasterId1":1003
+          }
+        ]
+      }
+    ]
   }
 ]

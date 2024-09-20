@@ -3933,11 +3933,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":320100, "Name":"響けエール！～ON staGE rocK！～", "Description":"銀河座に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":320100, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":320100, "Name":"響けエール！～ON staGE rocK！～", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320100, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":70022300
+            "Order":1, "EffectMasterId":70022003
           }
         ],
         "Id":32010001
@@ -6115,11 +6115,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3201001, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":320100, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":3201001, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":320100, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":10010300
+            "Order":1, "EffectMasterId":10010003
           }
         ],
         "Id":320100101
@@ -6128,11 +6128,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3201002, "Name":"P.ゲージ獲得量アップ", "Description":"センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":320100, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+    "Id":3201002, "Name":"P.ゲージ獲得量アップ", "Description":"センスによるP.ゲージの獲得量が[:param11]%UP　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":320100, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":11610300
+            "Order":1, "EffectMasterId":11610003
           }
         ],
         "Id":320100201

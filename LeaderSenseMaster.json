@@ -2640,5 +2640,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":169, "Description":"「役者」カテゴリの歌唱力60%上昇、「シリウス」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇", "Details":[
+      {
+        "EffectMasterId":12010, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12030, "Conditions":[
+          {
+            "CategoryMasterId1":2001
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":170, "Description":"「シリウス」カテゴリの演技力40%上昇、「舞台」カテゴリの歌唱力35％上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2001
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12019, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      }
+    ]
   }
 ]

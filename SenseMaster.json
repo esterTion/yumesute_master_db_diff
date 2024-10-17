@@ -811,6 +811,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130680, "Name":"一番大事にすべきもの", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130700, "Name":"社長業もおしゃまにね！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Amplification", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -2110,6 +2115,35 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":260, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141160, "Name":"硝煙くゆるコールド・シティ", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20046
+          }
+        ],
+        "Id":1411601
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141170, "Name":"45口径と少女のフィルム", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「支援の光」を1個獲得する", "Type":"Amplification", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141180, "Name":"Here's the smell of", "Description":"[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141190, "Name":"Our fears in", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で獲得しているプリンシパルゲージ[:param11]%を獲得", "Type":"Support", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":100, "AcquirableScorePercent":160, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":141220, "Name":"旅するみるくティーン", "Description":"[:score]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇", "Type":"Control", "PreEffects":[],

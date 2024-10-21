@@ -2122,7 +2122,7 @@
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":20046
+            "Order":1, "EffectMasterId":20047
           }
         ],
         "Id":1411601
@@ -2131,8 +2131,17 @@
     "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
-    "Id":141170, "Name":"45口径と少女のフィルム", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「支援の光」を1個獲得する", "Type":"Amplification", "PreEffects":[],
-    "Branches":[],
+    "Id":141170, "Name":"45口径と少女のフィルム", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「支援の光」を1個獲得する／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20082
+          }
+        ],
+        "Id":1411701
+      }
+    ],
     "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {

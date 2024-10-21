@@ -1752,6 +1752,32 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":20047, "Type":"SenseScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":2400
+      },
+      {
+        "Level":2, "Value":2600
+      },
+      {
+        "Level":3, "Value":2800
+      },
+      {
+        "Level":4, "Value":3200
+      },
+      {
+        "Level":5, "Value":3600
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"Company", "Value":2
+      }
+    ],
+    "DurationSecond":40, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":20051, "Type":"SenseScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":600

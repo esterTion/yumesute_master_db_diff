@@ -1635,7 +1635,48 @@
   },
   {
     "Id":141191, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得／プリンシパルゲージの上限を編成されている銀河座アクターの人数×[:param11]上昇させる", "StarActConditionMasterId":104211, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[],
-    "Branches":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19065
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14119101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19066
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14119102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19067
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14119103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19068
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14119104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19069
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":14119105
+      }
+    ],
     "BranchCondition1":"CompanyMemberCount", "ConditionValue1":3, "BranchCondition2":"None"
   },
   {

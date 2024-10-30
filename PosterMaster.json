@@ -568,6 +568,13 @@
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-10-20 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベントで入手", "Orientation":"Portrait", "SubTitleDisplayCondition":"None"
   },
   {
+    "Id":220590, "Name":"過現未HELLO-WIN！", "Rarity":"SR", "LevelPatternGroupMasterId":2, "SubTitlePositionX1":0, "SubTitlePositionY1":1593, "SubTitlePositionX2":0, "SubTitlePositionY2":0, "ReleaseItemGroupId":2, "PronounceName":"かげんみHELLO-WIN", "Costumes":[],
+    "AppearanceCharacterBaseMasterIds":[
+      403
+    ],
+    "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-10-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベントで入手", "Orientation":"Portrait", "SubTitleDisplayCondition":"None"
+  },
+  {
     "Id":229010, "Name":"【SIRIUS】竹取物語", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":170, "SubTitlePositionY1":0, "ReleaseItemGroupId":3, "PronounceName":"たけとりものがたり", "Costumes":[],
     "AppearanceCharacterBaseMasterIds":[
       101, 103
@@ -1410,11 +1417,42 @@
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-09-30 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Orientation":"Portrait", "SubTitleDisplayCondition":"None"
   },
   {
+    "Id":230550, "Name":"トリックオアストライク！", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":0, "SubTitlePositionY1":702, "SubTitlePositionX2":1134, "SubTitlePositionY2":0, "ReleaseItemGroupId":3, "PronounceName":"とりっくおあすとらいく", "Costumes":[
+      {
+        "Phase":0, "CostumeMasterId":2381
+      },
+      {
+        "Phase":1, "CostumeMasterId":2382
+      },
+      {
+        "Phase":2, "CostumeMasterId":2391
+      },
+      {
+        "Phase":3, "CostumeMasterId":2392
+      }
+    ],
+    "AppearanceCharacterBaseMasterIds":[
+      305, 403
+    ],
+    "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-10-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Orientation":"Portrait", "SubTitleDisplayCondition":"None"
+  },
+  {
     "Id":230620, "Name":"Global Stage", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":152, "SubTitlePositionY1":0, "ReleaseItemGroupId":3, "PronounceName":"Global Stage", "Costumes":[],
     "AppearanceCharacterBaseMasterIds":[
       103, 106, 302, 303, 304
     ],
     "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-10-06 20:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"特別な方法で入手", "Orientation":"Portrait", "SubTitleDisplayCondition":"None"
+  },
+  {
+    "Id":230720, "Name":"【フューチャーダイスター】銀河座", "OrganizeRestrictGroupId":2, "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":0, "SubTitlePositionY1":0, "ReleaseItemGroupId":5, "PronounceName":"ぎんがざ", "Costumes":[
+      {
+        "Phase":1, "CostumeMasterId":2441
+      }
+    ],
+    "AppearanceCharacterBaseMasterIds":[
+      301, 302, 303, 304, 305
+    ],
+    "IsRestrictItemBreakThrough":false, "DisplayStartAt":"2024-11-05 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Orientation":"Landscape", "SubTitleDisplayCondition":"BreakThroughPhase", "SubTitleDisplayConditionValue":3
   },
   {
     "Id":320010, "Name":"ギャルからオタクに転身してみた件", "Rarity":"SR", "LevelPatternGroupMasterId":2, "SubTitlePositionX1":816, "SubTitlePositionY1":1455, "SubTitlePositionX2":0, "SubTitlePositionY2":0, "ReleaseItemGroupId":2, "PronounceName":"ぎゃるからおたくにてんしんしてみたけん", "Costumes":[],
@@ -1686,6 +1724,13 @@
       202
     ],
     "IsRestrictItemBreakThrough":true, "DisplayStartAt":"2024-09-13 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"特別な方法で入手", "Orientation":"Portrait", "SubTitleDisplayCondition":"None"
+  },
+  {
+    "Id":340110, "Name":"【Birthday2024】筆島 しぐれ", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":0, "SubTitlePositionY1":1636, "ReleaseItemGroupId":3, "PronounceName":"ふでしましぐれ", "Costumes":[],
+    "AppearanceCharacterBaseMasterIds":[
+      205
+    ],
+    "IsRestrictItemBreakThrough":true, "DisplayStartAt":"2024-11-06 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"特別な方法で入手", "Orientation":"Portrait", "SubTitleDisplayCondition":"None"
   },
   {
     "Id":340120, "Name":"【Birthday2024】千寿 暦", "Rarity":"SSR", "LevelPatternGroupMasterId":3, "SubTitlePositionX1":0, "SubTitlePositionY1":1636, "ReleaseItemGroupId":3, "PronounceName":"せんじゅこよみ", "Costumes":[],

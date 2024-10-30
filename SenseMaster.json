@@ -816,6 +816,20 @@
     "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130690, "Name":"きゃー、こわーい！", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1306901
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130700, "Name":"社長業もおしゃまにね！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Amplification", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -2159,7 +2173,7 @@
     "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
-    "Id":141190, "Name":"Our fears in", "Description":"<size=32%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>", "Type":"Support", "PreEffects":[],
+    "Id":141190, "Name":"Our fears in", "Description":"<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>", "Type":"Support", "PreEffects":[],
     "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -2171,6 +2185,34 @@
       }
     ],
     "AcquirableGauge":100, "AcquirableScorePercent":160, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141200, "Name":"SWEEP U OFF Ur ♡！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20402
+          }
+        ],
+        "Id":1412001
+      }
+    ],
+    "AcquirableGauge":100, "AcquirableScorePercent":160, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141210, "Name":"HANG IN THERE!", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「支配の光」を1個獲得する／センス発動後、プリンシパルゲージの上限値が[:param11]上昇", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20095
+          }
+        ],
+        "Id":1412101
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":141220, "Name":"旅するみるくティーン", "Description":"[:score]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇", "Type":"Control", "PreEffects":[],

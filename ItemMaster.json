@@ -126,6 +126,9 @@
     "Id":111040, "Name":"高級スタミナドリンク【～10月20日 17:00】", "Description":"美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年10月20日17時まで使用できる。", "DisplayOrder":40, "DisplayEndDate":"2024-10-20 17:00:00", "MaxStock":99999, "Category":"StaminaRecovery", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"R"
   },
   {
+    "Id":111041, "Name":"高級スタミナドリンク【～11月10日 17:00】", "Description":"美容にも欠かせない一級品のドリンク。スタミナを100回復する。2024年11月10日17時まで使用できる。", "DisplayOrder":41, "DisplayEndDate":"2024-11-10 17:00:00", "MaxStock":99999, "Category":"StaminaRecovery", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"R"
+  },
+  {
     "Id":112001, "Name":"バレンタインチョコ【2024】", "Description":"バレンタインの贈り物。味は食べてみてのお楽しみ。スタミナを100回復する。", "DisplayOrder":112001, "MaxStock":99999, "Category":"StaminaRecovery", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"SSR"
   },
   {
@@ -327,6 +330,9 @@
     "Id":139015, "Name":"劇団電姫のおまもり【～10月8日 22:00】", "Description":"人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーを入手しやすくなる。", "DisplayOrder":139015, "DisplayEndDate":"2024-10-08 22:00:00", "MaxStock":1, "Category":"ConsumeItem", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"SSR"
   },
   {
+    "Id":139016, "Name":"劇団電姫のおまもり【～11月8日 22:00】", "Description":"人気アニメのキャラクターがプリントされたおまもり。電姫空間でシークレットアクセサリーを入手しやすくなる。", "DisplayOrder":139016, "DisplayEndDate":"2024-11-08 22:00:00", "MaxStock":1, "Category":"ConsumeItem", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"SSR"
+  },
+  {
     "Id":139101, "Name":"銀河座のおまもり【～4月24日 17:00】", "Description":"銀河座の劇団ロゴがあしらわれたおまもり。銀河シアターで「導きのかけら」を入手しやすくなる。", "DisplayOrder":139101, "DisplayEndDate":"2024-04-24 17:00:00", "MaxStock":1, "Category":"ConsumeItem", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"SSR"
   },
   {
@@ -364,6 +370,9 @@
   },
   {
     "Id":139206, "Name":"劇団電姫のおまもり【Re:】【～10月16日 17:00】", "Description":"人気アニメのキャラクターがプリントされたおまもり。電姫空間【Re:】でシークレットアクセサリーを入手しやすくなる。", "DisplayOrder":139206, "DisplayEndDate":"2024-10-16 17:00:00", "MaxStock":1, "Category":"ConsumeItem", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"SSR"
+  },
+  {
+    "Id":139207, "Name":"劇団電姫のおまもり【Re:】【～11月16日 17:00】", "Description":"人気アニメのキャラクターがプリントされたおまもり。電姫空間【Re:】でシークレットアクセサリーを入手しやすくなる。", "DisplayOrder":139207, "DisplayEndDate":"2024-11-16 17:00:00", "MaxStock":1, "Category":"ConsumeItem", "Consumable":false, "JumpType":"None", "TabCategory":"Normal", "Rarity":"SSR"
   },
   {
     "Id":140000, "Name":"ジュゴン像", "Description":"ジュゴンをかたどった像。アクターの才能開花に使われる。イベントやミッションなどで入手できる。", "DisplayOrder":140000, "MaxStock":9999999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Raise", "Rarity":"SSR"
@@ -688,6 +697,9 @@
   },
   {
     "Id":143068, "Name":"★3【一番大事にすべきもの】筆島しぐれのピース", "Description":"★3【一番大事にすべきもの】筆島しぐれの才能開花に使用できるアイテム。", "DisplayOrder":143068, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+  },
+  {
+    "Id":143069, "Name":"★3【きゃー、こわーい！】柳場ぱんだのピース", "Description":"★3【きゃー、こわーい！】柳場ぱんだの才能開花に使用できるアイテム。", "DisplayOrder":143069, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
     "Id":143070, "Name":"★3【社長業もおしゃまにね！】柳場ぱんだのピース", "Description":"★3【社長業もおしゃまにね！】柳場ぱんだの才能開花に使用できるアイテム。", "DisplayOrder":143067, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
@@ -1017,22 +1029,28 @@
     "Id":144113, "Name":"★4【過ぎた時を悔いても】流石知冴のピース", "Description":"★4【過ぎた時を悔いても】流石知冴の才能開花に使用できるアイテム。", "DisplayOrder":144113, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
-    "Id":144116, "Name":"★4【硝煙くゆるコールド・シティ】連尺野初魅のピース", "Description":"★4【硝煙くゆるコールド・シティ】連尺野初魅の才能開花に使用できるアイテム。", "DisplayOrder":144118, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+    "Id":144116, "Name":"★4【硝煙くゆるコールド・シティ】連尺野初魅のピース", "Description":"★4【硝煙くゆるコールド・シティ】連尺野初魅の才能開花に使用できるアイテム。", "DisplayOrder":144116, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
-    "Id":144117, "Name":"★4【45口径と少女のフィルム】烏森大黒のピース", "Description":"★4【45口径と少女のフィルム】烏森大黒の才能開花に使用できるアイテム。", "DisplayOrder":144119, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+    "Id":144117, "Name":"★4【45口径と少女のフィルム】烏森大黒のピース", "Description":"★4【45口径と少女のフィルム】烏森大黒の才能開花に使用できるアイテム。", "DisplayOrder":144117, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
-    "Id":144118, "Name":"★4【Here's the smell of】リリヤ・クルトベイのピース", "Description":"★4【Here's the smell of】リリヤ・クルトベイの才能開花に使用できるアイテム。", "DisplayOrder":144120, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+    "Id":144118, "Name":"★4【Here's the smell of】リリヤ・クルトベイのピース", "Description":"★4【Here's the smell of】リリヤ・クルトベイの才能開花に使用できるアイテム。", "DisplayOrder":144118, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
-    "Id":144119, "Name":"★4【Our fears in】ラモーナ・ウォルフのピース", "Description":"★4【Our fears in】ラモーナ・ウォルフの才能開花に使用できるアイテム。", "DisplayOrder":144121, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+    "Id":144119, "Name":"★4【Our fears in】ラモーナ・ウォルフのピース", "Description":"★4【Our fears in】ラモーナ・ウォルフの才能開花に使用できるアイテム。", "DisplayOrder":144119, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
-    "Id":144122, "Name":"★4【旅するみるくティーン】新妻八恵のピース", "Description":"★4【旅するみるくティーン】新妻八恵の才能開花に使用できるアイテム。", "DisplayOrder":144114, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+    "Id":144120, "Name":"★4【SWEEP U OFF Ur ♡！】阿岐留カミラのピース", "Description":"★4【SWEEP U OFF Ur ♡！】阿岐留カミラの才能開花に使用できるアイテム。", "DisplayOrder":144120, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
-    "Id":144123, "Name":"★4【ソルト・フラグメント】静香のピース", "Description":"★4【ソルト・フラグメント】静香の才能開花に使用できるアイテム。", "DisplayOrder":144115, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+    "Id":144121, "Name":"★4【HANG IN THERE!】与那国緋花里のピース", "Description":"★4【HANG IN THERE!】与那国緋花里の才能開花に使用できるアイテム。", "DisplayOrder":144121, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+  },
+  {
+    "Id":144122, "Name":"★4【旅するみるくティーン】新妻八恵のピース", "Description":"★4【旅するみるくティーン】新妻八恵の才能開花に使用できるアイテム。", "DisplayOrder":144122, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+  },
+  {
+    "Id":144123, "Name":"★4【ソルト・フラグメント】静香のピース", "Description":"★4【ソルト・フラグメント】静香の才能開花に使用できるアイテム。", "DisplayOrder":144123, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
     "Id":150000, "Name":"金のジュゴン像", "Description":"ジュゴンをかたどった像。アクターの更なる才能開花に使われる。イベントやミッションなどで入手できる。", "DisplayOrder":150000, "MaxStock":9999999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Raise", "Rarity":"SSR"
@@ -1437,6 +1455,12 @@
     "Id":154119, "Name":"★4【Our fears in】ラモーナ・ウォルフのダイピース", "Description":"★4【Our fears in】ラモーナ・ウォルフの更なる才能開花に使用できるアイテム。", "DisplayOrder":154119, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
+    "Id":154120, "Name":"★4【SWEEP U OFF Ur ♡！】阿岐留カミラのダイピース", "Description":"★4【SWEEP U OFF Ur ♡！】阿岐留カミラの更なる才能開花に使用できるアイテム。", "DisplayOrder":154120, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+  },
+  {
+    "Id":154121, "Name":"★4【HANG IN THERE!】与那国緋花里のダイピース", "Description":"★4【HANG IN THERE!】与那国緋花里の更なる才能開花に使用できるアイテム。", "DisplayOrder":154121, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
+  },
+  {
     "Id":154122, "Name":"★4【旅するみるくティーン】新妻八恵のダイピース", "Description":"★4【旅するみるくティーン】新妻八恵の更なる才能開花に使用できるアイテム。", "DisplayOrder":154114, "MaxStock":99999, "Category":"TalentBloom", "Consumable":false, "JumpType":"None", "TabCategory":"Piece", "Rarity":"SSR"
   },
   {
@@ -1767,6 +1791,9 @@
     "Id":411065, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411065, "DisplayEndDate":"2024-10-17 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
+    "Id":411066, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411066, "DisplayEndDate":"2024-11-12 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
     "Id":411067, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411067, "DisplayEndDate":"2024-11-06 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
@@ -1774,6 +1801,9 @@
   },
   {
     "Id":411069, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411069, "DisplayEndDate":"2024-11-07 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
+    "Id":411070, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411070, "DisplayEndDate":"2024-11-17 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
     "Id":411071, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411071, "DisplayEndDate":"2024-11-09 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
@@ -1795,6 +1825,9 @@
   },
   {
     "Id":411605, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411605, "DisplayEndDate":"2024-10-20 00:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
+    "Id":411606, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411606, "DisplayEndDate":"2024-11-23 00:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
     "Id":411800, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":411800, "DisplayEndDate":"2023-10-30 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
@@ -2010,10 +2043,19 @@
     "Id":412062, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412062, "DisplayEndDate":"2024-10-27 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
+    "Id":412063, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412063, "DisplayEndDate":"2024-11-22 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
+    "Id":412064, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412064, "DisplayEndDate":"2024-11-12 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
     "Id":412065, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412065, "DisplayEndDate":"2024-11-09 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
     "Id":412066, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412066, "DisplayEndDate":"2024-11-06 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
+    "Id":412067, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412067, "DisplayEndDate":"2024-11-17 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
     "Id":412800, "Name":"ガチャポイント", "Description":"ショップの該当するガチャポイント交換で様々なアイテムと交換できる。", "DisplayOrder":412800, "DisplayEndDate":"2023-12-15 17:00:00", "MaxStock":99999, "Category":"GachaPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
@@ -2154,6 +2196,9 @@
     "Id":420042, "Name":"イベントポイント", "Description":"イベントの交換所から様々なアイテムと交換できる。", "DisplayOrder":420042, "MaxStock":1999999999, "Category":"EventPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
+    "Id":420043, "Name":"イベントポイント", "Description":"イベントの交換所から様々なアイテムと交換できる。", "DisplayOrder":420043, "MaxStock":1999999999, "Category":"EventPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
     "Id":421001, "Name":"イベントポイント", "Description":"", "DisplayOrder":421001, "MaxStock":1999999999, "Category":"EventPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
@@ -2233,6 +2278,9 @@
   },
   {
     "Id":432410, "Name":"ミッションパスポイント【2024年10月】", "Description":"公演ミッションの報酬獲得に必要なポイント", "DisplayOrder":432410, "MaxStock":9999999, "Category":"MissionPassPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
+  },
+  {
+    "Id":432411, "Name":"ミッションパスポイント【2024年11月】", "Description":"公演ミッションの報酬獲得に必要なポイント", "DisplayOrder":432411, "MaxStock":9999999, "Category":"MissionPassPoint", "Consumable":false, "JumpType":"None", "TabCategory":"Hidden", "Rarity":"R"
   },
   {
     "Id":510001, "Name":"撮影フィルム【雪】", "Description":"★1以上のフォトが現像できるフィルム。稽古やマーケットなどで入手できる。", "DisplayOrder":510001, "MaxStock":99999, "Category":"Film", "Consumable":false, "TabCategory":"Normal", "Rarity":"R"

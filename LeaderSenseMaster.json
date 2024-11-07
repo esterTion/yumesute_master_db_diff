@@ -2809,5 +2809,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":178, "Description":"「私服」カテゴリの演技力30%上昇、「銀河シアター」カテゴリの表現力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":4002
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12011, "Conditions":[
+          {
+            "CategoryMasterId1":5005
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":179, "Description":"「食べ物」カテゴリの演技力30%上昇、「私服」カテゴリの歌唱力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":4003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":4002
+          }
+        ]
+      }
+    ]
   }
 ]

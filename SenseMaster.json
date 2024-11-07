@@ -811,6 +811,20 @@
     "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130670, "Name":"美味しいはシェアしないと！", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1306701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":130680, "Name":"一番大事にすべきもの", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得", "Type":"Control", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
@@ -2129,6 +2143,34 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":260, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141140, "Name":"行き先は星々のもと", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得\t", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20081
+          }
+        ],
+        "Id":1411401
+      }
+    ],
+    "AcquirableGauge":120, "AcquirableScorePercent":190, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141150, "Name":"旅情の旨味", "Description":"[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20534
+          }
+        ],
+        "Id":1411501
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":2, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
     "Id":141160, "Name":"硝煙くゆるコールド・シティ", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果", "Type":"Support", "PreEffects":[],

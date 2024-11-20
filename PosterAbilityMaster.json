@@ -4076,6 +4076,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":320110, "Name":"ギラン！　ですっ！", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":320110, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70021000
+          }
+        ],
+        "Id":32011001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":320120, "Name":"困りますわよ！", "Description":"ラブライブ！サンシャイン!!に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":320120, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022900
+          }
+        ],
+        "Id":32012001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320150, "Name":"眠れぬ夜に", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":320150, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4253,6 +4279,32 @@
           }
         ],
         "Id":33013001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330140, "Name":"これが私たちのステージ！", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":330140, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":33014001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330160, "Name":"特別な出会いに感謝しよう", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":330160, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":33016001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -6659,6 +6711,58 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":3201101, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":320110, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010000
+          }
+        ],
+        "Id":320110101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3201102, "Name":"初期P.ゲージ上昇", "Description":"公演開始時、P.ゲージが[:param11]上昇", "PosterMasterId":320110, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11510000
+          }
+        ],
+        "Id":320110201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3201201, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備", "PosterMasterId":320120, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010900
+          }
+        ],
+        "Id":320120101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3201202, "Name":"ライフブースト", "Description":"センス発動直後、ライフを[:param11]回復　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備", "PosterMasterId":320120, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11211900
+          }
+        ],
+        "Id":320120201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3201501, "Name":"スコアブースト・集中力", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：暦が装備", "PosterMasterId":320150, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -7187,6 +7291,123 @@
           }
         ],
         "Id":330130301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301401, "Name":"演技力アップⅡ＋＋", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":330140, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10022000
+          }
+        ],
+        "Id":330140101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301402, "Name":"CTダウンⅡ", "Description":"自身のセンスのCTを[:param11]秒短縮", "PosterMasterId":330140, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12410000
+          }
+        ],
+        "Id":330140201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301403, "Name":"初期P.ゲージ上昇＋", "Description":"公演開始時、P.ゲージが[:param11]上昇", "PosterMasterId":330140, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11511000
+          }
+        ],
+        "Id":330140301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301404, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：ラブライブ！サンシャイン!!に所属するアクターが装備", "PosterMasterId":330140, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810900
+          }
+        ],
+        "Id":330140401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301601, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030000
+          }
+        ],
+        "Id":330160101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301602, "Name":"演技力アップⅡ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：凛属性のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10020002
+          }
+        ],
+        "Id":330160201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301603, "Name":"P.ゲージ上限上昇＋", "Description":"P.ゲージの上限が[:param11]上昇　◆発動条件：凛属性のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11710002
+          }
+        ],
+        "Id":330160301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301604, "Name":"演技力アップⅡ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：陽属性のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10020004
+          }
+        ],
+        "Id":330160401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301605, "Name":"P.ゲージ上限上昇＋", "Description":"P.ゲージの上限が[:param11]上昇　◆発動条件：陽属性のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11710004
+          }
+        ],
+        "Id":330160501
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

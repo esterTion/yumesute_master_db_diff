@@ -2532,6 +2532,28 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":20602, "Type":"PrincipalGaugeBonus", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1200
+      },
+      {
+        "Level":2, "Value":1400
+      },
+      {
+        "Level":3, "Value":1600
+      },
+      {
+        "Level":4, "Value":1800
+      },
+      {
+        "Level":5, "Value":2000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":20605, "Type":"SenseScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":4700
@@ -3089,6 +3111,94 @@
       },
       {
         "Level":5, "Value":100
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":1, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":29151, "Type":"SenseScoreUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":15
+      },
+      {
+        "Level":2, "Value":15
+      },
+      {
+        "Level":3, "Value":15
+      },
+      {
+        "Level":4, "Value":15
+      },
+      {
+        "Level":5, "Value":15
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":1, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":29152, "Type":"SenseScoreUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":30
+      },
+      {
+        "Level":2, "Value":30
+      },
+      {
+        "Level":3, "Value":30
+      },
+      {
+        "Level":4, "Value":30
+      },
+      {
+        "Level":5, "Value":30
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":1, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":29153, "Type":"SenseScoreUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":45
+      },
+      {
+        "Level":2, "Value":45
+      },
+      {
+        "Level":3, "Value":45
+      },
+      {
+        "Level":4, "Value":45
+      },
+      {
+        "Level":5, "Value":45
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":1, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":29154, "Type":"SenseScoreUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":60
+      },
+      {
+        "Level":3, "Value":60
+      },
+      {
+        "Level":4, "Value":60
+      },
+      {
+        "Level":5, "Value":60
       }
     ],
     "Conditions":[],
@@ -11128,6 +11238,252 @@
     "DurationSecond":0, "Triggers":[
       {
         "Trigger":"CharacterBase", "Value":405
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":330220, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":900
+      },
+      {
+        "Level":2, "Value":1050
+      },
+      {
+        "Level":3, "Value":1200
+      },
+      {
+        "Level":4, "Value":1350
+      },
+      {
+        "Level":5, "Value":1500
+      },
+      {
+        "Level":6, "Value":1800
+      },
+      {
+        "Level":7, "Value":2100
+      },
+      {
+        "Level":8, "Value":2400
+      },
+      {
+        "Level":9, "Value":2700
+      },
+      {
+        "Level":10, "Value":3000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":330221, "Type":"AddSenseLightSelf", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":1
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":330230, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":900
+      },
+      {
+        "Level":2, "Value":1050
+      },
+      {
+        "Level":3, "Value":1200
+      },
+      {
+        "Level":4, "Value":1350
+      },
+      {
+        "Level":5, "Value":1500
+      },
+      {
+        "Level":6, "Value":1800
+      },
+      {
+        "Level":7, "Value":2100
+      },
+      {
+        "Level":8, "Value":2400
+      },
+      {
+        "Level":9, "Value":2700
+      },
+      {
+        "Level":10, "Value":3000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":330231, "Type":"AddSenseLightSelf", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":1
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":330240, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":900
+      },
+      {
+        "Level":2, "Value":1050
+      },
+      {
+        "Level":3, "Value":1200
+      },
+      {
+        "Level":4, "Value":1350
+      },
+      {
+        "Level":5, "Value":1500
+      },
+      {
+        "Level":6, "Value":1800
+      },
+      {
+        "Level":7, "Value":2100
+      },
+      {
+        "Level":8, "Value":2400
+      },
+      {
+        "Level":9, "Value":2700
+      },
+      {
+        "Level":10, "Value":3000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":330241, "Type":"AddSenseLightSelf", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":1
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
       }
     ],
     "FireTimingType":"Passive"
@@ -27755,6 +28111,3696 @@
     "FireTimingType":"Passive"
   },
   {
+    "Id":790111, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790112, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790113, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":80
+      },
+      {
+        "Level":2, "Value":160
+      },
+      {
+        "Level":3, "Value":240
+      },
+      {
+        "Level":4, "Value":320
+      },
+      {
+        "Level":5, "Value":400
+      },
+      {
+        "Level":6, "Value":480
+      },
+      {
+        "Level":7, "Value":560
+      },
+      {
+        "Level":8, "Value":640
+      },
+      {
+        "Level":9, "Value":720
+      },
+      {
+        "Level":10, "Value":800
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790121, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790122, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790123, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790124, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790125, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790131, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790132, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790133, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790134, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790135, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790141, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790142, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790143, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790144, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790145, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":901
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790211, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790212, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790213, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":80
+      },
+      {
+        "Level":2, "Value":160
+      },
+      {
+        "Level":3, "Value":240
+      },
+      {
+        "Level":4, "Value":320
+      },
+      {
+        "Level":5, "Value":400
+      },
+      {
+        "Level":6, "Value":480
+      },
+      {
+        "Level":7, "Value":560
+      },
+      {
+        "Level":8, "Value":640
+      },
+      {
+        "Level":9, "Value":720
+      },
+      {
+        "Level":10, "Value":800
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790221, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790222, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790223, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790224, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790225, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790231, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790232, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790233, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790234, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790235, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790241, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790242, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790243, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790244, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790245, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":902
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790411, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790412, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790413, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":80
+      },
+      {
+        "Level":2, "Value":160
+      },
+      {
+        "Level":3, "Value":240
+      },
+      {
+        "Level":4, "Value":320
+      },
+      {
+        "Level":5, "Value":400
+      },
+      {
+        "Level":6, "Value":480
+      },
+      {
+        "Level":7, "Value":560
+      },
+      {
+        "Level":8, "Value":640
+      },
+      {
+        "Level":9, "Value":720
+      },
+      {
+        "Level":10, "Value":800
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790421, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790422, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790423, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790424, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790425, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790431, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790432, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790433, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790434, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790435, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790441, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790442, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790443, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790444, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790445, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":904
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790611, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790612, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790613, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":80
+      },
+      {
+        "Level":2, "Value":160
+      },
+      {
+        "Level":3, "Value":240
+      },
+      {
+        "Level":4, "Value":320
+      },
+      {
+        "Level":5, "Value":400
+      },
+      {
+        "Level":6, "Value":480
+      },
+      {
+        "Level":7, "Value":560
+      },
+      {
+        "Level":8, "Value":640
+      },
+      {
+        "Level":9, "Value":720
+      },
+      {
+        "Level":10, "Value":800
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790621, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790622, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790623, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790624, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790625, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790631, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790632, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790633, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790634, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790635, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790641, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790642, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790643, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790644, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790645, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":906
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790911, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790912, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790913, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":80
+      },
+      {
+        "Level":2, "Value":160
+      },
+      {
+        "Level":3, "Value":240
+      },
+      {
+        "Level":4, "Value":320
+      },
+      {
+        "Level":5, "Value":400
+      },
+      {
+        "Level":6, "Value":480
+      },
+      {
+        "Level":7, "Value":560
+      },
+      {
+        "Level":8, "Value":640
+      },
+      {
+        "Level":9, "Value":720
+      },
+      {
+        "Level":10, "Value":800
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790921, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790922, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790923, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790924, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790925, "Type":"VocalUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790931, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790932, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790933, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790934, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790935, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790941, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":50
+      },
+      {
+        "Level":2, "Value":100
+      },
+      {
+        "Level":3, "Value":150
+      },
+      {
+        "Level":4, "Value":200
+      },
+      {
+        "Level":5, "Value":250
+      },
+      {
+        "Level":6, "Value":300
+      },
+      {
+        "Level":7, "Value":350
+      },
+      {
+        "Level":8, "Value":400
+      },
+      {
+        "Level":9, "Value":450
+      },
+      {
+        "Level":10, "Value":500
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790942, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":55
+      },
+      {
+        "Level":2, "Value":110
+      },
+      {
+        "Level":3, "Value":165
+      },
+      {
+        "Level":4, "Value":220
+      },
+      {
+        "Level":5, "Value":275
+      },
+      {
+        "Level":6, "Value":330
+      },
+      {
+        "Level":7, "Value":385
+      },
+      {
+        "Level":8, "Value":440
+      },
+      {
+        "Level":9, "Value":495
+      },
+      {
+        "Level":10, "Value":550
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790943, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":180
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":300
+      },
+      {
+        "Level":6, "Value":360
+      },
+      {
+        "Level":7, "Value":420
+      },
+      {
+        "Level":8, "Value":480
+      },
+      {
+        "Level":9, "Value":540
+      },
+      {
+        "Level":10, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790944, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":65
+      },
+      {
+        "Level":2, "Value":130
+      },
+      {
+        "Level":3, "Value":195
+      },
+      {
+        "Level":4, "Value":260
+      },
+      {
+        "Level":5, "Value":325
+      },
+      {
+        "Level":6, "Value":390
+      },
+      {
+        "Level":7, "Value":455
+      },
+      {
+        "Level":8, "Value":520
+      },
+      {
+        "Level":9, "Value":585
+      },
+      {
+        "Level":10, "Value":650
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":790945, "Type":"ConcentrationUp", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":70
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":210
+      },
+      {
+        "Level":4, "Value":280
+      },
+      {
+        "Level":5, "Value":350
+      },
+      {
+        "Level":6, "Value":420
+      },
+      {
+        "Level":7, "Value":490
+      },
+      {
+        "Level":8, "Value":560
+      },
+      {
+        "Level":9, "Value":630
+      },
+      {
+        "Level":10, "Value":700
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"CharacterBase", "Value":909
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":1000010, "Type":"LifeHealing", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":50
@@ -29611,6 +33657,59 @@
     "DurationSecond":0, "Triggers":[
       {
         "Trigger":"CharacterBase", "Value":405
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":10010900, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":600
+      },
+      {
+        "Level":2, "Value":700
+      },
+      {
+        "Level":3, "Value":800
+      },
+      {
+        "Level":4, "Value":900
+      },
+      {
+        "Level":5, "Value":1000
+      },
+      {
+        "Level":6, "Value":1100
+      },
+      {
+        "Level":7, "Value":1200
+      },
+      {
+        "Level":8, "Value":1300
+      },
+      {
+        "Level":9, "Value":1400
+      },
+      {
+        "Level":10, "Value":1500
+      },
+      {
+        "Level":11, "Value":1600
+      },
+      {
+        "Level":12, "Value":1700
+      },
+      {
+        "Level":13, "Value":1800
+      },
+      {
+        "Level":14, "Value":1900
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":900
       }
     ],
     "FireTimingType":"Passive"
@@ -38738,6 +42837,59 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":11211900, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":120
+      },
+      {
+        "Level":2, "Value":140
+      },
+      {
+        "Level":3, "Value":160
+      },
+      {
+        "Level":4, "Value":180
+      },
+      {
+        "Level":5, "Value":200
+      },
+      {
+        "Level":6, "Value":220
+      },
+      {
+        "Level":7, "Value":240
+      },
+      {
+        "Level":8, "Value":260
+      },
+      {
+        "Level":9, "Value":280
+      },
+      {
+        "Level":10, "Value":300
+      },
+      {
+        "Level":11, "Value":320
+      },
+      {
+        "Level":12, "Value":340
+      },
+      {
+        "Level":13, "Value":360
+      },
+      {
+        "Level":14, "Value":380
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":900
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":11220000, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":270
@@ -41091,6 +45243,112 @@
     "FireTimingType":"StartLive"
   },
   {
+    "Id":11710002, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":75
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":105
+      },
+      {
+        "Level":5, "Value":120
+      },
+      {
+        "Level":6, "Value":135
+      },
+      {
+        "Level":7, "Value":150
+      },
+      {
+        "Level":8, "Value":165
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":195
+      },
+      {
+        "Level":11, "Value":210
+      },
+      {
+        "Level":12, "Value":225
+      },
+      {
+        "Level":13, "Value":240
+      },
+      {
+        "Level":14, "Value":255
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":11710004, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":75
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":105
+      },
+      {
+        "Level":5, "Value":120
+      },
+      {
+        "Level":6, "Value":135
+      },
+      {
+        "Level":7, "Value":150
+      },
+      {
+        "Level":8, "Value":165
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":195
+      },
+      {
+        "Level":11, "Value":210
+      },
+      {
+        "Level":12, "Value":225
+      },
+      {
+        "Level":13, "Value":240
+      },
+      {
+        "Level":14, "Value":255
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":4
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
     "Id":11711300, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":60
@@ -41506,6 +45764,59 @@
     "DurationSecond":0, "Triggers":[
       {
         "Trigger":"Company", "Value":4
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":11810900, "Type":"AddSenseLightSelf", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":1
+      },
+      {
+        "Level":11, "Value":1
+      },
+      {
+        "Level":12, "Value":1
+      },
+      {
+        "Level":13, "Value":1
+      },
+      {
+        "Level":14, "Value":1
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":900
       }
     ],
     "FireTimingType":"Passive"
@@ -44352,6 +48663,55 @@
     "FireTimingType":"Passive"
   },
   {
+    "Id":70021000, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1020
+      },
+      {
+        "Level":2, "Value":1200
+      },
+      {
+        "Level":3, "Value":1380
+      },
+      {
+        "Level":4, "Value":1560
+      },
+      {
+        "Level":5, "Value":1740
+      },
+      {
+        "Level":6, "Value":1920
+      },
+      {
+        "Level":7, "Value":2100
+      },
+      {
+        "Level":8, "Value":2280
+      },
+      {
+        "Level":9, "Value":2460
+      },
+      {
+        "Level":10, "Value":2640
+      },
+      {
+        "Level":11, "Value":2820
+      },
+      {
+        "Level":12, "Value":3000
+      },
+      {
+        "Level":13, "Value":3180
+      },
+      {
+        "Level":14, "Value":3360
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":70022001, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":1360
@@ -44770,6 +49130,59 @@
     "Conditions":[
       {
         "Condition":"Company", "Value":4
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":70022900, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1360
+      },
+      {
+        "Level":2, "Value":1600
+      },
+      {
+        "Level":3, "Value":1840
+      },
+      {
+        "Level":4, "Value":2080
+      },
+      {
+        "Level":5, "Value":2320
+      },
+      {
+        "Level":6, "Value":2560
+      },
+      {
+        "Level":7, "Value":2800
+      },
+      {
+        "Level":8, "Value":3040
+      },
+      {
+        "Level":9, "Value":3280
+      },
+      {
+        "Level":10, "Value":3520
+      },
+      {
+        "Level":11, "Value":3760
+      },
+      {
+        "Level":12, "Value":4000
+      },
+      {
+        "Level":13, "Value":4240
+      },
+      {
+        "Level":14, "Value":4480
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"Company", "Value":900
       }
     ],
     "DurationSecond":0, "Triggers":[],

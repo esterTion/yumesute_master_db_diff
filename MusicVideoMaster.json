@@ -1,6 +1,6 @@
 [
   {
-    "Id":2001, "MusicMasterId":3, "MemberAmount":2, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2001, "MusicMasterId":3, "MemberAmount":2, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":102, "CostumeMasterId":10141
       },
@@ -8,18 +8,18 @@
         "Order":2, "CharacterBaseMasterId":101, "CostumeMasterId":10111
       }
     ],
-    "DelaySeconds":0.7, "MovieDelaySeconds":3
+    "DelaySeconds":0.7, "MovieDelaySeconds":3, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2002, "MusicMasterId":7, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2002, "MusicMasterId":7, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":104, "CostumeMasterId":11161
       }
     ],
-    "DelaySeconds":2.6, "MovieDelaySeconds":3.4
+    "DelaySeconds":2.6, "MovieDelaySeconds":3.4, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2003, "MusicMasterId":9, "MemberAmount":3, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2003, "MusicMasterId":9, "MemberAmount":3, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":401, "CostumeMasterId":11421
       },
@@ -30,10 +30,10 @@
         "Order":3, "CharacterBaseMasterId":402, "CostumeMasterId":11431
       }
     ],
-    "DelaySeconds":0.35, "MovieDelaySeconds":0.4
+    "DelaySeconds":0.35, "MovieDelaySeconds":0.4, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2004, "MusicMasterId":12, "MemberAmount":2, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2004, "MusicMasterId":12, "MemberAmount":2, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":101, "CostumeMasterId":12111
       },
@@ -41,10 +41,10 @@
         "Order":2, "CharacterBaseMasterId":104, "CostumeMasterId":12131
       }
     ],
-    "DelaySeconds":0.7, "MovieDelaySeconds":0.8
+    "DelaySeconds":0.7, "MovieDelaySeconds":0.8, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2005, "MusicMasterId":17, "MemberAmount":6, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2005, "MusicMasterId":17, "MemberAmount":6, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":101, "CostumeMasterId":411
       },
@@ -64,10 +64,10 @@
         "Order":6, "CharacterBaseMasterId":106, "CostumeMasterId":411
       }
     ],
-    "DelaySeconds":-0.1, "MovieDelaySeconds":0.3
+    "DelaySeconds":-0.1, "MovieDelaySeconds":0.3, "IsFixedMember":false, "Order":500
   },
   {
-    "Id":2006, "MusicMasterId":19, "MemberAmount":5, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2006, "MusicMasterId":19, "MemberAmount":5, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":201, "CostumeMasterId":421
       },
@@ -84,10 +84,10 @@
         "Order":5, "CharacterBaseMasterId":205, "CostumeMasterId":421
       }
     ],
-    "DelaySeconds":1.2, "MovieDelaySeconds":1.2
+    "DelaySeconds":1.2, "MovieDelaySeconds":1.2, "IsFixedMember":false, "Order":400
   },
   {
-    "Id":2007, "MusicMasterId":21, "MemberAmount":5, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2007, "MusicMasterId":21, "MemberAmount":5, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":301, "CostumeMasterId":431
       },
@@ -104,10 +104,10 @@
         "Order":5, "CharacterBaseMasterId":305, "CostumeMasterId":431
       }
     ],
-    "DelaySeconds":0.8, "MovieDelaySeconds":0.8
+    "DelaySeconds":0.8, "MovieDelaySeconds":0.8, "IsFixedMember":false, "Order":300
   },
   {
-    "Id":2008, "MusicMasterId":23, "MemberAmount":5, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2008, "MusicMasterId":23, "MemberAmount":5, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":401, "CostumeMasterId":441
       },
@@ -124,34 +124,34 @@
         "Order":5, "CharacterBaseMasterId":405, "CostumeMasterId":441
       }
     ],
-    "DelaySeconds":1.2, "MovieDelaySeconds":1.35, "MusicVideoDefaultCostumeGroupMasterId":1
+    "DelaySeconds":1.2, "MovieDelaySeconds":1.35, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":200
   },
   {
-    "Id":2009, "MusicMasterId":5, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2009, "MusicMasterId":5, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":302, "CostumeMasterId":10311
       }
     ],
-    "DelaySeconds":1.4, "MovieDelaySeconds":1.4
+    "DelaySeconds":1.4, "MovieDelaySeconds":1.4, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2010, "MusicMasterId":15, "MemberAmount":1, "DisplayStartAt":"2023-07-29 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2010, "MusicMasterId":15, "MemberAmount":1, "DisplayStartAt":"2023-07-29 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":103, "CostumeMasterId":13111
       }
     ],
-    "DelaySeconds":2.4, "MovieDelaySeconds":2.2
+    "DelaySeconds":2.4, "MovieDelaySeconds":2.2, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2011, "MusicMasterId":45, "MemberAmount":1, "DisplayStartAt":"2023-07-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2011, "MusicMasterId":45, "MemberAmount":1, "DisplayStartAt":"2023-07-31 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":202, "CostumeMasterId":90011
       }
     ],
-    "DelaySeconds":1, "MovieDelaySeconds":1
+    "DelaySeconds":1, "MovieDelaySeconds":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2012, "MusicMasterId":51, "MemberAmount":2, "DisplayStartAt":"2023-08-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2012, "MusicMasterId":51, "MemberAmount":2, "DisplayStartAt":"2023-08-31 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":303, "CostumeMasterId":1201
       },
@@ -159,10 +159,10 @@
         "Order":2, "CharacterBaseMasterId":304, "CostumeMasterId":1201
       }
     ],
-    "DelaySeconds":2.1, "MovieDelaySeconds":2.03
+    "DelaySeconds":2.1, "MovieDelaySeconds":2.03, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2013, "MusicMasterId":59, "MemberAmount":2, "DisplayStartAt":"2023-09-30 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2013, "MusicMasterId":59, "MemberAmount":2, "DisplayStartAt":"2023-09-30 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":201, "CostumeMasterId":90021
       },
@@ -170,10 +170,10 @@
         "Order":2, "CharacterBaseMasterId":301, "CostumeMasterId":1341
       }
     ],
-    "DelaySeconds":1.6, "MovieDelaySeconds":1.55
+    "DelaySeconds":1.6, "MovieDelaySeconds":1.55, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2014, "MusicMasterId":64, "MemberAmount":5, "DisplayStartAt":"2023-10-20 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2014, "MusicMasterId":64, "MemberAmount":5, "DisplayStartAt":"2023-10-20 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":401, "CostumeMasterId":1421
       },
@@ -190,10 +190,10 @@
         "Order":5, "CharacterBaseMasterId":405, "CostumeMasterId":1461
       }
     ],
-    "DelaySeconds":1.01, "MovieDelaySeconds":1, "MusicVideoDefaultCostumeGroupMasterId":1
+    "DelaySeconds":1.01, "MovieDelaySeconds":1, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2015, "MusicMasterId":70, "MemberAmount":2, "DisplayStartAt":"2023-11-30 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2015, "MusicMasterId":70, "MemberAmount":2, "DisplayStartAt":"2023-11-30 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":204, "CostumeMasterId":1531
       },
@@ -201,10 +201,10 @@
         "Order":2, "CharacterBaseMasterId":202, "CostumeMasterId":90031
       }
     ],
-    "DelaySeconds":1.93, "MovieDelaySeconds":2.05
+    "DelaySeconds":1.93, "MovieDelaySeconds":2.05, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2016, "MusicMasterId":77, "MemberAmount":2, "DisplayStartAt":"2023-12-20 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2016, "MusicMasterId":77, "MemberAmount":2, "DisplayStartAt":"2023-12-20 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":302, "CostumeMasterId":1591
       },
@@ -212,10 +212,10 @@
         "Order":2, "CharacterBaseMasterId":304, "CostumeMasterId":1591
       }
     ],
-    "DelaySeconds":0.1, "MovieDelaySeconds":0.1
+    "DelaySeconds":0.1, "MovieDelaySeconds":0.1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2017, "MusicMasterId":79, "MemberAmount":3, "DisplayStartAt":"2024-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2017, "MusicMasterId":79, "MemberAmount":3, "DisplayStartAt":"2024-01-01 00:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":101, "CostumeMasterId":1681
       },
@@ -226,18 +226,18 @@
         "Order":3, "CharacterBaseMasterId":103, "CostumeMasterId":1681
       }
     ],
-    "DelaySeconds":1.6, "MovieDelaySeconds":1.6, "MusicVideoDefaultCostumeGroupMasterId":1
+    "DelaySeconds":1.6, "MovieDelaySeconds":1.6, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2018, "MusicMasterId":14, "MemberAmount":1, "DisplayStartAt":"2024-01-21 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2018, "MusicMasterId":14, "MemberAmount":1, "DisplayStartAt":"2024-01-21 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":205, "CostumeMasterId":12241
       }
     ],
-    "DelaySeconds":0.1, "MovieDelaySeconds":0.2
+    "DelaySeconds":0.1, "MovieDelaySeconds":0.2, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2019, "MusicMasterId":73, "MemberAmount":2, "DisplayStartAt":"2024-01-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2019, "MusicMasterId":73, "MemberAmount":2, "DisplayStartAt":"2024-01-31 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":101, "CostumeMasterId":181
       },
@@ -245,10 +245,10 @@
         "Order":2, "CharacterBaseMasterId":102, "CostumeMasterId":191
       }
     ],
-    "DelaySeconds":1.85, "MovieDelaySeconds":1.55
+    "DelaySeconds":1.85, "MovieDelaySeconds":1.55, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":2020, "MusicMasterId":105, "MemberAmount":2, "DisplayStartAt":"2024-05-31 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[
+    "Id":2020, "MusicMasterId":105, "MemberAmount":2, "DisplayStartAt":"2024-05-31 17:00:00", "Characters":[
       {
         "Order":1, "CharacterBaseMasterId":204, "CostumeMasterId":1991
       },
@@ -256,62 +256,82 @@
         "Order":2, "CharacterBaseMasterId":203, "CostumeMasterId":90041
       }
     ],
-    "DelaySeconds":1.5, "MovieDelaySeconds":1.5
+    "DelaySeconds":1.5, "MovieDelaySeconds":1.5, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3001, "MusicMasterId":53, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":2.9, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":2022, "MusicMasterId":10172, "MemberAmount":5, "DisplayStartAt":"2024-11-20 17:00:00", "DisplayEndAt":"2024-12-10 17:00:00", "Characters":[
+      {
+        "Order":1, "CharacterBaseMasterId":901, "CostumeMasterId":2541
+      },
+      {
+        "Order":2, "CharacterBaseMasterId":906, "CostumeMasterId":2561
+      },
+      {
+        "Order":3, "CharacterBaseMasterId":902, "CostumeMasterId":2551
+      },
+      {
+        "Order":4, "CharacterBaseMasterId":904, "CostumeMasterId":2581
+      },
+      {
+        "Order":5, "CharacterBaseMasterId":909, "CostumeMasterId":2571
+      }
+    ],
+    "DelaySeconds":0.55, "MovieDelaySeconds":0, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":true, "Order":10000
   },
   {
-    "Id":3002, "MusicMasterId":1, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":1.75, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3001, "MusicMasterId":53, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":2.9, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3003, "MusicMasterId":2, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":1.76, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3002, "MusicMasterId":1, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":1.75, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3004, "MusicMasterId":26, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":0.49, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3003, "MusicMasterId":2, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":1.76, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3005, "MusicMasterId":68, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":2.585, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3004, "MusicMasterId":26, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":0.49, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3006, "MusicMasterId":76, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":2.03, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3005, "MusicMasterId":68, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":2.585, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3007, "MusicMasterId":10017, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":-0.8, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3006, "MusicMasterId":76, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":2.03, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3008, "MusicMasterId":10019, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":1.2, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3007, "MusicMasterId":10017, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":-0.8, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3009, "MusicMasterId":10021, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":1, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3008, "MusicMasterId":10019, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":1.2, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3010, "MusicMasterId":10023, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":1.1, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3009, "MusicMasterId":10021, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":1, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3011, "MusicMasterId":10068, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":2.8, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3010, "MusicMasterId":10023, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":1.1, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3012, "MusicMasterId":10012, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":0.8, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3011, "MusicMasterId":10068, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":2.8, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3013, "MusicMasterId":48, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":2.15, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3012, "MusicMasterId":10012, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":0.8, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   },
   {
-    "Id":3014, "MusicMasterId":10053, "MemberAmount":1, "DisplayStartAt":"2024-11-12 05:00:00", "DisplayEndAt":"2100-01-02 00:00:00", "Characters":[],
-    "DelaySeconds":0, "MovieDelaySeconds":2.9, "MusicVideoDefaultCostumeGroupMasterId":1
+    "Id":3013, "MusicMasterId":48, "MemberAmount":1, "DisplayStartAt":"2023-01-01 00:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":2.15, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
+  },
+  {
+    "Id":3014, "MusicMasterId":10053, "MemberAmount":1, "DisplayStartAt":"2024-11-12 05:00:00", "Characters":[],
+    "DelaySeconds":0, "MovieDelaySeconds":2.9, "MusicVideoDefaultCostumeGroupMasterId":1, "IsFixedMember":false, "Order":0
   }
 ]

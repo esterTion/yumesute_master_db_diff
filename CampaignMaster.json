@@ -90,6 +90,9 @@
     "Id":31, "Title":"公演の獲得EXP 50％UP", "Description":"期間：10/19 17:00～10/26 17:00/n対象：公演、協力公演", "IconImagePath":"4", "Order":31, "StartDate":"2024-10-19 17:00:00", "EndDate":"2024-10-26 17:00:00", "CampaignEffectType":"RankPoint", "CampaignEffectValue":50
   },
   {
+    "Id":32, "Title":"コラボアクターが劇場ロビーに登場！", "Description":"コラボアクターが期間限定で劇場ロビーに登場中！/n期間：11/20 17:00～12/10 17:00", "IconImagePath":"32", "Order":32, "StartDate":"2024-11-20 17:00:00", "EndDate":"2024-12-10 17:00:00", "CampaignEffectType":"AccessoryDropRate", "CampaignEffectValue":0
+  },
+  {
     "Id":33, "Title":"公演の獲得EXP 50％UP", "Description":"期間：11/9 17:00～11/15 5:00/n対象：公演、協力公演", "IconImagePath":"4", "Order":33, "StartDate":"2024-11-09 17:00:00", "EndDate":"2024-11-15 05:00:00", "CampaignEffectType":"RankPoint", "CampaignEffectValue":50
   },
   {
@@ -103,5 +106,14 @@
   },
   {
     "Id":1001, "Title":"稽古の回数 +1回", "Description":"ウェルカムバックキャンペーン/n期間：7日間/n対象：稽古", "IconImagePath":"1001", "Order":1001, "StartDate":"2023-10-20 05:00:00", "EndDate":"2100-01-01 00:00:00", "ComebackCampaignMasterId":1, "CampaignEffectType":"LessonCount", "CampaignEffectValue":1
+  },
+  {
+    "Id":1002, "Title":"公演の獲得EXP 100％UP", "Description":"ウェルカムバックキャンペーン/n期間：7日間/n対象：公演、協力公演", "IconImagePath":"4", "Order":1002, "StartDate":"2024-11-20 05:00:00", "EndDate":"2100-01-01 00:00:00", "ComebackCampaignMasterId":2, "CampaignEffectType":"RankPoint", "CampaignEffectValue":100
+  },
+  {
+    "Id":1003, "Title":"稽古の回数 +2回", "Description":"ウェルカムバックキャンペーン/n期間：7日間/n対象：稽古", "IconImagePath":"1001", "Order":1003, "StartDate":"2024-11-20 05:00:00", "EndDate":"2100-01-01 00:00:00", "ComebackCampaignMasterId":2, "CampaignEffectType":"LessonCount", "CampaignEffectValue":2
+  },
+  {
+    "Id":1004, "Title":"稽古の獲得SP 50％UP", "Description":"ウェルカムバックキャンペーン/n期間：7日間/n対象：稽古", "IconImagePath":"3", "Order":1004, "StartDate":"2024-11-20 05:00:00", "EndDate":"2100-01-01 00:00:00", "ComebackCampaignMasterId":2, "CampaignEffectType":"StarPoint", "CampaignEffectValue":50
   }
 ]

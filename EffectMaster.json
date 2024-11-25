@@ -40056,6 +40056,59 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":10811004, "Type":"ScoreGainOnScore", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":60
+      },
+      {
+        "Level":2, "Value":75
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":105
+      },
+      {
+        "Level":5, "Value":120
+      },
+      {
+        "Level":6, "Value":135
+      },
+      {
+        "Level":7, "Value":150
+      },
+      {
+        "Level":8, "Value":165
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":195
+      },
+      {
+        "Level":11, "Value":210
+      },
+      {
+        "Level":12, "Value":225
+      },
+      {
+        "Level":13, "Value":240
+      },
+      {
+        "Level":14, "Value":255
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":4
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":10811200, "Type":"ScoreGainOnScore", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":135

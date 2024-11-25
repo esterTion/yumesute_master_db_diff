@@ -7348,11 +7348,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3301601, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":3301601, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":10030000
+            "Order":1, "EffectMasterId":10031000
           }
         ],
         "Id":330160101
@@ -7361,11 +7361,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3301602, "Name":"演技力アップⅡ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+    "Id":3301602, "Name":"スコアブースト＋", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":10020002
+            "Order":1, "EffectMasterId":10811002
           }
         ],
         "Id":330160201
@@ -7387,11 +7387,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3301604, "Name":"演技力アップⅡ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+    "Id":3301604, "Name":"スコアブースト＋", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":330160, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":10020004
+            "Order":1, "EffectMasterId":10811004
           }
         ],
         "Id":330160401

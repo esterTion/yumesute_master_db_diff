@@ -854,6 +854,20 @@
     "AcquirableGauge":90, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130720, "Name":"いつもと違うわたくし", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1307201
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -2313,6 +2327,34 @@
     "AcquirableGauge":100, "AcquirableScorePercent":160, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":141260, "Name":"diadem for silver bullet", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、ラブライブ！サンシャイン!!のアクターにスターアクトスコア[:param11]％UP効果", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20901
+          }
+        ],
+        "Id":1412601
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141270, "Name":"夜空をかけるビジョナリィ", "Description":"[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20084
+          }
+        ],
+        "Id":1412701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":141280, "Name":"ようこそ不思議なこの国へ", "Description":"[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）", "Type":"Special", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -2358,5 +2400,10 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"AttributeCount", "BranchCondition2":"None"
+  },
+  {
+    "Id":141300, "Name":"なし", "Description":"効果無し（所持している「光」は維持される）", "Type":"None", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

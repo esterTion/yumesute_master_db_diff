@@ -2158,6 +2158,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220620, "Name":"ダブルキャストは想いあう", "Description":"シリウスに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220620, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022100
+          }
+        ],
+        "Id":22062001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4479,6 +4492,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":340200, "Name":"星の行方を見定める瞳", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340200, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34020001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":2202301, "Name":"演技力アップ＋", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":220230, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -5436,6 +5462,32 @@
           }
         ],
         "Id":220610201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2206201, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":220620, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010100
+          }
+        ],
+        "Id":220620101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2206202, "Name":"スコアブースト・歌唱力", "Description":"センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":220620, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10910100
+          }
+        ],
+        "Id":220620201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -7993,6 +8045,45 @@
           }
         ],
         "Id":340190301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402001, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：蕾が装備", "PosterMasterId":340200, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030404
+          }
+        ],
+        "Id":340200101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402002, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：蕾が装備", "PosterMasterId":340200, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410404
+          }
+        ],
+        "Id":340200201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402003, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：蕾が装備", "PosterMasterId":340200, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910404
+          }
+        ],
+        "Id":340200301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

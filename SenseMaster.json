@@ -873,6 +873,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130740, "Name":"尾行、キタキツネのように", "Description":"[:score]倍のスコアを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -2429,5 +2434,28 @@
     "Id":141320, "Name":"楽園の主はいたずら中", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する", "Type":"Support", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141330, "Name":"なし", "Description":"ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP", "Type":"Alternative", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":20024
+      }
+    ],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141340, "Name":"新人サンタはあわてんぼう", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／センス発動時、追加で「支配の光」を1個獲得する", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20014
+          }
+        ],
+        "Id":1413401
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":320, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":65, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

@@ -2171,6 +2171,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220630, "Name":"†迎春†　猫と烏の協奏曲", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":220630, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022003
+          }
+        ],
+        "Id":22063001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3972,6 +3985,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230560, "Name":"あなたのお嫁さんになれるなら", "Description":"劇団電姫に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230560, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052400
+          }
+        ],
+        "Id":23056001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":230620, "Name":"Worlds Dye Star", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230620, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4149,6 +4175,19 @@
           }
         ],
         "Id":32015001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":320160, "Name":"謹賀新年2025", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":320160, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70011000
+          }
+        ],
+        "Id":32016001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -5493,6 +5532,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":2206301, "Name":"ライフブースト", "Description":"センス発動直後、ライフを[:param11]回復　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":220630, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11211003
+          }
+        ],
+        "Id":220630101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2206302, "Name":"スコアブースト", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":220630, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10810003
+          }
+        ],
+        "Id":220630201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":2301802, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":230180, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -6609,6 +6674,45 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":2305601, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230560, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030400
+          }
+        ],
+        "Id":230560101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305602, "Name":"歌唱力アップⅡ＋", "Description":"自身の歌唱力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230560, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10121400
+          }
+        ],
+        "Id":230560201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305603, "Name":"スコアブーストⅡ", "Description":"センス発動直後、その時のスコアの[:param11]％のスコアを獲得　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230560, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10820400
+          }
+        ],
+        "Id":230560301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":2306201, "Name":"演技力アップⅡ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230620, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -6953,6 +7057,19 @@
           }
         ],
         "Id":320150101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3201601, "Name":"報酬量アップ", "Description":"公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）", "PosterMasterId":320160, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12500000
+          }
+        ],
+        "Id":320160101
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

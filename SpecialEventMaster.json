@@ -146,5 +146,39 @@
       }
     ],
     "GameHintPageCount":1
+  },
+  {
+    "Id":21008, "EventMaster":{
+      "Id":21008, "EventType":"SpecialEvent", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-10 17:00:00", "ForceEndDate":"2025-01-13 17:00:00", "Name":"", "IsAsideLiveButton":false, "Bonuses":[],
+      "PointRewards":[],
+      "RankingRewards":[]
+    },
+    "EventName":"ユナイトチャレンジ", "CategoryType":"TotalPoint", "Layouts":[
+      {
+        "Id":2100801, "UIType":"Bgm", "UIValue":"20017", "AnchorXPercent":0, "AnchorYPercent":0, "PositionX":0, "PositionY":0, "SizeX":476, "SizeY":208, "ScaleX":1, "ScaleY":1, "Layer":1, "ActionType":"None", "JumpType":"None", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      },
+      {
+        "Id":2100802, "UIType":"ImageButton", "UIValue":"21008_GachaBtn", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":274, "SizeX":250, "SizeY":252, "ScaleX":1, "ScaleY":1, "Layer":4, "ActionType":"JumpType", "ActionValue":"1", "JumpType":"BoxGacha", "JumpValue":"21008", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      },
+      {
+        "Id":2100803, "UIType":"SpecialEventLogoWithDate", "UIValue":"21008", "AnchorXPercent":50, "AnchorYPercent":50, "PositionX":-540, "PositionY":143, "SizeX":678, "SizeY":500, "ScaleX":1, "ScaleY":1, "Layer":5, "ActionType":"None", "JumpType":"None", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      },
+      {
+        "Id":2100804, "UIType":"TotalPointEvent_ScorePanel", "UIValue":"421007", "AnchorXPercent":0, "AnchorYPercent":0, "PositionX":490, "PositionY":141, "SizeX":940, "SizeY":249, "ScaleX":1, "ScaleY":1, "Layer":6, "ActionType":"None", "JumpType":"None", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      },
+      {
+        "Id":2100805, "UIType":"Image", "UIValue":"21008_Bubble", "AnchorXPercent":0, "AnchorYPercent":0, "PositionX":490, "PositionY":306, "SizeX":706, "SizeY":116, "ScaleX":1, "ScaleY":1, "Layer":7, "ActionType":"None", "JumpType":"None", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      },
+      {
+        "Id":2100806, "UIType":"TotalPointEvent_RankingButton", "UIValue":"ランキング", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-520, "PositionY":66, "SizeX":320, "SizeY":108, "ScaleX":1, "ScaleY":1, "Layer":8, "ActionType":"JumpType", "ActionValue":"1", "JumpType":"TotalPointEventRanking", "JumpValue":"21008", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      },
+      {
+        "Id":2100807, "UIType":"RedButton", "UIValue":"公演", "AnchorXPercent":100, "AnchorYPercent":0, "PositionX":-180, "PositionY":66, "SizeX":320, "SizeY":108, "ScaleX":1, "ScaleY":1, "Layer":9, "ActionType":"JumpType", "ActionValue":"0", "JumpType":"Live", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      },
+      {
+        "Id":2100808, "UIType":"ItemCountPanel", "UIValue":"137004", "AnchorXPercent":100, "AnchorYPercent":100, "PositionX":-308, "PositionY":-84, "SizeX":240, "SizeY":68, "ScaleX":1, "ScaleY":1, "Layer":10, "ActionType":"None", "JumpType":"None", "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-13 17:00:00"
+      }
+    ],
+    "GameHintPageCount":1
   }
 ]

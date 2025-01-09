@@ -565,6 +565,23 @@
     "ShopItemType":"None", "ItemIconBodyImagePath":"Rank07"
   },
   {
+    "Id":4218, "Order":818, "AppStoreProductId":"", "GooglePlayProductId":"", "Name":"育成パック【ランク180】", "PackText":"", "MJewelShopCategoryId":4, "DialogType":1, "PurchaseType":"Paid", "PurchaseValue":1500, "SubscriptionFlag":false, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":true, "IsDisplayLocking":true, "UnlockType":"PlayerRank", "UnlockValue":180, "StartDate":"2023-01-01 00:00:00", "Lineup":[
+      {
+        "Id":421801, "MJewelShopItemId":4218, "ThingId":120003, "ThingType":"Item", "ThingQuantity":70
+      },
+      {
+        "Id":421802, "MJewelShopItemId":4218, "ThingId":130012, "ThingType":"Item", "ThingQuantity":70
+      },
+      {
+        "Id":421803, "MJewelShopItemId":4218, "ThingId":110002, "ThingType":"Item", "ThingQuantity":20
+      },
+      {
+        "Id":421804, "MJewelShopItemId":4218, "ThingId":130071, "ThingType":"Item", "ThingQuantity":7
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"Rank08"
+  },
+  {
     "Id":4301, "Order":201, "AppStoreProductId":"", "GooglePlayProductId":"", "Name":"カスタマイズパック【レート200】", "PackText":"", "MJewelShopCategoryId":4, "DialogType":1, "PurchaseType":"Free", "PurchaseValue":0, "SubscriptionFlag":false, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":true, "IsDisplayLocking":true, "UnlockType":"RateReached", "UnlockValue":200, "StartDate":"2023-01-01 00:00:00", "Lineup":[
       {
         "Id":430101, "MJewelShopItemId":4301, "ThingId":101, "ThingType":"NameColor", "ThingQuantity":1
@@ -1541,6 +1558,39 @@
     "ShopItemType":"None", "ItemIconBodyImagePath":"Chara07", "ItemIconDetailImagePath":"9800_11000", "ItemIconBadgeImagePath":"LimitedTime"
   },
   {
+    "Id":5359, "Order":302, "AppStoreProductId":"", "GooglePlayProductId":"", "Name":"銀河シアターのおまもりパック", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Paid", "PurchaseValue":3000, "SubscriptionFlag":false, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-16 17:00:00", "EndDate":"2025-01-24 17:00:00", "Lineup":[
+      {
+        "Id":535901, "MJewelShopItemId":5359, "ThingId":139110, "ThingType":"Item", "ThingQuantity":1
+      },
+      {
+        "Id":535902, "MJewelShopItemId":5359, "ThingId":110002, "ThingType":"Item", "ThingQuantity":75
+      }
+    ],
+    "ShopItemType":"MultiLiveDropLimitUp", "ShopItemValue":65, "ItemIconBodyImagePath":"GingaTheater", "ItemIconBadgeImagePath":"LimitedTime"
+  },
+  {
+    "Id":5360, "Order":302, "AppStoreProductId":"", "GooglePlayProductId":"", "Name":"撮影パック", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Paid", "PurchaseValue":980, "SubscriptionFlag":false, "ReplaceTypes":"None", "PurchaseLimit":2, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-15 17:00:00", "EndDate":"2025-01-25 17:00:00", "Lineup":[
+      {
+        "Id":536001, "MJewelShopItemId":5360, "ThingId":510006, "ThingType":"Item", "ThingQuantity":1
+      },
+      {
+        "Id":536002, "MJewelShopItemId":5360, "ThingId":510004, "ThingType":"Item", "ThingQuantity":10
+      },
+      {
+        "Id":536003, "MJewelShopItemId":5360, "ThingId":0, "ThingType":"Coin", "ThingQuantity":1000000
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"FilmPack", "ItemIconDetailImagePath":"SpecialAbility", "ItemIconBadgeImagePath":"LimitedTime"
+  },
+  {
+    "Id":5361, "Order":304, "AppStoreProductId":"5361", "GooglePlayProductId":"5361", "Name":"練習台本どっさりパック", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":1500, "SubscriptionFlag":false, "GivePaidJewel":1500, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-15 17:00:00", "EndDate":"2025-01-25 17:00:00", "Lineup":[
+      {
+        "Id":536101, "MJewelShopItemId":5361, "ThingId":120002, "ThingType":"Item", "ThingQuantity":1500
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"ManyScripts", "ItemIconDetailImagePath":"1500_Scripts1500", "ItemIconBadgeImagePath":"LimitedTime"
+  },
+  {
     "Id":5385, "Order":96, "AppStoreProductId":"", "GooglePlayProductId":"", "Name":"福袋パック2025【アクターA】", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Paid", "PurchaseValue":3000, "SubscriptionFlag":false, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-01 00:00:00", "EndDate":"2025-01-10 17:00:00", "Lineup":[
       {
         "Id":538501, "MJewelShopItemId":5385, "ThingId":210413, "ThingType":"Item", "ThingQuantity":1
@@ -1583,6 +1633,30 @@
       }
     ],
     "ShopItemType":"None", "ItemIconBodyImagePath":"Fuku2025_poster1", "ItemIconBadgeImagePath":"OneTime"
+  },
+  {
+    "Id":5395, "Order":400, "AppStoreProductId":"5395", "GooglePlayProductId":"5395", "Name":"1.5th Anniversary前夜祭記念ジュエルパックA", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":1500, "SubscriptionFlag":false, "GivePaidJewel":1500, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-26 00:00:00", "Lineup":[
+      {
+        "Id":539501, "MJewelShopItemId":5395, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":1500
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"Chara03", "ItemIconBadgeImagePath":"OneTime"
+  },
+  {
+    "Id":5396, "Order":401, "AppStoreProductId":"5396", "GooglePlayProductId":"5396", "Name":"1.5th Anniversary前夜祭記念ジュエルパックB", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":3500, "SubscriptionFlag":false, "GivePaidJewel":3500, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-26 00:00:00", "Lineup":[
+      {
+        "Id":539601, "MJewelShopItemId":5396, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":3500
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"Chara05", "ItemIconBadgeImagePath":"OneTime"
+  },
+  {
+    "Id":5397, "Order":402, "AppStoreProductId":"5397", "GooglePlayProductId":"5397", "Name":"1.5th Anniversary前夜祭記念ジュエルパックC", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":9800, "SubscriptionFlag":false, "GivePaidJewel":9800, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-26 00:00:00", "Lineup":[
+      {
+        "Id":539701, "MJewelShopItemId":5397, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":9800
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"Chara07", "ItemIconBadgeImagePath":"OneTime"
   },
   {
     "Id":5401, "Order":201, "AppStoreProductId":"5401", "GooglePlayProductId":"5401", "Name":"ウェルカムバック劇ジュエルA", "PackText":"", "MJewelShopCategoryId":5, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":1500, "SubscriptionFlag":false, "GivePaidJewel":1500, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":true, "StartDate":"2023-10-20 05:00:00", "EndDate":"2100-01-01 00:00:00", "Lineup":[
@@ -1807,6 +1881,52 @@
       },
       {
         "Id":569502, "MJewelShopItemId":5695, "ThingId":150000, "ThingType":"Item", "ThingQuantity":250
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"GDugongJewel_2", "ItemIconDetailImagePath":"9800_250GD", "ItemIconBadgeImagePath":"OneTime"
+  },
+  {
+    "Id":5696, "Order":233, "AppStoreProductId":"5696", "GooglePlayProductId":"5696", "Name":"イベント限定ジュエルパックA", "PackText":"", "MJewelShopCategoryId":1, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":1500, "SubscriptionFlag":false, "GivePaidJewel":1500, "ReplaceTypes":"None", "PurchaseLimit":2, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-20 17:00:00", "Lineup":[
+      {
+        "Id":569601, "MJewelShopItemId":5696, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":1500
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"Chara04", "ItemIconDetailImagePath":"1500_1500", "ItemIconBadgeImagePath":"LimitedNumber"
+  },
+  {
+    "Id":5697, "Order":234, "AppStoreProductId":"5697", "GooglePlayProductId":"5697", "Name":"イベント限定ジュエルパックB", "PackText":"", "MJewelShopCategoryId":1, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":4800, "SubscriptionFlag":false, "GivePaidJewel":4800, "ReplaceTypes":"None", "PurchaseLimit":2, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-20 17:00:00", "Lineup":[
+      {
+        "Id":569701, "MJewelShopItemId":5697, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":3000
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"Chara06", "ItemIconDetailImagePath":"4800_3000", "ItemIconBadgeImagePath":"LimitedNumber"
+  },
+  {
+    "Id":5698, "Order":235, "AppStoreProductId":"5698", "GooglePlayProductId":"5698", "Name":"イベント限定ジュエルパックC", "PackText":"", "MJewelShopCategoryId":1, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":9800, "SubscriptionFlag":false, "GivePaidJewel":9800, "ReplaceTypes":"None", "PurchaseLimit":2, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-20 17:00:00", "Lineup":[
+      {
+        "Id":569801, "MJewelShopItemId":5698, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":4900
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"Chara07", "ItemIconDetailImagePath":"9800_4900", "ItemIconBadgeImagePath":"LimitedNumber"
+  },
+  {
+    "Id":5699, "Order":236, "AppStoreProductId":"5699", "GooglePlayProductId":"5699", "Name":"イベント限定ジュエルパックD", "PackText":"", "MJewelShopCategoryId":1, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":4800, "SubscriptionFlag":false, "GivePaidJewel":4800, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-20 17:00:00", "Lineup":[
+      {
+        "Id":569901, "MJewelShopItemId":5699, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":1500
+      },
+      {
+        "Id":569902, "MJewelShopItemId":5699, "ThingId":150000, "ThingType":"Item", "ThingQuantity":100
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"GDugongJewel_1", "ItemIconDetailImagePath":"4800_100GD", "ItemIconBadgeImagePath":"OneTime"
+  },
+  {
+    "Id":5700, "Order":237, "AppStoreProductId":"5700", "GooglePlayProductId":"5700", "Name":"イベント限定ジュエルパックE", "PackText":"", "MJewelShopCategoryId":1, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":9800, "SubscriptionFlag":false, "GivePaidJewel":9800, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":false, "IsDisplayLocking":false, "StartDate":"2025-01-10 17:00:00", "EndDate":"2025-01-20 17:00:00", "Lineup":[
+      {
+        "Id":570001, "MJewelShopItemId":5700, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":2500
+      },
+      {
+        "Id":570002, "MJewelShopItemId":5700, "ThingId":150000, "ThingType":"Item", "ThingQuantity":250
       }
     ],
     "ShopItemType":"None", "ItemIconBodyImagePath":"GDugongJewel_2", "ItemIconDetailImagePath":"9800_250GD", "ItemIconBadgeImagePath":"OneTime"
@@ -3670,6 +3790,53 @@
       },
       {
         "Id":1016102, "MJewelShopItemId":10161, "ThingId":110003, "ThingType":"Item", "ThingQuantity":10
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"StaminaJewel_2", "ItemIconDetailImagePath":"500_1250", "ItemIconBadgeImagePath":"FlashSale_3h"
+  },
+  {
+    "Id":10162, "Order":9021, "AppStoreProductId":"10162", "GooglePlayProductId":"10162", "Name":"「Buono！～カーニバルな食卓で～」ポイントルーレット100回転突破記念パック", "PackText":"", "MJewelShopCategoryId":7, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":500, "SubscriptionFlag":false, "GivePaidJewel":500, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":true, "IsDisplayLocking":false, "UnlockType":"FlashSale", "UnlockValue":25001006001, "StartDate":"2025-01-10 17:00:00", "Lineup":[
+      {
+        "Id":1016201, "MJewelShopItemId":10162, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":1250
+      },
+      {
+        "Id":1016202, "MJewelShopItemId":10162, "ThingId":110003, "ThingType":"Item", "ThingQuantity":10
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"StaminaJewel_2", "ItemIconDetailImagePath":"500_1250", "ItemIconBadgeImagePath":"FlashSale_3h"
+  },
+  {
+    "Id":10163, "Order":2049, "AppStoreProductId":"10163", "GooglePlayProductId":"10163", "Name":"オーディションクリアランク280突破記念パック", "PackText":"", "MJewelShopCategoryId":7, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":120, "SubscriptionFlag":false, "GivePaidJewel":120, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":true, "IsDisplayLocking":false, "UnlockType":"FlashSale", "UnlockValue":2101050, "StartDate":"2024-05-30 15:00:00", "Lineup":[
+      {
+        "Id":1016301, "MJewelShopItemId":10163, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":600
+      },
+      {
+        "Id":1016302, "MJewelShopItemId":10163, "ThingId":210001, "ThingType":"Item", "ThingQuantity":5
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"ActorgachaJewel", "ItemIconDetailImagePath":"120_600", "ItemIconBadgeImagePath":"FlashSale_3h"
+  },
+  {
+    "Id":10164, "Order":2050, "AppStoreProductId":"10164", "GooglePlayProductId":"10164", "Name":"オーディションクリアランク285突破記念パック", "PackText":"", "MJewelShopCategoryId":7, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":1500, "SubscriptionFlag":false, "GivePaidJewel":1500, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":true, "IsDisplayLocking":false, "UnlockType":"FlashSale", "UnlockValue":2101051, "StartDate":"2024-05-30 15:00:00", "Lineup":[
+      {
+        "Id":1016401, "MJewelShopItemId":10164, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":1500
+      },
+      {
+        "Id":1016402, "MJewelShopItemId":10164, "ThingId":120003, "ThingType":"Item", "ThingQuantity":20
+      },
+      {
+        "Id":1016403, "MJewelShopItemId":10164, "ThingId":130063, "ThingType":"Item", "ThingQuantity":20
+      }
+    ],
+    "ShopItemType":"None", "ItemIconBodyImagePath":"GrowUpJewel", "ItemIconDetailImagePath":"1500_1500", "ItemIconBadgeImagePath":"FlashSale_3h"
+  },
+  {
+    "Id":10172, "Order":1017, "AppStoreProductId":"10172", "GooglePlayProductId":"10172", "Name":"ランク180到達記念パック", "PackText":"", "MJewelShopCategoryId":7, "DialogType":1, "PurchaseType":"Money", "PurchaseValue":500, "SubscriptionFlag":false, "GivePaidJewel":500, "ReplaceTypes":"None", "PurchaseLimit":1, "CanPurchaseDayOfWeek":"", "IsBuyNotDisplay":true, "IsDisplayLocking":true, "UnlockType":"FlashSale", "UnlockValue":1101018, "StartDate":"2024-05-30 15:00:00", "Lineup":[
+      {
+        "Id":1017201, "MJewelShopItemId":10172, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":1250
+      },
+      {
+        "Id":1017202, "MJewelShopItemId":10172, "ThingId":110003, "ThingType":"Item", "ThingQuantity":10
       }
     ],
     "ShopItemType":"None", "ItemIconBodyImagePath":"StaminaJewel_2", "ItemIconDetailImagePath":"500_1250", "ItemIconBadgeImagePath":"FlashSale_3h"

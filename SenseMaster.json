@@ -2601,5 +2601,65 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141410, "Name":"いたずら妖精がご招待", "Description":"<size=28%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×5上昇させる(この効果は重複する)</size>", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20651
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1414101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20652
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1414102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20653
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1414103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20654
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1414104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20655
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1414105
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":260, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"CompanyMemberCount", "ConditionValue1":4, "BranchCondition2":"None"
+  },
+  {
+    "Id":141420, "Name":"それでも止まらぬ恋心", "Description":"[:score]倍のスコアを獲得／センス発動直後、自身の集中力の[:param11]倍のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20537
+          }
+        ],
+        "Id":1414201
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

@@ -2210,6 +2210,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220660, "Name":"遥か、ネバーランドに望む", "Description":"シリウスに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220660, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022100
+          }
+        ],
+        "Id":22066001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4024,6 +4037,45 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230570, "Name":"起きても続く楽しい夢", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":230570, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052000
+          }
+        ],
+        "Id":23057001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":230571, "Name":"演技力アップ＋", "Description":"劇団電姫に所属しているアクターのみで編成している場合、追加で演技力が[:param11]％上昇", "PosterMasterId":230570, "Type":"Leader", "FrameNumber":2, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70055400
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":23057101
+      }
+    ],
+    "BranchConditionType1":"CompanyMemberCount", "ConditionValue1":4, "BranchConditionType2":"None"
+  },
+  {
+    "Id":230580, "Name":"一緒に飛ぼうよ！", "Description":"シリウスに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230580, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042100
+          }
+        ],
+        "Id":23058001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":230620, "Name":"Worlds Dye Star", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230620, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4539,6 +4591,19 @@
           }
         ],
         "Id":34012001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340150, "Name":"交わる視線と静かな熱", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340150, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34015001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -5657,6 +5722,32 @@
           }
         ],
         "Id":220650201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2206601, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":220660, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010100
+          }
+        ],
+        "Id":220660101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2206602, "Name":"スコアブースト・集中力", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":220660, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11110100
+          }
+        ],
+        "Id":220660201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -6812,6 +6903,134 @@
           }
         ],
         "Id":230560301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305701, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230570, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030400
+          }
+        ],
+        "Id":230570101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305702, "Name":"2.5次元舞台", "Description":"センスを発動しなくなるが、自身の演技力が2倍　◆発動条件：いろはが装備", "PosterMasterId":230570, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":60001400
+          }
+        ],
+        "Id":230570201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305703, "Name":"2.5次元舞台", "Description":"自身の演技力上限が[:param11]％上昇　◆発動条件：美兎・カミラ・蕾・叶羽が装備", "PosterMasterId":230570, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":60002400
+          }
+        ],
+        "Id":230570301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305704, "Name":"演技力アップ・混星", "Description":"編成されている属性数が多いほど自身の演技力が上昇（4属性：[:param11]％／3属性：[:param21]％／2属性：[:param31]％／1属性：[:param41]％）　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230570, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":9, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10415400
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":230570401
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10416400
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":230570402
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10417400
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":230570403
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10418400
+          }
+        ],
+        "JudgeType1":"LessThan", "Parameter1":1, "Id":230570404
+      }
+    ],
+    "BranchConditionType1":"AttributeCount", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305705, "Name":"「光」追加（SP）", "Description":"センス発動時、SP光を追加で付与　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230570, "Type":"Normal", "FrameNumber":4, "ReleaseLevelAt":10, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11911400
+          }
+        ],
+        "Id":230570501
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305801, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230580, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230580101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305802, "Name":"歌唱力アップⅢ", "Description":"自身の歌唱力が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230580, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10130100
+          }
+        ],
+        "Id":230580201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2305803, "Name":"スコアブースト・歌唱力Ⅲ＋", "Description":"センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230580, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10931100
+          }
+        ],
+        "Id":230580301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -8240,6 +8459,45 @@
           }
         ],
         "Id":340120301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401501, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：リリヤが装備", "PosterMasterId":340150, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030304
+          }
+        ],
+        "Id":340150101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401502, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：リリヤが装備", "PosterMasterId":340150, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410304
+          }
+        ],
+        "Id":340150201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401503, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：リリヤが装備", "PosterMasterId":340150, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910304
+          }
+        ],
+        "Id":340150301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

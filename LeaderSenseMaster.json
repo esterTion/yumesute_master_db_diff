@@ -3201,5 +3201,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":199, "Description":"「役者」カテゴリの演技力40%上昇、「ヒロイン」カテゴリの歌唱力35％上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12019, "Conditions":[
+          {
+            "CategoryMasterId1":8008
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":200, "Description":"「衣装」カテゴリの演技力40%上昇、「主人公」カテゴリの表現力35％上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12020, "Conditions":[
+          {
+            "CategoryMasterId1":8007
+          }
+        ]
+      }
+    ]
   }
 ]

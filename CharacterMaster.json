@@ -2522,6 +2522,29 @@
     "LeaderSenseMasterId":3, "MaxTalentStage":5
   },
   {
+    "Id":130790, "CharacterBaseMasterId":303, "Name":"得意のセールストーク！", "Description":"", "Rarity":"Rare3", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":96, "Expression":92, "Concentration":82
+    },
+    "StarActMasterId":130791, "AwakenStarActMasterId":130791, "SenseMasterId":130790, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":30003, "SenseEnhanceItemGroupMasterId":3, "FirstEpisodeReleaseItemGroupId":341, "SecondEpisodeReleaseItemGroupId":342, "CharacterAwakeningItemGroupMasterId":34, "DisplayStartAt":"2025-02-09 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベントで入手", "Categories":[
+      {
+        "CategoryMasterId":2003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7507, "IsAwaken":false
+      }
+    ],
+    "LeaderSenseMasterId":153, "MaxTalentStage":5
+  },
+  {
     "Id":140010, "CharacterBaseMasterId":101, "Name":"悲哀と恋慕の旋律", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
       "Vocal":107, "Expression":118, "Concentration":120
     },
@@ -3167,7 +3190,7 @@
         "CategoryMasterId":8008, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":119, "MaxTalentStage":5
+    "LeaderSenseMasterId":119, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-10 17:00:00"
   },
   {
     "Id":140260, "CharacterBaseMasterId":203, "Name":"アオハル応援団長", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
@@ -3309,7 +3332,7 @@
         "CategoryMasterId":7008, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":35, "MaxTalentStage":5
+    "LeaderSenseMasterId":35, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-10 17:00:00"
   },
   {
     "Id":140310, "CharacterBaseMasterId":305, "Name":"妖刀の一薙ぎ", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
@@ -3625,7 +3648,7 @@
         "CategoryMasterId":7012, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":77, "MaxTalentStage":5
+    "LeaderSenseMasterId":77, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-10 17:00:00"
   },
   {
     "Id":140420, "CharacterBaseMasterId":204, "Name":"囚われてなお渇望するもの", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
@@ -3770,7 +3793,7 @@
         "CategoryMasterId":7015, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":111, "MaxTalentStage":5
+    "LeaderSenseMasterId":111, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-10 17:00:00"
   },
   {
     "Id":140470, "CharacterBaseMasterId":403, "Name":"銀世界に冴ゆる心友", "Description":"", "Rarity":"Rare4", "Attribute":"Cute", "MinLevelStatus":{
@@ -4155,7 +4178,7 @@
         "CategoryMasterId":5007, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":142, "MaxTalentStage":5
+    "LeaderSenseMasterId":142, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-09 17:00:00"
   },
   {
     "Id":140630, "CharacterBaseMasterId":401, "Name":"水海に月は満ち", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -4430,7 +4453,7 @@
         "CategoryMasterId":7028, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":87, "MaxTalentStage":5
+    "LeaderSenseMasterId":87, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-09 17:00:00"
   },
   {
     "Id":140750, "CharacterBaseMasterId":302, "Name":"冷酷な辺境伯に求婚されてます", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
@@ -4514,7 +4537,7 @@
         "CategoryMasterId":8002, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":65, "MaxTalentStage":5
+    "LeaderSenseMasterId":65, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-09 17:00:00"
   },
   {
     "Id":140780, "CharacterBaseMasterId":403, "Name":"LIVE YOUR STYLE", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
@@ -4676,7 +4699,7 @@
         "CategoryMasterId":7032, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":30, "MaxTalentStage":5
+    "LeaderSenseMasterId":30, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-09 17:00:00"
   },
   {
     "Id":140840, "CharacterBaseMasterId":305, "Name":"雨上がりには特大スクープ！", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -6338,5 +6361,57 @@
       }
     ],
     "LeaderSenseMasterId":200, "MaxTalentStage":5
+  },
+  {
+    "Id":141450, "CharacterBaseMasterId":301, "Name":"スウィート・セレクション", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":158, "Expression":96, "Concentration":84
+    },
+    "StarActMasterId":141451, "AwakenStarActMasterId":141451, "SenseMasterId":141450, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40145, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":441, "SecondEpisodeReleaseItemGroupId":442, "CharacterAwakeningItemGroupMasterId":44, "DisplayStartAt":"2025-02-09 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャで入手", "Categories":[
+      {
+        "CategoryMasterId":2003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7507, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4003, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":201, "MaxTalentStage":5
+  },
+  {
+    "Id":141460, "CharacterBaseMasterId":305, "Name":"ハートフル・ショッピング", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":122, "Expression":131, "Concentration":91
+    },
+    "StarActMasterId":141461, "AwakenStarActMasterId":141461, "SenseMasterId":141460, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40146, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":441, "SecondEpisodeReleaseItemGroupId":442, "CharacterAwakeningItemGroupMasterId":44, "DisplayStartAt":"2025-02-09 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャで入手", "Categories":[
+      {
+        "CategoryMasterId":2003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":3004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7507, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4002, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":202, "MaxTalentStage":5
   }
 ]

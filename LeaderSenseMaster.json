@@ -3237,5 +3237,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":201, "Description":"「私服」カテゴリの演技力30%上昇、「食べ物」カテゴリの歌唱力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":4002
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":4003
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":202, "Description":"「料理」カテゴリの演技力30%上昇、「私服」カテゴリの表現力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":3004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12011, "Conditions":[
+          {
+            "CategoryMasterId1":4002
+          }
+        ]
+      }
+    ]
   }
 ]

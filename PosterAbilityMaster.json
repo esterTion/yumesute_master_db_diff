@@ -4271,7 +4271,7 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":320160, "Name":"謹賀新年2025", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":320160, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":320160, "Name":"謹賀新年2025", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":320160, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
@@ -4526,6 +4526,19 @@
           }
         ],
         "Id":33021001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330220, "Name":"かきまぜるチョコに愛をこめて", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":330220, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":33022001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -8264,6 +8277,58 @@
           }
         ],
         "Id":330210401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302201, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":330220, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030000
+          }
+        ],
+        "Id":330220101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302202, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":330220, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810002
+          }
+        ],
+        "Id":330220201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302203, "Name":"CTダウンⅢ", "Description":"自身のセンスのCTを[:param11]秒短縮　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":330220, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12420002
+          }
+        ],
+        "Id":330220301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302204, "Name":"演技力上限上昇", "Description":"自身の演技力の上限が[:param11]％上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":330220, "Type":"Normal", "FrameNumber":4, "ReleaseLevelAt":10, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12900002
+          }
+        ],
+        "Id":330220401
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

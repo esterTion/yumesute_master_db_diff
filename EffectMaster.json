@@ -50906,6 +50906,59 @@
     "FireTimingType":"Passive"
   },
   {
+    "Id":12420002, "Type":"SenseRecastDown", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":2
+      },
+      {
+        "Level":2, "Value":2
+      },
+      {
+        "Level":3, "Value":2
+      },
+      {
+        "Level":4, "Value":2
+      },
+      {
+        "Level":5, "Value":2
+      },
+      {
+        "Level":6, "Value":2
+      },
+      {
+        "Level":7, "Value":2
+      },
+      {
+        "Level":8, "Value":3
+      },
+      {
+        "Level":9, "Value":3
+      },
+      {
+        "Level":10, "Value":4
+      },
+      {
+        "Level":11, "Value":4
+      },
+      {
+        "Level":12, "Value":5
+      },
+      {
+        "Level":13, "Value":5
+      },
+      {
+        "Level":14, "Value":6
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":12420300, "Type":"SenseRecastDown", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":2
@@ -51319,6 +51372,59 @@
       }
     ],
     "FireTimingType":"StartLive"
+  },
+  {
+    "Id":12900002, "Type":"PerformanceLimitUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":1100
+      },
+      {
+        "Level":2, "Value":1400
+      },
+      {
+        "Level":3, "Value":1700
+      },
+      {
+        "Level":4, "Value":2000
+      },
+      {
+        "Level":5, "Value":2300
+      },
+      {
+        "Level":6, "Value":2600
+      },
+      {
+        "Level":7, "Value":2900
+      },
+      {
+        "Level":8, "Value":3200
+      },
+      {
+        "Level":9, "Value":3500
+      },
+      {
+        "Level":10, "Value":3800
+      },
+      {
+        "Level":11, "Value":4100
+      },
+      {
+        "Level":12, "Value":4400
+      },
+      {
+        "Level":13, "Value":4700
+      },
+      {
+        "Level":14, "Value":5000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"Passive"
   },
   {
     "Id":60000100, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[

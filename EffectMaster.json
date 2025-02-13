@@ -46490,6 +46490,59 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":11420002, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":54
+      },
+      {
+        "Level":2, "Value":60
+      },
+      {
+        "Level":3, "Value":66
+      },
+      {
+        "Level":4, "Value":72
+      },
+      {
+        "Level":5, "Value":78
+      },
+      {
+        "Level":6, "Value":84
+      },
+      {
+        "Level":7, "Value":90
+      },
+      {
+        "Level":8, "Value":96
+      },
+      {
+        "Level":9, "Value":102
+      },
+      {
+        "Level":10, "Value":108
+      },
+      {
+        "Level":11, "Value":114
+      },
+      {
+        "Level":12, "Value":120
+      },
+      {
+        "Level":13, "Value":126
+      },
+      {
+        "Level":14, "Value":132
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":11420101, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":24

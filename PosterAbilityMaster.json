@@ -4258,6 +4258,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":320140, "Name":"えでキャン△", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":320140, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022200
+          }
+        ],
+        "Id":32014001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320150, "Name":"眠れぬ夜に", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":320150, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4492,6 +4505,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":330170, "Name":"分担すれば準備も早いよね", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":330170, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":33017001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330180, "Name":"澄んだ空気とコーヒーの香り", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":330180, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70054200
+          }
+        ],
+        "Id":33018001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":330190, "Name":"冒険は扉をあけて", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":330190, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4591,6 +4630,19 @@
           }
         ],
         "Id":34008001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340100, "Name":"凡才なりの大勝負", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340100, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34010001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -7424,6 +7476,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":3201401, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":320140, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010200
+          }
+        ],
+        "Id":320140101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3201402, "Name":"スコアブースト・集中力", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":320140, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11110200
+          }
+        ],
+        "Id":320140201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3201501, "Name":"スコアブースト・集中力", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：暦が装備", "PosterMasterId":320150, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -8152,6 +8230,84 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":3301701, "Name":"歌唱力アップⅢ", "Description":"自身の歌唱力が[:param11]％上昇", "PosterMasterId":330170, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10130000
+          }
+        ],
+        "Id":330170101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301702, "Name":"スコアブースト・歌唱力Ⅱ", "Description":"センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得", "PosterMasterId":330170, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10920000
+          }
+        ],
+        "Id":330170201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301703, "Name":"「光」追加（SP）Ⅱ", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）", "PosterMasterId":330170, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11920000
+          }
+        ],
+        "Id":330170301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301801, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":330180, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031200
+          }
+        ],
+        "Id":330180101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301802, "Name":"スコアブースト＋", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":330180, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10812200
+          }
+        ],
+        "Id":330180201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3301803, "Name":"「光」獲得（支配）", "Description":"センス発動時、支配系の光「<color=#ff0000>*</color>」を追加で[:param11]個付与　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":330180, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12111200
+          }
+        ],
+        "Id":330180301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3301901, "Name":"演技力アップⅡ＋＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330190, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -8485,6 +8641,45 @@
           }
         ],
         "Id":340080301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401001, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：容が装備", "PosterMasterId":340100, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030204
+          }
+        ],
+        "Id":340100101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401002, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：容が装備", "PosterMasterId":340100, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410204
+          }
+        ],
+        "Id":340100201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401003, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：容が装備", "PosterMasterId":340100, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910204
+          }
+        ],
+        "Id":340100301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

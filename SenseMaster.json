@@ -925,6 +925,11 @@
     "AcquirableGauge":70, "AcquirableScorePercent":110, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130800, "Name":"助手席、空いているぞ", "Description":"[:score]倍のスコアを獲得", "Type":"Support", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":410, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -2622,7 +2627,7 @@
     "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
-    "Id":141410, "Name":"いたずら妖精がご招待", "Description":"<size=28%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×5%上昇させる(この効果は重複する)</size>", "Type":"Support", "PreEffects":[],
+    "Id":141410, "Name":"いたずら妖精がご招待", "Description":"<size=26%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×5%上昇させる(この効果は重複する)</size>", "Type":"Support", "PreEffects":[],
     "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -2731,5 +2736,33 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141470, "Name":"一緒にツーリング！", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにスターアクトスコア[:param11]％UP効果", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20203
+          }
+        ],
+        "Id":1414701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141480, "Name":"空飛ぶテントで", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20082
+          }
+        ],
+        "Id":1414801
+      }
+    ],
+    "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

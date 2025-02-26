@@ -2568,6 +2568,29 @@
     "LeaderSenseMasterId":3, "MaxTalentStage":5
   },
   {
+    "Id":130810, "CharacterBaseMasterId":304, "Name":"穏やかな昼下がり", "Description":"", "Rarity":"Rare3", "Attribute":"Cool", "MinLevelStatus":{
+      "Vocal":80, "Expression":87, "Concentration":103
+    },
+    "StarActMasterId":130811, "AwakenStarActMasterId":130811, "SenseMasterId":130810, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":30002, "SenseEnhanceItemGroupMasterId":3, "FirstEpisodeReleaseItemGroupId":321, "SecondEpisodeReleaseItemGroupId":322, "CharacterAwakeningItemGroupMasterId":32, "DisplayStartAt":"2025-02-28 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベントで入手", "Categories":[
+      {
+        "CategoryMasterId":2003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":5002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7051, "IsAwaken":false
+      }
+    ],
+    "LeaderSenseMasterId":81, "MaxTalentStage":5
+  },
+  {
     "Id":140010, "CharacterBaseMasterId":101, "Name":"悲哀と恋慕の旋律", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
       "Vocal":107, "Expression":118, "Concentration":120
     },
@@ -6488,5 +6511,57 @@
       }
     ],
     "LeaderSenseMasterId":203, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-02-18 17:00:00"
+  },
+  {
+    "Id":141490, "CharacterBaseMasterId":305, "Name":"コンクリート・ジャム", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
+      "Vocal":112, "Expression":121, "Concentration":144
+    },
+    "StarActMasterId":141491, "AwakenStarActMasterId":141491, "SenseMasterId":141490, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40149, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":421, "SecondEpisodeReleaseItemGroupId":422, "CharacterAwakeningItemGroupMasterId":42, "DisplayStartAt":"2025-02-28 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Categories":[
+      {
+        "CategoryMasterId":2003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":3001, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7051, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":3005, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":204, "MaxTalentStage":5
+  },
+  {
+    "Id":141500, "CharacterBaseMasterId":303, "Name":"ストリート・スクリプト", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
+      "Vocal":135, "Expression":153, "Concentration":94
+    },
+    "StarActMasterId":141501, "AwakenStarActMasterId":141501, "SenseMasterId":141500, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40150, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":421, "SecondEpisodeReleaseItemGroupId":422, "CharacterAwakeningItemGroupMasterId":42, "DisplayStartAt":"2025-02-28 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Categories":[
+      {
+        "CategoryMasterId":2003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":3005, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7051, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":3006, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":159, "MaxTalentStage":5
   }
 ]

@@ -1736,7 +1736,7 @@
     "HasMovie":false, "AttentionGachaTextTemplateMasterId":11009, "IsForceDisplay":false, "IsHideEndDate":false, "UnlockType":"None", "Order":50, "GroupType":"Actor", "RollBonuses":[]
   },
   {
-    "Id":1843, "Name":"シリウススペシャルセレクトピックアップガチャ", "CardType":"Character", "GachaType":"PickupSelection", "GachaTextTemplateMasterId":1843, "StartDate":"2100-01-01 00:00:00", "EndDate":"2025-03-09 17:00:00", "BonusThings":[
+    "Id":1843, "Name":"シリウススペシャルセレクトピックアップガチャ", "CardType":"Character", "GachaType":"PickupSelection", "GachaTextTemplateMasterId":1843, "StartDate":"2025-02-28 17:00:00", "EndDate":"2025-03-09 17:00:00", "BonusThings":[
       {
         "Id":184301, "ThingId":411843, "ThingType":"Item", "ThingQuantity":1
       }
@@ -2130,7 +2130,23 @@
         "Id":1843141380, "ThingId":141380, "ThingType":"Character", "ThingQuantity":1, "IsSelectable":true
       }
     ],
-    "HasMovie":false, "AttentionGachaTextTemplateMasterId":11004, "IsForceDisplay":false, "IsHideEndDate":false, "UnlockType":"None", "Order":80, "GroupType":"Pickup", "RollBonuses":[]
+    "HasMovie":false, "AttentionGachaTextTemplateMasterId":11004, "IsForceDisplay":false, "IsHideEndDate":false, "UnlockType":"None", "Order":80, "GroupType":"Pickup", "RollBonuses":[
+      {
+        "Id":184301, "RollCount":40, "ThingId":120002, "ThingType":"Item", "ThingQuantity":100
+      },
+      {
+        "Id":184302, "RollCount":80, "ThingId":130051, "ThingType":"Item", "ThingQuantity":20
+      },
+      {
+        "Id":184303, "RollCount":120, "ThingId":140000, "ThingType":"Item", "ThingQuantity":200
+      },
+      {
+        "Id":184304, "RollCount":160, "ThingId":130043, "ThingType":"Item", "ThingQuantity":150
+      },
+      {
+        "Id":184305, "RollCount":200, "ThingId":150000, "ThingType":"Item", "ThingQuantity":100
+      }
+    ]
   },
   {
     "Id":1870, "Name":"スタンダードアクターガチャ", "CardType":"Character", "GachaType":"Stationary", "GachaTextTemplateMasterId":1860, "StartDate":"2025-02-01 05:00:00", "EndDate":"2025-03-01 05:00:00", "BonusThings":[
@@ -4877,7 +4893,7 @@
     "HasMovie":false, "AttentionGachaTextTemplateMasterId":11010, "IsForceDisplay":false, "IsHideEndDate":true, "UnlockType":"None", "Order":1925, "GroupType":"Actor", "RollBonuses":[]
   },
   {
-    "Id":1926, "Name":"★4シリウスアクター2人確定ガチャ", "CardType":"Character", "GachaType":"SpecialTicket", "GachaTextTemplateMasterId":1926, "StartDate":"2100-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "BonusThings":[],
+    "Id":1926, "Name":"★4シリウスアクター2人確定ガチャ", "CardType":"Character", "GachaType":"SpecialTicket", "GachaTextTemplateMasterId":1926, "StartDate":"2025-02-28 17:00:00", "EndDate":"2100-01-01 00:00:00", "BonusThings":[],
     "GachaDetails":[
       {
         "Id":192600, "RequiredTicketMItemId":210417, "RequiredTicketQuantity":1, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":2, "ButtonType":"TenSeriesTicket", "DetailBonusThings":[]
@@ -6391,7 +6407,7 @@
     "HasMovie":false, "AttentionGachaTextTemplateMasterId":12001, "IsForceDisplay":false, "IsHideEndDate":false, "UnlockType":"None", "Order":30, "GroupType":"Pickup", "RollBonuses":[]
   },
   {
-    "Id":2090, "Name":"シリウススペシャルピックアップガチャ", "CardType":"Poster", "GachaType":"Pickup", "GachaTextTemplateMasterId":2090, "StartDate":"2100-01-01 00:00:00", "EndDate":"2025-03-09 17:00:00", "BonusThings":[
+    "Id":2090, "Name":"シリウススペシャルピックアップガチャ", "CardType":"Poster", "GachaType":"Pickup", "GachaTextTemplateMasterId":2090, "StartDate":"2025-02-28 17:00:00", "EndDate":"2025-03-09 17:00:00", "BonusThings":[
       {
         "Id":209001, "ThingId":412090, "ThingType":"Item", "ThingQuantity":1
       }
@@ -6614,7 +6630,23 @@
         "Id":2090230540, "ThingId":230540, "ThingType":"Poster", "ThingQuantity":1, "PickupOrder":3, "IsSelectable":false
       }
     ],
-    "HasMovie":false, "AttentionGachaTextTemplateMasterId":12001, "IsForceDisplay":false, "IsHideEndDate":false, "UnlockType":"None", "Order":90, "GroupType":"Pickup", "RollBonuses":[]
+    "HasMovie":false, "AttentionGachaTextTemplateMasterId":12001, "IsForceDisplay":false, "IsHideEndDate":false, "UnlockType":"None", "Order":90, "GroupType":"Pickup", "RollBonuses":[
+      {
+        "Id":209001, "RollCount":40, "ThingId":130062, "ThingType":"Item", "ThingQuantity":250
+      },
+      {
+        "Id":209002, "RollCount":80, "ThingId":130063, "ThingType":"Item", "ThingQuantity":250
+      },
+      {
+        "Id":209003, "RollCount":120, "ThingId":130064, "ThingType":"Item", "ThingQuantity":100
+      },
+      {
+        "Id":209004, "RollCount":160, "ThingId":130071, "ThingType":"Item", "ThingQuantity":5
+      },
+      {
+        "Id":209005, "RollCount":200, "ThingId":130071, "ThingType":"Item", "ThingQuantity":10
+      }
+    ]
   },
   {
     "Id":2860, "Name":"スタンダードポスターガチャ", "CardType":"Poster", "GachaType":"Stationary", "GachaTextTemplateMasterId":2860, "StartDate":"2024-04-10 17:00:00", "EndDate":"2100-01-01 00:00:00", "BonusThings":[
@@ -7333,7 +7365,7 @@
     "HasMovie":false, "AttentionGachaTextTemplateMasterId":12002, "IsForceDisplay":false, "IsHideEndDate":true, "UnlockType":"None", "Order":2908, "GroupType":"Poster", "RollBonuses":[]
   },
   {
-    "Id":2919, "Name":"SSRシリウスポスター確定ガチャ", "CardType":"Poster", "GachaType":"SpecialTicket", "GachaTextTemplateMasterId":2919, "StartDate":"2100-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00", "BonusThings":[],
+    "Id":2919, "Name":"SSRシリウスポスター確定ガチャ", "CardType":"Poster", "GachaType":"SpecialTicket", "GachaTextTemplateMasterId":2919, "StartDate":"2025-02-28 17:00:00", "EndDate":"2100-01-01 00:00:00", "BonusThings":[],
     "GachaDetails":[
       {
         "Id":291900, "RequiredTicketMItemId":211411, "RequiredTicketQuantity":1, "IsFree":false, "PrizeCount":10, "FixedPrizeCount":1, "ButtonType":"TenSeriesTicket", "DetailBonusThings":[]

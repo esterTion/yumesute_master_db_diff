@@ -2591,6 +2591,29 @@
     "LeaderSenseMasterId":81, "MaxTalentStage":5
   },
   {
+    "Id":130820, "CharacterBaseMasterId":405, "Name":"最前列の景色", "Description":"", "Rarity":"Rare3", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":109, "Expression":60, "Concentration":104
+    },
+    "StarActMasterId":130821, "AwakenStarActMasterId":130821, "SenseMasterId":130820, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":30002, "SenseEnhanceItemGroupMasterId":3, "FirstEpisodeReleaseItemGroupId":341, "SecondEpisodeReleaseItemGroupId":342, "CharacterAwakeningItemGroupMasterId":34, "DisplayStartAt":"2025-03-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベントで入手", "Categories":[
+      {
+        "CategoryMasterId":2004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1001, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":6007, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7508, "IsAwaken":false
+      }
+    ],
+    "LeaderSenseMasterId":3, "MaxTalentStage":5
+  },
+  {
     "Id":140010, "CharacterBaseMasterId":101, "Name":"悲哀と恋慕の旋律", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
       "Vocal":107, "Expression":118, "Concentration":120
     },
@@ -3897,7 +3920,7 @@
         "CategoryMasterId":8006, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":104, "MaxTalentStage":5
+    "LeaderSenseMasterId":104, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-10 17:00:00"
   },
   {
     "Id":140490, "CharacterBaseMasterId":303, "Name":"あなたにだけのプレゼント", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -4250,7 +4273,7 @@
         "CategoryMasterId":7022, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":122, "MaxTalentStage":5
+    "LeaderSenseMasterId":122, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-16 17:00:00"
   },
   {
     "Id":140660, "CharacterBaseMasterId":104, "Name":"いちばんたいせつなことは", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
@@ -4279,7 +4302,7 @@
         "CategoryMasterId":7024, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":29, "MaxTalentStage":5
+    "LeaderSenseMasterId":29, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-10 17:00:00"
   },
   {
     "Id":140670, "CharacterBaseMasterId":101, "Name":"夜空を見れば、思い出す", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
@@ -4528,7 +4551,7 @@
         "CategoryMasterId":8005, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":94, "MaxTalentStage":5
+    "LeaderSenseMasterId":94, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-16 17:00:00"
   },
   {
     "Id":140760, "CharacterBaseMasterId":204, "Name":"初めての恋は成就したか", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -4557,7 +4580,7 @@
         "CategoryMasterId":8002, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":72, "MaxTalentStage":5
+    "LeaderSenseMasterId":72, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-16 17:00:00"
   },
   {
     "Id":140770, "CharacterBaseMasterId":203, "Name":"正しくあるべき人の道を説く", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -4719,7 +4742,7 @@
         "CategoryMasterId":7032, "IsAwaken":false
       }
     ],
-    "LeaderSenseMasterId":38, "MaxTalentStage":5
+    "LeaderSenseMasterId":38, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-16 17:00:00"
   },
   {
     "Id":140830, "CharacterBaseMasterId":104, "Name":"ペンギン・ア・ゴーゴー！", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
@@ -5307,7 +5330,7 @@
         "CategoryMasterId":4002, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":164, "MaxTalentStage":5
+    "LeaderSenseMasterId":164, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-10 17:00:00"
   },
   {
     "Id":141040, "CharacterBaseMasterId":106, "Name":"一夜、自由の翼になるよ", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -5437,7 +5460,7 @@
         "CategoryMasterId":8004, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":16, "MaxTalentStage":5
+    "LeaderSenseMasterId":16, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-03-10 17:00:00"
   },
   {
     "Id":141090, "CharacterBaseMasterId":405, "Name":"デンキインザムーーーーーン", "Description":"", "Rarity":"Rare4", "Attribute":"Cute", "MinLevelStatus":{
@@ -6563,5 +6586,57 @@
       }
     ],
     "LeaderSenseMasterId":159, "MaxTalentStage":5
+  },
+  {
+    "Id":141510, "CharacterBaseMasterId":404, "Name":"春めく花園を切り取って", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":91, "Expression":87, "Concentration":161
+    },
+    "StarActMasterId":141511, "AwakenStarActMasterId":141511, "SenseMasterId":141510, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40151, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":441, "SecondEpisodeReleaseItemGroupId":442, "CharacterAwakeningItemGroupMasterId":44, "DisplayStartAt":"2025-03-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャで入手", "Categories":[
+      {
+        "CategoryMasterId":2004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7508, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4003, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":205, "MaxTalentStage":5
+  },
+  {
+    "Id":141520, "CharacterBaseMasterId":403, "Name":"昼下がりのPhoto Spring", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":159, "Expression":94, "Concentration":85
+    },
+    "StarActMasterId":141521, "AwakenStarActMasterId":141521, "SenseMasterId":141520, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40152, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":441, "SecondEpisodeReleaseItemGroupId":442, "CharacterAwakeningItemGroupMasterId":44, "DisplayStartAt":"2025-03-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャで入手", "Categories":[
+      {
+        "CategoryMasterId":2004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":3004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7508, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4002, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":194, "MaxTalentStage":5
   }
 ]

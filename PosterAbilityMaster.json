@@ -4661,6 +4661,51 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":330250, "Name":"絶えず希い望む", "Description":"全アクターの演技力が[:param11]%上昇", "PosterMasterId":330250, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":33025001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330251, "Name":"歌唱力アップ++", "Description":"シリウスまたは劇団電姫に所属するアクターの歌唱力が[:param11]％上昇", "PosterMasterId":330250, "Type":"Leader", "FrameNumber":2, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":72060100
+          },
+          {
+            "Order":2, "EffectMasterId":72060400
+          }
+        ],
+        "Id":33025101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330252, "Name":"集中力アップ++", "Description":"Edenまたは銀河座に所属するアクターの集中力が[:param11]％上昇", "PosterMasterId":330250, "Type":"Leader", "FrameNumber":3, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":72060200
+          },
+          {
+            "Order":2, "EffectMasterId":72060300
+          }
+        ],
+        "Id":33025201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":340010, "Name":"いつか夢を叶える日まで", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -8784,6 +8829,71 @@
           }
         ],
         "Id":330240301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302501, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330250, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030000
+          }
+        ],
+        "Id":330250101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302502, "Name":"「光」獲得数増加Ⅱ", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：シリウス・劇団電姫に所属するアクターが装備", "PosterMasterId":330250, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810500
+          }
+        ],
+        "Id":330250201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302503, "Name":"スコアブースト・歌唱力Ⅲ＋＋", "Description":"センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：シリウス・劇団電姫に所属するアクターが装備", "PosterMasterId":330250, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10930500
+          }
+        ],
+        "Id":330250301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302504, "Name":"「光」獲得数増加Ⅱ", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：Eden・銀河座に所属するアクターが装備", "PosterMasterId":330250, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810600
+          }
+        ],
+        "Id":330250401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3302505, "Name":"スコアブースト・集中力Ⅲ＋＋", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：Eden・銀河座に所属するアクターが装備", "PosterMasterId":330250, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11132600
+          }
+        ],
+        "Id":330250501
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

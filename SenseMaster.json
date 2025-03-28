@@ -949,6 +949,11 @@
     "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130840, "Name":"数式はここに当てはめて……", "Description":"[:score]倍のスコアを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":490, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -2849,5 +2854,65 @@
     "Id":141540, "Name":"密やかに微笑む美の肖像", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「増幅の光」を1個獲得する", "Type":"Special", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141550, "Name":"霹靂は夜雨を駆け", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20096
+          }
+        ],
+        "Id":1415501
+      }
+    ],
+    "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141560, "Name":"アンタには一発で充分", "Description":"<size=26%>[:score]倍のスコアを獲得／センス発動時、編成されている劇団電姫アクターの演技力と演技力上限を、編成されている劇団電姫アクターの人数×3%上昇させる(この効果は重複する)</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20656
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1415601
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20657
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1415602
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20658
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1415603
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20659
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1415604
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20660
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1415605
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"CompanyMemberCount", "ConditionValue1":4, "BranchCondition2":"None"
   }
 ]

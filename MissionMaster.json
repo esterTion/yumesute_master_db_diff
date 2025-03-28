@@ -8318,5 +8318,93 @@
         ]
       }
     ]
+  },
+  {
+    "Id":400840, "MissionCategory":"Limit", "MissionViewOrder":100000, "Title":"", "Description":"【新生活ミッション1】公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-04-05 17:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400840, "MissionStageOrder":1, "StageGoalValue":50, "StartDate":"2025-04-05 17:00:00", "Rewards":[
+          {
+            "ThingId":120002, "ThingType":"Item", "ThingQuantity":200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400850, "MissionCategory":"Limit", "MissionViewOrder":100010, "Title":"", "Description":"【新生活ミッション2】稽古を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-04-06 05:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400850, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2025-04-06 05:00:00", "Rewards":[
+          {
+            "ThingId":130051, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400860, "MissionCategory":"Limit", "MissionViewOrder":100020, "Title":"", "Description":"【新生活ミッション3】スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2025-04-07 05:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400860, "MissionStageOrder":1, "StageGoalValue":1000, "StartDate":"2025-04-07 05:00:00", "Rewards":[
+          {
+            "ThingId":130061, "ThingType":"Item", "ThingQuantity":650
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400870, "MissionCategory":"Limit", "MissionViewOrder":100030, "Title":"", "Description":"【新生活ミッション4】演劇リーグを[:param]回プレイしよう", "JumpType":"Live", "StartDate":"2025-04-08 05:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400870, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-04-08 05:00:00", "Rewards":[
+          {
+            "ThingId":130062, "ThingType":"Item", "ThingQuantity":450
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400880, "MissionCategory":"Limit", "MissionViewOrder":100040, "Title":"", "Description":"【新生活ミッション5】ノーツを累計[:param]回タップしよう", "JumpType":"Live", "StartDate":"2025-04-09 05:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400880, "MissionStageOrder":1, "StageGoalValue":5000, "StartDate":"2025-04-09 05:00:00", "Rewards":[
+          {
+            "ThingId":130042, "ThingType":"Item", "ThingQuantity":250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400910, "MissionCategory":"Limit", "MissionViewOrder":100070, "Title":"", "Description":"【新生活ミッション8】スターアクトを累計[:param]回発動しよう", "JumpType":"Live", "StartDate":"2025-04-12 05:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400910, "MissionStageOrder":1, "StageGoalValue":100, "StartDate":"2025-04-12 05:00:00", "Rewards":[
+          {
+            "ThingId":130064, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400920, "MissionCategory":"Limit", "MissionViewOrder":100080, "Title":"", "Description":"新生活ミッション1～8のうち、いずれか4つをクリアしよう", "JumpType":"None", "StartDate":"2025-04-05 17:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400920, "MissionStageOrder":1, "StageGoalValue":4, "StartDate":"2025-04-05 17:00:00", "Rewards":[
+          {
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":400930, "MissionCategory":"Limit", "MissionViewOrder":100090, "Title":"", "Description":"新生活ミッション1～8を全てクリアしよう", "JumpType":"None", "StartDate":"2025-04-05 17:00:00", "EndDate":"2025-04-20 17:00:00", "Stages":[
+      {
+        "Id":400930, "MissionStageOrder":1, "StageGoalValue":8, "StartDate":"2025-04-05 17:00:00", "Rewards":[
+          {
+            "ThingId":210423, "ThingType":"Item", "ThingQuantity":1
+          }
+        ]
+      }
+    ]
   }
 ]

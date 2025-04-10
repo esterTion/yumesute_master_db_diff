@@ -2978,6 +2978,28 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":20603, "Type":"PrincipalGaugeBonus", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":200
+      },
+      {
+        "Level":2, "Value":400
+      },
+      {
+        "Level":3, "Value":600
+      },
+      {
+        "Level":4, "Value":800
+      },
+      {
+        "Level":5, "Value":1000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":20605, "Type":"SenseScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":4700

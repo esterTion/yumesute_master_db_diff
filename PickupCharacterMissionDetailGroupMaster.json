@@ -4694,5 +4694,111 @@
         ]
       }
     ]
+  },
+  {
+    "Id":90, "Details":[
+      {
+        "Id":9001, "Order":1, "CheckCondition":"Level", "Description":"レベルを50まで上げよう", "GoalValue":50, "Rewards":[
+          {
+            "ThingId":144157, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "Id":9002, "Order":2, "CheckCondition":"Level", "Description":"レベルを50まで上げよう", "GoalValue":50, "Rewards":[
+          {
+            "ThingId":154157, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "Id":9003, "Order":3, "CheckCondition":"AwakeningPhase", "Description":"覚醒しよう", "GoalValue":1, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":500
+          }
+        ]
+      },
+      {
+        "Id":9004, "Order":4, "CheckCondition":"TalentStage", "Description":"才能開花段階を3まで上げよう", "GoalValue":3, "Rewards":[
+          {
+            "ThingId":150000, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      },
+      {
+        "Id":9005, "Order":5, "CheckCondition":"SenseLevel", "Description":"センスレベルを5まで上げよう", "GoalValue":5, "Rewards":[
+          {
+            "ThingId":130043, "ThingType":"Item", "ThingQuantity":50
+          }
+        ]
+      },
+      {
+        "Id":9006, "Order":6, "CheckCondition":"EpisodeOrder", "Description":"サイドストーリーを2話読もう", "GoalValue":2, "Rewards":[
+          {
+            "ThingId":144157, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "Id":9007, "Order":7, "CheckCondition":"EpisodeOrder", "Description":"サイドストーリーを2話読もう", "GoalValue":2, "Rewards":[
+          {
+            "ThingId":154157, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":91, "Details":[
+      {
+        "Id":9101, "Order":1, "CheckCondition":"Level", "Description":"レベルを50まで上げよう", "GoalValue":50, "Rewards":[
+          {
+            "ThingId":144158, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "Id":9102, "Order":2, "CheckCondition":"Level", "Description":"レベルを50まで上げよう", "GoalValue":50, "Rewards":[
+          {
+            "ThingId":154158, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "Id":9103, "Order":3, "CheckCondition":"AwakeningPhase", "Description":"覚醒しよう", "GoalValue":1, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":500
+          }
+        ]
+      },
+      {
+        "Id":9104, "Order":4, "CheckCondition":"TalentStage", "Description":"才能開花段階を3まで上げよう", "GoalValue":3, "Rewards":[
+          {
+            "ThingId":150000, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      },
+      {
+        "Id":9105, "Order":5, "CheckCondition":"SenseLevel", "Description":"センスレベルを5まで上げよう", "GoalValue":5, "Rewards":[
+          {
+            "ThingId":130043, "ThingType":"Item", "ThingQuantity":50
+          }
+        ]
+      },
+      {
+        "Id":9106, "Order":6, "CheckCondition":"EpisodeOrder", "Description":"サイドストーリーを2話読もう", "GoalValue":2, "Rewards":[
+          {
+            "ThingId":144158, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "Id":9107, "Order":7, "CheckCondition":"EpisodeOrder", "Description":"サイドストーリーを2話読もう", "GoalValue":2, "Rewards":[
+          {
+            "ThingId":154158, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      }
+    ]
   }
 ]

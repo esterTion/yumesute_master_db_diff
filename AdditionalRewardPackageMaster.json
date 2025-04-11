@@ -442,14 +442,6 @@
     "Etcetera":false, "StartDate":"2024-12-31 15:00:00", "EndDate":"2025-01-10 17:00:00", "Order":11240
   },
   {
-    "Id":1203, "Description":"スタミナを消費", "LiveSettingMasterId":12, "Rewards":[
-      {
-        "ThingId":120001, "ThingType":"Item", "ThingQuantity":0
-      }
-    ],
-    "Etcetera":false, "Order":12030
-  },
-  {
     "Id":1204, "Description":"スタミナを消費 + スターアクト発動(確率で獲得)", "LiveSettingMasterId":12, "Rewards":[
       {
         "ThingId":120001, "ThingType":"Item", "ThingQuantity":0
@@ -485,34 +477,6 @@
       }
     ],
     "Etcetera":true, "Order":12050
-  },
-  {
-    "Id":1206, "Description":"スタミナを消費 + スコア1,000,000以上", "LiveSettingMasterId":12, "Rewards":[
-      {
-        "ThingId":130063, "ThingType":"Item", "ThingQuantity":0
-      },
-      {
-        "ThingId":130062, "ThingType":"Item", "ThingQuantity":0
-      },
-      {
-        "ThingId":130061, "ThingType":"Item", "ThingQuantity":0
-      }
-    ],
-    "Etcetera":false, "Order":12060
-  },
-  {
-    "Id":1207, "Description":"スタミナを消費 + スターアクト発動", "LiveSettingMasterId":12, "Rewards":[
-      {
-        "ThingId":130062, "ThingType":"Item", "ThingQuantity":0
-      },
-      {
-        "ThingId":130061, "ThingType":"Item", "ThingQuantity":0
-      },
-      {
-        "ThingId":120001, "ThingType":"Item", "ThingQuantity":0
-      }
-    ],
-    "Etcetera":false, "Order":12070
   },
   {
     "Id":1208, "Description":"スタミナを消費　～2024年1月10日 17:00", "LiveSettingMasterId":12, "Rewards":[

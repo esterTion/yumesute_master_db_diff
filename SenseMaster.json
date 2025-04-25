@@ -2971,5 +2971,105 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141610, "Name":"良妻は慈母の視線を向ける", "Description":"[:score]倍のスコアを獲得／付与されているライフガード1回につきスコア獲得量8％上昇（最大＋80％）", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29130
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1416101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29131
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1416102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29132
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1416103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29133
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1416104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29134
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":1416105
+      },
+      {
+        "Order":6, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29135
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":6, "Id":1416106
+      },
+      {
+        "Order":7, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29136
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":7, "Id":1416107
+      },
+      {
+        "Order":8, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29137
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":8, "Id":1416108
+      },
+      {
+        "Order":9, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29138
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":9, "Id":1416109
+      },
+      {
+        "Order":10, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29139
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":10, "Id":1416110
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
+  },
+  {
+    "Id":141620, "Name":"真実は数奇かつ残酷で", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「ライフガード」を[:param11]回獲得する", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29301
+          }
+        ],
+        "Id":1416201
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":200, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

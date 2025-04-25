@@ -2213,5 +2213,247 @@
     "Id":141601, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得", "StarActConditionMasterId":104111, "AcquirableScorePercent":970, "ScoreUpPerLevel":100, "PreEffects":[],
     "Branches":[],
     "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141611, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得/消費するライフガード1回につきスコア獲得量15％上昇（最大＋150％）", "StarActConditionMasterId":101214, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19200
+          },
+          {
+            "Order":2, "EffectMasterId":19150
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14161101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19201
+          },
+          {
+            "Order":2, "EffectMasterId":19151
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14161102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19202
+          },
+          {
+            "Order":2, "EffectMasterId":19152
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14161103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19203
+          },
+          {
+            "Order":2, "EffectMasterId":19153
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14161104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19204
+          },
+          {
+            "Order":2, "EffectMasterId":19154
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":14161105
+      },
+      {
+        "Order":6, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19205
+          },
+          {
+            "Order":2, "EffectMasterId":19155
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":6, "Id":14161106
+      },
+      {
+        "Order":7, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19206
+          },
+          {
+            "Order":2, "EffectMasterId":19156
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":7, "Id":14161107
+      },
+      {
+        "Order":8, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19207
+          },
+          {
+            "Order":2, "EffectMasterId":19157
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":8, "Id":14161108
+      },
+      {
+        "Order":9, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19208
+          },
+          {
+            "Order":2, "EffectMasterId":19158
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":9, "Id":14161109
+      },
+      {
+        "Order":10, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19209
+          },
+          {
+            "Order":2, "EffectMasterId":19159
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":10, "Id":14161110
+      }
+    ],
+    "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
+  },
+  {
+    "Id":141621, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得/付与されているライフガード1回につきスコア獲得量8％上昇（最大＋120％）", "StarActConditionMasterId":101232, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19250
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14162101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19251
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14162102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19252
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14162103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19253
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14162104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19254
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":14162105
+      },
+      {
+        "Order":6, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19255
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":6, "Id":14162106
+      },
+      {
+        "Order":7, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19256
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":7, "Id":14162107
+      },
+      {
+        "Order":8, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19257
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":8, "Id":14162108
+      },
+      {
+        "Order":9, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19258
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":9, "Id":14162109
+      },
+      {
+        "Order":10, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19259
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":10, "Id":14162110
+      },
+      {
+        "Order":11, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19260
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":11, "Id":14162111
+      },
+      {
+        "Order":12, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19261
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":12, "Id":14162112
+      },
+      {
+        "Order":13, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19262
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":13, "Id":14162113
+      },
+      {
+        "Order":14, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19263
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":14, "Id":14162114
+      },
+      {
+        "Order":15, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19264
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":15, "Id":14162115
+      }
+    ],
+    "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
   }
 ]

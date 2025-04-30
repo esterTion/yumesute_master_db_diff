@@ -965,7 +965,16 @@
   },
   {
     "Id":130870, "Name":"変わるあの子を見て", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Special", "PreEffects":[],
-    "Branches":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1308701
+      }
+    ],
     "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {

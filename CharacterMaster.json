@@ -2729,6 +2729,29 @@
     "LeaderSenseMasterId":24, "MaxTalentStage":5
   },
   {
+    "Id":130880, "CharacterBaseMasterId":205, "Name":"ピースメーカーは追い求める", "Description":"", "Rarity":"Rare3", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":84, "Expression":85, "Concentration":101
+    },
+    "StarActMasterId":130881, "AwakenStarActMasterId":130881, "SenseMasterId":130880, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":30002, "SenseEnhanceItemGroupMasterId":3, "FirstEpisodeReleaseItemGroupId":341, "SecondEpisodeReleaseItemGroupId":342, "CharacterAwakeningItemGroupMasterId":34, "DisplayStartAt":"2025-05-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"イベント(コラボ)で入手", "Categories":[
+      {
+        "CategoryMasterId":2002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1001, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7510, "IsAwaken":false
+      }
+    ],
+    "LeaderSenseMasterId":53, "MaxTalentStage":5
+  },
+  {
     "Id":140010, "CharacterBaseMasterId":101, "Name":"悲哀と恋慕の旋律", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
       "Vocal":107, "Expression":118, "Concentration":120
     },
@@ -5387,7 +5410,7 @@
         "CategoryMasterId":8004, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":160, "MaxTalentStage":5
+    "LeaderSenseMasterId":160, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-05-15 17:00:00"
   },
   {
     "Id":141020, "CharacterBaseMasterId":203, "Name":"スカイブルーにも届くかも", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
@@ -5549,7 +5572,7 @@
         "CategoryMasterId":8002, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":166, "MaxTalentStage":5
+    "LeaderSenseMasterId":166, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-05-15 17:00:00"
   },
   {
     "Id":141080, "CharacterBaseMasterId":404, "Name":"デンキウィズザ……！？", "Description":"", "Rarity":"Rare4", "Attribute":"Cute", "MinLevelStatus":{
@@ -5679,7 +5702,7 @@
         "CategoryMasterId":8004, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":169, "MaxTalentStage":5
+    "LeaderSenseMasterId":169, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-05-15 17:00:00"
   },
   {
     "Id":141130, "CharacterBaseMasterId":106, "Name":"過ぎた時を悔いても", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
@@ -5893,7 +5916,7 @@
         "CategoryMasterId":4002, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":176, "MaxTalentStage":5
+    "LeaderSenseMasterId":176, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-05-15 17:00:00"
   },
   {
     "Id":141210, "CharacterBaseMasterId":305, "Name":"HANG IN THERE!", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
@@ -7071,5 +7094,57 @@
       }
     ],
     "LeaderSenseMasterId":216, "MaxTalentStage":5
+  },
+  {
+    "Id":141650, "CharacterBaseMasterId":201, "Name":"燃え尽きぬ復讐の炎", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":98, "Expression":119, "Concentration":166
+    },
+    "StarActMasterId":141651, "AwakenStarActMasterId":141651, "SenseMasterId":141650, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40165, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":441, "SecondEpisodeReleaseItemGroupId":442, "CharacterAwakeningItemGroupMasterId":44, "DisplayStartAt":"2025-05-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(コラボ限定)で入手", "Categories":[
+      {
+        "CategoryMasterId":2002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4001, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7510, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8006, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":203, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-05-10 17:00:00"
+  },
+  {
+    "Id":141660, "CharacterBaseMasterId":202, "Name":"夢現に絡めとられて", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
+      "Vocal":122, "Expression":165, "Concentration":96
+    },
+    "StarActMasterId":141661, "AwakenStarActMasterId":141661, "SenseMasterId":141660, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40166, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":441, "SecondEpisodeReleaseItemGroupId":442, "CharacterAwakeningItemGroupMasterId":44, "DisplayStartAt":"2025-05-10 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(コラボ限定)で入手", "Categories":[
+      {
+        "CategoryMasterId":2002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":5004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7510, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8004, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":217, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-05-10 17:00:00"
   }
 ]

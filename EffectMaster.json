@@ -35930,7 +35930,7 @@
     "FireTimingType":"StartLive"
   },
   {
-    "Id":1000080, "Type":"PerformanceUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+    "Id":1000080, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":900
       },
@@ -36004,7 +36004,7 @@
     "FireTimingType":"StartLive"
   },
   {
-    "Id":1000100, "Type":"ExpressionUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+    "Id":1000100, "Type":"ExpressionUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":1080
       },
@@ -36078,7 +36078,7 @@
     "FireTimingType":"Passive"
   },
   {
-    "Id":1000120, "Type":"VocalUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+    "Id":1000120, "Type":"VocalUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":1000
       },
@@ -52863,6 +52863,59 @@
     "DurationSecond":0, "Triggers":[
       {
         "Trigger":"Company", "Value":900
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":11820200, "Type":"AddSenseLightSelf", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":1
+      },
+      {
+        "Level":2, "Value":1
+      },
+      {
+        "Level":3, "Value":1
+      },
+      {
+        "Level":4, "Value":1
+      },
+      {
+        "Level":5, "Value":1
+      },
+      {
+        "Level":6, "Value":1
+      },
+      {
+        "Level":7, "Value":1
+      },
+      {
+        "Level":8, "Value":1
+      },
+      {
+        "Level":9, "Value":1
+      },
+      {
+        "Level":10, "Value":1
+      },
+      {
+        "Level":11, "Value":1
+      },
+      {
+        "Level":12, "Value":2
+      },
+      {
+        "Level":13, "Value":2
+      },
+      {
+        "Level":14, "Value":2
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":2
       }
     ],
     "FireTimingType":"Passive"

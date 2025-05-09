@@ -9469,11 +9469,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3302702, "Name":"スコアブースト・表現力Ⅱ＋", "Description":"センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":330270, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+    "Id":3302702, "Name":"スコアブースト・表現力Ⅲ", "Description":"センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":330270, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":11021200
+            "Order":1, "EffectMasterId":11030200
           }
         ],
         "Id":330270201
@@ -9495,11 +9495,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3302801, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":330280, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+    "Id":3302801, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":330280, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":10030000
+            "Order":1, "EffectMasterId":10031000
           }
         ],
         "Id":330280101
@@ -9508,11 +9508,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3302802, "Name":"初期P.ゲージ上昇Ⅱ", "Description":"公演開始時、P.ゲージが[:param11]上昇", "PosterMasterId":330280, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+    "Id":3302802, "Name":"CTダウンⅢ", "Description":"自身のセンスのCTを[:param11]秒短縮", "PosterMasterId":330280, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":11512000
+            "Order":1, "EffectMasterId":12420000
           }
         ],
         "Id":330280201
@@ -9521,11 +9521,11 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
-    "Id":3302803, "Name":"CTダウンⅢ", "Description":"自身のセンスのCTを[:param11]秒短縮", "PosterMasterId":330280, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+    "Id":3302803, "Name":"スコアブーストⅡ", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得", "PosterMasterId":330280, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":12420000
+            "Order":1, "EffectMasterId":10811000
           }
         ],
         "Id":330280301

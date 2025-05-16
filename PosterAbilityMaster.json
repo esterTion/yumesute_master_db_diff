@@ -2327,6 +2327,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":220750, "Name":"熱でうだるあの子の為に", "Description":"銀河座に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":220750, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022300
+          }
+        ],
+        "Id":22075001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":229010, "Name":"初めての舞台", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":229010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -5005,6 +5018,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":340130, "Name":"共に手を取り合い、高め合う", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340130, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34013001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":340150, "Name":"交わる視線と静かな熱", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340150, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -6378,6 +6404,32 @@
           }
         ],
         "Id":220740201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2207501, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":220750, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010300
+          }
+        ],
+        "Id":220750101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2207502, "Name":"初期P.ゲージ上昇", "Description":"公演開始時、P.ゲージが[:param11]上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":220750, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11510300
+          }
+        ],
+        "Id":220750201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -9945,6 +9997,45 @@
           }
         ],
         "Id":340120301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401301, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：ラモーナが装備", "PosterMasterId":340130, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030302
+          }
+        ],
+        "Id":340130101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401302, "Name":"P.ゲージブースト＋", "Description":"センス発動直後、Pゲージを[:param11]獲得　◆発動条件：ラモーナが装備", "PosterMasterId":340130, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11410302
+          }
+        ],
+        "Id":340130201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3401303, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：ラモーナが装備", "PosterMasterId":340130, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910302
+          }
+        ],
+        "Id":340130301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

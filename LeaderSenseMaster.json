@@ -3579,5 +3579,23 @@
         ]
       }
     ]
+  },
+  {
+    "Id":220, "Description":"「高校生」カテゴリの演技力30%上昇、「ファッション」カテゴリの表現力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":1003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12011, "Conditions":[
+          {
+            "CategoryMasterId1":3006
+          }
+        ]
+      }
+    ]
   }
 ]

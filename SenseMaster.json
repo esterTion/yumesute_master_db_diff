@@ -1007,6 +1007,20 @@
     "AcquirableGauge":90, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None"
   },
   {
+    "Id":130920, "Name":"演習の後はひとやすみ", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20013
+          }
+        ],
+        "Id":1309201
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":140, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
     "Id":140010, "Name":"悲哀と恋慕の旋律", "Description":"[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）", "Type":"Support", "PreEffects":[
       {
         "Order":1, "EffectMasterId":28001
@@ -3349,5 +3363,24 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141730, "Name":"なし", "Description":"効果無し（所持している「光」は維持される）", "Type":"None", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141740, "Name":"作戦立案中です！", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「増幅の光」を1個獲得する／センス発動直後、その時のスコアの[:param11]％のスコアを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20543
+          }
+        ],
+        "Id":1417401
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

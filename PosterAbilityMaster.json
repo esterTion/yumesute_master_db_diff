@@ -4518,6 +4518,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":320180, "Name":"みんなで「ノリノリ」作戦です！", "Description":"劇団電姫に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":320180, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70022400
+          }
+        ],
+        "Id":32018001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":330010, "Name":"共犯者のふたり", "Description":"劇団電姫に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":330010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4935,6 +4948,32 @@
           }
         ],
         "Id":33030001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330310, "Name":"もう一度、お姉ちゃんと――", "Description":"劇団電姫に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":330310, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052400
+          }
+        ],
+        "Id":33031001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330320, "Name":"びりびりチーム、結成です", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":330320, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":33032001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -8507,6 +8546,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":3201801, "Name":"演技力アップ", "Description":"自身の演技力が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":320180, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10010400
+          }
+        ],
+        "Id":320180101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3201802, "Name":"初期P.ゲージ上昇", "Description":"公演開始時、P.ゲージが[:param11]上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":320180, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":7, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11510400
+          }
+        ],
+        "Id":320180201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3300101, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330010, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -9815,6 +9880,97 @@
           }
         ],
         "Id":330300301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303101, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330310, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":330310101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303102, "Name":"P.ゲージブーストⅡ＋", "Description":"センス発動直後、P.ゲージを[:param11]獲得　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":330310, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11421400
+          }
+        ],
+        "Id":330310201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303103, "Name":"「光」追加（SP）Ⅱ", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":330310, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11920400
+          }
+        ],
+        "Id":330310301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303201, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":330320, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":330320101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303202, "Name":"スコアブースト＋", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得", "PosterMasterId":330320, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10812000
+          }
+        ],
+        "Id":330320201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303203, "Name":"P.ゲージ獲得量アップⅡ", "Description":"センスによるP.ゲージの獲得量が[:param11]％UP", "PosterMasterId":330320, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11621000
+          }
+        ],
+        "Id":330320301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303204, "Name":"P.ゲージ上限ブースト", "Description":"センス発動直後、P.ゲージの上限が[:param11]上昇", "PosterMasterId":330320, "Type":"Normal", "FrameNumber":4, "ReleaseLevelAt":10, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13100000
+          }
+        ],
+        "Id":330320401
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

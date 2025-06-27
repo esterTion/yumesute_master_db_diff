@@ -5586,7 +5586,7 @@
         "CategoryMasterId":8004, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":162, "MaxTalentStage":5
+    "LeaderSenseMasterId":162, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-07-01 05:00:00"
   },
   {
     "Id":141050, "CharacterBaseMasterId":104, "Name":"今宵、空灯篭のように", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -6315,7 +6315,7 @@
         "CategoryMasterId":4002, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":188, "MaxTalentStage":5
+    "LeaderSenseMasterId":188, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-07-01 05:00:00"
   },
   {
     "Id":141320, "CharacterBaseMasterId":201, "Name":"楽園の主はいたずら中", "Description":"", "Rarity":"Rare4", "Attribute":"Cheerful", "MinLevelStatus":{
@@ -6341,7 +6341,7 @@
         "CategoryMasterId":4002, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":164, "MaxTalentStage":5
+    "LeaderSenseMasterId":164, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-07-01 05:00:00"
   },
   {
     "Id":141330, "CharacterBaseMasterId":102, "Name":"エリートサンタは夜を駆け", "Description":"", "Rarity":"Rare4", "Attribute":"Cool", "MinLevelStatus":{
@@ -6393,7 +6393,7 @@
         "CategoryMasterId":8004, "IsAwaken":true
       }
     ],
-    "LeaderSenseMasterId":190, "MaxTalentStage":5
+    "LeaderSenseMasterId":190, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-07-01 05:00:00"
   },
   {
     "Id":141350, "CharacterBaseMasterId":404, "Name":"慶賀へ至る富正月", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
@@ -7446,5 +7446,57 @@
       }
     ],
     "LeaderSenseMasterId":210, "MaxTalentStage":6, "MaxTalentStageReleaseDate":"2025-06-20 17:00:00"
+  },
+  {
+    "Id":141750, "CharacterBaseMasterId":205, "Name":"アーサー王のお通りよ！", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
+      "Vocal":123, "Expression":148, "Concentration":107
+    },
+    "StarActMasterId":141751, "AwakenStarActMasterId":141751, "SenseMasterId":141750, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40175, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":431, "SecondEpisodeReleaseItemGroupId":432, "CharacterAwakeningItemGroupMasterId":43, "DisplayStartAt":"2025-06-30 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Categories":[
+      {
+        "CategoryMasterId":2002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1001, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4004, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7059, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":4006, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":223, "MaxTalentStage":5
+  },
+  {
+    "Id":141760, "CharacterBaseMasterId":104, "Name":"お待ちしてました、勇者様♪", "Description":"", "Rarity":"Rare4", "Attribute":"Colorful", "MinLevelStatus":{
+      "Vocal":146, "Expression":104, "Concentration":129
+    },
+    "StarActMasterId":141761, "AwakenStarActMasterId":141761, "SenseMasterId":141760, "ForbidGenericItemBloom":false, "BloomBonusGroupMasterId":40176, "SenseEnhanceItemGroupMasterId":4, "FirstEpisodeReleaseItemGroupId":431, "SecondEpisodeReleaseItemGroupId":432, "CharacterAwakeningItemGroupMasterId":43, "DisplayStartAt":"2025-06-30 17:00:00", "DisplayEndAt":"2100-01-01 00:00:00", "UnlockText":"ガチャ(期間限定)で入手", "Categories":[
+      {
+        "CategoryMasterId":2001, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":1001, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8003, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8002, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":7059, "IsAwaken":false
+      },
+      {
+        "CategoryMasterId":8006, "IsAwaken":true
+      }
+    ],
+    "LeaderSenseMasterId":222, "MaxTalentStage":5
   }
 ]

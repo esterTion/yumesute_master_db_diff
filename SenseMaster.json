@@ -3382,5 +3382,105 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141750, "Name":"アーサー王のお通りよ！", "Description":"<size=28%>[:score]倍のスコアを獲得／センス発動時に、追加で「増幅の光」を1個獲得する／付与されているライフガード1回につきスコア獲得量8％上昇（最大＋80％）</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29130
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1417501
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29131
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1417502
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29132
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1417503
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29133
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1417504
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29134
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":1417505
+      },
+      {
+        "Order":6, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29135
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":6, "Id":1417506
+      },
+      {
+        "Order":7, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29136
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":7, "Id":1417507
+      },
+      {
+        "Order":8, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29137
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":8, "Id":1417508
+      },
+      {
+        "Order":9, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29138
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":9, "Id":1417509
+      },
+      {
+        "Order":10, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29139
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":10, "Id":1417510
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
+  },
+  {
+    "Id":141760, "Name":"お待ちしてました、勇者様♪", "Description":"<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20082
+          }
+        ],
+        "Id":1417601
+      }
+    ],
+    "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":2, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

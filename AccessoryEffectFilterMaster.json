@@ -15,9 +15,12 @@
     "Id":5, "EffectType":"PrincipalGaugeGain", "Name":"初期P.ゲージ上昇", "StartDate":"2000-01-01 00:00:00", "Order":5
   },
   {
-    "Id":6, "EffectType":"SenseRecastDown", "Name":"CTダウン", "StartDate":"2000-01-01 00:00:00", "Order":7
+    "Id":6, "EffectType":"SenseRecastDown", "Name":"CTダウン", "StartDate":"2000-01-01 00:00:00", "Order":8
   },
   {
     "Id":7, "EffectType":"PrincipalGaugeUp", "Name":"P.ゲージ獲得量アップ ", "StartDate":"2024-05-31 17:00:00", "Order":6
+  },
+  {
+    "Id":8, "EffectType":"PrincipalGaugeLimitUp", "Name":"初期PG上限", "StartDate":"2025-06-30 17:00:00", "Order":7
   }
 ]

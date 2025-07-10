@@ -4871,5 +4871,38 @@
         ]
       }
     ]
+  },
+  {
+    "Id":700007, "MissionCategory":6, "MissionViewOrder":1, "Title":"", "Description":"【ユメステデー】ログインしよう", "JumpType":"None", "StartDate":"2025-07-17 05:00:00", "EndDate":"2025-07-18 05:00:00", "Stages":[
+      {
+        "Id":7000071, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-07-17 05:00:00", "Rewards":[
+          {
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":700008, "MissionCategory":6, "MissionViewOrder":2, "Title":"", "Description":"【ユメステデー】稽古を[:param]回プレイしよう", "JumpType":"Lesson", "StartDate":"2025-07-17 05:00:00", "EndDate":"2025-07-18 05:00:00", "Stages":[
+      {
+        "Id":7000081, "MissionStageOrder":1, "StageGoalValue":2, "StartDate":"2025-07-17 05:00:00", "Rewards":[
+          {
+            "ThingId":215001, "ThingType":"Item", "ThingQuantity":3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":700009, "MissionCategory":6, "MissionViewOrder":3, "Title":"", "Description":"【ユメステデー】公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-07-17 05:00:00", "EndDate":"2025-07-18 05:00:00", "Stages":[
+      {
+        "Id":7000091, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-07-17 05:00:00", "Rewards":[
+          {
+            "ThingId":215002, "ThingType":"Item", "ThingQuantity":3
+          }
+        ]
+      }
+    ]
   }
 ]

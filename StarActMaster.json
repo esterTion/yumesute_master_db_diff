@@ -2652,5 +2652,105 @@
     "Id":141781, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得", "StarActConditionMasterId":101114, "AcquirableScorePercent":970, "ScoreUpPerLevel":100, "PreEffects":[],
     "Branches":[],
     "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141791, "Name":"", "Description":"<size=26%>総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 130%）／ストックされている全ての光1個につき総演技力の[:param11]倍のスコアを獲得(最大5個)</size>", "StarActConditionMasterId":101214, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":19050
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19036
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14179101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19037
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14179102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19038
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14179103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19039
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14179104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19040
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":14179105
+      }
+    ],
+    "BranchCondition1":"StorageSenseLightCount", "ConditionValue1":5, "BranchCondition2":"None"
+  },
+  {
+    "Id":141801, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得／スターアクト発動時、編成されているシリウスアクターの人数×[:param11]秒、センスのCTを短縮する／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）", "StarActConditionMasterId":101142, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":19052
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19320
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14180101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19321
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14180102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19322
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14180103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19323
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14180104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19324
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":14180105
+      }
+    ],
+    "BranchCondition1":"CompanyMemberCount", "ConditionValue1":1, "BranchCondition2":"None"
   }
 ]

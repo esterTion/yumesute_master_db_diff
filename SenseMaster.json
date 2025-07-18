@@ -3501,5 +3501,41 @@
     "Id":141780, "Name":"Dive to Azure!", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時に、追加で「支配の光」を1個獲得する", "Type":"Special", "PreEffects":[],
     "Branches":[],
     "AcquirableGauge":100, "AcquirableScorePercent":180, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141790, "Name":"動乱の街を駆け抜けて", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動後、プリンシパルゲージの上限値が[:param11]上昇／ぱんだが隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>", "Type":"Special", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28007
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20097
+          }
+        ],
+        "Id":1417901
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":141800, "Name":"恵みの雨の下で", "Description":"<size=25%>[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにセンススコア[:param11]％UP効果／知冴が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>", "Type":"Amplification", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28008
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20036
+          }
+        ],
+        "Id":1418001
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

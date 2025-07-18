@@ -3701,5 +3701,55 @@
         ]
       }
     ]
+  },
+  {
+    "Id":226, "Description":"「役者」カテゴリの演技力40%上昇、「舞台」カテゴリの集中力20％上昇、「レ・ミゼラブル」カテゴリの演技力上限が5%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12015, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12041, "Conditions":[
+          {
+            "CategoryMasterId1":6011
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":227, "Description":"「シリウス」カテゴリの演技力40%上昇、「衣装」カテゴリの歌唱力20％上昇、「レ・ミゼラブル」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが10上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2001
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12029, "Conditions":[
+          {
+            "CategoryMasterId1":6011
+          }
+        ]
+      }
+    ]
   }
 ]

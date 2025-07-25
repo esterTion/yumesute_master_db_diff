@@ -3751,5 +3751,30 @@
         ]
       }
     ]
+  },
+  {
+    "Id":228, "Description":"「衣装」カテゴリの演技力40%上昇、「ライバル」カテゴリの歌唱力20％上昇・集中力15%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":8009
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12024, "Conditions":[
+          {
+            "CategoryMasterId1":8009
+          }
+        ]
+      }
+    ]
   }
 ]

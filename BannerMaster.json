@@ -3,10 +3,10 @@
     "Id":1, "Order":100000, "Name":"初心者ミッション", "JumpType":"BeginnerMission", "JumpPageId":"1", "DeleteConditionType":"MissionClear", "DeleteConditionValue":"42", "ImagePath":"Home/1", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00"
   },
   {
-    "Id":2, "Order":99998, "Name":"ログインパス", "JumpType":"JewelShop", "JumpPageId":"2001", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"2001", "ImagePath":"Home/2", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00"
+    "Id":2, "Order":99998, "Name":"ログインパス", "JumpType":"JewelShop", "JumpPageId":"2001", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"2001", "ImagePath":"Home/2", "StartDate":"2023-01-01 00:00:00", "EndDate":"2025-07-26 00:00:00"
   },
   {
-    "Id":3, "Order":99997, "Name":"スターパス／ダイスターパス", "JumpType":"JewelShop", "JumpPageId":"3004", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"3004", "ImagePath":"Home/3", "StartDate":"2023-08-01 05:00:00", "EndDate":"2100-01-01 00:00:00"
+    "Id":3, "Order":99996, "Name":"スターパス／ダイスターパス", "JumpType":"JewelShop", "JumpPageId":"3004", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"3004", "ImagePath":"Home/3", "StartDate":"2023-08-01 05:00:00", "EndDate":"2100-01-01 00:00:00"
   },
   {
     "Id":6, "Order":99999, "Name":"スタートダッシュパック", "JumpType":"JewelShop", "JumpPageId":"4", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"4001", "ImagePath":"Home/6", "StartDate":"2023-01-01 00:00:00", "EndDate":"2100-01-01 00:00:00"
@@ -15,54 +15,75 @@
     "Id":11, "Order":100001, "Name":"Discordサーバー", "JumpType":"Information", "JumpPageId":"338", "DeleteConditionType":"", "ImagePath":"Home/11", "StartDate":"2024-02-05 00:00:00", "EndDate":"2100-01-01 00:00:00"
   },
   {
+    "Id":18, "Order":300, "Name":"2nd_Anniv.記念！お得キャンペーン", "JumpType":"Information", "JumpPageId":"3155", "DeleteConditionType":"", "ImagePath":"Notification/Banner01017", "StartDate":"2025-07-26 17:00:00", "EndDate":"2025-08-09 17:00:00"
+  },
+  {
     "Id":50, "Order":1, "Name":"ユメステWEBショップ", "JumpType":"WebLink", "JumpPageId":"50", "WebLinkType":"WebShop", "DeleteConditionType":"", "ImagePath":"Home/50", "StartDate":"2025-07-26 00:00:00", "EndDate":"2100-01-01 00:00:00"
   },
   {
-    "Id":1107, "Order":1100, "Name":"ユメフェスガチャ", "JumpType":"Gacha", "JumpPageId":"1107", "DeleteConditionType":"", "ImagePath":"Gacha/1107", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":1107, "Order":200, "Name":"ユメフェスガチャ", "JumpType":"Gacha", "JumpPageId":"1107", "DeleteConditionType":"", "ImagePath":"Gacha/1107", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
   },
   {
-    "Id":1113, "Order":1350, "Name":"【復刻】Operation: Game Festival！ガチャ", "JumpType":"Gacha", "JumpPageId":"1113", "DeleteConditionType":"", "ImagePath":"Gacha/1113", "StartDate":"2025-07-26 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":1113, "Order":800, "Name":"【復刻】Operation: Game Festival！ガチャ", "JumpType":"Gacha", "JumpPageId":"1113", "DeleteConditionType":"", "ImagePath":"Gacha/1113", "StartDate":"2025-07-26 17:00:00", "EndDate":"2025-07-31 17:00:00"
   },
   {
-    "Id":1620, "Order":1620, "Name":"BIRTHDAYピックアップガチャ2025【本巣叶羽】", "JumpType":"Gacha", "JumpPageId":"1620", "DeleteConditionType":"", "ImagePath":"Gacha/1620", "StartDate":"2025-07-17 00:00:00", "EndDate":"2025-07-27 00:00:00"
+    "Id":1116, "Order":20, "Name":"ステラフェスガチャ", "JumpType":"Gacha", "JumpPageId":"8540", "DeleteConditionType":"", "ImagePath":"Gacha/8540", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-05 17:00:00"
   },
   {
-    "Id":1811, "Order":3, "Name":"72時間限定！★4アクター3人確定ガチャ", "JumpType":"Gacha", "JumpPageId":"1811", "DeleteConditionType":"TimeLimitedControl", "DeleteConditionValue":"1", "ImagePath":"Gacha/1811", "StartDate":"2024-05-21 17:00:00", "EndDate":"2100-01-01 00:00:00"
+    "Id":1620, "Order":1620, "Name":"BIRTHDAYピックアップガチャ2025【本巣叶羽】", "JumpType":"Gacha", "JumpPageId":"1620", "DeleteConditionType":"", "ImagePath":"Gacha/1620", "StartDate":"2025-07-17 00:00:00", "EndDate":"2025-07-26 00:00:00"
   },
   {
-    "Id":2109, "Order":1500, "Name":"【復刻】Fantasmaガチャ", "JumpType":"Gacha", "JumpPageId":"2109", "DeleteConditionType":"", "ImagePath":"Gacha/2109", "StartDate":"2025-07-26 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":1811, "Order":99998, "Name":"72時間限定！★4アクター3人確定ガチャ", "JumpType":"Gacha", "JumpPageId":"1811", "DeleteConditionType":"TimeLimitedControl", "DeleteConditionValue":"1", "ImagePath":"Gacha/1811", "StartDate":"2024-05-21 17:00:00", "EndDate":"2100-01-01 00:00:00"
   },
   {
-    "Id":2112, "Order":2000, "Name":"無情なる運命の中でガチャ", "JumpType":"Gacha", "JumpPageId":"2112", "DeleteConditionType":"", "ImagePath":"Gacha/2112", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":2109, "Order":900, "Name":"【復刻】Fantasmaガチャ", "JumpType":"Gacha", "JumpPageId":"2109", "DeleteConditionType":"", "ImagePath":"Gacha/2109", "StartDate":"2025-07-26 17:00:00", "EndDate":"2025-07-31 17:00:00"
   },
   {
-    "Id":4025, "Order":999, "Name":"SIRIUS第4章追加", "JumpType":"Story", "JumpPageId":"1", "DeleteConditionType":"", "ImagePath":"Notification/Banner00993", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":2112, "Order":2000, "Name":"無情なる運命の中でガチャ", "JumpType":"Gacha", "JumpPageId":"2112", "DeleteConditionType":"", "ImagePath":"Gacha/2112", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-26 00:00:00"
   },
   {
-    "Id":5000, "Order":1600, "Name":"シリウスポスタースペシャルセレクトPUガチャ", "JumpType":"Gacha", "JumpPageId":"5000", "DeleteConditionType":"", "ImagePath":"Gacha/5000", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":2113, "Order":100, "Name":"軌跡輝くステラリウムガチャ", "JumpType":"Gacha", "JumpPageId":"2113", "DeleteConditionType":"", "ImagePath":"Gacha/2113", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-05 17:00:00"
   },
   {
-    "Id":5405, "Order":2, "Name":"72時間限定パック", "JumpType":"JewelShop", "JumpPageId":"5", "DeleteConditionType":"TimeLimitedControl", "DeleteConditionValue":"1", "ImagePath":"Home/5405", "StartDate":"2024-05-21 17:00:00", "EndDate":"2100-01-01 00:00:00"
+    "Id":2114, "Order":950, "Name":"【復刻】Dream Junctionガチャ", "JumpType":"Gacha", "JumpPageId":"2114", "DeleteConditionType":"", "ImagePath":"Gacha/2114", "StartDate":"2025-07-25 22:00:00", "EndDate":"2025-08-09 17:00:00"
   },
   {
-    "Id":8079, "Order":2400, "Name":"お誕生日パック2nd【本巣 叶羽】", "JumpType":"JewelShop", "JumpPageId":"8079", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"8079", "ImagePath":"Home/8079", "StartDate":"2025-07-17 00:00:00", "EndDate":"2025-07-27 00:00:00"
+    "Id":4025, "Order":10, "Name":"SIRIUS第4章追加", "JumpType":"Story", "JumpPageId":"1", "DeleteConditionType":"", "ImagePath":"Notification/Banner00993", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
   },
   {
-    "Id":8125, "Order":2000, "Name":"ユメフェス記念ジュエルパック", "JumpType":"JewelShop", "JumpPageId":"1", "DeleteConditionType":"", "ImagePath":"Home/8125", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":5000, "Order":1600, "Name":"シリウスポスタースペシャルセレクトPUガチャ", "JumpType":"Gacha", "JumpPageId":"5000", "DeleteConditionType":"", "ImagePath":"Gacha/5000", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-26 00:00:00"
   },
   {
-    "Id":8530, "Order":1250, "Name":"2nd Anniversary記念復刻★4アクター確定ステップアップガチャ", "JumpType":"Gacha", "JumpPageId":"8524", "DeleteConditionType":"", "ImagePath":"Gacha/8524", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-09 17:00:00"
+    "Id":5405, "Order":99997, "Name":"72時間限定パック", "JumpType":"JewelShop", "JumpPageId":"5", "DeleteConditionType":"TimeLimitedControl", "DeleteConditionValue":"1", "ImagePath":"Home/5405", "StartDate":"2024-05-21 17:00:00", "EndDate":"2100-01-01 00:00:00"
   },
   {
-    "Id":9530, "Order":1300, "Name":"2nd Anniversary記念復刻SSRポスター確定ステップアップガチャ", "JumpType":"Gacha", "JumpPageId":"9524", "DeleteConditionType":"", "ImagePath":"Gacha/9524", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-09 17:00:00"
+    "Id":8079, "Order":1300, "Name":"お誕生日パック2nd【本巣 叶羽】", "JumpType":"JewelShop", "JumpPageId":"8079", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"8079", "ImagePath":"Home/8079", "StartDate":"2025-07-17 00:00:00", "EndDate":"2025-07-27 00:00:00"
   },
   {
-    "Id":30011, "Order":1625, "Name":"才能開花6解放記念！ピックアップガチャ", "JumpType":"Gacha", "JumpPageId":"3001", "DeleteConditionType":"", "ImagePath":"Gacha/3001", "StartDate":"2025-07-15 05:00:00", "EndDate":"2025-07-28 17:00:00"
+    "Id":8105, "Order":1200, "Name":"お誕生日パック2nd【静香】", "JumpType":"JewelShop", "JumpPageId":"8105", "DeleteConditionType":"BuyItem", "DeleteConditionValue":"8105", "ImagePath":"Home/8105", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-05 00:00:00"
   },
   {
-    "Id":30021, "Order":1150, "Name":"ユメフェスセレクトガチャ", "JumpType":"Gacha", "JumpPageId":"3002", "DeleteConditionType":"", "ImagePath":"Gacha/3002", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":8107, "Order":400, "Name":"2nd_Anniv.記念！お得ジュエルパック", "JumpType":"JewelShop", "JumpPageId":"1", "DeleteConditionType":"", "ImagePath":"Home/8107", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-09 17:00:00"
   },
   {
-    "Id":30031, "Order":1400, "Name":"シリウスセレクトピックアップガチャ", "JumpType":"Gacha", "JumpPageId":"3003", "DeleteConditionType":"", "ImagePath":"Gacha/3003", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+    "Id":8121, "Order":500, "Name":"2nd Anniversary記念！アクター交換チケットパック", "JumpType":"JewelShop", "JumpPageId":"5", "DeleteConditionType":"", "ImagePath":"Home/Banner00991", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-09 17:00:00"
+  },
+  {
+    "Id":8125, "Order":1100, "Name":"ユメフェス記念ジュエルパック", "JumpType":"JewelShop", "JumpPageId":"1", "DeleteConditionType":"", "ImagePath":"Home/8125", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-31 17:00:00"
+  },
+  {
+    "Id":8530, "Order":600, "Name":"2nd Anniversary記念復刻★4アクター確定ステップアップガチャ", "JumpType":"Gacha", "JumpPageId":"8524", "DeleteConditionType":"", "ImagePath":"Gacha/8524", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-09 17:00:00"
+  },
+  {
+    "Id":9530, "Order":700, "Name":"2nd Anniversary記念復刻SSRポスター確定ステップアップガチャ", "JumpType":"Gacha", "JumpPageId":"9524", "DeleteConditionType":"", "ImagePath":"Gacha/9524", "StartDate":"2025-07-26 00:00:00", "EndDate":"2025-08-09 17:00:00"
+  },
+  {
+    "Id":30011, "Order":1625, "Name":"才能開花6解放記念！ピックアップガチャ", "JumpType":"Gacha", "JumpPageId":"3001", "DeleteConditionType":"", "ImagePath":"Gacha/3001", "StartDate":"2025-07-15 05:00:00", "EndDate":"2025-07-26 00:00:00"
+  },
+  {
+    "Id":30021, "Order":1150, "Name":"ユメフェスセレクトガチャ", "JumpType":"Gacha", "JumpPageId":"3002", "DeleteConditionType":"", "ImagePath":"Gacha/3002", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-26 00:00:00"
+  },
+  {
+    "Id":30031, "Order":1400, "Name":"シリウスセレクトピックアップガチャ", "JumpType":"Gacha", "JumpPageId":"3003", "DeleteConditionType":"", "ImagePath":"Gacha/3003", "StartDate":"2025-07-20 17:00:00", "EndDate":"2025-07-26 00:00:00"
   }
 ]

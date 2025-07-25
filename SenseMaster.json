@@ -3537,5 +3537,84 @@
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29116
+          },
+          {
+            "Order":2, "EffectMasterId":20539
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1500101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29117
+          },
+          {
+            "Order":2, "EffectMasterId":20539
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1500102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29118
+          },
+          {
+            "Order":2, "EffectMasterId":20539
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1500103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29119
+          },
+          {
+            "Order":2, "EffectMasterId":20539
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1500104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29120
+          },
+          {
+            "Order":2, "EffectMasterId":20539
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1500105
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":1170, "ScoreUpPerLevel":100, "LightCount":1, "CoolTime":80, "BranchCondition1":"CharacterBaseGroup", "ConditionValue1":7, "BranchCondition2":"None", "SubTypes":[
+      1
+    ]
+  },
+  {
+    "Id":150013, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20604
+          }
+        ],
+        "Id":1500131
+      }
+    ],
+    "AcquirableGauge":80, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[
+      3
+    ]
   }
 ]

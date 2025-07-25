@@ -3118,6 +3118,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230095, "Name":"演技力上限上昇", "Description":"自身の演技力の上限が[:param11]％上昇　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230090, "Type":"Normal", "FrameNumber":5, "ReleaseLevelAt":11, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12900100
+          }
+        ],
+        "Id":23009501
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":230100, "Name":"Faith in Expression", "Description":"Edenに所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":230100, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3220,6 +3233,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230106, "Name":"演技力上限上昇", "Description":"自身の演技力の上限が[:param11]％上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230100, "Type":"Normal", "FrameNumber":6, "ReleaseLevelAt":11, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12900200
+          }
+        ],
+        "Id":23010601
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":230110, "Name":"プラネタリウム・レヴュー", "Description":"銀河座に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":230110, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3309,6 +3335,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230115, "Name":"演技力上限上昇", "Description":"自身の演技力の上限が[:param11]％上昇　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230110, "Type":"Normal", "FrameNumber":5, "ReleaseLevelAt":11, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12900300
+          }
+        ],
+        "Id":23011501
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":230120, "Name":"デアエ・エクス・マキナ！", "Description":"劇団電姫に所属するアクターの演技力が[:param11]%上昇", "PosterMasterId":230120, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3393,6 +3432,19 @@
           }
         ],
         "Id":23012401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":230125, "Name":"演技力上限上昇", "Description":"自身の演技力の上限が[:param11]％上昇　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230120, "Type":"Normal", "FrameNumber":5, "ReleaseLevelAt":11, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12900400
+          }
+        ],
+        "Id":23012501
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -5018,6 +5070,45 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":330330, "Name":"舞台照らす星々の輝き", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":330330, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052000
+          }
+        ],
+        "Id":33033001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330331, "Name":"演技力上限上昇", "Description":"全アクターの演技力上限が[:param11]%上昇", "PosterMasterId":330330, "Type":"Leader", "FrameNumber":2, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":73000000
+          }
+        ],
+        "Id":33033101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":330340, "Name":"サプライズ・ファンサービス！", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":330340, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052000
+          }
+        ],
+        "Id":33034001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":340010, "Name":"いつか夢を叶える日まで", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -5026,6 +5117,19 @@
           }
         ],
         "Id":34001001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340020, "Name":"共に夢を叶えるその日のために――", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340020, "Type":"Leader", "FrameNumber":0, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34002001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -10145,6 +10249,97 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":3303301, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330330, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":330330101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303302, "Name":"P.ゲージ上限ブースト", "Description":"センス発動直後、P.ゲージの上限が[:param11]上昇", "PosterMasterId":330330, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13100000
+          }
+        ],
+        "Id":330330201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303303, "Name":"CTダウンⅤ", "Description":"自身のセンスのCTを[:param11]秒短縮", "PosterMasterId":330330, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12440000
+          }
+        ],
+        "Id":330330301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303304, "Name":"「SP光」獲得Ⅱ", "Description":"センス発動時、SP光を追加で[:param11]個付与", "PosterMasterId":330330, "Type":"Normal", "FrameNumber":4, "ReleaseLevelAt":10, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11921000
+          }
+        ],
+        "Id":330330401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303401, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]%上昇", "PosterMasterId":330340, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":330340101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303402, "Name":"P.ゲージ上限ブースト", "Description":"センス発動直後、P.ゲージの上限が[:param11]上昇", "PosterMasterId":330340, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13100000
+          }
+        ],
+        "Id":330340201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303403, "Name":"スコアブーストⅡ＋", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得", "PosterMasterId":330340, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10821000
+          }
+        ],
+        "Id":330340301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3400101, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：ここなが装備", "PosterMasterId":340010, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -10179,6 +10374,45 @@
           }
         ],
         "Id":340010301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400201, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：静香が装備", "PosterMasterId":340020, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030102
+          }
+        ],
+        "Id":340020101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400202, "Name":"初期P.ゲージ上昇(BD)", "Description":"公演開始時、P.ゲージが[:param11]上昇　◆発動条件：静香が装備", "PosterMasterId":340020, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11540102
+          }
+        ],
+        "Id":340020201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3400203, "Name":"「光」追加（SP）", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）◆発動条件：静香が装備", "PosterMasterId":340020, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11910102
+          }
+        ],
+        "Id":340020301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

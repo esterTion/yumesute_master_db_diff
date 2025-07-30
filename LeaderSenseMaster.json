@@ -3776,5 +3776,48 @@
         ]
       }
     ]
+  },
+  {
+    "Id":229, "Description":"「高校生」カテゴリの演技力40%上昇、「海」カテゴリの集中力20％上昇・歌唱力15%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":1003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12015, "Conditions":[
+          {
+            "CategoryMasterId1":5007
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12022, "Conditions":[
+          {
+            "CategoryMasterId1":5007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":230, "Description":"「銀河座」カテゴリの演技力40%上昇、「海」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12030, "Conditions":[
+          {
+            "CategoryMasterId1":5007
+          }
+        ]
+      }
+    ]
   }
 ]

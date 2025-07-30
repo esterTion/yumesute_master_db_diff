@@ -3576,6 +3576,28 @@
     ]
   },
   {
+    "Id":45900, "MissionCategory":"Limit", "MissionViewOrder":29, "Title":"", "Description":"「黄昏時、夏の余韻」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-07-31 17:00:00", "EndDate":"2025-08-10 17:00:00", "Stages":[
+      {
+        "Id":45900, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2025-07-31 17:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":46000, "MissionCategory":"Limit", "MissionViewOrder":30, "Title":"", "Description":"「黄昏時、夏の余韻」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-07-31 17:00:00", "EndDate":"2025-08-10 17:00:00", "Stages":[
+      {
+        "Id":46000, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-07-31 17:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id":100000, "MissionCategory":"Daily", "MissionViewOrder":100000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100001, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-08-26 05:00:00", "Rewards":[
@@ -4906,6 +4928,17 @@
         "Id":401410, "MissionStageOrder":1, "StageGoalValue":9, "StartDate":"2025-07-26 17:00:00", "Rewards":[
           {
             "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":401420, "MissionCategory":"Limit", "MissionViewOrder":51, "Title":"", "Description":"【250曲追加記念10】「黄昏時、夏の余韻」を[:param]回クリアしよう", "JumpType":"None", "StartDate":"2025-07-31 17:00:00", "EndDate":"2025-08-05 17:00:00", "Stages":[
+      {
+        "Id":401420, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-07-31 17:00:00", "Rewards":[
+          {
+            "ThingId":110003, "ThingType":"Item", "ThingQuantity":1
           }
         ]
       }

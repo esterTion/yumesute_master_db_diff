@@ -1,8 +1,8 @@
 [
-  [
-    200001, "デフォルト", 1, null, false, true, null
-  ],
-  [
-    200103, "カトリナ・グリーベル", 103, null, true, false, "2025-08-04 00:00:00"
-  ]
+  {
+    "Id":200001, "Name":"デフォルト", "Order":1, "Hidden":false, "IsDefault":true
+  },
+  {
+    "Id":200103, "Name":"カトリナ・グリーベル", "Order":103, "Hidden":true, "IsDefault":false, "DisplayStartDate":"2025-08-04 00:00:00"
+  }
 ]

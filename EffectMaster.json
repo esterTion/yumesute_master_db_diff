@@ -7124,7 +7124,7 @@
     "Conditions":[],
     "DurationSecond":0, "Triggers":[
       {
-        "Trigger":11, "Value":5
+        "Trigger":"MaxMemberBelongingCompanyCount", "Value":5
       }
     ],
     "FireTimingType":"Passive"
@@ -15152,7 +15152,7 @@
         "Trigger":"CharacterBase", "Value":102
       },
       {
-        "Trigger":10, "Value":1
+        "Trigger":"AllMemberBelongingCompany", "Value":1
       }
     ],
     "FireTimingType":"StartLive"
@@ -16426,7 +16426,7 @@
         "Trigger":"CharacterBase", "Value":401
       },
       {
-        "Trigger":10, "Value":4
+        "Trigger":"AllMemberBelongingCompany", "Value":4
       }
     ],
     "FireTimingType":"StartLive"

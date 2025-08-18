@@ -4453,6 +4453,19 @@
     "BranchConditionType1":"CompanyMemberCount", "ConditionValue1":3, "BranchConditionType2":"None"
   },
   {
+    "Id":230730, "Name":"その演技は心を焼き焦がす", "Description":"シリウスに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230730, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042100
+          }
+        ],
+        "Id":23073001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -5429,6 +5442,19 @@
           }
         ],
         "Id":34024001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340370, "Name":"暮れてもなお、輝く太陽", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340370, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34037001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -8637,6 +8663,45 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":2307301, "Name":"表現力アップⅢ＋", "Description":"自身の表現力が[:param11]％上昇", "PosterMasterId":230730, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10231000
+          }
+        ],
+        "Id":230730101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307302, "Name":"ライフブーストⅡ＋", "Description":"センス発動直後、ライフを[:param11]回復　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230730, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11221100
+          }
+        ],
+        "Id":230730201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307303, "Name":"スコアブースト・表現力Ⅲ＋", "Description":"センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：シリウスに所属するアクターが装備", "PosterMasterId":230730, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11031100
+          }
+        ],
+        "Id":230730301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3200101, "Name":"初期ライフ上昇＋", "Description":"公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":320010, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -11375,6 +11440,45 @@
           }
         ],
         "Id":340240301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3403701, "Name":"演技力アップⅣ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：緋花里が装備", "PosterMasterId":340370, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10040305
+          }
+        ],
+        "Id":340370101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3403702, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：緋花里が装備", "PosterMasterId":340370, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810305
+          }
+        ],
+        "Id":340370201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3403703, "Name":"CTダウンⅣ", "Description":"自身のセンスのCTを[:param11]秒短縮　◆発動条件：緋花里が装備", "PosterMasterId":340370, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12430305
+          }
+        ],
+        "Id":340370301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

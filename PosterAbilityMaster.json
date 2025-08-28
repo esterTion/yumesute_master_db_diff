@@ -4466,6 +4466,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230740, "Name":"もう、にげられないよ", "Description":"劇団電姫に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230740, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052400
+          }
+        ],
+        "Id":23074001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":230750, "Name":"鏡の中、羨望と嫉妬を抱え――", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230750, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":23075001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -8697,6 +8723,84 @@
           }
         ],
         "Id":230730301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307401, "Name":"演技力アップⅢ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230740, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10030000
+          }
+        ],
+        "Id":230740101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307402, "Name":"センススコアアップⅡ", "Description":"公演開始時、自身のセンススコア[:param11]％UP効果が公演終了まで発動する　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230740, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13220400
+          }
+        ],
+        "Id":230740201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307403, "Name":"P.ゲージ獲得量アップⅡ＋", "Description":"センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230740, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11621300
+          }
+        ],
+        "Id":230740301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307501, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230750, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230750101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307502, "Name":"P.ゲージ獲得量アップ＋", "Description":"センスによるP.ゲージの獲得量が[:param11]％UP", "PosterMasterId":230750, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11611000
+          }
+        ],
+        "Id":230750201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307503, "Name":"報酬量アップⅢ", "Description":"公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）", "PosterMasterId":230750, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12530000
+          }
+        ],
+        "Id":230750301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

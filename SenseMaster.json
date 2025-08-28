@@ -3609,6 +3609,69 @@
     "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":141870, "Name":"アタシを起こしたの、アンタ？", "Description":"<size=28%>[:score]倍のスコアを獲得／[:sec11]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果／センス発動後、プリンシパルゲージの上限値が[:param21]上昇</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20403
+          },
+          {
+            "Order":2, "EffectMasterId":20096
+          }
+        ],
+        "Id":1418701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":190, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":141880, "Name":"彼岸花は呪い嗤う", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、劇団電姫アクターの人数×20のプリンシパルゲージを獲得", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20090
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1418801
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20091
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1418802
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20092
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1418803
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20093
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1418804
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20094
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1418805
+      }
+    ],
+    "AcquirableGauge":120, "AcquirableScorePercent":190, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"CompanyMemberCount", "ConditionValue1":4, "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

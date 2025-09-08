@@ -4013,5 +4013,312 @@
       }
     ],
     "Name":"ダイスタールーレット"
+  },
+  {
+    "Id":20141, "RouletteEventMasterId":2014, "Order":1, "RouletteType":"Point", "RouletteTicketItemMasterId":132040, "RequiredTicketQuantity":10, "RouletteImagePath":"20011", "Prizes":[
+      {
+        "Id":2014101, "Slot":1, "AcquirePointQuantity":250
+      },
+      {
+        "Id":2014102, "Slot":2, "AcquirePointQuantity":100
+      },
+      {
+        "Id":2014103, "Slot":3, "AcquirePointQuantity":100
+      },
+      {
+        "Id":2014104, "Slot":4, "AcquirePointQuantity":150
+      },
+      {
+        "Id":2014105, "Slot":5, "AcquirePointQuantity":100
+      },
+      {
+        "Id":2014106, "Slot":6, "AcquirePointQuantity":200
+      },
+      {
+        "Id":2014107, "Slot":7, "AcquirePointQuantity":100
+      },
+      {
+        "Id":2014108, "Slot":8, "AcquirePointQuantity":150
+      },
+      {
+        "Id":2014109, "Slot":9, "AcquirePointQuantity":100
+      },
+      {
+        "Id":2014110, "Slot":10, "AcquirePointQuantity":120
+      },
+      {
+        "Id":2014111, "Slot":11, "AcquirePointQuantity":120
+      },
+      {
+        "Id":2014112, "Slot":12, "AcquirePointQuantity":100
+      }
+    ],
+    "RollRewards":[
+      {
+        "RollCount":10, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":10
+          }
+        ]
+      },
+      {
+        "RollCount":20, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":10
+          }
+        ]
+      },
+      {
+        "RollCount":50, "Rewards":[
+          {
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":10
+          }
+        ]
+      },
+      {
+        "RollCount":100, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "RollCount":250, "Rewards":[
+          {
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "RollCount":500, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "RollCount":750, "Rewards":[
+          {
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":20
+          }
+        ]
+      },
+      {
+        "RollCount":1000, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":30
+          }
+        ]
+      },
+      {
+        "RollCount":1500, "Rewards":[
+          {
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":30
+          }
+        ]
+      },
+      {
+        "RollCount":2000, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":40
+          }
+        ]
+      },
+      {
+        "RollCount":3000, "Rewards":[
+          {
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":40
+          }
+        ]
+      },
+      {
+        "RollCount":5000, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      },
+      {
+        "RollCount":8000, "Rewards":[
+          {
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":50
+          }
+        ]
+      },
+      {
+        "RollCount":10000, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
+          }
+        ]
+      }
+    ],
+    "Name":"ポイントルーレット"
+  },
+  {
+    "Id":20142, "RouletteEventMasterId":2014, "Order":2, "RouletteType":"Point", "RouletteTicketItemMasterId":132041, "RequiredTicketQuantity":1, "RouletteImagePath":"20012", "Prizes":[
+      {
+        "Id":2014201, "Slot":1, "AcquirePointQuantity":5000
+      },
+      {
+        "Id":2014202, "Slot":2, "AcquirePointQuantity":1500
+      },
+      {
+        "Id":2014203, "Slot":3, "AcquirePointQuantity":1500
+      },
+      {
+        "Id":2014204, "Slot":4, "AcquirePointQuantity":2500
+      },
+      {
+        "Id":2014205, "Slot":5, "AcquirePointQuantity":1500
+      },
+      {
+        "Id":2014206, "Slot":6, "AcquirePointQuantity":1500
+      },
+      {
+        "Id":2014207, "Slot":7, "AcquirePointQuantity":2000
+      },
+      {
+        "Id":2014208, "Slot":8, "AcquirePointQuantity":1500
+      },
+      {
+        "Id":2014209, "Slot":9, "AcquirePointQuantity":1500
+      },
+      {
+        "Id":2014210, "Slot":10, "AcquirePointQuantity":3500
+      },
+      {
+        "Id":2014211, "Slot":11, "AcquirePointQuantity":1500
+      },
+      {
+        "Id":2014212, "Slot":12, "AcquirePointQuantity":1500
+      }
+    ],
+    "RollRewards":[
+      {
+        "RollCount":10, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
+          }
+        ]
+      },
+      {
+        "RollCount":50, "Rewards":[
+          {
+            "ThingId":132040, "ThingType":"Item", "ThingQuantity":500
+          }
+        ]
+      },
+      {
+        "RollCount":100, "Rewards":[
+          {
+            "ThingId":140000, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      },
+      {
+        "RollCount":500, "Rewards":[
+          {
+            "ThingId":132042, "ThingType":"Item", "ThingQuantity":3
+          }
+        ]
+      }
+    ],
+    "Name":"ポイントルーレット【SP】"
+  },
+  {
+    "Id":20143, "RouletteEventMasterId":2014, "Order":3, "RouletteType":"Item", "RouletteTicketItemMasterId":132042, "RequiredTicketQuantity":1, "RouletteImagePath":"20014", "Prizes":[
+      {
+        "Id":2014301, "Slot":1, "AcquirePrizeThing":{
+          "ThingId":150000, "ThingType":"Item", "ThingQuantity":30
+        }
+      },
+      {
+        "Id":2014302, "Slot":2, "AcquirePrizeThing":{
+          "ThingId":110002, "ThingType":"Item", "ThingQuantity":3
+        }
+      },
+      {
+        "Id":2014303, "Slot":3, "AcquirePrizeThing":{
+          "ThingId":130071, "ThingType":"Item", "ThingQuantity":3
+        }
+      },
+      {
+        "Id":2014304, "Slot":4, "AcquirePrizeThing":{
+          "ThingId":130012, "ThingType":"Item", "ThingQuantity":50
+        }
+      },
+      {
+        "Id":2014305, "Slot":5, "AcquirePrizeThing":{
+          "ThingId":110003, "ThingType":"Item", "ThingQuantity":3
+        }
+      },
+      {
+        "Id":2014306, "Slot":6, "AcquirePrizeThing":{
+          "ThingId":0, "ThingType":"Jewel", "ThingQuantity":500
+        }
+      },
+      {
+        "Id":2014307, "Slot":7, "AcquirePrizeThing":{
+          "ThingId":140000, "ThingType":"Item", "ThingQuantity":200
+        }
+      },
+      {
+        "Id":2014308, "Slot":8, "AcquirePrizeThing":{
+          "ThingId":130011, "ThingType":"Item", "ThingQuantity":500
+        }
+      },
+      {
+        "Id":2014309, "Slot":9, "AcquirePrizeThing":{
+          "ThingId":130071, "ThingType":"Item", "ThingQuantity":3
+        }
+      },
+      {
+        "Id":2014310, "Slot":10, "AcquirePrizeThing":{
+          "ThingId":0, "ThingType":"Jewel", "ThingQuantity":200
+        }
+      },
+      {
+        "Id":2014311, "Slot":11, "AcquirePrizeThing":{
+          "ThingId":140000, "ThingType":"Item", "ThingQuantity":100
+        }
+      },
+      {
+        "Id":2014312, "Slot":12, "AcquirePrizeThing":{
+          "ThingId":130064, "ThingType":"Item", "ThingQuantity":50
+        }
+      }
+    ],
+    "RollRewards":[
+      {
+        "RollCount":1, "Rewards":[
+          {
+            "ThingId":132040, "ThingType":"Item", "ThingQuantity":1000
+          }
+        ]
+      },
+      {
+        "RollCount":2, "Rewards":[
+          {
+            "ThingId":130013, "ThingType":"Item", "ThingQuantity":2
+          }
+        ]
+      },
+      {
+        "RollCount":5, "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":300
+          }
+        ]
+      },
+      {
+        "RollCount":10, "Rewards":[
+          {
+            "ThingId":150000, "ThingType":"Item", "ThingQuantity":50
+          }
+        ]
+      }
+    ],
+    "Name":"ダイスタールーレット"
   }
 ]

@@ -46728,7 +46728,11 @@
       }
     ],
     "Conditions":[],
-    "DurationSecond":0, "Triggers":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Company", "Value":1
+      }
+    ],
     "FireTimingType":"Passive"
   },
   {

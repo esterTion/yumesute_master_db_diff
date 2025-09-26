@@ -4505,6 +4505,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230770, "Name":"動物たちの憩いの時間", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230770, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052200
+          }
+        ],
+        "Id":23077001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":230780, "Name":"退屈潰しの歌姫救済", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230780, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":23078001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -5520,6 +5546,19 @@
           }
         ],
         "Id":34029001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340330, "Name":"今宵こそは眠り安らいで――", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340330, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34033001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -8897,6 +8936,84 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":2307701, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230770, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230770101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307702, "Name":"初期P.ゲージ上昇Ⅱ＋", "Description":"公演開始時、P.ゲージが[:param11]上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230770, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11521200
+          }
+        ],
+        "Id":230770201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307703, "Name":"P.ゲージ上限ブースト＋", "Description":"センス発動直後、P.ゲージの上限が[:param11]上昇　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230770, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13112200
+          }
+        ],
+        "Id":230770301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307801, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230780, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230780101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307802, "Name":"初期P.ゲージ上昇＋", "Description":"公演開始時、P.ゲージが[:param11]上昇", "PosterMasterId":230780, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11511000
+          }
+        ],
+        "Id":230780201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2307803, "Name":"報酬量アップⅢ", "Description":"公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）", "PosterMasterId":230780, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12530000
+          }
+        ],
+        "Id":230780301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3200101, "Name":"初期ライフ上昇＋", "Description":"公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":320010, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -11765,6 +11882,45 @@
           }
         ],
         "Id":340290301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3403301, "Name":"演技力アップⅣ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：暦が装備", "PosterMasterId":340330, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10040301
+          }
+        ],
+        "Id":340330101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3403302, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：暦が装備", "PosterMasterId":340330, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810301
+          }
+        ],
+        "Id":340330201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3403303, "Name":"CTダウンⅣ", "Description":"自身のセンスのCTを[:param11]秒短縮　◆発動条件：暦が装備", "PosterMasterId":340330, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12430301
+          }
+        ],
+        "Id":340330301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

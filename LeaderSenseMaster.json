@@ -3909,5 +3909,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":236, "Description":"「Eden」カテゴリの演技力40%上昇、「衣装」カテゴリの集中力35％上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2002
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12021, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":237, "Description":"「役者」カテゴリの演技力40%上昇、「動物」カテゴリの歌唱力35％上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12019, "Conditions":[
+          {
+            "CategoryMasterId1":4004
+          }
+        ]
+      }
+    ]
   }
 ]

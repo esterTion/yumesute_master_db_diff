@@ -266,7 +266,17 @@
     "UnlockText":"演劇リーグ：TRIPLE CASTのCL6「スター」初回到達で獲得できます。", "ChangeType":"None"
   },
   {
-    "Id":10001, "Name":"ダイスター【シーズン1】", "Order":51, "Hidden":false, "IsDefault":false, "Details":[],
+    "Id":10001, "Name":"ダイスター【シーズン1】", "Order":51, "Hidden":false, "IsDefault":false, "Details":[
+      {
+        "Id":10701, "Name":"ダイスター1【シーズン1】", "ClassType":"None", "EnrollCount":0, "ChangeValue1":0, "Priority":0
+      },
+      {
+        "Id":10702, "Name":"ダイスター2【シーズン1】", "ClassType":"None", "EnrollCount":4, "ChangeValue1":4, "Priority":4
+      },
+      {
+        "Id":10703, "Name":"ダイスター3【シーズン1】", "ClassType":"None", "EnrollCount":8, "ChangeValue1":8, "Priority":8
+      }
+    ],
     "UnlockText":"演劇リーグ：TRIPLE CASTのCL7「ダイスター」初回到達で獲得できます。", "ChangeType":"TripleCastDaiStarEnrollCount", "ChangeValue1":1
   }
 ]

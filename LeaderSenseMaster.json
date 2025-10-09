@@ -3945,5 +3945,23 @@
         ]
       }
     ]
+  },
+  {
+    "Id":238, "Description":"「役者」カテゴリの演技力30%上昇、「ファッション」カテゴリの歌唱力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":3006
+          }
+        ]
+      }
+    ]
   }
 ]

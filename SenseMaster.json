@@ -3850,6 +3850,38 @@
     "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":50, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":141970, "Name":"散る紅葉、終の手合わせ", "Description":"<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する。</size>", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20631
+          }
+        ],
+        "Id":1419701
+      }
+    ],
+    "AcquirableGauge":80, "AcquirableScorePercent":140, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":141980, "Name":"涙、子の凶行を引き止めて", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動後、追加で[:param11]のプリンシパルゲージを獲得／緋花里が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>", "Type":"Amplification", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28009
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20083
+          }
+        ],
+        "Id":1419801
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

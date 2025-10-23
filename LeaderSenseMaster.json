@@ -4013,5 +4013,30 @@
         ]
       }
     ]
+  },
+  {
+    "Id":241, "Description":"「制服」カテゴリの演技力40%上昇、「ライバル」カテゴリの集中力20％上昇・表現力15%上昇                                        ", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":4005
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":8009
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12024, "Conditions":[
+          {
+            "CategoryMasterId1":8009
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -3959,5 +3959,139 @@
     "AcquirableGauge":80, "AcquirableScorePercent":540, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":35, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[
       3
     ]
+  },
+  {
+    "Id":150020, "Name":"Bomb Interruption !!", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動後、編成されているEden・劇団電姫アクターの演技力と演技力上限を消費するライフガードの数(最大10回)×4%上昇させる(この効果は重複する)</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20661
+          },
+          {
+            "Order":2, "EffectMasterId":29400
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1500201
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20662
+          },
+          {
+            "Order":2, "EffectMasterId":29401
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1500202
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20663
+          },
+          {
+            "Order":2, "EffectMasterId":29402
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1500203
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20664
+          },
+          {
+            "Order":2, "EffectMasterId":29403
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1500204
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20665
+          },
+          {
+            "Order":2, "EffectMasterId":29404
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":1500205
+      },
+      {
+        "Order":6, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20666
+          },
+          {
+            "Order":2, "EffectMasterId":29405
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":6, "Id":1500206
+      },
+      {
+        "Order":7, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20667
+          },
+          {
+            "Order":2, "EffectMasterId":29406
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":7, "Id":1500207
+      },
+      {
+        "Order":8, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20668
+          },
+          {
+            "Order":2, "EffectMasterId":29407
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":8, "Id":1500208
+      },
+      {
+        "Order":9, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20669
+          },
+          {
+            "Order":2, "EffectMasterId":29408
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":9, "Id":1500209
+      },
+      {
+        "Order":10, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20670
+          },
+          {
+            "Order":2, "EffectMasterId":29409
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":10, "Id":1500210
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":1170, "ScoreUpPerLevel":100, "LightCount":1, "CoolTime":80, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None", "SubTypes":[
+      2
+    ]
+  },
+  {
+    "Id":150023, "Name":"Bomb Interruption !!", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、追加で「ライフガード」を[:param11]回獲得する", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29303
+          }
+        ],
+        "Id":1500231
+      }
+    ],
+    "AcquirableGauge":80, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":25, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[
+      2
+    ]
   }
 ]

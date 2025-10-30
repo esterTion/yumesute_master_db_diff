@@ -4038,5 +4038,23 @@
         ]
       }
     ]
+  },
+  {
+    "Id":242, "Description":"「役者」カテゴリの演技力40%上昇、「メルヘン」カテゴリの表現力35％上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12020, "Conditions":[
+          {
+            "CategoryMasterId1":4006
+          }
+        ]
+      }
+    ]
   }
 ]

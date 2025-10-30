@@ -3882,6 +3882,38 @@
     "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":141990, "Name":"さぁ、舞踏会へ！", "Description":"[:score]倍のスコアを獲得／センス発動時に、追加で「支配の光」を1個獲得する／センス発動直後、その時のスコアの[:param11]％のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20543
+          }
+        ],
+        "Id":1419901
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":840, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":65, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142000, "Name":"ビビディ・バビディ・ブー♪", "Description":"<size=25%>[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにスターアクトスコア[:param11]％UP効果／カトリナが隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>", "Type":"Control", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28010
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20104
+          }
+        ],
+        "Id":1420001
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

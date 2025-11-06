@@ -5278,6 +5278,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":330370, "Name":"Sunroom Broom!", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":330370, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70031000
+          }
+        ],
+        "Id":33037001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":340010, "Name":"いつか夢を叶える日まで", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -11115,6 +11128,32 @@
           }
         ],
         "Id":330360401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303701, "Name":"演技力アップⅡ", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330370, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10020000
+          }
+        ],
+        "Id":330370101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303702, "Name":"初期P.ゲージ上昇", "Description":"公演開始時、P.ゲージが[:param11]上昇", "PosterMasterId":330370, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11510000
+          }
+        ],
+        "Id":330370201
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

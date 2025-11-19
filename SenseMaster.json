@@ -4021,6 +4021,34 @@
     "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":2, "CoolTime":60, "BranchCondition1":"CompanyMemberCount", "ConditionValue1":4, "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142030, "Name":"従僕、影に侍りて", "Description":"[:score]倍のスコアを獲得／[:sec]秒間、編成されているアクターのプリンシパルゲージ獲得量[:param11]％UP効果", "Type":"Support", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20150
+          }
+        ],
+        "Id":1420301
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142040, "Name":"剛毅、潔白たる義を胸に", "Description":"<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20604
+          }
+        ],
+        "Id":1420401
+      }
+    ],
+    "AcquirableGauge":90, "AcquirableScorePercent":170, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

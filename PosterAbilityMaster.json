@@ -4570,6 +4570,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230820, "Name":"全天の舞台で星々は魅せる", "Description":"銀河座に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230820, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042300
+          }
+        ],
+        "Id":23082001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -9191,6 +9204,45 @@
           }
         ],
         "Id":230810301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308201, "Name":"表現力アップⅢ＋", "Description":"自身の表現力が[:param11]％上昇", "PosterMasterId":230820, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10231000
+          }
+        ],
+        "Id":230820101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308202, "Name":"ライフブーストⅡ＋", "Description":"センス発動直後、ライフを[:param11]回復　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230820, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11221300
+          }
+        ],
+        "Id":230820201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308203, "Name":"スコアブースト・表現力Ⅲ＋", "Description":"センス発動直後、自身の表現力の[:param11]倍のスコアを獲得　◆発動条件：銀河座に所属するアクターが装備", "PosterMasterId":230820, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11031300
+          }
+        ],
+        "Id":230820301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

@@ -4074,5 +4074,41 @@
         ]
       }
     ]
+  },
+  {
+    "Id":244, "Description":"「高校生」カテゴリの演技力30%上昇、「和風」カテゴリの歌唱力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":1003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":4007
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":245, "Description":"「舞台」カテゴリの演技力30%上昇、「主人公」カテゴリの歌唱力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":8007
+          }
+        ]
+      }
+    ]
   }
 ]

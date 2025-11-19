@@ -3532,88 +3532,6 @@
     ]
   },
   {
-    "Id":52200, "MissionCategory":"Limit", "MissionViewOrder":21, "Title":"", "Description":"「ハロー・マイ・ロケット」を1回クリアしよう", "JumpType":"Live", "StartDate":"2025-11-17 05:00:00", "EndDate":"2025-11-18 05:00:00", "Stages":[
-      {
-        "Id":52200, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-11-17 05:00:00", "Rewards":[
-          {
-            "ThingId":132047, "ThingType":"Item", "ThingQuantity":20
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":52300, "MissionCategory":"Limit", "MissionViewOrder":21, "Title":"", "Description":"劇団電姫に所属するアクターのみが歌唱する楽曲を3回クリアしよう", "JumpType":"Live", "StartDate":"2025-11-18 05:00:00", "EndDate":"2025-11-18 22:00:00", "Stages":[
-      {
-        "Id":52300, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2025-11-18 05:00:00", "Rewards":[
-          {
-            "ThingId":132047, "ThingType":"Item", "ThingQuantity":20
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":52400, "MissionCategory":"Limit", "MissionViewOrder":22, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-11-10 17:00:00", "EndDate":"2025-11-18 22:00:00", "Stages":[
-      {
-        "Id":52400, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":52401, "MissionStageOrder":2, "StageGoalValue":20, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":52402, "MissionStageOrder":3, "StageGoalValue":30, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":52403, "MissionStageOrder":4, "StageGoalValue":40, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":52404, "MissionStageOrder":5, "StageGoalValue":50, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":52405, "MissionStageOrder":6, "StageGoalValue":60, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":52406, "MissionStageOrder":7, "StageGoalValue":80, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":52407, "MissionStageOrder":8, "StageGoalValue":100, "StartDate":"2025-11-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132046, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Id":52500, "MissionCategory":"Limit", "MissionViewOrder":23, "Title":"", "Description":"「ハロー・マイ・ロケット」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-11-10 17:00:00", "EndDate":"2025-11-20 17:00:00", "Stages":[
       {
         "Id":52500, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2025-11-10 17:00:00", "Rewards":[
@@ -4889,39 +4807,6 @@
         "Id":401480, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2025-11-15 20:00:00", "Rewards":[
           {
             "ThingId":400015, "ThingType":"Trophy", "ThingQuantity":1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":700007, "MissionCategory":"SiriusDay", "MissionViewOrder":1, "Title":"", "Description":"【ユメステデー】ログインしよう", "JumpType":"None", "StartDate":"2025-11-17 05:00:00", "EndDate":"2025-11-18 05:00:00", "Stages":[
-      {
-        "Id":7000071, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-07-17 05:00:00", "Rewards":[
-          {
-            "ThingId":130071, "ThingType":"Item", "ThingQuantity":1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":700008, "MissionCategory":"SiriusDay", "MissionViewOrder":2, "Title":"", "Description":"【ユメステデー】稽古を[:param]回プレイしよう", "JumpType":"Lesson", "StartDate":"2025-11-17 05:00:00", "EndDate":"2025-11-18 05:00:00", "Stages":[
-      {
-        "Id":7000081, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2025-07-17 05:00:00", "Rewards":[
-          {
-            "ThingId":215009, "ThingType":"Item", "ThingQuantity":3
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":700009, "MissionCategory":"SiriusDay", "MissionViewOrder":3, "Title":"", "Description":"【ユメステデー】公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-11-17 05:00:00", "EndDate":"2025-11-18 05:00:00", "Stages":[
-      {
-        "Id":7000091, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-07-17 05:00:00", "Rewards":[
-          {
-            "ThingId":215010, "ThingType":"Item", "ThingQuantity":3
           }
         ]
       }

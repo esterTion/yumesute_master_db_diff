@@ -7208,7 +7208,23 @@
     "FireTimingType":"Sense"
   },
   {
-    "Id":28011, "Type":"CombinationSense", "Range":"All", "CalculationType":"FixedAddition", "Details":[],
+    "Id":28011, "Type":"CombinationSense", "Range":"All", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":0
+      },
+      {
+        "Level":2, "Value":0
+      },
+      {
+        "Level":3, "Value":0
+      },
+      {
+        "Level":4, "Value":0
+      },
+      {
+        "Level":5, "Value":0
+      }
+    ],
     "Conditions":[],
     "DurationSecond":0, "Triggers":[],
     "FireTimingType":"Sense"

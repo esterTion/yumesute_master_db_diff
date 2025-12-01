@@ -7225,7 +7225,14 @@
         "Level":5, "Value":0
       }
     ],
-    "Conditions":[],
+    "Conditions":[
+      {
+        "Condition":"CharacterBase", "Value":203
+      },
+      {
+        "Condition":"NeighborPosition", "Value":1
+      }
+    ],
     "DurationSecond":0, "Triggers":[],
     "FireTimingType":"Sense"
   },

@@ -4084,6 +4084,34 @@
     "AcquirableGauge":0, "AcquirableScorePercent":250, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142070, "Name":"聖夜は眷属たちと共に！", "Description":"[:score]倍のスコアを獲得／センス発動時、追加で「支援の光」を1個獲得する／センス発動時、追加で「ライフガード」を[:param11]回獲得する", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":29302
+          }
+        ],
+        "Id":1420701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142080, "Name":"Cyber Santa Delivery!!", "Description":"<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20603
+          }
+        ],
+        "Id":1420801
+      }
+    ],
+    "AcquirableGauge":100, "AcquirableScorePercent":160, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

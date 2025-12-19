@@ -8778,6 +8778,39 @@
     ]
   },
   {
+    "Id":53800, "MissionCategory":"Limit", "MissionViewOrder":27, "Title":"", "Description":"「テアトルム・アストラーレ」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-12-20 17:00:00", "EndDate":"2025-12-31 15:00:00", "Stages":[
+      {
+        "Id":53800, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2025-12-20 17:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":53900, "MissionCategory":"Limit", "MissionViewOrder":28, "Title":"", "Description":"「テアトルム・アストラーレ」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-12-20 17:00:00", "EndDate":"2025-12-31 15:00:00", "Stages":[
+      {
+        "Id":53900, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-12-20 17:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":54000, "MissionCategory":"Limit", "MissionViewOrder":12, "Title":"", "Description":"メインストーリー 銀河座第4章第24話を読もう", "JumpType":"Story", "StartDate":"2025-12-20 17:00:00", "EndDate":"2025-12-31 15:00:00", "Stages":[
+      {
+        "Id":54000, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-12-20 17:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id":100000, "MissionCategory":"Daily", "MissionViewOrder":100000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100001, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-08-26 05:00:00", "Rewards":[
@@ -11843,7 +11876,7 @@
     ]
   },
   {
-    "Id":700010, "MissionCategory":"SiriusDay", "MissionViewOrder":1, "Title":"", "Description":"【ユメステデー】ログインしよう", "JumpType":"None", "StartDate":"2025-11-27 05:00:00", "EndDate":"2025-11-28 05:00:00", "Stages":[
+    "Id":700010, "MissionCategory":"SiriusDay", "MissionViewOrder":1, "Title":"", "Description":"【ユメステデー】ログインしよう", "JumpType":"None", "StartDate":"2025-12-27 05:00:00", "EndDate":"2025-12-28 05:00:00", "Stages":[
       {
         "Id":7000101, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-07-27 05:00:00", "Rewards":[
           {
@@ -11854,22 +11887,22 @@
     ]
   },
   {
-    "Id":700011, "MissionCategory":"SiriusDay", "MissionViewOrder":2, "Title":"", "Description":"【ユメステデー】稽古を[:param]回プレイしよう", "JumpType":"Lesson", "StartDate":"2025-11-27 05:00:00", "EndDate":"2025-11-28 05:00:00", "Stages":[
+    "Id":700011, "MissionCategory":"SiriusDay", "MissionViewOrder":2, "Title":"", "Description":"【ユメステデー】稽古を[:param]回プレイしよう", "JumpType":"Lesson", "StartDate":"2025-12-27 05:00:00", "EndDate":"2025-12-28 05:00:00", "Stages":[
       {
         "Id":7000111, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2025-07-27 05:00:00", "Rewards":[
           {
-            "ThingId":215009, "ThingType":"Item", "ThingQuantity":4
+            "ThingId":215011, "ThingType":"Item", "ThingQuantity":4
           }
         ]
       }
     ]
   },
   {
-    "Id":700012, "MissionCategory":"SiriusDay", "MissionViewOrder":3, "Title":"", "Description":"【ユメステデー】公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-11-27 05:00:00", "EndDate":"2025-11-28 05:00:00", "Stages":[
+    "Id":700012, "MissionCategory":"SiriusDay", "MissionViewOrder":3, "Title":"", "Description":"【ユメステデー】公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-12-27 05:00:00", "EndDate":"2025-12-28 05:00:00", "Stages":[
       {
         "Id":7000121, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-07-27 05:00:00", "Rewards":[
           {
-            "ThingId":215010, "ThingType":"Item", "ThingQuantity":4
+            "ThingId":215012, "ThingType":"Item", "ThingQuantity":4
           }
         ]
       }

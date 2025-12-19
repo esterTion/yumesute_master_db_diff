@@ -481,6 +481,19 @@
     ]
   },
   {
+    "Id":74, "Name":"オルタナティブコース", "MusicCourseType":"Special", "Order":14, "InitialLife":300, "RequiredAmount":0, "StartDate":"2025-12-25 17:00:00", "EndDate":"2026-02-01 05:00:00", "UnlockCondition":"None", "Details":[
+      {
+        "Id":7401, "SetListNumber":1, "VocalVersion":1, "AnotherNotationMasterId":55
+      },
+      {
+        "Id":7402, "SetListNumber":2, "VocalVersion":1, "AnotherNotationMasterId":52
+      },
+      {
+        "Id":7403, "SetListNumber":3, "VocalVersion":1, "AnotherNotationMasterId":57
+      }
+    ]
+  },
+  {
     "Id":200, "Name":"第1回 ウィークリーコース【STELLA部門】", "MusicCourseType":"WeeklyCourseRanking", "Order":1, "InitialLife":300, "RequiredItemMasterId":130201, "RequiredAmount":1, "StartDate":"2025-03-19 17:00:00", "EndDate":"2025-03-24 00:00:00", "UnlockCondition":"None", "Details":[
       {
         "Id":20001, "SetListNumber":1, "LiveMasterId":104, "VocalVersion":1, "AnotherNotationMasterId":0
@@ -1517,6 +1530,58 @@
       },
       {
         "Id":27903, "SetListNumber":3, "LiveMasterId":3305, "VocalVersion":1, "AnotherNotationMasterId":0
+      }
+    ]
+  },
+  {
+    "Id":280, "Name":"第41回 ウィークリーコース【STELLA部門】", "MusicCourseType":"WeeklyCourseRanking", "Order":1, "InitialLife":300, "RequiredItemMasterId":130201, "RequiredAmount":1, "StartDate":"2025-12-22 17:00:00", "EndDate":"2025-12-29 00:00:00", "UnlockCondition":"None", "Details":[
+      {
+        "Id":28001, "SetListNumber":1, "LiveMasterId":23704, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28002, "SetListNumber":2, "LiveMasterId":23204, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28003, "SetListNumber":3, "LiveMasterId":24104, "VocalVersion":1, "AnotherNotationMasterId":0
+      }
+    ]
+  },
+  {
+    "Id":281, "Name":"第41回 ウィークリーコース【OLIVIER部門】", "MusicCourseType":"WeeklyCourseRanking", "Order":2, "InitialLife":300, "RequiredItemMasterId":130201, "RequiredAmount":1, "StartDate":"2025-12-22 17:00:00", "EndDate":"2025-12-29 00:00:00", "UnlockCondition":"None", "Details":[
+      {
+        "Id":28101, "SetListNumber":1, "LiveMasterId":23705, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28102, "SetListNumber":2, "LiveMasterId":23205, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28103, "SetListNumber":3, "LiveMasterId":24105, "VocalVersion":1, "AnotherNotationMasterId":0
+      }
+    ]
+  },
+  {
+    "Id":282, "Name":"第42回 ウィークリーコース【STELLA部門】", "MusicCourseType":"WeeklyCourseRanking", "Order":1, "InitialLife":300, "RequiredItemMasterId":130201, "RequiredAmount":1, "StartDate":"2025-12-29 17:00:00", "EndDate":"2026-01-05 00:00:00", "UnlockCondition":"None", "Details":[
+      {
+        "Id":28201, "SetListNumber":1, "LiveMasterId":8604, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28202, "SetListNumber":2, "LiveMasterId":7604, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28203, "SetListNumber":3, "LiveMasterId":23904, "VocalVersion":1, "AnotherNotationMasterId":0
+      }
+    ]
+  },
+  {
+    "Id":283, "Name":"第42回 ウィークリーコース【OLIVIER部門】", "MusicCourseType":"WeeklyCourseRanking", "Order":2, "InitialLife":300, "RequiredItemMasterId":130201, "RequiredAmount":1, "StartDate":"2025-12-29 17:00:00", "EndDate":"2026-01-05 00:00:00", "UnlockCondition":"None", "Details":[
+      {
+        "Id":28301, "SetListNumber":1, "LiveMasterId":19805, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28302, "SetListNumber":2, "LiveMasterId":9505, "VocalVersion":1, "AnotherNotationMasterId":0
+      },
+      {
+        "Id":28303, "SetListNumber":3, "LiveMasterId":4305, "VocalVersion":1, "AnotherNotationMasterId":0
       }
     ]
   },

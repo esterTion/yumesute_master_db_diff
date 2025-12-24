@@ -4622,6 +4622,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230860, "Name":"矢は風を切り――", "Description":"<color=#7AC940>彩属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":230860, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052003
+          }
+        ],
+        "Id":23086001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":230870, "Name":"わたし、世界……照らしちゃいます！！", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230870, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":23087001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -4812,6 +4838,19 @@
           }
         ],
         "Id":32018001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":320190, "Name":"謹賀新年2026", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":320190, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70011000
+          }
+        ],
+        "Id":32019001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -9443,6 +9482,84 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":2308601, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230860, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230860101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308602, "Name":"P.ゲージ上限ブースト", "Description":"センス発動直後、P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":230860, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13100003
+          }
+        ],
+        "Id":230860201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308603, "Name":"センススコアアップⅢ", "Description":"公演開始時、自身のセンススコア[:param11]％UP効果が公演終了まで発動する　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":230860, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13230003
+          }
+        ],
+        "Id":230860301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308701, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230870, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230870101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308702, "Name":"P.ゲージ上限上昇＋", "Description":"P.ゲージの上限が[:param11]上昇", "PosterMasterId":230870, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11711000
+          }
+        ],
+        "Id":230870201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2308703, "Name":"公演の獲得EXPアップ", "Description":"公演と協力公演の獲得EXPが[:param11]％増加", "PosterMasterId":230870, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13400000
+          }
+        ],
+        "Id":230870301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3200101, "Name":"初期ライフ上昇＋", "Description":"公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":320010, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -9776,6 +9893,19 @@
           }
         ],
         "Id":320180201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3201901, "Name":"報酬量アップ", "Description":"公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）", "PosterMasterId":320190, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12500000
+          }
+        ],
+        "Id":320190101
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

@@ -3587,6 +3587,28 @@
     ]
   },
   {
+    "Id":54100, "MissionCategory":"Limit", "MissionViewOrder":27, "Title":"", "Description":"「開運御礼初詣！」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2026-01-01 00:00:00", "EndDate":"2026-01-10 17:00:00", "Stages":[
+      {
+        "Id":54100, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2026-01-01 00:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":54200, "MissionCategory":"Limit", "MissionViewOrder":28, "Title":"", "Description":"「開運御礼初詣！」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2026-01-01 00:00:00", "EndDate":"2026-01-10 17:00:00", "Stages":[
+      {
+        "Id":54200, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2026-01-01 00:00:00", "Rewards":[
+          {
+            "ThingId":0, "ThingType":"Jewel", "ThingQuantity":50
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id":100000, "MissionCategory":"Daily", "MissionViewOrder":100000, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2023-08-26 05:00:00", "EndDate":"2099-12-31 05:00:00", "Stages":[
       {
         "Id":100001, "MissionStageOrder":1, "StageGoalValue":300, "StartDate":"2023-08-26 05:00:00", "Rewards":[
@@ -4851,6 +4873,94 @@
         "Id":401570, "MissionStageOrder":1, "StageGoalValue":8, "StartDate":"2025-12-10 17:00:00", "Rewards":[
           {
             "ThingId":0, "ThingType":"Jewel", "ThingQuantity":500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":401580, "MissionCategory":"Limit", "MissionViewOrder":13, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-12-31 15:00:00", "EndDate":"2026-01-13 17:00:00", "Stages":[
+      {
+        "Id":401580, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-12-31 15:00:00", "Rewards":[
+          {
+            "ThingId":137006, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":401590, "MissionCategory":"Limit", "MissionViewOrder":14, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-12-31 15:00:00", "EndDate":"2026-01-13 17:00:00", "Stages":[
+      {
+        "Id":401590, "MissionStageOrder":1, "StageGoalValue":30, "StartDate":"2025-12-31 15:00:00", "Rewards":[
+          {
+            "ThingId":137006, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":401600, "MissionCategory":"Limit", "MissionViewOrder":15, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2025-12-31 15:00:00", "EndDate":"2026-01-13 17:00:00", "Stages":[
+      {
+        "Id":401600, "MissionStageOrder":1, "StageGoalValue":50, "StartDate":"2025-12-31 15:00:00", "Rewards":[
+          {
+            "ThingId":137006, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":401610, "MissionCategory":"Limit", "MissionViewOrder":16, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2025-12-31 15:00:00", "EndDate":"2026-01-13 17:00:00", "Stages":[
+      {
+        "Id":401610, "MissionStageOrder":1, "StageGoalValue":200, "StartDate":"2025-12-31 15:00:00", "Rewards":[
+          {
+            "ThingId":137006, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":401620, "MissionCategory":"Limit", "MissionViewOrder":17, "Title":"", "Description":"スタミナを[:param]消費しよう", "JumpType":"Live", "StartDate":"2025-12-31 15:00:00", "EndDate":"2026-01-13 17:00:00", "Stages":[
+      {
+        "Id":401620, "MissionStageOrder":1, "StageGoalValue":1000, "StartDate":"2025-12-31 15:00:00", "Rewards":[
+          {
+            "ThingId":137006, "ThingType":"Item", "ThingQuantity":100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":700001, "MissionCategory":"SiriusDay", "MissionViewOrder":1, "Title":"", "Description":"【ユメステデー】ログインしよう", "JumpType":"None", "StartDate":"2026-01-07 05:00:00", "EndDate":"2026-01-08 05:00:00", "Stages":[
+      {
+        "Id":7000011, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-07-07 05:00:00", "Rewards":[
+          {
+            "ThingId":130071, "ThingType":"Item", "ThingQuantity":1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":700002, "MissionCategory":"SiriusDay", "MissionViewOrder":2, "Title":"", "Description":"【ユメステデー】稽古を[:param]回プレイしよう", "JumpType":"Lesson", "StartDate":"2026-01-07 05:00:00", "EndDate":"2026-01-08 05:00:00", "Stages":[
+      {
+        "Id":7000021, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2025-07-07 05:00:00", "Rewards":[
+          {
+            "ThingId":215013, "ThingType":"Item", "ThingQuantity":3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":700003, "MissionCategory":"SiriusDay", "MissionViewOrder":3, "Title":"", "Description":"【ユメステデー】公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2026-01-07 05:00:00", "EndDate":"2026-01-08 05:00:00", "Stages":[
+      {
+        "Id":7000031, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-07-07 05:00:00", "Rewards":[
+          {
+            "ThingId":215014, "ThingType":"Item", "ThingQuantity":3
           }
         ]
       }

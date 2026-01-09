@@ -2612,6 +2612,166 @@
     "FireTimingType":"StarAct"
   },
   {
+    "Id":19116, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":4
+      },
+      {
+        "Level":2, "Value":4
+      },
+      {
+        "Level":3, "Value":4
+      },
+      {
+        "Level":4, "Value":4
+      },
+      {
+        "Level":5, "Value":4
+      },
+      {
+        "Level":6, "Value":4
+      },
+      {
+        "Level":7, "Value":4
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":100
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19117, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":8
+      },
+      {
+        "Level":2, "Value":8
+      },
+      {
+        "Level":3, "Value":8
+      },
+      {
+        "Level":4, "Value":8
+      },
+      {
+        "Level":5, "Value":8
+      },
+      {
+        "Level":6, "Value":8
+      },
+      {
+        "Level":7, "Value":8
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":100
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19118, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":12
+      },
+      {
+        "Level":2, "Value":12
+      },
+      {
+        "Level":3, "Value":12
+      },
+      {
+        "Level":4, "Value":12
+      },
+      {
+        "Level":5, "Value":12
+      },
+      {
+        "Level":6, "Value":12
+      },
+      {
+        "Level":7, "Value":12
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":100
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19119, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":16
+      },
+      {
+        "Level":2, "Value":16
+      },
+      {
+        "Level":3, "Value":16
+      },
+      {
+        "Level":4, "Value":16
+      },
+      {
+        "Level":5, "Value":16
+      },
+      {
+        "Level":6, "Value":16
+      },
+      {
+        "Level":7, "Value":16
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":100
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19120, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":20
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":20
+      },
+      {
+        "Level":4, "Value":20
+      },
+      {
+        "Level":5, "Value":20
+      },
+      {
+        "Level":6, "Value":20
+      },
+      {
+        "Level":7, "Value":20
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":100
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
     "Id":19150, "Type":"LifeGuard", "Range":"None", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":-1
@@ -6027,6 +6187,28 @@
       },
       {
         "Level":5, "Value":1000
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20633, "Type":"PrincipalGaugeGainPercentageOfLimit", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":200
+      },
+      {
+        "Level":2, "Value":300
+      },
+      {
+        "Level":3, "Value":400
+      },
+      {
+        "Level":4, "Value":500
+      },
+      {
+        "Level":5, "Value":600
       }
     ],
     "Conditions":[],

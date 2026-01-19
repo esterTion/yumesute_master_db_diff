@@ -3556,7 +3556,7 @@
         "JudgeType1":"MoreThan", "Parameter1":20, "Id":15003110
       }
     ],
-    "BranchCondition1":12, "BranchCondition2":"None"
+    "BranchCondition1":"SenseTriggeredCount", "BranchCondition2":"None"
   },
   {
     "Id":150032, "Name":"", "Description":"<size=26%>総演技力の[:score]倍のスコアを獲得/公演中のセンス発動回数2回につきスコア獲得量18％上昇（最大＋180％）／スターアクト発動後、プリンシパルゲージの上限値が[:param12]上昇</size>", "StarActConditionMasterId":101314, "AcquirableScorePercent":1310, "ScoreUpPerLevel":140, "PreEffects":[],
@@ -3672,6 +3672,6 @@
         "JudgeType1":"MoreThan", "Parameter1":20, "Id":15003210
       }
     ],
-    "BranchCondition1":12, "BranchCondition2":"None"
+    "BranchCondition1":"SenseTriggeredCount", "BranchCondition2":"None"
   }
 ]

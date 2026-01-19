@@ -4189,5 +4189,80 @@
         ]
       }
     ]
+  },
+  {
+    "Id":250, "Description":"「劇団電姫」カテゴリの演技力40%上昇、「衣装」カテゴリの表現力20％上昇、「オズの魔法使い」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが10上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12011, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12029, "Conditions":[
+          {
+            "CategoryMasterId1":6013
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":251, "Description":"「役者」カテゴリの演技力40%上昇、「舞台」カテゴリの集中力20％上昇、「オズの魔法使い」カテゴリの演技力上限が5%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12015, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12041, "Conditions":[
+          {
+            "CategoryMasterId1":6013
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":252, "Description":"「制服」カテゴリの演技力40%上昇、「音楽」カテゴリの歌唱力20％上昇・集中力15%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":4005
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12007, "Conditions":[
+          {
+            "CategoryMasterId1":4001
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12024, "Conditions":[
+          {
+            "CategoryMasterId1":4001
+          }
+        ]
+      }
+    ]
   }
 ]

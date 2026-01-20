@@ -3478,82 +3478,82 @@
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19210
+            "Order":1, "EffectMasterId":19219
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":2, "Id":15003101
+        "JudgeType1":"MoreThan", "Parameter1":20, "Id":15003101
       },
       {
         "Order":2, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19211
+            "Order":1, "EffectMasterId":19218
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":4, "Id":15003102
+        "JudgeType1":"MoreThan", "Parameter1":18, "Id":15003102
       },
       {
         "Order":3, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19212
+            "Order":1, "EffectMasterId":19217
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":6, "Id":15003103
+        "JudgeType1":"MoreThan", "Parameter1":16, "Id":15003103
       },
       {
         "Order":4, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19213
+            "Order":1, "EffectMasterId":19216
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":8, "Id":15003104
+        "JudgeType1":"MoreThan", "Parameter1":14, "Id":15003104
       },
       {
         "Order":5, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19214
+            "Order":1, "EffectMasterId":19215
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":10, "Id":15003105
+        "JudgeType1":"MoreThan", "Parameter1":12, "Id":15003105
       },
       {
         "Order":6, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19215
+            "Order":1, "EffectMasterId":19214
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":12, "Id":15003106
+        "JudgeType1":"MoreThan", "Parameter1":10, "Id":15003106
       },
       {
         "Order":7, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19216
+            "Order":1, "EffectMasterId":19213
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":14, "Id":15003107
+        "JudgeType1":"MoreThan", "Parameter1":8, "Id":15003107
       },
       {
         "Order":8, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19217
+            "Order":1, "EffectMasterId":19212
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":16, "Id":15003108
+        "JudgeType1":"MoreThan", "Parameter1":6, "Id":15003108
       },
       {
         "Order":9, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19218
+            "Order":1, "EffectMasterId":19211
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":18, "Id":15003109
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":15003109
       },
       {
         "Order":10, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19219
+            "Order":1, "EffectMasterId":19210
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":20, "Id":15003110
+        "JudgeType1":"MoreThan", "Parameter1":2, "Id":15003110
       }
     ],
     "BranchCondition1":"SenseTriggeredCount", "BranchCondition2":"None"
@@ -3564,93 +3564,16 @@
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19265
+            "Order":1, "EffectMasterId":19274
           },
           {
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":2, "Id":15003201
+        "JudgeType1":"MoreThan", "Parameter1":20, "Id":15003201
       },
       {
         "Order":2, "BranchEffects":[
-          {
-            "Order":1, "EffectMasterId":19266
-          },
-          {
-            "Order":2, "EffectMasterId":19086
-          }
-        ],
-        "JudgeType1":"Equal", "Parameter1":4, "Id":15003202
-      },
-      {
-        "Order":3, "BranchEffects":[
-          {
-            "Order":1, "EffectMasterId":19267
-          },
-          {
-            "Order":2, "EffectMasterId":19086
-          }
-        ],
-        "JudgeType1":"Equal", "Parameter1":6, "Id":15003203
-      },
-      {
-        "Order":4, "BranchEffects":[
-          {
-            "Order":1, "EffectMasterId":19268
-          },
-          {
-            "Order":2, "EffectMasterId":19086
-          }
-        ],
-        "JudgeType1":"Equal", "Parameter1":8, "Id":15003204
-      },
-      {
-        "Order":5, "BranchEffects":[
-          {
-            "Order":1, "EffectMasterId":19269
-          },
-          {
-            "Order":2, "EffectMasterId":19086
-          }
-        ],
-        "JudgeType1":"Equal", "Parameter1":10, "Id":15003205
-      },
-      {
-        "Order":6, "BranchEffects":[
-          {
-            "Order":1, "EffectMasterId":19270
-          },
-          {
-            "Order":2, "EffectMasterId":19086
-          }
-        ],
-        "JudgeType1":"Equal", "Parameter1":12, "Id":15003206
-      },
-      {
-        "Order":7, "BranchEffects":[
-          {
-            "Order":1, "EffectMasterId":19271
-          },
-          {
-            "Order":2, "EffectMasterId":19086
-          }
-        ],
-        "JudgeType1":"Equal", "Parameter1":14, "Id":15003207
-      },
-      {
-        "Order":8, "BranchEffects":[
-          {
-            "Order":1, "EffectMasterId":19272
-          },
-          {
-            "Order":2, "EffectMasterId":19086
-          }
-        ],
-        "JudgeType1":"Equal", "Parameter1":16, "Id":15003208
-      },
-      {
-        "Order":9, "BranchEffects":[
           {
             "Order":1, "EffectMasterId":19273
           },
@@ -3658,18 +3581,95 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":18, "Id":15003209
+        "JudgeType1":"MoreThan", "Parameter1":18, "Id":15003202
       },
       {
-        "Order":10, "BranchEffects":[
+        "Order":3, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":19274
+            "Order":1, "EffectMasterId":19272
           },
           {
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":20, "Id":15003210
+        "JudgeType1":"MoreThan", "Parameter1":16, "Id":15003203
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19271
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":14, "Id":15003204
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19270
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":12, "Id":15003205
+      },
+      {
+        "Order":6, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19269
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":10, "Id":15003206
+      },
+      {
+        "Order":7, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19268
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":8, "Id":15003207
+      },
+      {
+        "Order":8, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19267
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":6, "Id":15003208
+      },
+      {
+        "Order":9, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19266
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":15003209
+      },
+      {
+        "Order":10, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19265
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":2, "Id":15003210
       }
     ],
     "BranchCondition1":"SenseTriggeredCount", "BranchCondition2":"None"

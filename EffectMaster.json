@@ -23012,11 +23012,103 @@
       },
       {
         "Level":10, "Value":50
+      },
+      {
+        "Level":11, "Value":55
+      },
+      {
+        "Level":12, "Value":60
       }
     ],
     "Conditions":[],
     "DurationSecond":0, "Triggers":[],
     "FireTimingType":"Passive"
+  },
+  {
+    "Id":700001, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":9
+      },
+      {
+        "Level":2, "Value":10
+      },
+      {
+        "Level":3, "Value":11
+      },
+      {
+        "Level":4, "Value":12
+      },
+      {
+        "Level":5, "Value":13
+      },
+      {
+        "Level":6, "Value":14
+      },
+      {
+        "Level":7, "Value":15
+      },
+      {
+        "Level":8, "Value":16
+      },
+      {
+        "Level":9, "Value":17
+      },
+      {
+        "Level":10, "Value":18
+      },
+      {
+        "Level":11, "Value":19
+      },
+      {
+        "Level":12, "Value":20
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":700002, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":9
+      },
+      {
+        "Level":2, "Value":10
+      },
+      {
+        "Level":3, "Value":11
+      },
+      {
+        "Level":4, "Value":12
+      },
+      {
+        "Level":5, "Value":13
+      },
+      {
+        "Level":6, "Value":14
+      },
+      {
+        "Level":7, "Value":15
+      },
+      {
+        "Level":8, "Value":16
+      },
+      {
+        "Level":9, "Value":17
+      },
+      {
+        "Level":10, "Value":18
+      },
+      {
+        "Level":11, "Value":19
+      },
+      {
+        "Level":12, "Value":20
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StartLive"
   },
   {
     "Id":710111, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
@@ -23049,6 +23141,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -23090,6 +23188,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -23131,6 +23235,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -23172,6 +23282,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -23213,6 +23329,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -23254,6 +23376,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -23295,6 +23423,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -23336,6 +23470,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -23377,6 +23517,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -23418,6 +23564,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -23459,6 +23611,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -23500,6 +23658,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -23541,6 +23705,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -23582,6 +23752,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -23623,6 +23799,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -23664,6 +23846,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -23705,6 +23893,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -23746,6 +23940,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -23755,6 +23955,946 @@
       }
     ],
     "FireTimingType":"Passive"
+  },
+  {
+    "Id":710161, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":20
+      },
+      {
+        "Level":2, "Value":40
+      },
+      {
+        "Level":3, "Value":60
+      },
+      {
+        "Level":4, "Value":80
+      },
+      {
+        "Level":5, "Value":100
+      },
+      {
+        "Level":6, "Value":120
+      },
+      {
+        "Level":7, "Value":140
+      },
+      {
+        "Level":8, "Value":160
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":200
+      },
+      {
+        "Level":11, "Value":225
+      },
+      {
+        "Level":12, "Value":250
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":1
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710162, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":25
+      },
+      {
+        "Level":2, "Value":50
+      },
+      {
+        "Level":3, "Value":75
+      },
+      {
+        "Level":4, "Value":100
+      },
+      {
+        "Level":5, "Value":125
+      },
+      {
+        "Level":6, "Value":150
+      },
+      {
+        "Level":7, "Value":175
+      },
+      {
+        "Level":8, "Value":200
+      },
+      {
+        "Level":9, "Value":225
+      },
+      {
+        "Level":10, "Value":250
+      },
+      {
+        "Level":11, "Value":300
+      },
+      {
+        "Level":12, "Value":350
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":1
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710163, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":30
+      },
+      {
+        "Level":2, "Value":60
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":120
+      },
+      {
+        "Level":5, "Value":150
+      },
+      {
+        "Level":6, "Value":180
+      },
+      {
+        "Level":7, "Value":210
+      },
+      {
+        "Level":8, "Value":240
+      },
+      {
+        "Level":9, "Value":270
+      },
+      {
+        "Level":10, "Value":300
+      },
+      {
+        "Level":11, "Value":375
+      },
+      {
+        "Level":12, "Value":450
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":1
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710164, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":20
+      },
+      {
+        "Level":2, "Value":40
+      },
+      {
+        "Level":3, "Value":60
+      },
+      {
+        "Level":4, "Value":80
+      },
+      {
+        "Level":5, "Value":100
+      },
+      {
+        "Level":6, "Value":120
+      },
+      {
+        "Level":7, "Value":140
+      },
+      {
+        "Level":8, "Value":160
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":200
+      },
+      {
+        "Level":11, "Value":225
+      },
+      {
+        "Level":12, "Value":250
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710165, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":25
+      },
+      {
+        "Level":2, "Value":50
+      },
+      {
+        "Level":3, "Value":75
+      },
+      {
+        "Level":4, "Value":100
+      },
+      {
+        "Level":5, "Value":125
+      },
+      {
+        "Level":6, "Value":150
+      },
+      {
+        "Level":7, "Value":175
+      },
+      {
+        "Level":8, "Value":200
+      },
+      {
+        "Level":9, "Value":225
+      },
+      {
+        "Level":10, "Value":250
+      },
+      {
+        "Level":11, "Value":300
+      },
+      {
+        "Level":12, "Value":350
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710166, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":30
+      },
+      {
+        "Level":2, "Value":60
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":120
+      },
+      {
+        "Level":5, "Value":150
+      },
+      {
+        "Level":6, "Value":180
+      },
+      {
+        "Level":7, "Value":210
+      },
+      {
+        "Level":8, "Value":240
+      },
+      {
+        "Level":9, "Value":270
+      },
+      {
+        "Level":10, "Value":300
+      },
+      {
+        "Level":11, "Value":375
+      },
+      {
+        "Level":12, "Value":450
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710167, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":20
+      },
+      {
+        "Level":2, "Value":40
+      },
+      {
+        "Level":3, "Value":60
+      },
+      {
+        "Level":4, "Value":80
+      },
+      {
+        "Level":5, "Value":100
+      },
+      {
+        "Level":6, "Value":120
+      },
+      {
+        "Level":7, "Value":140
+      },
+      {
+        "Level":8, "Value":160
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":200
+      },
+      {
+        "Level":11, "Value":225
+      },
+      {
+        "Level":12, "Value":250
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":3
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710168, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":25
+      },
+      {
+        "Level":2, "Value":50
+      },
+      {
+        "Level":3, "Value":75
+      },
+      {
+        "Level":4, "Value":100
+      },
+      {
+        "Level":5, "Value":125
+      },
+      {
+        "Level":6, "Value":150
+      },
+      {
+        "Level":7, "Value":175
+      },
+      {
+        "Level":8, "Value":200
+      },
+      {
+        "Level":9, "Value":225
+      },
+      {
+        "Level":10, "Value":250
+      },
+      {
+        "Level":11, "Value":300
+      },
+      {
+        "Level":12, "Value":350
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":3
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710169, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":30
+      },
+      {
+        "Level":2, "Value":60
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":120
+      },
+      {
+        "Level":5, "Value":150
+      },
+      {
+        "Level":6, "Value":180
+      },
+      {
+        "Level":7, "Value":210
+      },
+      {
+        "Level":8, "Value":240
+      },
+      {
+        "Level":9, "Value":270
+      },
+      {
+        "Level":10, "Value":300
+      },
+      {
+        "Level":11, "Value":375
+      },
+      {
+        "Level":12, "Value":450
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":3
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710170, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":20
+      },
+      {
+        "Level":2, "Value":40
+      },
+      {
+        "Level":3, "Value":60
+      },
+      {
+        "Level":4, "Value":80
+      },
+      {
+        "Level":5, "Value":100
+      },
+      {
+        "Level":6, "Value":120
+      },
+      {
+        "Level":7, "Value":140
+      },
+      {
+        "Level":8, "Value":160
+      },
+      {
+        "Level":9, "Value":180
+      },
+      {
+        "Level":10, "Value":200
+      },
+      {
+        "Level":11, "Value":225
+      },
+      {
+        "Level":12, "Value":250
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":4
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710171, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":25
+      },
+      {
+        "Level":2, "Value":50
+      },
+      {
+        "Level":3, "Value":75
+      },
+      {
+        "Level":4, "Value":100
+      },
+      {
+        "Level":5, "Value":125
+      },
+      {
+        "Level":6, "Value":150
+      },
+      {
+        "Level":7, "Value":175
+      },
+      {
+        "Level":8, "Value":200
+      },
+      {
+        "Level":9, "Value":225
+      },
+      {
+        "Level":10, "Value":250
+      },
+      {
+        "Level":11, "Value":300
+      },
+      {
+        "Level":12, "Value":350
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":4
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710172, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":30
+      },
+      {
+        "Level":2, "Value":60
+      },
+      {
+        "Level":3, "Value":90
+      },
+      {
+        "Level":4, "Value":120
+      },
+      {
+        "Level":5, "Value":150
+      },
+      {
+        "Level":6, "Value":180
+      },
+      {
+        "Level":7, "Value":210
+      },
+      {
+        "Level":8, "Value":240
+      },
+      {
+        "Level":9, "Value":270
+      },
+      {
+        "Level":10, "Value":300
+      },
+      {
+        "Level":11, "Value":375
+      },
+      {
+        "Level":12, "Value":450
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":4
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":710181, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":1
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":710182, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":710183, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":3
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":710184, "Type":"PrincipalGaugeGain", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":4
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":710191, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":1
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":710192, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":2
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":710193, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":3
+      }
+    ],
+    "FireTimingType":"StartLive"
+  },
+  {
+    "Id":710194, "Type":"PrincipalGaugeLimitUp", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":20
+      },
+      {
+        "Level":3, "Value":22
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":26
+      },
+      {
+        "Level":6, "Value":28
+      },
+      {
+        "Level":7, "Value":30
+      },
+      {
+        "Level":8, "Value":32
+      },
+      {
+        "Level":9, "Value":34
+      },
+      {
+        "Level":10, "Value":36
+      },
+      {
+        "Level":11, "Value":38
+      },
+      {
+        "Level":12, "Value":40
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"Attribute", "Value":4
+      }
+    ],
+    "FireTimingType":"StartLive"
   },
   {
     "Id":710211, "Type":"PerformanceUp", "Range":"Self", "CalculationType":"PercentageAddition", "Details":[
@@ -23787,6 +24927,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -23828,6 +24974,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -23869,6 +25021,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -23910,6 +25068,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -23951,6 +25115,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -23992,6 +25162,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -24033,6 +25209,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -24074,6 +25256,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -24115,6 +25303,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -24156,6 +25350,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -24197,6 +25397,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -24238,6 +25444,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -24279,6 +25491,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -24320,6 +25538,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -24361,6 +25585,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -24402,6 +25632,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -24443,6 +25679,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -24484,6 +25726,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -24525,6 +25773,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -24566,6 +25820,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -24607,6 +25867,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -24648,6 +25914,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -24689,6 +25961,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -24730,6 +26008,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -24771,6 +26055,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -24812,6 +26102,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -24853,6 +26149,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -24894,6 +26196,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -24935,6 +26243,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -24976,6 +26290,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -25017,6 +26337,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -25058,6 +26384,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -25099,6 +26431,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -25140,6 +26478,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -25181,6 +26525,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -25222,6 +26572,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -25263,6 +26619,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -25304,6 +26666,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -25345,6 +26713,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -25386,6 +26760,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -25427,6 +26807,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -25468,6 +26854,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -25509,6 +26901,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -25550,6 +26948,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -25591,6 +26995,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -25632,6 +27042,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -25673,6 +27089,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -25714,6 +27136,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -25755,6 +27183,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -25796,6 +27230,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -25837,6 +27277,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -25878,6 +27324,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -25919,6 +27371,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -25960,6 +27418,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -26001,6 +27465,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -26042,6 +27512,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -26083,6 +27559,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -26124,6 +27606,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -26165,6 +27653,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -26206,6 +27700,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -26247,6 +27747,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -26288,6 +27794,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -26329,6 +27841,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -26370,6 +27888,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -26411,6 +27935,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -26452,6 +27982,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -26493,6 +28029,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -26534,6 +28076,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -26575,6 +28123,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -26616,6 +28170,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -26657,6 +28217,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -26698,6 +28264,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -26739,6 +28311,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -26780,6 +28358,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -26821,6 +28405,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -26862,6 +28452,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -26903,6 +28499,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -26944,6 +28546,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -26985,6 +28593,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -27026,6 +28640,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -27067,6 +28687,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -27108,6 +28734,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -27149,6 +28781,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -27190,6 +28828,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -27231,6 +28875,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -27272,6 +28922,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -27313,6 +28969,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -27354,6 +29016,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -27395,6 +29063,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -27436,6 +29110,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -27477,6 +29157,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -27518,6 +29204,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -27559,6 +29251,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -27600,6 +29298,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -27641,6 +29345,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -27682,6 +29392,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -27723,6 +29439,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -27764,6 +29486,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -27805,6 +29533,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -27846,6 +29580,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -27887,6 +29627,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -27928,6 +29674,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -27969,6 +29721,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -28010,6 +29768,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -28051,6 +29815,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -28092,6 +29862,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -28133,6 +29909,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -28174,6 +29956,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -28215,6 +30003,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -28256,6 +30050,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -28297,6 +30097,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -28338,6 +30144,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -28379,6 +30191,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -28420,6 +30238,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -28461,6 +30285,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -28502,6 +30332,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -28543,6 +30379,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -28584,6 +30426,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -28625,6 +30473,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -28666,6 +30520,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -28707,6 +30567,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -28748,6 +30614,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -28789,6 +30661,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -28830,6 +30708,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -28871,6 +30755,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -28912,6 +30802,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -28953,6 +30849,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -28994,6 +30896,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -29035,6 +30943,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -29076,6 +30990,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -29117,6 +31037,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -29158,6 +31084,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -29199,6 +31131,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -29240,6 +31178,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -29281,6 +31225,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -29322,6 +31272,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -29363,6 +31319,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -29404,6 +31366,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -29445,6 +31413,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -29486,6 +31460,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -29527,6 +31507,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -29568,6 +31554,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -29609,6 +31601,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -29650,6 +31648,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -29691,6 +31695,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -29732,6 +31742,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -29773,6 +31789,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -29814,6 +31836,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -29855,6 +31883,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -29896,6 +31930,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -29937,6 +31977,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -29978,6 +32024,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -30019,6 +32071,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -30060,6 +32118,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -30101,6 +32165,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -30142,6 +32212,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -30183,6 +32259,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -30224,6 +32306,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -30265,6 +32353,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -30306,6 +32400,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -30347,6 +32447,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -30388,6 +32494,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -30429,6 +32541,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -30470,6 +32588,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -30511,6 +32635,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -30552,6 +32682,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -30593,6 +32729,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -30634,6 +32776,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -30675,6 +32823,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -30716,6 +32870,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -30757,6 +32917,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -30798,6 +32964,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -30839,6 +33011,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -30880,6 +33058,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -30921,6 +33105,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -30962,6 +33152,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -31003,6 +33199,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -31044,6 +33246,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -31085,6 +33293,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -31126,6 +33340,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -31167,6 +33387,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -31208,6 +33434,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -31249,6 +33481,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -31290,6 +33528,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -31331,6 +33575,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -31372,6 +33622,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -31413,6 +33669,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -31454,6 +33716,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -31495,6 +33763,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -31536,6 +33810,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -31577,6 +33857,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -31618,6 +33904,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -31659,6 +33951,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -31700,6 +33998,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -31741,6 +34045,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -31782,6 +34092,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -31823,6 +34139,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -31864,6 +34186,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -31905,6 +34233,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -31946,6 +34280,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -31987,6 +34327,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -32028,6 +34374,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -32069,6 +34421,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -32110,6 +34468,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -32151,6 +34515,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -32192,6 +34562,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -32233,6 +34609,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -32274,6 +34656,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -32315,6 +34703,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -32356,6 +34750,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -32397,6 +34797,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -32438,6 +34844,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -32479,6 +34891,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -32520,6 +34938,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -32561,6 +34985,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -32602,6 +35032,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -32643,6 +35079,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -32684,6 +35126,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -32725,6 +35173,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -32766,6 +35220,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -32807,6 +35267,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -32848,6 +35314,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -32889,6 +35361,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -32930,6 +35408,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -32971,6 +35455,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -33012,6 +35502,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -33053,6 +35549,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -33094,6 +35596,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -33135,6 +35643,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -33176,6 +35690,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -33217,6 +35737,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -33258,6 +35784,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -33299,6 +35831,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -33340,6 +35878,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -33381,6 +35925,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -33422,6 +35972,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -33463,6 +36019,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -33504,6 +36066,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -33545,6 +36113,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -33586,6 +36160,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -33627,6 +36207,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -33668,6 +36254,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -33709,6 +36301,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -33750,6 +36348,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -33791,6 +36395,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -33832,6 +36442,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -33873,6 +36489,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -33914,6 +36536,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -33955,6 +36583,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -33996,6 +36630,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -34037,6 +36677,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -34078,6 +36724,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -34119,6 +36771,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -34160,6 +36818,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -34201,6 +36865,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -34242,6 +36912,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -34283,6 +36959,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -34324,6 +37006,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -34365,6 +37053,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -34406,6 +37100,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -34447,6 +37147,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -34488,6 +37194,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -34529,6 +37241,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -34570,6 +37288,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -34611,6 +37335,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -34652,6 +37382,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -34693,6 +37429,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -34734,6 +37476,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -34775,6 +37523,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -34816,6 +37570,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -34857,6 +37617,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -34898,6 +37664,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -34939,6 +37711,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -34980,6 +37758,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -35021,6 +37805,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -35062,6 +37852,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -35103,6 +37899,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -35144,6 +37946,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -35185,6 +37993,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -35226,6 +38040,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -35267,6 +38087,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -35308,6 +38134,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -35349,6 +38181,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -35390,6 +38228,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -35431,6 +38275,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -35472,6 +38322,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -35513,6 +38369,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -35554,6 +38416,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -35595,6 +38463,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -35636,6 +38510,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -35677,6 +38557,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -35718,6 +38604,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -35759,6 +38651,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -35800,6 +38698,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -35841,6 +38745,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -35882,6 +38792,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -35923,6 +38839,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -35964,6 +38886,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -36005,6 +38933,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -36046,6 +38980,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -36087,6 +39027,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -36128,6 +39074,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -36169,6 +39121,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -36210,6 +39168,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -36251,6 +39215,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -36292,6 +39262,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -36333,6 +39309,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -36374,6 +39356,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -36415,6 +39403,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -36456,6 +39450,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -36497,6 +39497,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -36538,6 +39544,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -36579,6 +39591,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -36620,6 +39638,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -36661,6 +39685,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -36702,6 +39732,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -36743,6 +39779,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -36784,6 +39826,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -36825,6 +39873,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -36866,6 +39920,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -36907,6 +39967,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -36948,6 +40014,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -36989,6 +40061,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -37030,6 +40108,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -37071,6 +40155,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -37112,6 +40202,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -37153,6 +40249,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -37194,6 +40296,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -37235,6 +40343,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -37276,6 +40390,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -37317,6 +40437,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -37358,6 +40484,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -37399,6 +40531,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -37440,6 +40578,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -37481,6 +40625,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -37522,6 +40672,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -37563,6 +40719,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -37604,6 +40766,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -37645,6 +40813,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -37686,6 +40860,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -37727,6 +40907,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -37768,6 +40954,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -37809,6 +41001,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -37850,6 +41048,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -37891,6 +41095,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -37932,6 +41142,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -37973,6 +41189,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -38014,6 +41236,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -38055,6 +41283,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -38096,6 +41330,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -38137,6 +41377,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -38178,6 +41424,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -38219,6 +41471,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -38260,6 +41518,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -38301,6 +41565,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -38342,6 +41612,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -38383,6 +41659,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -38424,6 +41706,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -38465,6 +41753,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -38506,6 +41800,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -38547,6 +41847,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -38588,6 +41894,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -38629,6 +41941,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -38670,6 +41988,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -38711,6 +42035,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -38752,6 +42082,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -38793,6 +42129,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -38834,6 +42176,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -38875,6 +42223,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -38916,6 +42270,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -38957,6 +42317,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -38998,6 +42364,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -39039,6 +42411,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -39080,6 +42458,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -39121,6 +42505,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -39162,6 +42552,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -39203,6 +42599,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -39244,6 +42646,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -39285,6 +42693,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -39326,6 +42740,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -39367,6 +42787,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -39408,6 +42834,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -39449,6 +42881,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -39490,6 +42928,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -39531,6 +42975,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -39572,6 +43022,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -39613,6 +43069,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -39654,6 +43116,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -39695,6 +43163,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -39736,6 +43210,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -39777,6 +43257,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -39818,6 +43304,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -39859,6 +43351,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -39900,6 +43398,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -39941,6 +43445,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -39982,6 +43492,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -40023,6 +43539,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -40064,6 +43586,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -40105,6 +43633,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -40146,6 +43680,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -40187,6 +43727,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -40228,6 +43774,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -40269,6 +43821,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -40310,6 +43868,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -40351,6 +43915,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -40392,6 +43962,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -40433,6 +44009,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -40474,6 +44056,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -40515,6 +44103,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -40556,6 +44150,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -40597,6 +44197,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -40638,6 +44244,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -40679,6 +44291,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -40720,6 +44338,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -40761,6 +44385,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -40802,6 +44432,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -40843,6 +44479,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -40884,6 +44526,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -40925,6 +44573,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -40966,6 +44620,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -41007,6 +44667,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -41048,6 +44714,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -41089,6 +44761,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -41130,6 +44808,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -41171,6 +44855,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -41212,6 +44902,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -41253,6 +44949,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -41294,6 +44996,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -41335,6 +45043,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -41376,6 +45090,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -41417,6 +45137,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -41458,6 +45184,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -41499,6 +45231,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":650
+      },
+      {
+        "Level":12, "Value":700
       }
     ],
     "Conditions":[],
@@ -41540,6 +45278,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":775
+      },
+      {
+        "Level":12, "Value":850
       }
     ],
     "Conditions":[],
@@ -41581,6 +45325,12 @@
       },
       {
         "Level":10, "Value":800
+      },
+      {
+        "Level":11, "Value":900
+      },
+      {
+        "Level":12, "Value":1000
       }
     ],
     "Conditions":[],
@@ -41622,6 +45372,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -41663,6 +45419,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -41704,6 +45466,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -41745,6 +45513,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -41786,6 +45560,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -41827,6 +45607,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -41868,6 +45654,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -41909,6 +45701,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -41950,6 +45748,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -41991,6 +45795,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],
@@ -42032,6 +45842,12 @@
       },
       {
         "Level":10, "Value":500
+      },
+      {
+        "Level":11, "Value":550
+      },
+      {
+        "Level":12, "Value":600
       }
     ],
     "Conditions":[],
@@ -42073,6 +45889,12 @@
       },
       {
         "Level":10, "Value":550
+      },
+      {
+        "Level":11, "Value":605
+      },
+      {
+        "Level":12, "Value":660
       }
     ],
     "Conditions":[],
@@ -42114,6 +45936,12 @@
       },
       {
         "Level":10, "Value":600
+      },
+      {
+        "Level":11, "Value":660
+      },
+      {
+        "Level":12, "Value":720
       }
     ],
     "Conditions":[],
@@ -42155,6 +45983,12 @@
       },
       {
         "Level":10, "Value":650
+      },
+      {
+        "Level":11, "Value":715
+      },
+      {
+        "Level":12, "Value":780
       }
     ],
     "Conditions":[],
@@ -42196,6 +46030,12 @@
       },
       {
         "Level":10, "Value":700
+      },
+      {
+        "Level":11, "Value":770
+      },
+      {
+        "Level":12, "Value":840
       }
     ],
     "Conditions":[],

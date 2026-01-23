@@ -3559,7 +3559,7 @@
     "BranchCondition1":"SenseTriggeredCount", "BranchCondition2":"None"
   },
   {
-    "Id":150032, "Name":"", "Description":"<size=26%>総演技力の[:score]倍のスコアを獲得/公演中のセンス発動回数2回につきスコア獲得量18％上昇（最大＋180％）／スターアクト発動後、プリンシパルゲージの上限値が[:param12]上昇</size>", "StarActConditionMasterId":101314, "AcquirableScorePercent":1310, "ScoreUpPerLevel":140, "PreEffects":[],
+    "Id":150032, "Name":"", "Description":"<size=26%>総演技力の[:score]倍のスコアを獲得/公演中のセンス発動回数1回につきスコア獲得量18％上昇（最大＋180％）／スターアクト発動後、プリンシパルゲージの上限値が[:param12]上昇</size>", "StarActConditionMasterId":101314, "AcquirableScorePercent":1310, "ScoreUpPerLevel":140, "PreEffects":[],
     "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -3570,7 +3570,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":20, "Id":15003201
+        "JudgeType1":"MoreThan", "Parameter1":10, "Id":15003201
       },
       {
         "Order":2, "BranchEffects":[
@@ -3581,7 +3581,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":18, "Id":15003202
+        "JudgeType1":"MoreThan", "Parameter1":9, "Id":15003202
       },
       {
         "Order":3, "BranchEffects":[
@@ -3592,7 +3592,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":16, "Id":15003203
+        "JudgeType1":"MoreThan", "Parameter1":8, "Id":15003203
       },
       {
         "Order":4, "BranchEffects":[
@@ -3603,7 +3603,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":14, "Id":15003204
+        "JudgeType1":"MoreThan", "Parameter1":7, "Id":15003204
       },
       {
         "Order":5, "BranchEffects":[
@@ -3614,7 +3614,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":12, "Id":15003205
+        "JudgeType1":"MoreThan", "Parameter1":6, "Id":15003205
       },
       {
         "Order":6, "BranchEffects":[
@@ -3625,7 +3625,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":10, "Id":15003206
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":15003206
       },
       {
         "Order":7, "BranchEffects":[
@@ -3636,7 +3636,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":8, "Id":15003207
+        "JudgeType1":"MoreThan", "Parameter1":4, "Id":15003207
       },
       {
         "Order":8, "BranchEffects":[
@@ -3647,7 +3647,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":6, "Id":15003208
+        "JudgeType1":"MoreThan", "Parameter1":3, "Id":15003208
       },
       {
         "Order":9, "BranchEffects":[
@@ -3658,7 +3658,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":4, "Id":15003209
+        "JudgeType1":"MoreThan", "Parameter1":2, "Id":15003209
       },
       {
         "Order":10, "BranchEffects":[
@@ -3669,7 +3669,7 @@
             "Order":2, "EffectMasterId":19086
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":2, "Id":15003210
+        "JudgeType1":"MoreThan", "Parameter1":1, "Id":15003210
       }
     ],
     "BranchCondition1":"SenseTriggeredCount", "BranchCondition2":"None"

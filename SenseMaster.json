@@ -4244,6 +4244,38 @@
     "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142170, "Name":"復讐の魔女は墳墓にて", "Description":"<size=27%>[:score]倍のスコアを獲得／センス発動時に、追加で「特殊の光」を1個獲得する／センス発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する。</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20632
+          }
+        ],
+        "Id":1421701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":840, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":65, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142180, "Name":"薄幸の麗妃は王棺を悼み", "Description":"<size=26%>[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにスターアクトスコア[:param11]％UP効果／雪が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>", "Type":"Amplification", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28013
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20304
+          }
+        ],
+        "Id":1421801
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

@@ -4276,6 +4276,38 @@
     "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142190, "Name":"キミの為、闇の中へ", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動直後、その時のスコアの[:param11]％のスコアを獲得", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20542
+          }
+        ],
+        "Id":1421901
+      }
+    ],
+    "AcquirableGauge":70, "AcquirableScorePercent":120, "ScoreUpPerLevel":40, "LightCount":2, "CoolTime":25, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142200, "Name":"嗚呼、クリスティーヌ", "Description":"<size=26%>[:score]倍のスコアを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）</size>", "Type":"Support", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28006
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20603
+          }
+        ],
+        "Id":1422001
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

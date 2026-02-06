@@ -5447,6 +5447,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":330390, "Name":"華々しく和やかな夜宴", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":330390, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70053000
+          }
+        ],
+        "Id":33039001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":340010, "Name":"いつか夢を叶える日まで", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -11817,6 +11830,71 @@
           }
         ],
         "Id":330380401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303901, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":330390, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":330390101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303902, "Name":"P.ゲージ上限ブースト＋", "Description":"センス発動直後、P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備", "PosterMasterId":330390, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13120001
+          }
+        ],
+        "Id":330390201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303903, "Name":"P.ゲージ獲得量アップⅡ＋", "Description":"センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備", "PosterMasterId":330390, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11622001
+          }
+        ],
+        "Id":330390301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303904, "Name":"「光」獲得数増加Ⅱ", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":330390, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11820003
+          }
+        ],
+        "Id":330390401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3303905, "Name":"スコアブーストⅡ＋", "Description":"センス発動直後、現在のスコアの[:param11]%のスコアを獲得　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":330390, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10821003
+          }
+        ],
+        "Id":330390501
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

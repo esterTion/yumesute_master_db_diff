@@ -4700,6 +4700,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230920, "Name":"蟒蛇は嗤う、贄を望んで", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230920, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052000
+          }
+        ],
+        "Id":23092001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":230930, "Name":"あちらに見えるは暗黒星雲", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230930, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":23093001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -9867,6 +9893,110 @@
           }
         ],
         "Id":230910301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309201, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230920, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230920101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309202, "Name":"歌唱力アップⅢ＋＋", "Description":"自身の歌唱力が[:param11]％上昇　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":230920, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10132003
+          }
+        ],
+        "Id":230920201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309203, "Name":"「光」追加（SP）Ⅱ", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：<color=#7AC940>彩属性</color>のアクターが装備", "PosterMasterId":230920, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11920003
+          }
+        ],
+        "Id":230920301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309204, "Name":"表現力アップⅢ＋＋", "Description":"自身の表現力が[:param11]％上昇　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備", "PosterMasterId":230920, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10232001
+          }
+        ],
+        "Id":230920401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309205, "Name":"「光」追加（SP）Ⅱ", "Description":"公演開始時、SP光を[:param11]付与（効果は公演開始時1回のみ発動する）　◆発動条件：<color=#ff679d>憐属性</color>のアクターが装備", "PosterMasterId":230920, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11920001
+          }
+        ],
+        "Id":230920501
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309301, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230930, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230930101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309302, "Name":"P.ゲージブーストⅡ", "Description":"センス発動直後、P.ゲージを[:param11]獲得", "PosterMasterId":230930, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11420000
+          }
+        ],
+        "Id":230930201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309303, "Name":"公演の獲得EXPアップ", "Description":"公演と協力公演の獲得EXPが[:param11]％増加", "PosterMasterId":230930, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":13400000
+          }
+        ],
+        "Id":230930301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

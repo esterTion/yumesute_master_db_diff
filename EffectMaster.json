@@ -4974,6 +4974,116 @@
     "FireTimingType":"Sense"
   },
   {
+    "Id":20015, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":120
+      },
+      {
+        "Level":2, "Value":120
+      },
+      {
+        "Level":3, "Value":120
+      },
+      {
+        "Level":4, "Value":120
+      },
+      {
+        "Level":5, "Value":120
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20016, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":240
+      },
+      {
+        "Level":2, "Value":240
+      },
+      {
+        "Level":3, "Value":240
+      },
+      {
+        "Level":4, "Value":240
+      },
+      {
+        "Level":5, "Value":240
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20017, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":360
+      },
+      {
+        "Level":2, "Value":360
+      },
+      {
+        "Level":3, "Value":360
+      },
+      {
+        "Level":4, "Value":360
+      },
+      {
+        "Level":5, "Value":360
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20018, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":480
+      },
+      {
+        "Level":2, "Value":480
+      },
+      {
+        "Level":3, "Value":480
+      },
+      {
+        "Level":4, "Value":480
+      },
+      {
+        "Level":5, "Value":480
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20019, "Type":"LifeHealing", "Range":"None", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":600
+      },
+      {
+        "Level":2, "Value":600
+      },
+      {
+        "Level":3, "Value":600
+      },
+      {
+        "Level":4, "Value":600
+      },
+      {
+        "Level":5, "Value":600
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
     "Id":20021, "Type":"SenseScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":400
@@ -7740,6 +7850,136 @@
     "Conditions":[
       {
         "Condition":"CharacterBaseGroup", "Value":8
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20671, "Type":"PerformanceDuplicateUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":2
+      },
+      {
+        "Level":2, "Value":2
+      },
+      {
+        "Level":3, "Value":2
+      },
+      {
+        "Level":4, "Value":2
+      },
+      {
+        "Level":5, "Value":2
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":300
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20672, "Type":"PerformanceDuplicateUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":4
+      },
+      {
+        "Level":2, "Value":4
+      },
+      {
+        "Level":3, "Value":4
+      },
+      {
+        "Level":4, "Value":4
+      },
+      {
+        "Level":5, "Value":4
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":300
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20673, "Type":"PerformanceDuplicateUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":6
+      },
+      {
+        "Level":2, "Value":6
+      },
+      {
+        "Level":3, "Value":6
+      },
+      {
+        "Level":4, "Value":6
+      },
+      {
+        "Level":5, "Value":6
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":300
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20674, "Type":"PerformanceDuplicateUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":8
+      },
+      {
+        "Level":2, "Value":8
+      },
+      {
+        "Level":3, "Value":8
+      },
+      {
+        "Level":4, "Value":8
+      },
+      {
+        "Level":5, "Value":8
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":300
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20675, "Type":"PerformanceDuplicateUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":10
+      },
+      {
+        "Level":2, "Value":10
+      },
+      {
+        "Level":3, "Value":10
+      },
+      {
+        "Level":4, "Value":10
+      },
+      {
+        "Level":5, "Value":10
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":300
       }
     ],
     "DurationSecond":0, "Triggers":[],

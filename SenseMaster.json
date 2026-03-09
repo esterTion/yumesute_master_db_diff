@@ -4395,6 +4395,113 @@
     "AcquirableGauge":0, "AcquirableScorePercent":740, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":60, "BranchCondition1":"CompanyMemberCount", "ConditionValue1":2, "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142250, "Name":"Flamante Bailaora！", "Description":"<size=24%>[:score]倍のスコアを獲得／センス発動後、付与されているライフガード1回につきライフを120回復(最大600回復)／付与されているライフガード1回につきプリンシパルゲージの上限値が20上昇（最大+80）</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20015
+          },
+          {
+            "Order":2, "EffectMasterId":29111
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1422501
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20016
+          },
+          {
+            "Order":2, "EffectMasterId":29112
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1422502
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20017
+          },
+          {
+            "Order":2, "EffectMasterId":29113
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1422503
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20018
+          },
+          {
+            "Order":2, "EffectMasterId":29114
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1422504
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20019
+          },
+          {
+            "Order":2, "EffectMasterId":29114
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1422505
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":440, "ScoreUpPerLevel":40, "LightCount":2, "CoolTime":25, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142260, "Name":"Tropical Carnival！", "Description":"<size=28%>[:score]倍のスコアを獲得／センス発動時、編成されている銀河座アクターの演技力と演技力上限を、編成されている銀河座アクターの人数×2%上昇させる(この効果は重複する)</size>", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20671
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1422601
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20672
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1422602
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20673
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1422603
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20674
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1422604
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20675
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1422605
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"CharacterBaseGroup", "ConditionValue1":300, "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

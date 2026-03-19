@@ -4502,6 +4502,29 @@
     "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"CharacterBaseGroup", "ConditionValue1":300, "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142270, "Name":"やっぱりおうちが一番！", "Description":"[:score]倍のスコアを獲得／センス発動時に、追加で「特殊の光」を1個獲得する／センス発動後、プリンシパルゲージの上限値が[:param11]上昇", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20095
+          }
+        ],
+        "Id":1422701
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":510, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142280, "Name":"新たなる王、翠玉の戴冠", "Description":"<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／叶羽が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>", "Type":"Support", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28016
+      }
+    ],
+    "Branches":[],
+    "AcquirableGauge":130, "AcquirableScorePercent":240, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":65, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

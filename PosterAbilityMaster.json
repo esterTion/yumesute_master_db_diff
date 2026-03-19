@@ -4726,6 +4726,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230940, "Name":"電子の妖精は手を取り合って", "Description":"劇団電姫に所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230940, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052400
+          }
+        ],
+        "Id":23094001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -5806,6 +5819,19 @@
           }
         ],
         "Id":34026001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340270, "Name":"夢中になれることばかりで", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340270, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34027001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -10002,6 +10028,45 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":2309401, "Name":"集中力アップⅢ＋", "Description":"自身の集中力が[:param11]％上昇", "PosterMasterId":230940, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10331000
+          }
+        ],
+        "Id":230940101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309402, "Name":"P.ゲージ獲得量アップ＋", "Description":"センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230940, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11611400
+          }
+        ],
+        "Id":230940201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309403, "Name":"スコアブースト・集中力Ⅲ＋", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：劇団電姫に所属するアクターが装備", "PosterMasterId":230940, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11131400
+          }
+        ],
+        "Id":230940301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3200101, "Name":"初期ライフ上昇＋", "Description":"公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":320010, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -13026,6 +13091,45 @@
           }
         ],
         "Id":340260301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402701, "Name":"演技力アップⅣ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：知冴が装備", "PosterMasterId":340270, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10040106
+          }
+        ],
+        "Id":340270101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402702, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：知冴が装備", "PosterMasterId":340270, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810106
+          }
+        ],
+        "Id":340270201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402703, "Name":"CTダウンⅣ", "Description":"自身のセンスのCTを[:param11]秒短縮　◆発動条件：知冴が装備", "PosterMasterId":340270, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12430106
+          }
+        ],
+        "Id":340270301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

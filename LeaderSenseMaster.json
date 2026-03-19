@@ -4300,5 +4300,23 @@
         ]
       }
     ]
+  },
+  {
+    "Id":255, "Description":"「劇団電姫」カテゴリの演技力30%上昇、「メルヘン」カテゴリの集中力20％上昇", "Details":[
+      {
+        "EffectMasterId":12004, "Conditions":[
+          {
+            "CategoryMasterId1":2004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12015, "Conditions":[
+          {
+            "CategoryMasterId1":4006
+          }
+        ]
+      }
+    ]
   }
 ]

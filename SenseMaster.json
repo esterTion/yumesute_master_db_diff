@@ -4525,6 +4525,35 @@
     "AcquirableGauge":130, "AcquirableScorePercent":240, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":65, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142290, "Name":"駆けまわれ！　ホワイトバニー！", "Description":"<size=24%>[:score]倍のスコアを獲得／センス発動後、現在のプリンシパルゲージ上限の[:param11]%分のプリンシパルゲージを獲得する／ライフガードを10回付与する／センス発動直後、自身の集中力の[:param13]倍のスコアを獲得</size>", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20632
+          },
+          {
+            "Order":2, "EffectMasterId":29313
+          },
+          {
+            "Order":3, "EffectMasterId":20537
+          }
+        ],
+        "Id":1422901
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":220, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142300, "Name":"うさぎは卵を傍らに", "Description":"<size=28%>[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」・「支配の光」を1個獲得する／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）</size>", "Type":"Support", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28005
+      }
+    ],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":670, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

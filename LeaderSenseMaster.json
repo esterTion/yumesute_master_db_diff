@@ -4318,5 +4318,23 @@
         ]
       }
     ]
+  },
+  {
+    "Id":256, "Description":"「シリウス」カテゴリの演技力40%上昇、「メルヘン」カテゴリの集中力35％上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2001
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12021, "Conditions":[
+          {
+            "CategoryMasterId1":4006
+          }
+        ]
+      }
+    ]
   }
 ]

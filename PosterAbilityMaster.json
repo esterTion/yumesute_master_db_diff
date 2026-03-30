@@ -4739,6 +4739,32 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230950, "Name":"おめーの実家はうちだろうが～！", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230950, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052000
+          }
+        ],
+        "Id":23095001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":230960, "Name":"咲いて、ボタニカルシャワー！", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":230960, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70042000
+          }
+        ],
+        "Id":23096001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -5806,6 +5832,19 @@
           }
         ],
         "Id":34024001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":340250, "Name":"夢幻の歌声で魅せて", "Description":"全アクターの演技力が[:param11]％上昇", "PosterMasterId":340250, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70050000
+          }
+        ],
+        "Id":34025001
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"
@@ -10067,6 +10106,110 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":2309501, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230950, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230950101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309502, "Name":"P.ゲージ上限上昇Ⅱ", "Description":"P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":230950, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11720004
+          }
+        ],
+        "Id":230950201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309503, "Name":"スコアブーストⅡ", "Description":"センス発動直後、その時のスコアの[:param11]％のスコアを獲得　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":230950, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10820004
+          }
+        ],
+        "Id":230950301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309504, "Name":"P.ゲージ上限上昇Ⅱ", "Description":"P.ゲージの上限が[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":230950, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11720002
+          }
+        ],
+        "Id":230950401
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309505, "Name":"初期P.ゲージ上昇Ⅲ", "Description":"公演開始時、P.ゲージが[:param11]上昇　◆発動条件：<color=#33B4DF>凛属性</color>のアクターが装備", "PosterMasterId":230950, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11530002
+          }
+        ],
+        "Id":230950501
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309601, "Name":"演技力アップⅢ＋", "Description":"自身の演技力が[:param11]％上昇", "PosterMasterId":230960, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10031000
+          }
+        ],
+        "Id":230960101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309602, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加", "PosterMasterId":230960, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810000
+          }
+        ],
+        "Id":230960201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309603, "Name":"報酬量アップⅢ", "Description":"公演と協力公演の公演報酬が[:param11]％増加（アクセサリーを除く）", "PosterMasterId":230960, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12530000
+          }
+        ],
+        "Id":230960301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":3200101, "Name":"初期ライフ上昇＋", "Description":"公演開始時、ライフが[:param11]上昇　◆発動条件：<color=#FF9314>陽属性</color>のアクターが装備", "PosterMasterId":320010, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -13052,6 +13195,45 @@
           }
         ],
         "Id":340240301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402501, "Name":"演技力アップⅣ", "Description":"自身の演技力が[:param11]%上昇　◆発動条件：八恵が装備", "PosterMasterId":340250, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10040104
+          }
+        ],
+        "Id":340250101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402502, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：八恵が装備", "PosterMasterId":340250, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810104
+          }
+        ],
+        "Id":340250201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":3402503, "Name":"CTダウンⅣ", "Description":"自身のセンスのCTを[:param11]秒短縮　◆発動条件：八恵が装備", "PosterMasterId":340250, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":12430104
+          }
+        ],
+        "Id":340250301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

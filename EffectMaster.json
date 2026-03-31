@@ -9914,7 +9914,23 @@
     "FireTimingType":"Sense"
   },
   {
-    "Id":29313, "Type":"LifeGuard", "Range":"Self", "CalculationType":"FixedAddition", "Details":[],
+    "Id":29313, "Type":"LifeGuard", "Range":"Self", "CalculationType":"FixedAddition", "Details":[
+      {
+        "Level":1, "Value":10
+      },
+      {
+        "Level":2, "Value":10
+      },
+      {
+        "Level":3, "Value":10
+      },
+      {
+        "Level":4, "Value":10
+      },
+      {
+        "Level":5, "Value":10
+      }
+    ],
     "Conditions":[],
     "DurationSecond":0, "Triggers":[],
     "FireTimingType":"Sense"

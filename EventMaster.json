@@ -8338,6 +8338,506 @@
     "ExchangeShopMasterId":25017, "AsideLiveButtonType":"None"
   },
   {
+    "Id":25018, "EventType":"RouletteEvent", "StartDate":"2026-04-10 17:00:00", "EndDate":"2026-04-18 22:00:00", "ForceEndDate":"2026-04-20 17:00:00", "Name":"再演！　オペラ座の怪人～千秋楽～", "IsAsideLiveButton":false, "EventPointItemMasterId":425018, "BonusAttribute":"Colorful", "BonusCategoryMasterId10":7518, "BonusCategoryMasterId20":7518, "Bonuses":[
+      {
+        "Id":2501801, "BonusTargetType":"Company", "BonusTargetId":1
+      }
+    ],
+    "PointRewards":[
+      {
+        "Id":2501801, "RequiredPoint":1000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":30
+      },
+      {
+        "Id":2501802, "RequiredPoint":3000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":30
+      },
+      {
+        "Id":2501803, "RequiredPoint":6000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":30
+      },
+      {
+        "Id":2501804, "RequiredPoint":10000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501805, "RequiredPoint":15000, "ThingType":"Coin", "ThingId":0, "ThingQuantity":200000
+      },
+      {
+        "Id":2501806, "RequiredPoint":20000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501807, "RequiredPoint":25000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":50
+      },
+      {
+        "Id":2501808, "RequiredPoint":30000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501809, "RequiredPoint":35000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":50
+      },
+      {
+        "Id":2501810, "RequiredPoint":40000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501811, "RequiredPoint":45000, "ThingType":"Item", "ThingId":130015, "ThingQuantity":1
+      },
+      {
+        "Id":2501812, "RequiredPoint":50000, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":100
+      },
+      {
+        "Id":2501813, "RequiredPoint":50000, "ThingType":"Item", "ThingId":132052, "ThingQuantity":100
+      },
+      {
+        "Id":2501814, "RequiredPoint":60000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501815, "RequiredPoint":70000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":50
+      },
+      {
+        "Id":2501816, "RequiredPoint":80000, "ThingType":"Item", "ThingId":111093, "ThingQuantity":5
+      },
+      {
+        "Id":2501817, "RequiredPoint":90000, "ThingType":"Coin", "ThingId":0, "ThingQuantity":300000
+      },
+      {
+        "Id":2501818, "RequiredPoint":100000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501819, "RequiredPoint":100000, "ThingType":"Item", "ThingId":132053, "ThingQuantity":10
+      },
+      {
+        "Id":2501820, "RequiredPoint":110000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":80
+      },
+      {
+        "Id":2501821, "RequiredPoint":120000, "ThingType":"Item", "ThingId":111093, "ThingQuantity":5
+      },
+      {
+        "Id":2501822, "RequiredPoint":130000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":80
+      },
+      {
+        "Id":2501823, "RequiredPoint":140000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501824, "RequiredPoint":150000, "ThingType":"Item", "ThingId":130015, "ThingQuantity":1
+      },
+      {
+        "Id":2501825, "RequiredPoint":160000, "ThingType":"Item", "ThingId":111093, "ThingQuantity":5
+      },
+      {
+        "Id":2501826, "RequiredPoint":170000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":100
+      },
+      {
+        "Id":2501827, "RequiredPoint":180000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":1
+      },
+      {
+        "Id":2501828, "RequiredPoint":190000, "ThingType":"Item", "ThingId":130015, "ThingQuantity":1
+      },
+      {
+        "Id":2501829, "RequiredPoint":200000, "ThingType":"Item", "ThingId":130013, "ThingQuantity":1
+      },
+      {
+        "Id":2501830, "RequiredPoint":220000, "ThingType":"Item", "ThingId":130064, "ThingQuantity":20
+      },
+      {
+        "Id":2501831, "RequiredPoint":240000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":2
+      },
+      {
+        "Id":2501832, "RequiredPoint":260000, "ThingType":"Item", "ThingId":130064, "ThingQuantity":30
+      },
+      {
+        "Id":2501833, "RequiredPoint":280000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":2
+      },
+      {
+        "Id":2501834, "RequiredPoint":300000, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":500
+      },
+      {
+        "Id":2501835, "RequiredPoint":350000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":5
+      },
+      {
+        "Id":2501836, "RequiredPoint":400000, "ThingType":"Item", "ThingId":140000, "ThingQuantity":100
+      },
+      {
+        "Id":2501837, "RequiredPoint":450000, "ThingType":"Item", "ThingId":211002, "ThingQuantity":1
+      },
+      {
+        "Id":2501838, "RequiredPoint":500000, "ThingType":"Item", "ThingId":130013, "ThingQuantity":1
+      },
+      {
+        "Id":2501839, "RequiredPoint":600000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":5
+      },
+      {
+        "Id":2501840, "RequiredPoint":700000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":3
+      },
+      {
+        "Id":2501841, "RequiredPoint":800000, "ThingType":"Item", "ThingId":130064, "ThingQuantity":50
+      },
+      {
+        "Id":2501842, "RequiredPoint":900000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":5
+      },
+      {
+        "Id":2501843, "RequiredPoint":1000000, "ThingType":"Item", "ThingId":151002, "ThingQuantity":5
+      },
+      {
+        "Id":2501844, "RequiredPoint":1000000, "ThingType":"Item", "ThingId":132054, "ThingQuantity":2
+      },
+      {
+        "Id":2501845, "RequiredPoint":1100000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":60
+      },
+      {
+        "Id":2501846, "RequiredPoint":1200000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":2
+      },
+      {
+        "Id":2501847, "RequiredPoint":1300000, "ThingType":"Item", "ThingId":130011, "ThingQuantity":90
+      },
+      {
+        "Id":2501848, "RequiredPoint":1400000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":2
+      },
+      {
+        "Id":2501849, "RequiredPoint":1500000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":2
+      },
+      {
+        "Id":2501850, "RequiredPoint":1500000, "ThingType":"Item", "ThingId":150000, "ThingQuantity":20
+      },
+      {
+        "Id":2501851, "RequiredPoint":1600000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":2
+      },
+      {
+        "Id":2501852, "RequiredPoint":1700000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":3
+      },
+      {
+        "Id":2501853, "RequiredPoint":1800000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":2
+      },
+      {
+        "Id":2501854, "RequiredPoint":1900000, "ThingType":"Item", "ThingId":130013, "ThingQuantity":1
+      },
+      {
+        "Id":2501855, "RequiredPoint":2000000, "ThingType":"Item", "ThingId":151004, "ThingQuantity":5
+      },
+      {
+        "Id":2501856, "RequiredPoint":2000000, "ThingType":"Item", "ThingId":132054, "ThingQuantity":3
+      },
+      {
+        "Id":2501857, "RequiredPoint":2200000, "ThingType":"Item", "ThingId":130015, "ThingQuantity":2
+      },
+      {
+        "Id":2501858, "RequiredPoint":2400000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":3
+      },
+      {
+        "Id":2501859, "RequiredPoint":2500000, "ThingType":"Item", "ThingId":150000, "ThingQuantity":40
+      },
+      {
+        "Id":2501860, "RequiredPoint":2600000, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":200
+      },
+      {
+        "Id":2501861, "RequiredPoint":2800000, "ThingType":"Item", "ThingId":130072, "ThingQuantity":3
+      },
+      {
+        "Id":2501862, "RequiredPoint":3000000, "ThingType":"Item", "ThingId":130071, "ThingQuantity":1
+      },
+      {
+        "Id":2501863, "RequiredPoint":3200000, "ThingType":"Item", "ThingId":111093, "ThingQuantity":5
+      },
+      {
+        "Id":2501864, "RequiredPoint":3400000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":2
+      },
+      {
+        "Id":2501865, "RequiredPoint":3600000, "ThingType":"Item", "ThingId":130013, "ThingQuantity":1
+      },
+      {
+        "Id":2501866, "RequiredPoint":3800000, "ThingType":"Item", "ThingId":130015, "ThingQuantity":2
+      },
+      {
+        "Id":2501867, "RequiredPoint":4000000, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":200
+      },
+      {
+        "Id":2501868, "RequiredPoint":4200000, "ThingType":"Item", "ThingId":111093, "ThingQuantity":5
+      },
+      {
+        "Id":2501869, "RequiredPoint":4400000, "ThingType":"Item", "ThingId":130012, "ThingQuantity":3
+      },
+      {
+        "Id":2501870, "RequiredPoint":4600000, "ThingType":"Item", "ThingId":130013, "ThingQuantity":1
+      },
+      {
+        "Id":2501871, "RequiredPoint":4800000, "ThingType":"Item", "ThingId":130015, "ThingQuantity":2
+      },
+      {
+        "Id":2501872, "RequiredPoint":5000000, "ThingType":"Item", "ThingId":130071, "ThingQuantity":2
+      },
+      {
+        "Id":2501873, "RequiredPoint":5000000, "ThingType":"Item", "ThingId":120003, "ThingQuantity":50
+      },
+      {
+        "Id":2501874, "RequiredPoint":5500000, "ThingType":"Item", "ThingId":111093, "ThingQuantity":5
+      },
+      {
+        "Id":2501875, "RequiredPoint":6000000, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":200
+      },
+      {
+        "Id":2501876, "RequiredPoint":6500000, "ThingType":"Item", "ThingId":120003, "ThingQuantity":100
+      },
+      {
+        "Id":2501877, "RequiredPoint":7000000, "ThingType":"Item", "ThingId":140000, "ThingQuantity":100
+      },
+      {
+        "Id":2501878, "RequiredPoint":7500000, "ThingType":"Item", "ThingId":150000, "ThingQuantity":60
+      }
+    ],
+    "RankingRewards":[
+      {
+        "Id":2501801, "TargetHighestRank":1, "TargetLowestRank":1, "Rewards":[
+          {
+            "Id":250180101, "ThingType":"Trophy", "ThingId":2501801, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180111, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":2000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501802, "TargetHighestRank":2, "TargetLowestRank":2, "Rewards":[
+          {
+            "Id":250180201, "ThingType":"Trophy", "ThingId":2501802, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180211, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":2000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501803, "TargetHighestRank":3, "TargetLowestRank":3, "Rewards":[
+          {
+            "Id":250180301, "ThingType":"Trophy", "ThingId":2501803, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180311, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":2000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501804, "TargetHighestRank":4, "TargetLowestRank":10, "Rewards":[
+          {
+            "Id":250180401, "ThingType":"Trophy", "ThingId":2501804, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180411, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":2000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501805, "TargetHighestRank":11, "TargetLowestRank":20, "Rewards":[
+          {
+            "Id":250180501, "ThingType":"Trophy", "ThingId":2501805, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180511, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501806, "TargetHighestRank":21, "TargetLowestRank":30, "Rewards":[
+          {
+            "Id":250180601, "ThingType":"Trophy", "ThingId":2501806, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180611, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501807, "TargetHighestRank":31, "TargetLowestRank":40, "Rewards":[
+          {
+            "Id":250180701, "ThingType":"Trophy", "ThingId":2501807, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180711, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501808, "TargetHighestRank":41, "TargetLowestRank":50, "Rewards":[
+          {
+            "Id":250180801, "ThingType":"Trophy", "ThingId":2501808, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180811, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501809, "TargetHighestRank":51, "TargetLowestRank":100, "Rewards":[
+          {
+            "Id":250180901, "ThingType":"Trophy", "ThingId":2501809, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250180911, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1200, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501810, "TargetHighestRank":101, "TargetLowestRank":200, "Rewards":[
+          {
+            "Id":250181001, "ThingType":"Trophy", "ThingId":2501810, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181011, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501811, "TargetHighestRank":201, "TargetLowestRank":300, "Rewards":[
+          {
+            "Id":250181101, "ThingType":"Trophy", "ThingId":2501811, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181111, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501812, "TargetHighestRank":301, "TargetLowestRank":400, "Rewards":[
+          {
+            "Id":250181201, "ThingType":"Trophy", "ThingId":2501812, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181211, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501813, "TargetHighestRank":401, "TargetLowestRank":500, "Rewards":[
+          {
+            "Id":250181301, "ThingType":"Trophy", "ThingId":2501813, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181311, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":1000, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501814, "TargetHighestRank":501, "TargetLowestRank":1000, "Rewards":[
+          {
+            "Id":250181401, "ThingType":"Trophy", "ThingId":2501814, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181411, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":750, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501815, "TargetHighestRank":1001, "TargetLowestRank":2000, "Rewards":[
+          {
+            "Id":250181501, "ThingType":"Trophy", "ThingId":2501815, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181511, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501816, "TargetHighestRank":2001, "TargetLowestRank":3000, "Rewards":[
+          {
+            "Id":250181601, "ThingType":"Trophy", "ThingId":2501816, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181611, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501817, "TargetHighestRank":3001, "TargetLowestRank":4000, "Rewards":[
+          {
+            "Id":250181701, "ThingType":"Trophy", "ThingId":2501817, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181711, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501818, "TargetHighestRank":4001, "TargetLowestRank":5000, "Rewards":[
+          {
+            "Id":250181801, "ThingType":"Trophy", "ThingId":2501818, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181811, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":500, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501819, "TargetHighestRank":5001, "TargetLowestRank":10000, "Rewards":[
+          {
+            "Id":250181901, "ThingType":"Trophy", "ThingId":2501819, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250181911, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":400, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501820, "TargetHighestRank":10001, "TargetLowestRank":20000, "Rewards":[
+          {
+            "Id":250182001, "ThingType":"Trophy", "ThingId":2501820, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250182011, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":300, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501821, "TargetHighestRank":20001, "TargetLowestRank":30000, "Rewards":[
+          {
+            "Id":250182101, "ThingType":"Trophy", "ThingId":2501821, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250182111, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":300, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501822, "TargetHighestRank":30001, "TargetLowestRank":40000, "Rewards":[
+          {
+            "Id":250182201, "ThingType":"Trophy", "ThingId":2501822, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250182211, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":300, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501823, "TargetHighestRank":40001, "TargetLowestRank":50000, "Rewards":[
+          {
+            "Id":250182301, "ThingType":"Trophy", "ThingId":2501823, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250182311, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":300, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501824, "TargetHighestRank":50001, "TargetLowestRank":100000, "Rewards":[
+          {
+            "Id":250182401, "ThingType":"Trophy", "ThingId":2501824, "ThingQuantity":1, "IsCampReward":false
+          },
+          {
+            "Id":250182411, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":250, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501825, "TargetHighestRank":100001, "TargetLowestRank":200000, "Rewards":[
+          {
+            "Id":250182511, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":200, "IsCampReward":false
+          }
+        ]
+      },
+      {
+        "Id":2501826, "TargetHighestRank":200001, "TargetLowestRank":9999999, "Rewards":[
+          {
+            "Id":250182611, "ThingType":"Jewel", "ThingId":0, "ThingQuantity":100, "IsCampReward":false
+          }
+        ]
+      }
+    ],
+    "ExchangeShopMasterId":25018, "AsideLiveButtonType":"None", "SecondaryBonusAttribute":"Cheerful"
+  },
+  {
     "Id":26001, "EventType":"CampEvent", "StartDate":"2025-12-10 17:00:00", "EndDate":"2025-12-18 22:00:00", "ForceEndDate":"2025-12-20 17:00:00", "Name":"Live! Merry Christmas!", "IsAsideLiveButton":false, "EventPointItemMasterId":426001, "BonusAttribute":"Cool", "BonusCategoryMasterId10":7601, "BonusCategoryMasterId20":7601, "Bonuses":[
       {
         "Id":2600101, "BonusTargetType":"Company", "BonusTargetId":4

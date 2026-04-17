@@ -3378,6 +3378,120 @@
     "BranchCondition1":"StorageSenseLightCount", "ConditionValue1":5, "BranchCondition2":"None"
   },
   {
+    "Id":142331, "Name":"", "Description":"<size=20%>総演技力の[:score]倍のスコアを獲得／付与されているライフガードが20回以上の時スコア獲得量が150％上昇、その時のスコアの1％のスコアを獲得／付与されているライフガードが19回以下の時スコア獲得量が120％上昇、スターアクト発動後、プリンシパルゲージの上限値が300上昇</size>", "StarActConditionMasterId":101511, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19209
+          },
+          {
+            "Order":2, "EffectMasterId":19301
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":20, "Id":14233101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19207
+          },
+          {
+            "Order":2, "EffectMasterId":19086
+          }
+        ],
+        "JudgeType1":"LessThan", "Parameter1":19, "Id":14233102
+      }
+    ],
+    "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
+  },
+  {
+    "Id":142341, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得/付与されているライフガード1回につきスコア獲得量13％上昇（最大＋130％）", "StarActConditionMasterId":102141, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19220
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14234101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19221
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14234102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19222
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14234103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19223
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14234104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19224
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":5, "Id":14234105
+      },
+      {
+        "Order":6, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19225
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":6, "Id":14234106
+      },
+      {
+        "Order":7, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19226
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":7, "Id":14234107
+      },
+      {
+        "Order":8, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19227
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":8, "Id":14234108
+      },
+      {
+        "Order":9, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19228
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":9, "Id":14234109
+      },
+      {
+        "Order":10, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19229
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":10, "Id":14234110
+      }
+    ],
+    "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None"
+  },
+  {
     "Id":150011, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）", "StarActConditionMasterId":103132, "AcquirableScorePercent":1310, "ScoreUpPerLevel":140, "PreEffects":[
       {
         "Order":1, "EffectMasterId":19051
@@ -3839,5 +3953,36 @@
       }
     ],
     "BranchCondition1":"SenseTriggeredCount", "BranchCondition2":"None"
+  },
+  {
+    "Id":150041, "Name":"", "Description":"公演中の一番最後に発動するスターアクトで、スターアクトの発動回数×総演技力の[:score]倍のスコアを獲得", "StarActConditionMasterId":102223, "AcquirableScorePercent":1310, "ScoreUpPerLevel":140, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19400
+          }
+        ],
+        "Id":15004101
+      }
+    ],
+    "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":150042, "Name":"", "Description":"<size=23%>公演中の一番最後に発動するスターアクトで、スターアクトの発動回数×総演技力の[:score]倍のスコアを獲得／スターアクト発動後、現在のプリンシパルゲージ上限の[:param12]%分のプリンシパルゲージを獲得する</size>", "StarActConditionMasterId":102223, "AcquirableScorePercent":1310, "ScoreUpPerLevel":140, "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19400
+          },
+          {
+            "Order":2, "EffectMasterId":19090
+          }
+        ],
+        "Id":15004201
+      }
+    ],
+    "BranchCondition1":"None", "BranchCondition2":"None"
   }
 ]

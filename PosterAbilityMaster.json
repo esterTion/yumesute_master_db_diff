@@ -4765,6 +4765,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":230970, "Name":"歪んだ愛に潰されて", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":230970, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052200
+          }
+        ],
+        "Id":23097001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -10205,6 +10218,45 @@
           }
         ],
         "Id":230960301
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309701, "Name":"歌唱力アップⅢ＋", "Description":"自身の歌唱力が[:param11]％上昇", "PosterMasterId":230970, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10131000
+          }
+        ],
+        "Id":230970101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309702, "Name":"「光」獲得数増加", "Description":"センスで付与する「光」の付与数が[:param11]個増加　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230970, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11810200
+          }
+        ],
+        "Id":230970201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2309703, "Name":"スコアブースト・歌唱力Ⅲ＋", "Description":"センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":230970, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10931200
+          }
+        ],
+        "Id":230970301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

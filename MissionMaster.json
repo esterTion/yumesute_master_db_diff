@@ -3367,88 +3367,6 @@
     ]
   },
   {
-    "Id":58200, "MissionCategory":"Limit", "MissionViewOrder":21, "Title":"", "Description":"「The other side of the mirror」を1回クリアしよう", "JumpType":"Live", "StartDate":"2026-04-17 05:00:00", "EndDate":"2026-04-18 05:00:00", "Stages":[
-      {
-        "Id":58200, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2026-04-17 05:00:00", "Rewards":[
-          {
-            "ThingId":132053, "ThingType":"Item", "ThingQuantity":20
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":58300, "MissionCategory":"Limit", "MissionViewOrder":21, "Title":"", "Description":"シリウスに所属するアクターのみが歌唱する楽曲を3回クリアしよう", "JumpType":"Live", "StartDate":"2026-04-18 05:00:00", "EndDate":"2026-04-18 22:00:00", "Stages":[
-      {
-        "Id":58300, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2026-04-18 05:00:00", "Rewards":[
-          {
-            "ThingId":132053, "ThingType":"Item", "ThingQuantity":20
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":58400, "MissionCategory":"Limit", "MissionViewOrder":22, "Title":"", "Description":"公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2026-04-10 17:00:00", "EndDate":"2026-04-18 22:00:00", "Stages":[
-      {
-        "Id":58400, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":58401, "MissionStageOrder":2, "StageGoalValue":20, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":58402, "MissionStageOrder":3, "StageGoalValue":30, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":58403, "MissionStageOrder":4, "StageGoalValue":40, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":58404, "MissionStageOrder":5, "StageGoalValue":50, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":58405, "MissionStageOrder":6, "StageGoalValue":60, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":58406, "MissionStageOrder":7, "StageGoalValue":80, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      },
-      {
-        "Id":58407, "MissionStageOrder":8, "StageGoalValue":100, "StartDate":"2026-04-10 17:00:00", "Rewards":[
-          {
-            "ThingId":132052, "ThingType":"Item", "ThingQuantity":1000
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Id":58500, "MissionCategory":"Limit", "MissionViewOrder":23, "Title":"", "Description":"「The other side of the mirror」を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2026-04-10 17:00:00", "EndDate":"2026-04-20 17:00:00", "Stages":[
       {
         "Id":58500, "MissionStageOrder":1, "StageGoalValue":5, "StartDate":"2026-04-10 17:00:00", "Rewards":[
@@ -4995,39 +4913,6 @@
         "Id":401860, "MissionStageOrder":1, "StageGoalValue":7, "StartDate":"2026-04-29 17:00:00", "Rewards":[
           {
             "ThingId":108, "ThingType":"Nameplate", "ThingQuantity":1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":700007, "MissionCategory":"SiriusDay", "MissionViewOrder":1, "Title":"", "Description":"【ユメステデー】ログインしよう", "JumpType":"None", "StartDate":"2026-04-17 05:00:00", "EndDate":"2026-04-18 05:00:00", "Stages":[
-      {
-        "Id":7000071, "MissionStageOrder":1, "StageGoalValue":1, "StartDate":"2025-07-17 05:00:00", "Rewards":[
-          {
-            "ThingId":130071, "ThingType":"Item", "ThingQuantity":1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":700008, "MissionCategory":"SiriusDay", "MissionViewOrder":2, "Title":"", "Description":"【ユメステデー】稽古を[:param]回プレイしよう", "JumpType":"Lesson", "StartDate":"2026-04-17 05:00:00", "EndDate":"2026-04-18 05:00:00", "Stages":[
-      {
-        "Id":7000081, "MissionStageOrder":1, "StageGoalValue":3, "StartDate":"2025-07-17 05:00:00", "Rewards":[
-          {
-            "ThingId":215019, "ThingType":"Item", "ThingQuantity":3
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id":700009, "MissionCategory":"SiriusDay", "MissionViewOrder":3, "Title":"", "Description":"【ユメステデー】公演を[:param]回クリアしよう", "JumpType":"Live", "StartDate":"2026-04-17 05:00:00", "EndDate":"2026-04-18 05:00:00", "Stages":[
-      {
-        "Id":7000091, "MissionStageOrder":1, "StageGoalValue":10, "StartDate":"2025-07-17 05:00:00", "Rewards":[
-          {
-            "ThingId":215020, "ThingType":"Item", "ThingQuantity":3
           }
         ]
       }

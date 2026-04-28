@@ -4681,6 +4681,29 @@
     "AcquirableGauge":0, "AcquirableScorePercent":840, "ScoreUpPerLevel":70, "LightCount":1, "CoolTime":65, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142350, "Name":"なし", "Description":"効果無し（所持している「光」は維持される）", "Type":"None", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":0, "AcquirableScorePercent":0, "ScoreUpPerLevel":0, "LightCount":0, "CoolTime":0, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142360, "Name":"ヘンゼルは甘くくつろいで", "Description":"<size=24%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、劇団電姫のアクターにスターアクトスコア[:param11]％UP効果／美兎が隣に編成された状態でセンスを発動したとき、自身もセンスを発動する(センスの光は獲得出来ない)</size>", "Type":"Control", "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":28018
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20404
+          }
+        ],
+        "Id":1423601
+      }
+    ],
+    "AcquirableGauge":100, "AcquirableScorePercent":160, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

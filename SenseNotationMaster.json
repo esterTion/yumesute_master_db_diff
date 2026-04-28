@@ -18099,6 +18099,96 @@
     ]
   },
   {
+    "Id":1146, "Details":[
+      {
+        "Id":1146101, "Position":1, "TimingSecond":12
+      },
+      {
+        "Id":1146102, "Position":1, "TimingSecond":67
+      },
+      {
+        "Id":1146103, "Position":1, "TimingSecond":107
+      },
+      {
+        "Id":1146104, "Position":1, "TimingSecond":147
+      },
+      {
+        "Id":1146105, "Position":1, "TimingSecond":207
+      },
+      {
+        "Id":1146201, "Position":2, "TimingSecond":33
+      },
+      {
+        "Id":1146202, "Position":2, "TimingSecond":73
+      },
+      {
+        "Id":1146203, "Position":2, "TimingSecond":111
+      },
+      {
+        "Id":1146204, "Position":2, "TimingSecond":149
+      },
+      {
+        "Id":1146205, "Position":2, "TimingSecond":187
+      },
+      {
+        "Id":1146206, "Position":2, "TimingSecond":225
+      },
+      {
+        "Id":1146301, "Position":3, "TimingSecond":24
+      },
+      {
+        "Id":1146302, "Position":3, "TimingSecond":94
+      },
+      {
+        "Id":1146303, "Position":3, "TimingSecond":164
+      },
+      {
+        "Id":1146304, "Position":3, "TimingSecond":180
+      },
+      {
+        "Id":1146401, "Position":4, "TimingSecond":4
+      },
+      {
+        "Id":1146402, "Position":4, "TimingSecond":51
+      },
+      {
+        "Id":1146403, "Position":4, "TimingSecond":84
+      },
+      {
+        "Id":1146404, "Position":4, "TimingSecond":121
+      },
+      {
+        "Id":1146405, "Position":4, "TimingSecond":154
+      },
+      {
+        "Id":1146406, "Position":4, "TimingSecond":171
+      },
+      {
+        "Id":1146407, "Position":4, "TimingSecond":222
+      },
+      {
+        "Id":1146501, "Position":5, "TimingSecond":46
+      },
+      {
+        "Id":1146502, "Position":5, "TimingSecond":101
+      },
+      {
+        "Id":1146503, "Position":5, "TimingSecond":136
+      },
+      {
+        "Id":1146504, "Position":5, "TimingSecond":211
+      }
+    ],
+    "Buffs":[
+      {
+        "Id":11461, "Type":"Company", "TargetValue":3, "BuffValue":150, "StatusType":"Performance"
+      },
+      {
+        "Id":11462, "Type":"Attribute", "TargetValue":1, "BuffValue":50, "StatusType":"Performance"
+      }
+    ]
+  },
+  {
     "Id":3001, "Details":[
       {
         "Id":3001101, "Position":1, "TimingSecond":33
@@ -24266,10 +24356,10 @@
         "Id":3081502, "Position":5, "TimingSecond":91
       },
       {
-        "Id":3081503, "Position":5, "TimingSecond":141
+        "Id":3081504, "Position":5, "TimingSecond":201
       },
       {
-        "Id":3081504, "Position":5, "TimingSecond":201
+        "Id":3081503, "Position":5, "TimingSecond":141
       }
     ],
     "Buffs":[
@@ -24278,6 +24368,252 @@
       },
       {
         "Id":30812, "Type":"None", "TargetValue":0, "BuffValue":50, "StatusType":"Concentration"
+      }
+    ]
+  },
+  {
+    "Id":3082, "Details":[
+      {
+        "Id":3082101, "Position":1, "TimingSecond":24
+      },
+      {
+        "Id":3082102, "Position":1, "TimingSecond":79
+      },
+      {
+        "Id":3082103, "Position":1, "TimingSecond":130
+      },
+      {
+        "Id":3082201, "Position":2, "TimingSecond":7
+      },
+      {
+        "Id":3082202, "Position":2, "TimingSecond":62
+      },
+      {
+        "Id":3082203, "Position":2, "TimingSecond":117
+      },
+      {
+        "Id":3082204, "Position":2, "TimingSecond":167
+      },
+      {
+        "Id":3082205, "Position":2, "TimingSecond":214
+      },
+      {
+        "Id":3082301, "Position":3, "TimingSecond":11
+      },
+      {
+        "Id":3082302, "Position":3, "TimingSecond":74
+      },
+      {
+        "Id":3082303, "Position":3, "TimingSecond":126
+      },
+      {
+        "Id":3082304, "Position":3, "TimingSecond":175
+      },
+      {
+        "Id":3082305, "Position":3, "TimingSecond":190
+      },
+      {
+        "Id":3082306, "Position":3, "TimingSecond":205
+      },
+      {
+        "Id":3082307, "Position":3, "TimingSecond":220
+      },
+      {
+        "Id":3082401, "Position":4, "TimingSecond":19
+      },
+      {
+        "Id":3082402, "Position":4, "TimingSecond":70
+      },
+      {
+        "Id":3082403, "Position":4, "TimingSecond":110
+      },
+      {
+        "Id":3082404, "Position":4, "TimingSecond":153
+      },
+      {
+        "Id":3082405, "Position":4, "TimingSecond":193
+      },
+      {
+        "Id":3082406, "Position":4, "TimingSecond":223
+      },
+      {
+        "Id":3082501, "Position":5, "TimingSecond":29
+      },
+      {
+        "Id":3082502, "Position":5, "TimingSecond":89
+      },
+      {
+        "Id":3082503, "Position":5, "TimingSecond":144
+      },
+      {
+        "Id":3082504, "Position":5, "TimingSecond":199
+      }
+    ],
+    "Buffs":[
+      {
+        "Id":30821, "Type":"Company", "TargetValue":1, "BuffValue":50, "StatusType":"Performance"
+      },
+      {
+        "Id":30822, "Type":"None", "TargetValue":0, "BuffValue":50, "StatusType":"Vocal"
+      }
+    ]
+  },
+  {
+    "Id":3083, "Details":[
+      {
+        "Id":3083101, "Position":1, "TimingSecond":6
+      },
+      {
+        "Id":3083102, "Position":1, "TimingSecond":51
+      },
+      {
+        "Id":3083103, "Position":1, "TimingSecond":100
+      },
+      {
+        "Id":3083104, "Position":1, "TimingSecond":158
+      },
+      {
+        "Id":3083105, "Position":1, "TimingSecond":193
+      },
+      {
+        "Id":3083201, "Position":2, "TimingSecond":27
+      },
+      {
+        "Id":3083202, "Position":2, "TimingSecond":62
+      },
+      {
+        "Id":3083203, "Position":2, "TimingSecond":95
+      },
+      {
+        "Id":3083204, "Position":2, "TimingSecond":166
+      },
+      {
+        "Id":3083205, "Position":2, "TimingSecond":196
+      },
+      {
+        "Id":3083301, "Position":3, "TimingSecond":19
+      },
+      {
+        "Id":3083302, "Position":3, "TimingSecond":76
+      },
+      {
+        "Id":3083303, "Position":3, "TimingSecond":121
+      },
+      {
+        "Id":3083304, "Position":3, "TimingSecond":161
+      },
+      {
+        "Id":3083305, "Position":3, "TimingSecond":200
+      },
+      {
+        "Id":3083401, "Position":4, "TimingSecond":13
+      },
+      {
+        "Id":3083402, "Position":4, "TimingSecond":79
+      },
+      {
+        "Id":3083403, "Position":4, "TimingSecond":130
+      },
+      {
+        "Id":3083404, "Position":4, "TimingSecond":175
+      },
+      {
+        "Id":3083501, "Position":5, "TimingSecond":34
+      },
+      {
+        "Id":3083502, "Position":5, "TimingSecond":85
+      },
+      {
+        "Id":3083503, "Position":5, "TimingSecond":135
+      },
+      {
+        "Id":3083504, "Position":5, "TimingSecond":180
+      },
+      {
+        "Id":3083505, "Position":5, "TimingSecond":220
+      }
+    ],
+    "Buffs":[
+      {
+        "Id":30831, "Type":"Company", "TargetValue":1, "BuffValue":50, "StatusType":"Performance"
+      },
+      {
+        "Id":30832, "Type":"None", "TargetValue":0, "BuffValue":50, "StatusType":"Expression"
+      }
+    ]
+  },
+  {
+    "Id":3084, "Details":[
+      {
+        "Id":3084101, "Position":1, "TimingSecond":6
+      },
+      {
+        "Id":3084102, "Position":1, "TimingSecond":48
+      },
+      {
+        "Id":3084103, "Position":1, "TimingSecond":93
+      },
+      {
+        "Id":3084104, "Position":1, "TimingSecond":135
+      },
+      {
+        "Id":3084105, "Position":1, "TimingSecond":181
+      },
+      {
+        "Id":3084106, "Position":1, "TimingSecond":201
+      },
+      {
+        "Id":3084201, "Position":2, "TimingSecond":38
+      },
+      {
+        "Id":3084202, "Position":2, "TimingSecond":123
+      },
+      {
+        "Id":3084203, "Position":2, "TimingSecond":220
+      },
+      {
+        "Id":3084301, "Position":3, "TimingSecond":13
+      },
+      {
+        "Id":3084302, "Position":3, "TimingSecond":56
+      },
+      {
+        "Id":3084303, "Position":3, "TimingSecond":106
+      },
+      {
+        "Id":3084304, "Position":3, "TimingSecond":156
+      },
+      {
+        "Id":3084305, "Position":3, "TimingSecond":211
+      },
+      {
+        "Id":3084401, "Position":4, "TimingSecond":21
+      },
+      {
+        "Id":3084402, "Position":4, "TimingSecond":116
+      },
+      {
+        "Id":3084403, "Position":4, "TimingSecond":179
+      },
+      {
+        "Id":3084501, "Position":5, "TimingSecond":27
+      },
+      {
+        "Id":3084502, "Position":5, "TimingSecond":87
+      },
+      {
+        "Id":3084503, "Position":5, "TimingSecond":142
+      },
+      {
+        "Id":3084504, "Position":5, "TimingSecond":192
+      }
+    ],
+    "Buffs":[
+      {
+        "Id":30841, "Type":"Company", "TargetValue":1, "BuffValue":50, "StatusType":"Performance"
+      },
+      {
+        "Id":30842, "Type":"None", "TargetValue":0, "BuffValue":50, "StatusType":"Concentration"
       }
     ]
   },
@@ -25789,6 +26125,48 @@
     "Buffs":[
       {
         "Id":200681, "Type":"Company", "TargetValue":1, "BuffValue":50, "StatusType":"Performance"
+      }
+    ]
+  },
+  {
+    "Id":20069, "Details":[
+      {
+        "Id":20069101, "Position":1, "TimingSecond":12
+      },
+      {
+        "Id":20069102, "Position":1, "TimingSecond":42
+      },
+      {
+        "Id":20069103, "Position":1, "TimingSecond":72
+      },
+      {
+        "Id":20069201, "Position":2, "TimingSecond":37
+      },
+      {
+        "Id":20069202, "Position":2, "TimingSecond":87
+      },
+      {
+        "Id":20069301, "Position":3, "TimingSecond":24
+      },
+      {
+        "Id":20069302, "Position":3, "TimingSecond":64
+      },
+      {
+        "Id":20069303, "Position":3, "TimingSecond":104
+      },
+      {
+        "Id":20069401, "Position":4, "TimingSecond":3
+      },
+      {
+        "Id":20069402, "Position":4, "TimingSecond":53
+      },
+      {
+        "Id":20069403, "Position":4, "TimingSecond":93
+      }
+    ],
+    "Buffs":[
+      {
+        "Id":200691, "Type":"Attribute", "TargetValue":4, "BuffValue":50, "StatusType":"Performance"
       }
     ]
   },
@@ -36181,6 +36559,129 @@
       },
       {
         "Id":100292503, "Position":5, "TimingSecond":93
+      }
+    ],
+    "Buffs":[]
+  },
+  {
+    "Id":100293, "Details":[
+      {
+        "Id":100293101, "Position":1, "TimingSecond":10
+      },
+      {
+        "Id":100293102, "Position":1, "TimingSecond":65
+      },
+      {
+        "Id":100293103, "Position":1, "TimingSecond":120
+      },
+      {
+        "Id":100293201, "Position":2, "TimingSecond":100
+      },
+      {
+        "Id":100293301, "Position":3, "TimingSecond":25
+      },
+      {
+        "Id":100293302, "Position":3, "TimingSecond":70
+      },
+      {
+        "Id":100293303, "Position":3, "TimingSecond":115
+      },
+      {
+        "Id":100293401, "Position":4, "TimingSecond":20
+      },
+      {
+        "Id":100293402, "Position":4, "TimingSecond":55
+      },
+      {
+        "Id":100293403, "Position":4, "TimingSecond":90
+      },
+      {
+        "Id":100293501, "Position":5, "TimingSecond":40
+      },
+      {
+        "Id":100293502, "Position":5, "TimingSecond":75
+      },
+      {
+        "Id":100293503, "Position":5, "TimingSecond":110
+      }
+    ],
+    "Buffs":[]
+  },
+  {
+    "Id":100294, "Details":[
+      {
+        "Id":100294101, "Position":1, "TimingSecond":20
+      },
+      {
+        "Id":100294102, "Position":1, "TimingSecond":85
+      },
+      {
+        "Id":100294103, "Position":1, "TimingSecond":110
+      },
+      {
+        "Id":100294201, "Position":2, "TimingSecond":10
+      },
+      {
+        "Id":100294202, "Position":2, "TimingSecond":40
+      },
+      {
+        "Id":100294203, "Position":2, "TimingSecond":70
+      },
+      {
+        "Id":100294204, "Position":2, "TimingSecond":100
+      },
+      {
+        "Id":100294205, "Position":2, "TimingSecond":140
+      },
+      {
+        "Id":100294301, "Position":3, "TimingSecond":30
+      },
+      {
+        "Id":100294302, "Position":3, "TimingSecond":125
+      },
+      {
+        "Id":100294501, "Position":5, "TimingSecond":15
+      },
+      {
+        "Id":100294502, "Position":5, "TimingSecond":55
+      },
+      {
+        "Id":100294503, "Position":5, "TimingSecond":90
+      }
+    ],
+    "Buffs":[]
+  },
+  {
+    "Id":100295, "Details":[
+      {
+        "Id":100295101, "Position":1, "TimingSecond":30
+      },
+      {
+        "Id":100295102, "Position":1, "TimingSecond":90
+      },
+      {
+        "Id":100295201, "Position":2, "TimingSecond":70
+      },
+      {
+        "Id":100295401, "Position":4, "TimingSecond":5
+      },
+      {
+        "Id":100295402, "Position":4, "TimingSecond":42
+      },
+      {
+        "Id":100295403, "Position":4, "TimingSecond":80
+      },
+      {
+        "Id":100295404, "Position":4, "TimingSecond":117
+      },
+      {
+        "Id":100295501, "Position":5, "TimingSecond":20
+      },
+      {
+        "Id":100295502, "Position":5, "TimingSecond":55
+      },
+      {
+        "Id":100295503, "Position":5, "TimingSecond":105
       }
     ],
     "Buffs":[]

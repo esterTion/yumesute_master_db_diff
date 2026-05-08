@@ -4704,6 +4704,25 @@
     "AcquirableGauge":100, "AcquirableScorePercent":160, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142370, "Name":"のんびりクエスト！", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／[:sec]秒間、シリウスのアクターにスターアクトスコア[:param11]％UP効果", "Type":"Special", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20105
+          }
+        ],
+        "Id":1423701
+      }
+    ],
+    "AcquirableGauge":100, "AcquirableScorePercent":180, "ScoreUpPerLevel":60, "LightCount":2, "CoolTime":50, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142380, "Name":"ねむねむ守護竜", "Description":"[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動時、追加で「支援の光」を1個獲得する", "Type":"Special", "PreEffects":[],
+    "Branches":[],
+    "AcquirableGauge":70, "AcquirableScorePercent":120, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":25, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

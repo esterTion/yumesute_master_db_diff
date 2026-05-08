@@ -2716,6 +2716,166 @@
     "FireTimingType":"StarAct"
   },
   {
+    "Id":19111, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":6
+      },
+      {
+        "Level":2, "Value":6
+      },
+      {
+        "Level":3, "Value":6
+      },
+      {
+        "Level":4, "Value":6
+      },
+      {
+        "Level":5, "Value":6
+      },
+      {
+        "Level":6, "Value":6
+      },
+      {
+        "Level":7, "Value":6
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":400
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19112, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":12
+      },
+      {
+        "Level":2, "Value":12
+      },
+      {
+        "Level":3, "Value":12
+      },
+      {
+        "Level":4, "Value":12
+      },
+      {
+        "Level":5, "Value":12
+      },
+      {
+        "Level":6, "Value":12
+      },
+      {
+        "Level":7, "Value":12
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":400
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19113, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":18
+      },
+      {
+        "Level":2, "Value":18
+      },
+      {
+        "Level":3, "Value":18
+      },
+      {
+        "Level":4, "Value":18
+      },
+      {
+        "Level":5, "Value":18
+      },
+      {
+        "Level":6, "Value":18
+      },
+      {
+        "Level":7, "Value":18
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":400
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19114, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":24
+      },
+      {
+        "Level":2, "Value":24
+      },
+      {
+        "Level":3, "Value":24
+      },
+      {
+        "Level":4, "Value":24
+      },
+      {
+        "Level":5, "Value":24
+      },
+      {
+        "Level":6, "Value":24
+      },
+      {
+        "Level":7, "Value":24
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":400
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
+    "Id":19115, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":30
+      },
+      {
+        "Level":2, "Value":30
+      },
+      {
+        "Level":3, "Value":30
+      },
+      {
+        "Level":4, "Value":30
+      },
+      {
+        "Level":5, "Value":30
+      },
+      {
+        "Level":6, "Value":30
+      },
+      {
+        "Level":7, "Value":30
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"CharacterBaseGroup", "Value":400
+      }
+    ],
+    "DurationSecond":0, "Triggers":[],
+    "FireTimingType":"StarAct"
+  },
+  {
     "Id":19116, "Type":"PerformanceDuplicateUp", "Range":"None", "CalculationType":"PercentageAddition", "Details":[
       {
         "Level":1, "Value":4
@@ -6783,6 +6943,32 @@
       },
       {
         "Level":5, "Value":2800
+      }
+    ],
+    "Conditions":[
+      {
+        "Condition":"Company", "Value":1
+      }
+    ],
+    "DurationSecond":20, "Triggers":[],
+    "FireTimingType":"Sense"
+  },
+  {
+    "Id":20105, "Type":"StarActScoreUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":3400
+      },
+      {
+        "Level":2, "Value":3600
+      },
+      {
+        "Level":3, "Value":3800
+      },
+      {
+        "Level":4, "Value":4000
+      },
+      {
+        "Level":5, "Value":4200
       }
     ],
     "Conditions":[

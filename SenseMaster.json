@@ -3795,15 +3795,15 @@
     "AcquirableGauge":80, "AcquirableScorePercent":150, "ScoreUpPerLevel":40, "LightCount":1, "CoolTime":30, "BranchCondition1":"CompanyMemberCount", "ConditionValue1":2, "BranchCondition2":"None", "SubTypes":[]
   },
   {
-    "Id":141950, "Name":"水鏡に映える月を掬って", "Description":"[:score]倍のスコアを獲得／センス発動直後、その時のスコアの[:param11]％のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得", "Type":"Control", "PreEffects":[],
+    "Id":141950, "Name":"水鏡に映える月を掬って", "Description":"[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param11]倍のスコアを獲得／センス発動直後、その時のスコアの[:param12]％のスコアを獲得", "Type":"Control", "PreEffects":[],
     "Branches":[
       {
         "Order":1, "BranchEffects":[
           {
-            "Order":1, "EffectMasterId":20542
+            "Order":1, "EffectMasterId":20536
           },
           {
-            "Order":2, "EffectMasterId":20536
+            "Order":2, "EffectMasterId":20542
           }
         ],
         "Id":1419501

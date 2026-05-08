@@ -9306,6 +9306,26 @@
     "Order":2100
   },
   {
+    "Id":1155, "IsDisplayRequiredHavingItem":false, "Category":"Gacha", "Name":"ゆるるん冒険！　竜vs勇者！！ガチャ(アクター)", "DisplayThingType":"Item", "DisplayItemMasterId":411155, "BannerPath":"1155", "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-27 17:00:00", "LastRefreshedAt":"0001-01-01 00:00:00", "Lineup":[
+      {
+        "Id":1155001, "ThingId":142370, "ThingType":"Character", "ThingQuantity":1, "Order":1155001, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-27 17:00:00", "RequiredItemMasterId":411155, "RequiredQuantity":200
+      },
+      {
+        "Id":1155002, "ThingId":142380, "ThingType":"Character", "ThingQuantity":1, "Order":1155002, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-27 17:00:00", "RequiredItemMasterId":411155, "RequiredQuantity":200
+      },
+      {
+        "Id":1155003, "ThingId":144237, "ThingType":"Item", "ThingQuantity":400, "ExchangeLimit":5, "Order":1155003, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-27 17:00:00", "RequiredItemMasterId":411155, "RequiredQuantity":40
+      },
+      {
+        "Id":1155004, "ThingId":144238, "ThingType":"Item", "ThingQuantity":400, "ExchangeLimit":5, "Order":1155004, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-27 17:00:00", "RequiredItemMasterId":411155, "RequiredQuantity":40
+      },
+      {
+        "Id":1155005, "ThingId":130011, "ThingType":"Item", "ThingQuantity":1, "Order":1155005, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-27 17:00:00", "RequiredItemMasterId":411155, "RequiredQuantity":1
+      }
+    ],
+    "Order":2100
+  },
+  {
     "Id":1601, "IsDisplayRequiredHavingItem":false, "Category":"Gacha", "Name":"BIRTHDAYピックアップガチャ2024【カトリナ・グリーベル】(アクター)", "DisplayThingType":"Item", "DisplayItemMasterId":411601, "BannerPath":"1601", "StartDate":"2024-08-04 00:00:00", "EndDate":"2024-08-21 00:00:00", "LastRefreshedAt":"0001-01-01 00:00:00", "Lineup":[
       {
         "Id":1601001, "ThingId":140140, "ThingType":"Character", "ThingQuantity":1, "Order":1601001, "IsDisplayLocked":false, "StartDate":"2024-08-04 00:00:00", "EndDate":"2024-08-21 00:00:00", "RequiredItemMasterId":411601, "RequiredQuantity":200
@@ -29219,6 +29239,143 @@
       },
       {
         "Id":26003043, "ThingId":0, "ThingType":"Coin", "ThingQuantity":1, "Order":26003043, "IsDisplayLocked":false, "StartDate":"2026-03-10 17:00:00", "EndDate":"2026-03-25 22:00:00", "RequiredItemMasterId":426003, "RequiredQuantity":1
+      }
+    ],
+    "Order":3100
+  },
+  {
+    "Id":26004, "IsDisplayRequiredHavingItem":false, "Category":"Event", "Name":"イベントポイントショップ", "DisplayThingType":"Item", "DisplayItemMasterId":426004, "BannerPath":"26004", "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "LastRefreshedAt":"0001-01-01 00:00:00", "Lineup":[
+      {
+        "Id":26004001, "ThingId":161006, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004001, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":13000
+      },
+      {
+        "Id":26004002, "ThingId":161020, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004002, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":13000
+      },
+      {
+        "Id":26004003, "ThingId":161019, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004003, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":13000
+      },
+      {
+        "Id":26004004, "ThingId":163003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004004, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":2000
+      },
+      {
+        "Id":26004005, "ThingId":163003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004005, "IsDisplayLocked":false, "UnlockType":"BuyItem", "UnlockValue":26004004, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":3500
+      },
+      {
+        "Id":26004006, "ThingId":163003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004006, "IsDisplayLocked":false, "UnlockType":"BuyItem", "UnlockValue":26004005, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":5500
+      },
+      {
+        "Id":26004007, "ThingId":163003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004007, "IsDisplayLocked":false, "UnlockType":"BuyItem", "UnlockValue":26004006, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":7500
+      },
+      {
+        "Id":26004008, "ThingId":163003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004008, "IsDisplayLocked":false, "UnlockType":"BuyItem", "UnlockValue":26004007, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":9500
+      },
+      {
+        "Id":26004009, "ThingId":162003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":5, "Order":26004009, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":5000
+      },
+      {
+        "Id":26004010, "ThingId":10608, "ThingType":"Stamp", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004010, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":30000
+      },
+      {
+        "Id":26004011, "ThingId":151006, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":5, "Order":26004011, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":15000
+      },
+      {
+        "Id":26004012, "ThingId":151020, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":5, "Order":26004012, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":15000
+      },
+      {
+        "Id":26004013, "ThingId":151003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":5, "Order":26004013, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":15000
+      },
+      {
+        "Id":26004014, "ThingId":130201, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":3, "Order":26004014, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":15000
+      },
+      {
+        "Id":26004015, "ThingId":130001, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":10, "Order":26004015, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":500
+      },
+      {
+        "Id":26004016, "ThingId":120002, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":600, "Order":26004016, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":10
+      },
+      {
+        "Id":26004017, "ThingId":111096, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":5, "Order":26004017, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":2000
+      },
+      {
+        "Id":26004018, "ThingId":130023, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1000, "Order":26004018, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":30
+      },
+      {
+        "Id":26004019, "ThingId":130033, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":500, "Order":26004019, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":200
+      },
+      {
+        "Id":26004020, "ThingId":130024, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1000, "Order":26004020, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":30
+      },
+      {
+        "Id":26004021, "ThingId":130034, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":500, "Order":26004021, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":200
+      },
+      {
+        "Id":26004022, "ThingId":130041, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":800, "Order":26004022, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":10
+      },
+      {
+        "Id":26004023, "ThingId":130042, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":300, "Order":26004023, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":200
+      },
+      {
+        "Id":26004024, "ThingId":130043, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":100, "Order":26004024, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":500
+      },
+      {
+        "Id":26004025, "ThingId":130043, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":50, "Order":26004025, "IsDisplayLocked":false, "UnlockType":"BuyItem", "UnlockValue":26004024, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":1000
+      },
+      {
+        "Id":26004026, "ThingId":130061, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1000, "Order":26004026, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":10
+      },
+      {
+        "Id":26004027, "ThingId":130062, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":300, "Order":26004027, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":200
+      },
+      {
+        "Id":26004028, "ThingId":130051, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":10, "Order":26004028, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":10000
+      },
+      {
+        "Id":26004029, "ThingId":150000, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":10, "Order":26004029, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":15000
+      },
+      {
+        "Id":26004030, "ThingId":140000, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":200, "Order":26004030, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":1500
+      },
+      {
+        "Id":26004031, "ThingId":130071, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":3, "Order":26004031, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":20000
+      },
+      {
+        "Id":26004032, "ThingId":0, "ThingType":"Jewel", "ThingQuantity":100, "ExchangeLimit":3, "Order":26004032, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":1000
+      },
+      {
+        "Id":26004033, "ThingId":0, "ThingType":"Coin", "ThingQuantity":10000, "ExchangeLimit":10, "Order":26004033, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":100
+      },
+      {
+        "Id":26004034, "ThingId":130025, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":2500, "Order":26004034, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":100
+      },
+      {
+        "Id":26004035, "ThingId":130035, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1250, "Order":26004035, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":300
+      },
+      {
+        "Id":26004036, "ThingId":510001, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":30, "Order":26004036, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":300
+      },
+      {
+        "Id":26004037, "ThingId":510002, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":20, "Order":26004037, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":500
+      },
+      {
+        "Id":26004038, "ThingId":510003, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":10, "Order":26004038, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":1000
+      },
+      {
+        "Id":26004039, "ThingId":510004, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":3, "Order":26004039, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":5000
+      },
+      {
+        "Id":26004040, "ThingId":510004, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":5, "Order":26004040, "IsDisplayLocked":false, "UnlockType":"BuyItem", "UnlockValue":26004039, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":15000
+      },
+      {
+        "Id":26004041, "ThingId":510005, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004041, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":15000
+      },
+      {
+        "Id":26004042, "ThingId":510005, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":1, "Order":26004042, "IsDisplayLocked":false, "UnlockType":"BuyItem", "UnlockValue":26004041, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":50000
+      },
+      {
+        "Id":26004043, "ThingId":130091, "ThingType":"Item", "ThingQuantity":1, "ExchangeLimit":50, "Order":26004043, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":500
+      },
+      {
+        "Id":26004044, "ThingId":0, "ThingType":"Coin", "ThingQuantity":1, "Order":26004044, "IsDisplayLocked":false, "StartDate":"2026-05-10 17:00:00", "EndDate":"2026-05-25 22:00:00", "RequiredItemMasterId":426004, "RequiredQuantity":1
       }
     ],
     "Order":3100

@@ -4815,6 +4815,37 @@
     "AcquirableGauge":0, "AcquirableScorePercent":900, "ScoreUpPerLevel":80, "LightCount":2, "CoolTime":70, "BranchCondition1":"CharacterBaseGroup", "ConditionValue1":200, "BranchCondition2":"None", "SubTypes":[]
   },
   {
+    "Id":142410, "Name":"揺蕩歌姫、透き通る", "Description":"<size=26%>[:score]倍のスコアを獲得／センス発動時、追加で「特殊の光」を1個獲得する／センス発動後、プリンシパルゲージの上限値が[:param11]上昇／センス発動直後、その時のスコアの[:param12]％のスコアを獲得</size>", "Type":"Control", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20097
+          },
+          {
+            "Order":2, "EffectMasterId":20544
+          }
+        ],
+        "Id":1424101
+      }
+    ],
+    "AcquirableGauge":0, "AcquirableScorePercent":600, "ScoreUpPerLevel":50, "LightCount":1, "CoolTime":40, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
+    "Id":142420, "Name":"乙姫リラクゼーション", "Description":"<size=28%>[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、現在のプリンシパルゲージ[:param11]%分のプリンシパルゲージを追加で獲得する</size>", "Type":"Amplification", "PreEffects":[],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":20601
+          }
+        ],
+        "Id":1424201
+      }
+    ],
+    "AcquirableGauge":70, "AcquirableScorePercent":120, "ScoreUpPerLevel":40, "LightCount":2, "CoolTime":25, "BranchCondition1":"None", "BranchCondition2":"None", "SubTypes":[]
+  },
+  {
     "Id":150010, "Name":"一度道を違えた絆でも", "Description":"<size=25%>[:score]倍のスコアを獲得／センス発動直後、自身の歌唱力の[:param12]倍のスコアを獲得／シリウスまたは銀河座アクターの編成数×[:param11]プリンシパルゲージの上限が上昇する</size>", "Type":"Amplification", "PreEffects":[],
     "Branches":[
       {

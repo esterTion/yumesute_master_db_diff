@@ -4895,16 +4895,24 @@
       {
         "Order":1, "BranchEffects":[
           {
+            "Order":2, "EffectMasterId":20543
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":0, "Id":1424601
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
             "Order":1, "EffectMasterId":29111
           },
           {
             "Order":2, "EffectMasterId":20543
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":1, "Id":1424601
+        "JudgeType1":"Equal", "Parameter1":1, "Id":1424602
       },
       {
-        "Order":2, "BranchEffects":[
+        "Order":3, "BranchEffects":[
           {
             "Order":1, "EffectMasterId":29112
           },
@@ -4912,10 +4920,10 @@
             "Order":2, "EffectMasterId":20543
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":2, "Id":1424602
+        "JudgeType1":"Equal", "Parameter1":2, "Id":1424603
       },
       {
-        "Order":3, "BranchEffects":[
+        "Order":4, "BranchEffects":[
           {
             "Order":1, "EffectMasterId":29113
           },
@@ -4923,10 +4931,10 @@
             "Order":2, "EffectMasterId":20543
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":3, "Id":1424603
+        "JudgeType1":"Equal", "Parameter1":3, "Id":1424604
       },
       {
-        "Order":4, "BranchEffects":[
+        "Order":5, "BranchEffects":[
           {
             "Order":1, "EffectMasterId":29114
           },
@@ -4934,10 +4942,10 @@
             "Order":2, "EffectMasterId":20543
           }
         ],
-        "JudgeType1":"Equal", "Parameter1":4, "Id":1424604
+        "JudgeType1":"Equal", "Parameter1":4, "Id":1424605
       },
       {
-        "Order":5, "BranchEffects":[
+        "Order":6, "BranchEffects":[
           {
             "Order":1, "EffectMasterId":29115
           },
@@ -4945,7 +4953,7 @@
             "Order":2, "EffectMasterId":20543
           }
         ],
-        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1424605
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":1424606
       }
     ],
     "AcquirableGauge":0, "AcquirableScorePercent":610, "ScoreUpPerLevel":60, "LightCount":1, "CoolTime":45, "BranchCondition1":"LifeGuardCount", "BranchCondition2":"None", "SubTypes":[]

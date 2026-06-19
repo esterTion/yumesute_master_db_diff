@@ -4843,6 +4843,19 @@
     "BranchConditionType1":"None", "BranchConditionType2":"None"
   },
   {
+    "Id":231030, "Name":"崩れることのない楽園", "Description":"Edenに所属するアクターの演技力が[:param11]％上昇", "PosterMasterId":231030, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":70052200
+          }
+        ],
+        "Id":23103001
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
     "Id":320010, "Name":"鬼人と竜魔人", "Description":"<color=#FF9314>陽属性</color>のアクターの演技力が[:param11]%上昇", "PosterMasterId":320010, "Type":"Leader", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
       {
         "Order":1, "BranchEffects":[
@@ -10634,6 +10647,45 @@
           }
         ],
         "Id":231020601
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2310301, "Name":"集中力アップⅢ＋", "Description":"自身の集中力が[:param11]％上昇", "PosterMasterId":231030, "Type":"Normal", "FrameNumber":1, "ReleaseLevelAt":0, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":10331000
+          }
+        ],
+        "Id":231030101
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2310302, "Name":"P.ゲージ獲得量アップ＋", "Description":"センスによるP.ゲージの獲得量が[:param11]％UP　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":231030, "Type":"Normal", "FrameNumber":2, "ReleaseLevelAt":5, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11611200
+          }
+        ],
+        "Id":231030201
+      }
+    ],
+    "BranchConditionType1":"None", "BranchConditionType2":"None"
+  },
+  {
+    "Id":2310303, "Name":"スコアブースト・集中力Ⅲ＋", "Description":"センス発動直後、自身の集中力の[:param11]倍のスコアを獲得　◆発動条件：Edenに所属するアクターが装備", "PosterMasterId":231030, "Type":"Normal", "FrameNumber":3, "ReleaseLevelAt":8, "Hidden":false, "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":11131200
+          }
+        ],
+        "Id":231030301
       }
     ],
     "BranchConditionType1":"None", "BranchConditionType2":"None"

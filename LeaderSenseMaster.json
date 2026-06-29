@@ -4440,5 +4440,23 @@
         ]
       }
     ]
+  },
+  {
+    "Id":262, "Description":"「劇団電姫」カテゴリの演技力40%上昇、「舞台 」カテゴリを持つアクターの数に応じて初期プリンシパルゲージが20上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12030, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      }
+    ]
   }
 ]

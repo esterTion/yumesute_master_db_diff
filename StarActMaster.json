@@ -3790,6 +3790,106 @@
     "BranchCondition1":"StorageSenseLightCount", "ConditionValue1":5, "BranchCondition2":"None"
   },
   {
+    "Id":142511, "Name":"", "Description":"<size=24%>総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋130%）／編成されているシリウスアクター1人につきその時のスコアの1％のスコアを獲得</size>", "StarActConditionMasterId":101412, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":19050
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19306
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14251101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19307
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14251102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19308
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14251103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19309
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14251104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19310
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":14251105
+      }
+    ],
+    "BranchCondition1":"CharacterBaseGroup", "ConditionValue1":100, "BranchCondition2":"None"
+  },
+  {
+    "Id":142521, "Name":"", "Description":"<size=22%>総演技力の[:score]倍のスコアを獲得／編成されている銀河座アクターの演技力と演技力上限を、編成されている銀河座アクターの人数×16%上昇させる(この効果は重複する)／ライフが多いほどスコア獲得量UP効果（最大＋ 100%）</size>", "StarActConditionMasterId":102123, "AcquirableScorePercent":1140, "ScoreUpPerLevel":120, "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":19051
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19126
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":1, "Id":14252101
+      },
+      {
+        "Order":2, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19127
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":2, "Id":14252102
+      },
+      {
+        "Order":3, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19128
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":3, "Id":14252103
+      },
+      {
+        "Order":4, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19129
+          }
+        ],
+        "JudgeType1":"Equal", "Parameter1":4, "Id":14252104
+      },
+      {
+        "Order":5, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19130
+          }
+        ],
+        "JudgeType1":"MoreThan", "Parameter1":5, "Id":14252105
+      }
+    ],
+    "BranchCondition1":"CharacterBaseGroup", "ConditionValue1":300, "BranchCondition2":"None"
+  },
+  {
     "Id":150011, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋[:pre1]%）", "StarActConditionMasterId":103132, "AcquirableScorePercent":1310, "ScoreUpPerLevel":140, "PreEffects":[
       {
         "Order":1, "EffectMasterId":19051
@@ -4279,6 +4379,33 @@
           }
         ],
         "Id":15004201
+      }
+    ],
+    "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":150051, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 170%）", "StarActConditionMasterId":104222, "AcquirableScorePercent":1480, "ScoreUpPerLevel":160, "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":19054
+      }
+    ],
+    "Branches":[],
+    "BranchCondition1":"None", "BranchCondition2":"None"
+  },
+  {
+    "Id":150052, "Name":"", "Description":"総演技力の[:score]倍のスコアを獲得／ライフが多いほどスコア獲得量UP効果（最大＋ 200%）／スターアクト発動後、プリンシパルゲージの上限値が[:param11]上昇", "StarActConditionMasterId":104222, "AcquirableScorePercent":1480, "ScoreUpPerLevel":160, "PreEffects":[
+      {
+        "Order":1, "EffectMasterId":19055
+      }
+    ],
+    "Branches":[
+      {
+        "Order":1, "BranchEffects":[
+          {
+            "Order":1, "EffectMasterId":19086
+          }
+        ],
+        "Id":15005201
       }
     ],
     "BranchCondition1":"None", "BranchCondition2":"None"

@@ -4458,5 +4458,80 @@
         ]
       }
     ]
+  },
+  {
+    "Id":263, "Description":"「シリウス」カテゴリの演技力40%上昇、「衣装」カテゴリの表現力30％上昇・演技力上限が5%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":2001
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12012, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12041, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":264, "Description":"「役者」カテゴリの演技力40%上昇、「舞台」カテゴリの集中力30％上昇・演技力上限が5%上昇", "Details":[
+      {
+        "EffectMasterId":12005, "Conditions":[
+          {
+            "CategoryMasterId1":8003
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12016, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12041, "Conditions":[
+          {
+            "CategoryMasterId1":8002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id":265, "Description":"「衣装」カテゴリの演技力50%上昇、「主人公」カテゴリの演技力20%上昇・演技力上限が15%上昇", "Details":[
+      {
+        "EffectMasterId":12026, "Conditions":[
+          {
+            "CategoryMasterId1":8004
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12003, "Conditions":[
+          {
+            "CategoryMasterId1":8007
+          }
+        ]
+      },
+      {
+        "EffectMasterId":12042, "Conditions":[
+          {
+            "CategoryMasterId1":8007
+          }
+        ]
+      }
+    ]
   }
 ]

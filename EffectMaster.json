@@ -12410,6 +12410,48 @@
     "FireTimingType":"StartLive"
   },
   {
+    "Id":60008, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":200
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"AllMemberBelongingCompany", "Value":2
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":60009, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":200
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"AllMemberBelongingCompany", "Value":3
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
+    "Id":60010, "Type":"PerformanceUp", "Range":"All", "CalculationType":"PercentageAddition", "Details":[
+      {
+        "Level":1, "Value":200
+      }
+    ],
+    "Conditions":[],
+    "DurationSecond":0, "Triggers":[
+      {
+        "Trigger":"AllMemberBelongingCompany", "Value":4
+      }
+    ],
+    "FireTimingType":"Passive"
+  },
+  {
     "Id":80001, "Type":"VocalUp", "Range":"All", "CalculationType":"FixedAddition", "Details":[
       {
         "Level":1, "Value":100
